@@ -1,6 +1,7 @@
 import { h, store, uid, ymd, parse, addDays, DAYS, MONTHS, ago, money, sgn, clock, dayShort, spark, lineChart, barChart, ring, donut, heat, card, toast, modal, weekStart } from "./core.js";
 import { JOKES, FACTS } from "./assets.js";
 import { hero3d, confetti, chime } from "./fx.js";
+import { phone } from "./phone.js";
 
 const WX = (c) => (c === 0 ? "☀️" : c <= 2 ? "🌤️" : c === 3 ? "☁️" : c <= 48 ? "🌫️" : c <= 57 ? "🌦️" : c <= 67 ? "🌧️" : c <= 77 ? "🌨️" : c <= 82 ? "🌦️" : c <= 86 ? "🌨️" : "⛈️");
 const today = () => ymd();
@@ -286,7 +287,7 @@ function notes({ render }) {
 
 export const wyTabs = [
   { id: "happy", label: () => "Happy " + DAYS[new Date().getDay()], render: happy },
-  { id: "tasks", label: "Tasks", render: tasks }, { id: "money", label: "Money", render: moneyTab }, { id: "news", label: "News", render: news }, { id: "sports", label: "Sports", render: sports },
+  { id: "phone", label: "📱 Phone", render: phone }, { id: "tasks", label: "Tasks", render: tasks }, { id: "money", label: "Money", render: moneyTab }, { id: "news", label: "News", render: news }, { id: "sports", label: "Sports", render: sports },
   { id: "study", label: "Study", render: study }, { id: "calendar", label: "Calendar", render: calendar }, { id: "goals", label: "Goals", render: goals }, { id: "habits", label: "Habits", render: habits }, { id: "focus", label: "Focus", render: focus }, { id: "notes", label: "Notes", render: notes },
 ];
 export { weatherCard, newsLi };

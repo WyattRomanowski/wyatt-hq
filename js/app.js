@@ -115,6 +115,7 @@ function openPalette() {
     }
     const q = $("#pal input").value.trim();
     if (q && ctx.mode === "wyatt") { a.unshift({ l: "Add task: " + q, r: "quick add", f: () => { const all = store.get("tasks", []); all.unshift(parseTask(q)); store.set("tasks", all); toast("Task added"); render(); }, always: 1 }); for (const n of store.get("notes", []).filter((n) => n.t.toLowerCase().includes(q.toLowerCase())).slice(0, 4)) a.push({ l: "Note: " + n.t.slice(0, 60), r: "note", f: () => go("notes") }); }
+    for (const x of (store.get("phone", { apps: [], dock: [] }).apps.flatMap((a) => a.folder || [a]).concat(store.get("phone", { dock: [] }).dock)).filter((x) => x.u)) a.push({ l: "Open " + x.n, r: "link", f: () => window.open(x.u, "_blank", "noopener") });
     a.push({ l: "Settings & backup", r: "action", f: settings }, { l: "Export my data (JSON)", r: "action", f: exportData }, { l: "Refresh live data now", r: "action", f: async () => { await refresh(); toast("Refreshed"); } });
     return a;
   };

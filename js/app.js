@@ -1,7 +1,7 @@
 import { $, $$, h, svg, store, load, ago, DAYS, download, toast, modal, debounce, sgn } from "./core.js";
 import { LOGOS, ALKU_A } from "./assets.js";
 import { startBackground, hero3d, tilt } from "./fx.js";
-import { wyTabs } from "./views.js";
+import { wyTabs, quickAdd, parseTask } from "./views.js";
 import { alTabs } from "./alku.js";
 
 const D = { weather: null, quotes: null, sports: null, news: null, fun: null, meta: null };
@@ -113,11 +113,13 @@ function openPalette() {
       a.push({ l: "Add task…", r: "action", f: () => { go("tasks"); setTimeout(() => $("#newtask")?.focus(), 80); } });
       for (const t of store.get("tasks", []).filter((t) => !t.done)) a.push({ l: "Task: " + t.title, r: "task", f: () => go("tasks") });
     }
+    const q = $("#pal input").value.trim();
+    if (q && ctx.mode === "wyatt") { a.unshift({ l: "Add task: " + q, r: "quick add", f: () => { const all = store.get("tasks", []); all.unshift(parseTask(q)); store.set("tasks", all); toast("Task added"); render(); }, always: 1 }); for (const n of store.get("notes", []).filter((n) => n.t.toLowerCase().includes(q.toLowerCase())).slice(0, 4)) a.push({ l: "Note: " + n.t.slice(0, 60), r: "note", f: () => go("notes") }); }
     a.push({ l: "Settings & backup", r: "action", f: settings }, { l: "Export my data (JSON)", r: "action", f: exportData }, { l: "Refresh live data now", r: "action", f: async () => { await refresh(); toast("Refreshed"); } });
     return a;
   };
   const draw = () => {
-    const q = inp.value.toLowerCase().trim(); items = base().filter((i) => i.l.toLowerCase().includes(q)).slice(0, 30); sel = Math.min(sel, items.length - 1); ul.innerHTML = "";
+    const q = inp.value.toLowerCase().trim(); items = base().filter((i) => i.always || i.l.toLowerCase().includes(q)).slice(0, 30); sel = Math.min(sel, items.length - 1); ul.innerHTML = "";
     items.forEach((it, i) => ul.append(h("li", { class: i === sel ? "sel" : "", onclick: () => run(it) }, h("span", {}, it.l), h("span", {}, it.r))));
   };
   const run = (it) => { close(); it.f(); };
@@ -136,12 +138,19 @@ function settings() {
     h("div", {}, h("b", {}, "Your data"), h("p", { class: "src" }, "Tasks, goals, money, habits and notes are stored only in this browser — never in the public repo. Export a backup to move devices."),
       h("div", { class: "row" }, h("button", { class: "btn sm", onclick: exportData }, "Export backup"), h("button", { class: "btn sm ghost", onclick: () => f.click() }, "Import backup"), f)),
     h("div", {}, h("b", {}, "Wyatt logo"), logos),
+    h("div", {}, h("b", {}, "Home cards"), h("div", { class: "row" }, ["Weather · Stoneham", "Today", "Markets", "Boston sports", "Headlines", "Net worth", "Level", "This week", "Next up", "Habits", "Upcoming", "Daily spark"].map((n) => h("label", { class: "chip", style: { cursor: "pointer" } }, h("input", { type: "checkbox", checked: !store.get("hide", []).includes(n), onchange: (e) => { const hd = store.get("hide", []).filter((x) => x !== n); if (!e.target.checked) hd.push(n); store.set("hide", hd); render(); } }), " " + n)))),
     h("div", { class: "row" }, h("b", {}, "My age"), age, h("span", { class: "src" }, "(used for the growth projector's Age axis)")), city,
     h("div", { class: "src" }, "Live data: weather, markets, sports, news and fun refresh automatically every 30 min. Last: " + (D.meta ? ago(D.meta.updated) : "n/a"))), [{ t: "Done" }]);
 }
 
 /* ---------- init ---------- */
-addEventListener("keydown", (e) => { if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") { e.preventDefault(); ctx.mode && openPalette(); } });
+addEventListener("keydown", (e) => {
+  const typing = e.target.matches?.("input,textarea,select") || $(".modal") || $("#pal.open");
+  if (ctx.mode && !typing && !e.ctrlKey && !e.metaKey && !e.altKey) {
+    if (/^[1-9]$/.test(e.key) && tabs[+e.key - 1]) { go(tabs[+e.key - 1].id); e.preventDefault(); }
+    else if (e.key === "/") { openPalette(); e.preventDefault(); }
+    else if (e.key.toLowerCase() === "n" && ctx.mode === "wyatt") { quickAdd(render); e.preventDefault(); }
+  } if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") { e.preventDefault(); ctx.mode && openPalette(); } });
 document.addEventListener("visibilitychange", () => !document.hidden && ctx.mode && refresh());
 setInterval(() => ctx.mode && refresh(), 5 * 60000); setInterval(drawPill, 30000);
 startBackground($("#bg")); tilt(document.body);

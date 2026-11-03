@@ -1,9 +1,33 @@
 import { h, store, uid, ymd, parse, addDays, DAYS, MONTHS, ago, money, sgn, clock, dayShort, spark, lineChart, barChart, ring, donut, heat, card, toast, modal, weekStart } from "./core.js";
 import { JOKES, FACTS } from "./assets.js";
-import { hero3d } from "./fx.js";
+import { hero3d, confetti, chime } from "./fx.js";
 
 const WX = (c) => (c === 0 ? "☀️" : c <= 2 ? "🌤️" : c === 3 ? "☁️" : c <= 48 ? "🌫️" : c <= 57 ? "🌦️" : c <= 67 ? "🌧️" : c <= 77 ? "🌨️" : c <= 82 ? "🌦️" : c <= 86 ? "🌨️" : "⛈️");
 const today = () => ymd();
+const lvl = (x) => Math.floor(Math.sqrt(x / 40)) + 1;
+export function addXP(n) { const o = store.get("xp", 0), x = o + n; store.set("xp", x); if (lvl(x) > lvl(o)) { toast("Level up! 🎉 Level " + lvl(x)); confetti(140); } }
+function finish(t, all) { t.status = "done"; t.doneAt = today(); addXP(10); confetti(); if (t.rep && t.due) { const d = parse(t.due), n = t.rep === "daily" ? addDays(d, 1) : t.rep === "weekly" ? addDays(d, 7) : new Date(d.getFullYear(), d.getMonth() + 1, d.getDate()); all.unshift({ ...t, id: uid(), status: "todo", doneAt: "", due: ymd(n) }); } }
+const NAMEDAY = { sun: 0, mon: 1, tue: 2, wed: 3, thu: 4, fri: 5, sat: 6 };
+export function parseTask(txt) {
+  const t = { id: uid(), pri: "med", due: "", list: "Personal", status: "todo", rep: "" }; let s = " " + txt + " ";
+  s = s.replace(/ !(high|med|low) /i, (_, p) => { t.pri = p.toLowerCase(); return " "; });
+  s = s.replace(/ @(\w+) /, (_, l) => { const m = ["Personal", "Money", "Health", "School", "Home", "Ideas"].find((x) => x.toLowerCase() === l.toLowerCase()); if (m) t.list = m; return " "; });
+  s = s.replace(/ every (day|week|month) /i, (_, r) => { t.rep = { day: "daily", week: "weekly", month: "monthly" }[r.toLowerCase()]; return " "; });
+  const now = new Date();
+  s = s.replace(/ (today|tomorrow|tmrw) /i, (_, w) => { t.due = ymd(addDays(now, /^t[o]?m|tomorrow/i.test(w) && w.toLowerCase() !== "today" ? 1 : 0)); return " "; });
+  s = s.replace(/ (?:on |by )?(sun|mon|tue|wed|thu|fri|sat)[a-z]* /i, (_, d) => { let n = (NAMEDAY[d.toLowerCase()] - now.getDay() + 7) % 7 || 7; t.due = ymd(addDays(now, n)); return " "; });
+  s = s.replace(/ (\d{1,2})\/(\d{1,2}) /, (_, m, d) => { t.due = `${now.getFullYear()}-${pad2(m)}-${pad2(d)}`; return " "; });
+  if (t.rep && !t.due) t.due = today();
+  t.title = s.replace(/\s+/g, " ").trim() || txt; return t;
+}
+const pad2 = (n) => String(n).padStart(2, "0");
+export function quickAdd(render) {
+  const i = h("input", { type: "text", class: "grow", style: { width: "100%" }, placeholder: "call Bob fri !high @money every week" });
+  const m = modal("Quick add task", h("div", {}, i, h("div", { class: "src", style: { marginTop: "8px" } }, "Understands: today/tomorrow/fri/11/20 · !high !low · @money @home · every day/week/month")), [{ t: "Add", fn: () => add() }]);
+  const add = () => { if (!i.value.trim()) return false; const all = store.get("tasks", []); all.unshift(parseTask(i.value)); store.set("tasks", all); toast("Task added"); render(); };
+  i.addEventListener("keydown", (e) => { if (e.key === "Enter") { if (add() !== false) m.remove(); } }); setTimeout(() => i.focus(), 30);
+}
+export { lvl };
 const greeting = () => { const hr = new Date().getHours(); return hr < 5 ? "Burning the midnight oil" : hr < 12 ? "Good morning" : hr < 17 ? "Good afternoon" : "Good evening"; };
 const empty = (t) => h("div", { class: "empty" }, t);
 const done = (cb, on) => h("input", { type: "checkbox", class: "check", checked: on, onchange: (e) => cb(e.target.checked) });
@@ -12,18 +36,19 @@ const mount = (x) => { const d = h("div"); d.append(x); return d; };
 /* ===================== HAPPY (home) ===================== */
 function happy({ D, go, render }) {
   const now = new Date(), tasks = store.get("tasks", []), open = tasks.filter((t) => t.status !== "done");
+  const top1 = [...open].sort((a, b) => ({ high: 0, med: 1, low: 2 }[a.pri] - { high: 0, med: 1, low: 2 }[b.pri]) || (a.due || "9").localeCompare(b.due || "9"))[0];
   const dueSoon = open.filter((t) => t.due && t.due <= today()).length;
   const cv = h("canvas", { class: "hero3d" }); setTimeout(() => cv.isConnected && hero3d(cv), 0);
   const dstr = now.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric", year: "numeric" });
   const w = D.weather;
   const hello = h("div", { class: "hello" }, cv, h("div", { class: "sub" }, dstr), h("h1", {}, "Happy " + DAYS[now.getDay()]),
-    h("div", { class: "row" }, h("span", { class: "chip" }, greeting() + ", Wyatt"), w ? h("span", { class: "chip" }, `${WX(w.current.code)} ${w.current.temp}° ${w.current.desc}`) : null,
+    h("div", { class: "row" }, h("span", { class: "chip" }, greeting() + ", Wyatt"), w ? h("span", { class: "chip" }, `${WX(w.current.code)} ${w.current.temp}° ${w.current.desc}`) : null, w && w.hourly.slice(0, 12).some((x) => x.rain >= 50) ? h("span", { class: "chip warn" }, "☂️ Rain likely today") : null, top1 ? h("span", { class: "chip" }, "Focus: " + top1.title.slice(0, 40)) : null,
       open.length ? h("span", { class: "chip " + (dueSoon ? "warn" : "") }, `${open.length} open task${open.length > 1 ? "s" : ""}${dueSoon ? ` · ${dueSoon} due` : ""}`) : h("span", { class: "chip ok" }, "inbox zero ✓")));
   const g = h("div", { class: "grid" });
   // weather
   g.append(weatherCard(w, "w2"));
   // tasks
-  const tc = card("Today", "✓", open.length ? h("ul", { class: "list" }, open.sort((a, b) => (a.due || "9") < (b.due || "9") ? -1 : 1).slice(0, 6).map((t) => h("li", {}, h("label", { class: "row", style: { flex: 1, cursor: "pointer" } }, done((v) => { t.status = v ? "done" : "todo"; store.set("tasks", tasks); render(); }, false), h("span", {}, t.title)), t.due ? h("span", { class: "chip " + (t.due < today() ? "bad" : "") }, t.due.slice(5)) : null))) : empty("Nothing open. Enjoy it."),
+  const tc = card("Today", "✓", open.length ? h("ul", { class: "list" }, open.sort((a, b) => (a.due || "9") < (b.due || "9") ? -1 : 1).slice(0, 6).map((t) => h("li", {}, h("label", { class: "row", style: { flex: 1, cursor: "pointer" } }, done((v) => { v ? finish(t, tasks) : (t.status = "todo"); store.set("tasks", tasks); render(); }, false), h("span", {}, t.title)), t.due ? h("span", { class: "chip " + (t.due < today() ? "bad" : "") }, t.due.slice(5)) : null))) : empty("Nothing open. Enjoy it."),
     h("div", { class: "row", style: { marginTop: "10px" } }, h("button", { class: "btn sm ghost", onclick: () => go("tasks") }, "All tasks →")));
   g.append(tc);
   // markets
@@ -39,7 +64,7 @@ function happy({ D, go, render }) {
   // net worth
   const ac = store.get("accts", []), nw0 = ac.reduce((a, x) => a + (x.debt ? -x.bal : x.bal), 0), hist = store.get("nw", []);
   g.append(card("Net worth", "💰", ac.length ? h("div", {}, h("div", { class: "big mono" }, money(nw0)), hist.length > 1 ? lineChart(hist.slice(-20).map((x) => ({ x: x.d, y: x.total })), { h: 110, xlabel: (p) => p.x.slice(5), yfmt: (v) => "$" + Math.round(v / 100) / 10 + "k", ticks: 4 }) : h("div", { class: "src" }, "Save snapshots weekly to see the trend.")) : empty("Add accounts in Money to track net worth."), h("button", { class: "btn sm ghost", onclick: () => go("money") }, "Money →")));
-  // habits
+  g.append(levelCard(), reviewCard(D), nextUpCard());
   g.append(habitsToday(render));
   // upcoming
   g.append(upcomingCard(go));
@@ -47,7 +72,22 @@ function happy({ D, go, render }) {
   const f = D.fun, day = Math.floor(Date.now() / 864e5);
   g.append(card("Daily spark", "✨", h("p", { class: "q" }, "“" + (f?.quote?.text || "Make it count.") + "”"), f?.quote?.author ? h("div", { class: "src" }, "— " + f.quote.author) : null, h("hr", { style: { border: 0, borderTop: "1px solid var(--line)", margin: "12px 0" } }),
     h("div", {}, h("b", {}, "Joke  "), f?.joke || JOKES[day % JOKES.length]), h("div", { style: { marginTop: "10px" } }, h("b", {}, "Fact  "), f?.fact || FACTS[day % FACTS.length])));
+  const hide = store.get("hide", []); [...g.children].forEach((c) => hide.includes(c.dataset.t) && c.remove());
   const wrap = h("div"); wrap.append(hello, g); return wrap;
+}
+function levelCard() {
+  const x = store.get("xp", 0), l = lvl(x), lo = 40 * (l - 1) ** 2, hi = 40 * l ** 2;
+  return card("Level", "⚡", h("div", { class: "row", style: { gap: "16px" } }, ring((x - lo) / (hi - lo), { size: 92, label: "L" + l }), h("div", {}, h("div", { class: "big mono", style: { fontSize: "28px" } }, x + " XP"), h("div", { class: "src" }, `${hi - x} XP to level ${l + 1}`), h("div", { class: "src" }, "+10 task · +5 habit · +20 focus"))));
+}
+function reviewCard(D) {
+  const ws = ymd(weekStart()), tk = store.get("tasks", []).filter((t) => t.doneAt >= ws).length, log = store.get("hlog", {}), hb = store.get("habits", []), fo = store.get("focus", {});
+  let hd = 0, ht = 0, fc = 0; for (let i = 0; i < 7; i++) { const d = ymd(addDays(weekStart(), i)); if (d > today()) break; ht += hb.length; hd += hb.filter((x) => log[d]?.[x.id]).length; fc += fo[d] || 0; }
+  return card("This week", "🗒️", h("div", { class: "ring-wrap" }, ring(ht ? hd / ht : 0, { size: 84, label: ht ? Math.round((hd / ht) * 100) + "%" : "—", sub: "habits" }), h("div", { class: "ringl" }, h("b", {}, tk), "tasks done"), h("div", { class: "ringl" }, h("b", {}, fc), "focus blocks")));
+}
+function nextUpCard() {
+  const t = today(), ev = allEvents().filter((e) => e.date >= t && e.kind !== "task").sort((a, b) => a.date.localeCompare(b.date)).slice(0, 5);
+  const n = (d) => Math.round((parse(d) - parse(t)) / 864e5);
+  return card("Next up", "⏳", ev.length ? h("ul", { class: "list" }, ev.map((e) => h("li", {}, h("span", {}, e.title), h("span", { class: "chip " + (n(e.date) <= 2 ? "warn" : "") }, n(e.date) === 0 ? "today" : n(e.date) === 1 ? "tomorrow" : "in " + n(e.date) + "d")))) : empty("Nothing coming up."));
 }
 function gameMini(e) {
   const t = e.teams || [], a = t.find((x) => !x.home), hm = t.find((x) => x.home);
@@ -65,7 +105,7 @@ const newsLi = (n) => h("li", {}, h("a", { class: "t", href: n.url, target: "_bl
 
 function habitsToday(render) {
   const hb = store.get("habits", []), log = store.get("hlog", {}), t = today();
-  return card("Habits", "🔥", hb.length ? h("ul", { class: "list" }, hb.map((x) => h("li", {}, h("label", { class: "row", style: { cursor: "pointer", flex: 1 } }, done((v) => { (log[t] ||= {})[x.id] = v; store.set("hlog", log); render(); }, !!log[t]?.[x.id]), x.name), h("span", { class: "chip" }, "🔥 " + streak(x.id, log))))) : empty("Add habits in the Habits tab."));
+  return card("Habits", "🔥", hb.length ? h("ul", { class: "list" }, hb.map((x) => h("li", {}, h("label", { class: "row", style: { cursor: "pointer", flex: 1 } }, done((v) => { (log[t] ||= {})[x.id] = v; v && addXP(5); store.set("hlog", log); render(); }, !!log[t]?.[x.id]), x.name), h("span", { class: "chip" }, "🔥 " + streak(x.id, log))))) : empty("Add habits in the Habits tab."));
 }
 function streak(id, log) { let n = 0, d = new Date(); if (!log[ymd(d)]?.[id]) d = addDays(d, -1); while (log[ymd(d)]?.[id]) { n++; d = addDays(d, -1); } return n; }
 function allEvents() {
@@ -86,11 +126,11 @@ let tview = store.get("tview", "list"), tlist = "All";
 function tasks({ render }) {
   const all = store.get("tasks", []), save = () => { store.set("tasks", all); render(); };
   const lists = ["Personal", "Money", "Health", "School", "Home", "Ideas"];
-  const title = h("input", { type: "text", class: "grow", id: "newtask", placeholder: "New task — press Enter" }), pri = h("select", {}, ["med", "high", "low"].map((p) => h("option", { value: p }, p))), due = h("input", { type: "date" }), lst = h("select", {}, lists.map((l) => h("option", {}, l)));
-  const add = () => { if (!title.value.trim()) return; all.unshift({ id: uid(), title: title.value.trim(), pri: pri.value, due: due.value || "", list: lst.value, status: "todo" }); save(); setTimeout(() => document.getElementById("newtask")?.focus(), 30); };
+  const title = h("input", { type: "text", class: "grow", id: "newtask", placeholder: "New task — press Enter" }), pri = h("select", {}, ["med", "high", "low"].map((p) => h("option", { value: p }, p))), due = h("input", { type: "date" }), lst = h("select", {}, lists.map((l) => h("option", {}, l))), rp = h("select", {}, [["", "No repeat"], ["daily", "Daily"], ["weekly", "Weekly"], ["monthly", "Monthly"]].map(([v, l]) => h("option", { value: v }, l)));
+  const add = () => { if (!title.value.trim()) return; all.unshift({ id: uid(), title: title.value.trim(), pri: pri.value, due: due.value || (rp.value ? today() : ""), list: lst.value, status: "todo", rep: rp.value }); save(); setTimeout(() => document.getElementById("newtask")?.focus(), 30); };
   title.addEventListener("keydown", (e) => e.key === "Enter" && add());
   const vis = all.filter((t) => tlist === "All" || t.list === tlist);
-  const row = (t) => h("li", { class: "pri-" + t.pri }, h("label", { class: "row", style: { flex: 1, cursor: "pointer" } }, done((v) => { t.status = v ? "done" : "todo"; save(); }, t.status === "done"), h("span", { style: { textDecoration: t.status === "done" ? "line-through" : "", opacity: t.status === "done" ? 0.5 : 1 } }, t.title)), h("span", { class: "chip" }, t.list), t.due ? h("span", { class: "chip " + (t.due < today() && t.status !== "done" ? "bad" : "") }, t.due.slice(5)) : null, h("button", { class: "x", onclick: () => { all.splice(all.indexOf(t), 1); save(); } }, "✕"));
+  const row = (t) => h("li", { class: "pri-" + t.pri }, h("label", { class: "row", style: { flex: 1, cursor: "pointer" } }, done((v) => { v ? finish(t, all) : (t.status = "todo"); save(); }, t.status === "done"), h("span", { style: { textDecoration: t.status === "done" ? "line-through" : "", opacity: t.status === "done" ? 0.5 : 1 } }, t.title)), h("span", { class: "chip" }, t.list), t.due ? h("span", { class: "chip " + (t.due < today() && t.status !== "done" ? "bad" : "") }, t.due.slice(5)) : null, h("button", { class: "x", onclick: () => { all.splice(all.indexOf(t), 1); save(); } }, "✕"));
   let body;
   if (tview === "board") {
     body = h("div", { class: "board" }, [["todo", "To do"], ["doing", "Doing"], ["done", "Done"]].map(([k, l]) => { const col = h("div", { class: "col", ondragover: (e) => { e.preventDefault(); col.classList.add("over"); }, ondragleave: () => col.classList.remove("over"), ondrop: (e) => { e.preventDefault(); const t = all.find((x) => x.id === e.dataTransfer.getData("text")); if (t) { t.status = k; save(); } } }, h("h4", {}, `${l} · ${vis.filter((t) => t.status === k).length}`));
@@ -101,7 +141,7 @@ function tasks({ render }) {
     body = h("div", { class: "grid" }, bucket.map(([l, a]) => card(`${l} · ${a.length}`, "", a.length ? h("ul", { class: "list" }, a.map(row)) : empty("—"))));
   } else body = card("Tasks", "", vis.length ? h("ul", { class: "list" }, vis.sort((a, b) => (a.status === "done") - (b.status === "done")).map(row)) : empty("No tasks yet — add one above."));
   const dn = vis.filter((t) => t.status === "done").length;
-  return h("div", {}, card("Add", "＋", h("div", { class: "form" }, title, pri, due, lst, h("button", { class: "btn", onclick: add }, "Add"))),
+  return h("div", {}, card("Add", "＋", h("div", { class: "form" }, title, pri, due, lst, rp, h("button", { class: "btn", onclick: add }, "Add"))),
     h("div", { class: "subtabs", style: { marginTop: "14px" } }, ["list", "board", "plan"].map((v) => h("button", { class: "chipbtn" + (tview === v ? " on" : ""), onclick: () => { tview = v; store.set("tview", v); render(); } }, v[0].toUpperCase() + v.slice(1))), h("span", { class: "spacer" }), ["All", ...lists].map((l) => h("button", { class: "chipbtn" + (tlist === l ? " on" : ""), onclick: () => { tlist = l; render(); } }, l))),
     h("div", { class: "bar", style: { marginBottom: "14px" } }, h("i", { style: { width: (vis.length ? (dn / vis.length) * 100 : 0) + "%" } })), body);
 }
@@ -218,7 +258,7 @@ function habits({ render }) {
   const sum = {}; for (const d in log) sum[d] = Object.values(log[d]).filter(Boolean).length;
   const days = Array.from({ length: 7 }, (_, i) => addDays(new Date(), i - 6));
   return h("div", { class: "grid" },
-    card("This week", "🔥", hb.length ? h("table", { style: { width: "100%", borderCollapse: "collapse", fontSize: "13px" } }, h("tr", {}, h("th"), days.map((d) => h("th", { class: "muted", style: { padding: "4px" } }, DAYS[d.getDay()][0])), h("th")), hb.map((x) => h("tr", {}, h("td", { style: { padding: "6px 4px" } }, x.name), days.map((d) => h("td", { style: { textAlign: "center" } }, done((v) => { (log[ymd(d)] ||= {})[x.id] = v; store.set("hlog", log); render(); }, !!log[ymd(d)]?.[x.id]))), h("td", {}, h("span", { class: "chip" }, "🔥" + streak(x.id, log)), h("button", { class: "x", onclick: () => { hb.splice(hb.indexOf(x), 1); store.set("habits", hb); render(); } }, "✕"))))) : empty("No habits yet."), h("div", { class: "form", style: { marginTop: "10px" } }, n, h("button", { class: "btn sm", onclick: () => { if (n.value) { hb.push({ id: uid(), name: n.value }); store.set("habits", hb); render(); } } }, "Add"))),
+    card("This week", "🔥", hb.length ? h("table", { style: { width: "100%", borderCollapse: "collapse", fontSize: "13px" } }, h("tr", {}, h("th"), days.map((d) => h("th", { class: "muted", style: { padding: "4px" } }, DAYS[d.getDay()][0])), h("th")), hb.map((x) => h("tr", {}, h("td", { style: { padding: "6px 4px" } }, x.name), days.map((d) => h("td", { style: { textAlign: "center" } }, done((v) => { (log[ymd(d)] ||= {})[x.id] = v; v && addXP(5); store.set("hlog", log); render(); }, !!log[ymd(d)]?.[x.id]))), h("td", {}, h("span", { class: "chip" }, "🔥" + streak(x.id, log)), h("button", { class: "x", onclick: () => { hb.splice(hb.indexOf(x), 1); store.set("habits", hb); render(); } }, "✕"))))) : empty("No habits yet."), h("div", { class: "form", style: { marginTop: "10px" } }, n, h("button", { class: "btn sm", onclick: () => { if (n.value) { hb.push({ id: uid(), name: n.value }); store.set("habits", hb); render(); } } }, "Add"))),
     card("Consistency (18 weeks)", "🗓️", heat(sum), h("div", { class: "src" }, "Darker = more habits done that day")));
 }
 
@@ -228,7 +268,7 @@ function focus({ render }) {
   const total = F.mode === "focus" ? 25 * 60 : 5 * 60, log = store.get("focus", {}), t = today();
   const wrap = h("div", { class: "grid" });
   const r = h("div", {}, ring(1 - F.left / total, { size: 190, stroke: 14, label: `${Math.floor(F.left / 60)}:${String(F.left % 60).padStart(2, "0")}`, sub: F.mode === "focus" ? "focus" : "break" }));
-  const tick = () => { F.left--; if (F.left <= 0) { clearInterval(F.int); F.run = false; if (F.mode === "focus") { log[t] = (log[t] || 0) + 1; store.set("focus", log); } F.mode = F.mode === "focus" ? "break" : "focus"; F.left = F.mode === "focus" ? 1500 : 300; toast("Time! Switching to " + F.mode); try { navigator.vibrate?.(300); } catch {} } render(); };
+  const tick = () => { F.left--; if (F.left <= 0) { clearInterval(F.int); F.run = false; if (F.mode === "focus") { log[t] = (log[t] || 0) + 1; store.set("focus", log); addXP(20); confetti(100); } chime(); F.mode = F.mode === "focus" ? "break" : "focus"; F.left = F.mode === "focus" ? 1500 : 300; toast("Time! Switching to " + F.mode); try { navigator.vibrate?.(300); } catch {} } render(); };
   wrap.append(card("Pomodoro", "⏱️", h("div", { class: "row", style: { justifyContent: "center", flexDirection: "column", gap: "14px" } }, r, h("div", { class: "row" }, h("button", { class: "btn", onclick: () => { if (F.run) { clearInterval(F.int); F.run = false; } else { F.run = true; F.int = setInterval(tick, 1000); } render(); } }, F.run ? "Pause" : "Start"), h("button", { class: "btn ghost", onclick: () => { clearInterval(F.int); F.run = false; F.left = F.mode === "focus" ? 1500 : 300; render(); } }, "Reset"), h("button", { class: "btn ghost", onclick: () => { clearInterval(F.int); F.run = false; F.mode = F.mode === "focus" ? "break" : "focus"; F.left = F.mode === "focus" ? 1500 : 300; render(); } }, "Skip")))),
     card("Sessions", "📊", h("div", { class: "big" }, log[t] || 0), h("div", { class: "src" }, "focus blocks today"), barChart(Array.from({ length: 7 }, (_, i) => { const d = addDays(new Date(), i - 6); return { l: DAYS[d.getDay()].slice(0, 3), v: log[ymd(d)] || 0 }; }), { h: 140 })));
   return wrap;

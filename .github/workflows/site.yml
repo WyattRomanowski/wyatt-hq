@@ -43,7 +43,7 @@ jobs:
       - name: Package site
         run: |
           mkdir _site
-          cp -r index.html manifest.webmanifest sw.js .nojekyll css js data icons _site/ 2>/dev/null || true
+          cp -r index.html manifest.webmanifest sw.js .nojekyll css js data icons og _site/ 2>/dev/null || true
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

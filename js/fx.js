@@ -65,3 +65,12 @@ export function tilt(root) {
   });
   root.addEventListener("pointerout", (e) => { const c = e.target.closest?.(".card"); if (c && !c.contains(e.relatedTarget)) c.style.transform = ""; });
 }
+
+let lx = innerWidth / 2, ly = innerHeight / 2; addEventListener("pointermove", (e) => { lx = e.clientX; ly = e.clientY; }, { passive: true });
+export function confetti(n = 70) {
+  if (reduce) return; const cv = document.createElement("canvas"); cv.width = innerWidth; cv.height = innerHeight; cv.style.cssText = "position:fixed;inset:0;z-index:400;pointer-events:none"; document.body.append(cv);
+  const ctx = cv.getContext("2d"), cols = ["#4f8cff", "#8b5cf6", "#22d3ee", "#34d399", "#fbbf24", "#fb7185"];
+  const P = Array.from({ length: n }, () => ({ x: lx, y: ly, vx: (Math.random() - 0.5) * 11, vy: -Math.random() * 11 - 3, r: Math.random() * 6.3, s: 4 + Math.random() * 5, c: cols[(Math.random() * 6) | 0] })); let f = 0;
+  (function loop() { ctx.clearRect(0, 0, cv.width, cv.height); P.forEach((p) => { p.vy += 0.38; p.x += p.vx; p.y += p.vy; p.r += 0.2; ctx.save(); ctx.translate(p.x, p.y); ctx.rotate(p.r); ctx.fillStyle = p.c; ctx.globalAlpha = Math.max(0, 1 - f / 90); ctx.fillRect(-p.s / 2, -p.s / 4, p.s, p.s / 2); ctx.restore(); }); if (++f < 90) requestAnimationFrame(loop); else cv.remove(); })();
+}
+export function chime() { try { const a = new AudioContext(), o = a.createOscillator(), g = a.createGain(); o.connect(g); g.connect(a.destination); o.frequency.value = 880; g.gain.setValueAtTime(0.15, a.currentTime); g.gain.exponentialRampToValueAtTime(0.001, a.currentTime + 0.8); o.start(); o.stop(a.currentTime + 0.8); } catch {} }

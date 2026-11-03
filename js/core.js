@@ -116,7 +116,7 @@ export function modal(title, body, actions = []) {
   document.body.append(m); return m;
 }
 export function card(title, icon, ...kids) {
-  const c = h("section", { class: "card" }, h("h3", {}, icon ? h("span", { class: "ic" }, icon) : null, title), ...kids);
+  const c = h("section", { class: "card", "data-t": title }, h("h3", {}, icon ? h("span", { class: "ic" }, icon) : null, title), ...kids);
   return c;
 }
 export function download(name, text, type = "application/json") {

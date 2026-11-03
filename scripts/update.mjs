@@ -69,8 +69,8 @@ export const NEWS_SOURCES = {
   ],
   finance: [
     { src: "CNBC Markets", lean: "C", url: "https://www.cnbc.com/id/20910258/device/rss/rss.html" },
-    { src: "Yahoo Finance", lean: "C", url: "https://finance.yahoo.com/news/rssindex" },
-    { src: "MarketWatch", lean: "C", url: "https://feeds.content.dowjones.io/public/rss/marketpulse" },
+    { src: "Yahoo Finance (GN)", lean: "C", url: GN("site:finance.yahoo.com when:1d") },
+    { src: "MarketWatch (GN)", lean: "C", url: GN("site:marketwatch.com stocks when:1d") },
   ],
   trending: [
     { src: "Google News", url: "https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en" },
@@ -81,12 +81,12 @@ export const NEWS_SOURCES = {
   staffing: [
     { src: "Staffing Industry (Google News)", url: GN('"staffing industry" OR "staffing firms" OR "engineering staffing" when:3d') },
     { src: "Hiring & labor (Google News)", url: GN('hiring labor market jobs report staffing when:2d') },
-    { src: "Staffing Industry Analysts", url: "https://www.staffingindustry.com/rss/news" },
+    { src: "SIA (GN)", url: GN("site:staffingindustry.com when:7d") },
     { src: "Recruiter.com", url: "https://www.recruiter.com/feed/" },
   ],
   boston: [
-    { src: "Boston Globe", lean: "L", url: "https://www.bostonglobe.com/rss/bostonglobe" },
-    { src: "Boston Herald", lean: "R", url: "https://www.bostonherald.com/feed/" },
+    { src: "Boston Globe", lean: "L", url: GN("site:bostonglobe.com when:1d") },
+    { src: "Boston Herald", lean: "R", url: GN("site:bostonherald.com when:1d") },
     { src: "Boston (Google News)", url: GN("Boston Massachusetts when:1d") },
   ],
 };

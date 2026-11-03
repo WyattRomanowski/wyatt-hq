@@ -1,0 +1,1901 @@
+{
+ "updated": "2026-11-03T11:56:09.201Z",
+ "leagues": {
+  "nba": {
+   "key": "nba",
+   "emoji": "🏀",
+   "teamName": "Celtics",
+   "record": "5-2",
+   "results": [
+    {
+     "id": "401909916",
+     "date": "2026-11-03T01:30Z",
+     "name": "BOS @ HOU",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "HOU",
+       "name": "Houston Rockets",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/hou.png",
+       "score": "109",
+       "winner": true,
+       "record": null
+      },
+      {
+       "home": false,
+       "abbr": "BOS",
+       "name": "Boston Celtics",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
+       "score": "93",
+       "winner": false,
+       "record": null
+      }
+     ]
+    },
+    {
+     "id": "401909903",
+     "date": "2026-11-01T20:30Z",
+     "name": "BOS @ ORL",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "ORL",
+       "name": "Orlando Magic",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/orl.png",
+       "score": "97",
+       "winner": false,
+       "record": null
+      },
+      {
+       "home": false,
+       "abbr": "BOS",
+       "name": "Boston Celtics",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
+       "score": "108",
+       "winner": true,
+       "record": null
+      }
+     ]
+    },
+    {
+     "id": "401909278",
+     "date": "2026-10-30T23:30Z",
+     "name": "CHI @ BOS",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "BOS",
+       "name": "Boston Celtics",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
+       "score": "125",
+       "winner": true,
+       "record": null
+      },
+      {
+       "home": false,
+       "abbr": "CHI",
+       "name": "Chicago Bulls",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png",
+       "score": "111",
+       "winner": false,
+       "record": null
+      }
+     ]
+    },
+    {
+     "id": "401909877",
+     "date": "2026-10-27T23:30Z",
+     "name": "BKN @ BOS",
+     "state": "post",
+     "detail": "Final/OT",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "BOS",
+       "name": "Boston Celtics",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
+       "score": "125",
+       "winner": true,
+       "record": null
+      },
+      {
+       "home": false,
+       "abbr": "BKN",
+       "name": "Brooklyn Nets",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png",
+       "score": "124",
+       "winner": false,
+       "record": null
+      }
+     ]
+    },
+    {
+     "id": "401909870",
+     "date": "2026-10-26T23:30Z",
+     "name": "CHI @ BOS",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "BOS",
+       "name": "Boston Celtics",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
+       "score": "134",
+       "winner": true,
+       "record": null
+      },
+      {
+       "home": false,
+       "abbr": "CHI",
+       "name": "Chicago Bulls",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/chi.png",
+       "score": "99",
+       "winner": false,
+       "record": null
+      }
+     ]
+    }
+   ],
+   "next": [
+    {
+     "id": "401909924",
+     "date": "2026-11-05T00:30Z",
+     "name": "MIL @ BOS",
+     "state": "pre",
+     "detail": "11/4 - 7:30 PM EST",
+     "done": false,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "BOS",
+       "name": "Boston Celtics",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
+       "score": null,
+       "winner": false,
+       "record": null
+      },
+      {
+       "home": false,
+       "abbr": "MIL",
+       "name": "Milwaukee Bucks",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png",
+       "score": null,
+       "winner": false,
+       "record": null
+      }
+     ]
+    },
+    {
+     "id": "401909288",
+     "date": "2026-11-07T00:00Z",
+     "name": "BOS @ CHA",
+     "state": "pre",
+     "detail": "11/6 - 7:00 PM EST",
+     "done": false,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "CHA",
+       "name": "Charlotte Hornets",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/cha.png",
+       "score": null,
+       "winner": false,
+       "record": null
+      },
+      {
+       "home": false,
+       "abbr": "BOS",
+       "name": "Boston Celtics",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
+       "score": null,
+       "winner": false,
+       "record": null
+      }
+     ]
+    },
+    {
+     "id": "401909949",
+     "date": "2026-11-09T01:00Z",
+     "name": "BOS @ MIL",
+     "state": "pre",
+     "detail": "11/8 - 8:00 PM EST",
+     "done": false,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "MIL",
+       "name": "Milwaukee Bucks",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png",
+       "score": null,
+       "winner": false,
+       "record": null
+      },
+      {
+       "home": false,
+       "abbr": "BOS",
+       "name": "Boston Celtics",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
+       "score": null,
+       "winner": false,
+       "record": null
+      }
+     ]
+    },
+    {
+     "id": "401909961",
+     "date": "2026-11-11T01:00Z",
+     "name": "BOS @ PHI",
+     "state": "pre",
+     "detail": "11/10 - 8:00 PM EST",
+     "done": false,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "PHI",
+       "name": "Philadelphia 76ers",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
+       "score": null,
+       "winner": false,
+       "record": null
+      },
+      {
+       "home": false,
+       "abbr": "BOS",
+       "name": "Boston Celtics",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
+       "score": null,
+       "winner": false,
+       "record": null
+      }
+     ]
+    },
+    {
+     "id": "401909968",
+     "date": "2026-11-12T00:00Z",
+     "name": "BOS @ TOR",
+     "state": "pre",
+     "detail": "11/11 - 7:00 PM EST",
+     "done": false,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "TOR",
+       "name": "Toronto Raptors",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/tor.png",
+       "score": null,
+       "winner": false,
+       "record": null
+      },
+      {
+       "home": false,
+       "abbr": "BOS",
+       "name": "Boston Celtics",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
+       "score": null,
+       "winner": false,
+       "record": null
+      }
+     ]
+    }
+   ],
+   "slate": [
+    {
+     "id": "401909907",
+     "date": "2026-11-03T00:00Z",
+     "name": "OKC @ CLE",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "CLE",
+       "name": "Cleveland Cavaliers",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
+       "score": "112",
+       "winner": false,
+       "record": "4-3"
+      },
+      {
+       "home": false,
+       "abbr": "OKC",
+       "name": "Oklahoma City Thunder",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
+       "score": "117",
+       "winner": true,
+       "record": "5-2"
+      }
+     ]
+    },
+    {
+     "id": "401909908",
+     "date": "2026-11-03T00:30Z",
+     "name": "DET @ CHA",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "CHA",
+       "name": "Charlotte Hornets",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png",
+       "score": "91",
+       "winner": false,
+       "record": "3-5"
+      },
+      {
+       "home": false,
+       "abbr": "DET",
+       "name": "Detroit Pistons",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
+       "score": "124",
+       "winner": true,
+       "record": "6-1"
+      }
+     ]
+    },
+    {
+     "id": "401909909",
+     "date": "2026-11-03T00:30Z",
+     "name": "ATL @ IND",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "IND",
+       "name": "Indiana Pacers",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ind.png",
+       "score": "104",
+       "winner": false,
+       "record": "2-6"
+      },
+      {
+       "home": false,
+       "abbr": "ATL",
+       "name": "Atlanta Hawks",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png",
+       "score": "108",
+       "winner": true,
+       "record": "4-4"
+      }
+     ]
+    },
+    {
+     "id": "401909910",
+     "date": "2026-11-03T00:30Z",
+     "name": "BKN @ NY",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "NY",
+       "name": "New York Knicks",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
+       "score": "103",
+       "winner": true,
+       "record": "3-4"
+      },
+      {
+       "home": false,
+       "abbr": "BKN",
+       "name": "Brooklyn Nets",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png",
+       "score": "90",
+       "winner": false,
+       "record": "1-6"
+      }
+     ]
+    },
+    {
+     "id": "401909911",
+     "date": "2026-11-03T00:30Z",
+     "name": "WSH @ ORL",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "ORL",
+       "name": "Orlando Magic",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png",
+       "score": "94",
+       "winner": false,
+       "record": "2-5"
+      },
+      {
+       "home": false,
+       "abbr": "WSH",
+       "name": "Washington Wizards",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/wsh.png",
+       "score": "103",
+       "winner": true,
+       "record": "4-3"
+      }
+     ]
+    },
+    {
+     "id": "401909912",
+     "date": "2026-11-03T00:30Z",
+     "name": "CHI @ PHI",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "PHI",
+       "name": "Philadelphia 76ers",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
+       "score": "126",
+       "winner": true,
+       "record": "7-1"
+      },
+      {
+       "home": false,
+       "abbr": "CHI",
+       "name": "Chicago Bulls",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
+       "score": "107",
+       "winner": false,
+       "record": "1-6"
+      }
+     ]
+    },
+    {
+     "id": "401909913",
+     "date": "2026-11-03T01:00Z",
+     "name": "SAC @ DAL",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "DAL",
+       "name": "Dallas Mavericks",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png",
+       "score": "100",
+       "winner": false,
+       "record": "4-3"
+      },
+      {
+       "home": false,
+       "abbr": "SAC",
+       "name": "Sacramento Kings",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
+       "score": "115",
+       "winner": true,
+       "record": "1-6"
+      }
+     ]
+    },
+    {
+     "id": "401909914",
+     "date": "2026-11-03T01:00Z",
+     "name": "NO @ MEM",
+     "state": "post",
+     "detail": "Final/OT",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "MEM",
+       "name": "Memphis Grizzlies",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png",
+       "score": "134",
+       "winner": false,
+       "record": "6-1"
+      },
+      {
+       "home": false,
+       "abbr": "NO",
+       "name": "New Orleans Pelicans",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png",
+       "score": "135",
+       "winner": true,
+       "record": "3-4"
+      }
+     ]
+    },
+    {
+     "id": "401909915",
+     "date": "2026-11-03T01:00Z",
+     "name": "MIL @ MIN",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "MIN",
+       "name": "Minnesota Timberwolves",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
+       "score": "112",
+       "winner": true,
+       "record": "5-3"
+      },
+      {
+       "home": false,
+       "abbr": "MIL",
+       "name": "Milwaukee Bucks",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png",
+       "score": "100",
+       "winner": false,
+       "record": "1-6"
+      }
+     ]
+    },
+    {
+     "id": "401909916",
+     "date": "2026-11-03T01:30Z",
+     "name": "BOS @ HOU",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "HOU",
+       "name": "Houston Rockets",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
+       "score": "109",
+       "winner": true,
+       "record": "7-1"
+      },
+      {
+       "home": false,
+       "abbr": "BOS",
+       "name": "Boston Celtics",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
+       "score": "93",
+       "winner": false,
+       "record": "5-2"
+      }
+     ]
+    },
+    {
+     "id": "401909917",
+     "date": "2026-11-03T01:30Z",
+     "name": "UTAH @ SA",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "SA",
+       "name": "San Antonio Spurs",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+       "score": "119",
+       "winner": true,
+       "record": "5-2"
+      },
+      {
+       "home": false,
+       "abbr": "UTAH",
+       "name": "Utah Jazz",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
+       "score": "97",
+       "winner": false,
+       "record": "1-6"
+      }
+     ]
+    },
+    {
+     "id": "401909918",
+     "date": "2026-11-03T02:00Z",
+     "name": "POR @ DEN",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "DEN",
+       "name": "Denver Nuggets",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
+       "score": "110",
+       "winner": false,
+       "record": "3-3"
+      },
+      {
+       "home": false,
+       "abbr": "POR",
+       "name": "Portland Trail Blazers",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
+       "score": "118",
+       "winner": true,
+       "record": "5-1"
+      }
+     ]
+    },
+    {
+     "id": "401909919",
+     "date": "2026-11-03T03:00Z",
+     "name": "PHX @ GS",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "GS",
+       "name": "Golden State Warriors",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
+       "score": "116",
+       "winner": true,
+       "record": "5-3"
+      },
+      {
+       "home": false,
+       "abbr": "PHX",
+       "name": "Phoenix Suns",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
+       "score": "113",
+       "winner": false,
+       "record": "1-4"
+      }
+     ]
+    },
+    {
+     "id": "401909920",
+     "date": "2026-11-03T03:00Z",
+     "name": "TOR @ LAC",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "LAC",
+       "name": "LA Clippers",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png",
+       "score": "118",
+       "winner": false,
+       "record": "1-6"
+      },
+      {
+       "home": false,
+       "abbr": "TOR",
+       "name": "Toronto Raptors",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
+       "score": "125",
+       "winner": true,
+       "record": "4-3"
+      }
+     ]
+    },
+    {
+     "id": "401909921",
+     "date": "2026-11-03T03:00Z",
+     "name": "MIA @ LAL",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "LAL",
+       "name": "Los Angeles Lakers",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
+       "score": "138",
+       "winner": true,
+       "record": "6-2"
+      },
+      {
+       "home": false,
+       "abbr": "MIA",
+       "name": "Miami Heat",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png",
+       "score": "117",
+       "winner": false,
+       "record": "2-5"
+      }
+     ]
+    }
+   ]
+  },
+  "nhl": {
+   "key": "nhl",
+   "emoji": "🏒",
+   "teamName": "Bruins",
+   "record": "11-4",
+   "results": [
+    {
+     "id": "401892629",
+     "date": "2026-11-03T00:00Z",
+     "name": "VGK @ BOS",
+     "state": "post",
+     "detail": "Final/SO",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "BOS",
+       "name": "Boston Bruins",
+       "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/bos.png",
+       "score": "3",
+       "winner": true,
+       "record": null
+      },
+      {
+       "home": false,
+       "abbr": "VGK",
+       "name": "Vegas Golden Knights",
+       "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/vgk.png",
+       "score": "2",
+       "winner": false,
+       "record": null
+      }
+     ]
+    },
+    {
+     "id": "401892614",
+     "date": "2026-10-31T17:00Z",
+     "name": "CHI @ BOS",
+     "state": "post",
+     "detail": "Final/OT",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "BOS",
+       "name": "Boston Bruins",
+       "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/bos.png",
+       "score": "5",
+       "winner": true,
+       "record": null
+      },
+      {
+       "home": false,
+       "abbr": "CHI",
+       "name": "Chicago Blackhawks",
+       "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/chi.png",
+       "score": "4",
+       "winner": false,
+       "record": null
+      }
+     ]
+    },
+    {
+     "id": "401892604",
+     "date": "2026-10-30T00:00Z",
+     "name": "BOS @ STL",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "STL",
+       "name": "St. Louis Blues",
+       "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/stl.png",
+       "score": "4",
+       "winner": true,
+       "record": null
+      },
+      {
+       "home": false,
+       "abbr": "BOS",
+       "name": "Boston Bruins",
+       "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/bos.png",
+       "score": "1",
+       "winner": false,
+       "record": null
+      }
+     ]
+    },
+    {
+     "id": "401892586",
+     "date": "2026-10-28T00:00Z",
+     "name": "BOS @ CAR",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "CAR",
+       "name": "Carolina Hurricanes",
+       "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/car.png",
+       "score": "2",
+       "winner": true,
+       "record": null
+      },
+      {
+       "home": false,
+       "abbr": "BOS",
+       "name": "Boston Bruins",
+       "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/bos.png",
+       "score": "1",
+       "winner": false,
+       "record": null
+      }
+     ]
+    },
+    {
+     "id": "401892568",
+     "date": "2026-10-24T23:00Z",
+     "name": "SJ @ BOS",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "BOS",
+       "name": "Boston Bruins",
+       "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/bos.png",
+       "score": "6",
+       "winner": true,
+       "record": null
+      },
+      {
+       "home": false,
+       "abbr": "SJ",
+       "name": "San Jose Sharks",
+       "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/sj.png",
+       "score": "4",
+       "winner": false,
+       "record": null
+      }
+     ]
+    }
+   ],
+   "next": [
+    {
+     "id": "401892654",
+     "date": "2026-11-06T00:00Z",
+     "name": "BOS @ PIT",
+     "state": "pre",
+     "detail": "11/5 - 7:00 PM EST",
+     "done": false,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "PIT",
+       "name": "Pittsburgh Penguins",
+       "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/pit.png",
+       "score": null,
+       "winner": false,
+       "record": null
+      },
+      {
+       "home": false,
+       "abbr": "BOS",
+       "name": "Boston Bruins",
+       "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/bos.png",
+       "score": null,
+       "winner": false,
+       "record": null
+      }
+     ]
+    },
+    {
+     "id": "401892674",
+     "date": "2026-11-08T18:00Z",
+     "name": "FLA @ BOS",
+     "state": "pre",
+     "detail": "11/8 - 1:00 PM EST",
+     "done": false,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "BOS",
+       "name": "Boston Bruins",
+       "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/bos.png",
+       "score": null,
+       "winner": false,
+       "record": null
+      },
+      {
+       "home": false,
+       "abbr": "FLA",
+       "name": "Florida Panthers",
+       "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/fla.png",
+       "score": null,
+       "winner": false,
+       "record": null
+      }
+     ]
+    },
+    {
+     "id": "401892696",
+     "date": "2026-11-13T00:00Z",
+     "name": "MTL @ BOS",
+     "state": "pre",
+     "detail": "11/12 - 7:00 PM EST",
+     "done": false,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "BOS",
+       "name": "Boston Bruins",
+       "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/bos.png",
+       "score": null,
+       "winner": false,
+       "record": null
+      },
+      {
+       "home": false,
+       "abbr": "MTL",
+       "name": "Montreal Canadiens",
+       "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/mtl.png",
+       "score": null,
+       "winner": false,
+       "record": null
+      }
+     ]
+    },
+    {
+     "id": "401892709",
+     "date": "2026-11-15T00:00Z",
+     "name": "MIN @ BOS",
+     "state": "pre",
+     "detail": "11/14 - 7:00 PM EST",
+     "done": false,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "BOS",
+       "name": "Boston Bruins",
+       "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/bos.png",
+       "score": null,
+       "winner": false,
+       "record": null
+      },
+      {
+       "home": false,
+       "abbr": "MIN",
+       "name": "Minnesota Wild",
+       "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/min.png",
+       "score": null,
+       "winner": false,
+       "record": null
+      }
+     ]
+    },
+    {
+     "id": "401892728",
+     "date": "2026-11-18T00:00Z",
+     "name": "LA @ BOS",
+     "state": "pre",
+     "detail": "11/17 - 7:00 PM EST",
+     "done": false,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "BOS",
+       "name": "Boston Bruins",
+       "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/bos.png",
+       "score": null,
+       "winner": false,
+       "record": null
+      },
+      {
+       "home": false,
+       "abbr": "LA",
+       "name": "Los Angeles Kings",
+       "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/la.png",
+       "score": null,
+       "winner": false,
+       "record": null
+      }
+     ]
+    }
+   ],
+   "slate": [
+    {
+     "id": "401892629",
+     "date": "2026-11-03T00:00Z",
+     "name": "VGK @ BOS",
+     "state": "post",
+     "detail": "Final/SO",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "BOS",
+       "name": "Boston Bruins",
+       "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/bos.png",
+       "score": "3",
+       "winner": true,
+       "record": "11-4-1"
+      },
+      {
+       "home": false,
+       "abbr": "VGK",
+       "name": "Vegas Golden Knights",
+       "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/vgk.png",
+       "score": "2",
+       "winner": false,
+       "record": "9-5-2"
+      }
+     ]
+    },
+    {
+     "id": "401892630",
+     "date": "2026-11-03T00:00Z",
+     "name": "DET @ FLA",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "FLA",
+       "name": "Florida Panthers",
+       "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/fla.png",
+       "score": "3",
+       "winner": false,
+       "record": "8-5-2"
+      },
+      {
+       "home": false,
+       "abbr": "DET",
+       "name": "Detroit Red Wings",
+       "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/det.png",
+       "score": "5",
+       "winner": true,
+       "record": "7-5-3"
+      }
+     ]
+    },
+    {
+     "id": "401892631",
+     "date": "2026-11-03T01:00Z",
+     "name": "COL @ CHI",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "CHI",
+       "name": "Chicago Blackhawks",
+       "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/chi.png",
+       "score": "2",
+       "winner": false,
+       "record": "4-10-1"
+      },
+      {
+       "home": false,
+       "abbr": "COL",
+       "name": "Colorado Avalanche",
+       "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/col.png",
+       "score": "5",
+       "winner": true,
+       "record": "9-5-1"
+      }
+     ]
+    },
+    {
+     "id": "401892632",
+     "date": "2026-11-03T02:00Z",
+     "name": "CGY @ SJ",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "SJ",
+       "name": "San Jose Sharks",
+       "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sj.png",
+       "score": "1",
+       "winner": false,
+       "record": "7-8-1"
+      },
+      {
+       "home": false,
+       "abbr": "CGY",
+       "name": "Calgary Flames",
+       "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/cgy.png",
+       "score": "2",
+       "winner": true,
+       "record": "7-8-0"
+      }
+     ]
+    }
+   ]
+  },
+  "nfl": {
+   "key": "nfl",
+   "emoji": "🏈",
+   "teamName": "Patriots",
+   "record": "5-3",
+   "results": [
+    {
+     "id": "401873034",
+     "date": "2026-11-01T21:25Z",
+     "name": "NE @ MIA",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "MIA",
+       "name": "Miami Dolphins",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+       "score": "19",
+       "winner": false,
+       "record": null
+      },
+      {
+       "home": false,
+       "abbr": "NE",
+       "name": "New England Patriots",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+       "score": "24",
+       "winner": true,
+       "record": null
+      }
+     ]
+    },
+    {
+     "id": "401873010",
+     "date": "2026-10-23T00:15Z",
+     "name": "NE @ CHI",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "CHI",
+       "name": "Chicago Bears",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+       "score": "30",
+       "winner": true,
+       "record": null
+      },
+      {
+       "home": false,
+       "abbr": "NE",
+       "name": "New England Patriots",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+       "score": "24",
+       "winner": false,
+       "record": null
+      }
+     ]
+    },
+    {
+     "id": "401873001",
+     "date": "2026-10-18T17:00Z",
+     "name": "NYJ @ NE",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "NE",
+       "name": "New England Patriots",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+       "score": "26",
+       "winner": true,
+       "record": null
+      },
+      {
+       "home": false,
+       "abbr": "NYJ",
+       "name": "New York Jets",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+       "score": "19",
+       "winner": false,
+       "record": null
+      }
+     ]
+    },
+    {
+     "id": "401872986",
+     "date": "2026-10-11T17:00Z",
+     "name": "LV @ NE",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "NE",
+       "name": "New England Patriots",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+       "score": "45",
+       "winner": true,
+       "record": null
+      },
+      {
+       "home": false,
+       "abbr": "LV",
+       "name": "Las Vegas Raiders",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+       "score": "17",
+       "winner": false,
+       "record": null
+      }
+     ]
+    },
+    {
+     "id": "401872971",
+     "date": "2026-10-04T17:00Z",
+     "name": "NE @ BUF",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "BUF",
+       "name": "Buffalo Bills",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+       "score": "26",
+       "winner": false,
+       "record": null
+      },
+      {
+       "home": false,
+       "abbr": "NE",
+       "name": "New England Patriots",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+       "score": "29",
+       "winner": true,
+       "record": null
+      }
+     ]
+    }
+   ],
+   "next": [
+    {
+     "id": "401873049",
+     "date": "2026-11-08T21:25Z",
+     "name": "GB @ NE",
+     "state": "pre",
+     "detail": "11/8 - 4:25 PM EST",
+     "done": false,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "NE",
+       "name": "New England Patriots",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+       "score": null,
+       "winner": false,
+       "record": null
+      },
+      {
+       "home": false,
+       "abbr": "GB",
+       "name": "Green Bay Packers",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+       "score": null,
+       "winner": false,
+       "record": null
+      }
+     ]
+    },
+    {
+     "id": "401873053",
+     "date": "2026-11-15T14:30Z",
+     "name": "NE VS DET",
+     "state": "pre",
+     "detail": "11/15 - 9:30 AM EST",
+     "done": false,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "DET",
+       "name": "Detroit Lions",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+       "score": null,
+       "winner": false,
+       "record": null
+      },
+      {
+       "home": false,
+       "abbr": "NE",
+       "name": "New England Patriots",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+       "score": null,
+       "winner": false,
+       "record": null
+      }
+     ]
+    },
+    {
+     "id": "401873093",
+     "date": "2026-11-30T01:20Z",
+     "name": "NE @ LAC",
+     "state": "pre",
+     "detail": "11/29 - 8:20 PM EST",
+     "done": false,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "LAC",
+       "name": "Los Angeles Chargers",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+       "score": null,
+       "winner": false,
+       "record": null
+      },
+      {
+       "home": false,
+       "abbr": "NE",
+       "name": "New England Patriots",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+       "score": null,
+       "winner": false,
+       "record": null
+      }
+     ]
+    },
+    {
+     "id": "401873105",
+     "date": "2026-12-06T21:25Z",
+     "name": "BUF @ NE",
+     "state": "pre",
+     "detail": "12/6 - 4:25 PM EST",
+     "done": false,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "NE",
+       "name": "New England Patriots",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+       "score": null,
+       "winner": false,
+       "record": null
+      },
+      {
+       "home": false,
+       "abbr": "BUF",
+       "name": "Buffalo Bills",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+       "score": null,
+       "winner": false,
+       "record": null
+      }
+     ]
+    },
+    {
+     "id": "401873109",
+     "date": "2026-12-11T01:15Z",
+     "name": "MIN @ NE",
+     "state": "pre",
+     "detail": "12/10 - 8:15 PM EST",
+     "done": false,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "NE",
+       "name": "New England Patriots",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+       "score": null,
+       "winner": false,
+       "record": null
+      },
+      {
+       "home": false,
+       "abbr": "MIN",
+       "name": "Minnesota Vikings",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+       "score": null,
+       "winner": false,
+       "record": null
+      }
+     ]
+    }
+   ],
+   "slate": [
+    {
+     "id": "401873023",
+     "date": "2026-10-30T00:15Z",
+     "name": "CAR @ GB",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "GB",
+       "name": "Green Bay Packers",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+       "score": "27",
+       "winner": true,
+       "record": "5-3"
+      },
+      {
+       "home": false,
+       "abbr": "CAR",
+       "name": "Carolina Panthers",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
+       "score": "19",
+       "winner": false,
+       "record": "3-4"
+      }
+     ]
+    },
+    {
+     "id": "401873026",
+     "date": "2026-11-01T18:00Z",
+     "name": "BAL @ BUF",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "BUF",
+       "name": "Buffalo Bills",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
+       "score": "36",
+       "winner": true,
+       "record": "6-1"
+      },
+      {
+       "home": false,
+       "abbr": "BAL",
+       "name": "Baltimore Ravens",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png",
+       "score": "10",
+       "winner": false,
+       "record": "4-4"
+      }
+     ]
+    },
+    {
+     "id": "401873031",
+     "date": "2026-11-01T18:00Z",
+     "name": "TEN @ CIN",
+     "state": "post",
+     "detail": "Final/OT",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "CIN",
+       "name": "Cincinnati Bengals",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
+       "score": "43",
+       "winner": true,
+       "record": "5-2"
+      },
+      {
+       "home": false,
+       "abbr": "TEN",
+       "name": "Tennessee Titans",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png",
+       "score": "36",
+       "winner": false,
+       "record": "1-7"
+      }
+     ]
+    },
+    {
+     "id": "401873024",
+     "date": "2026-11-01T18:00Z",
+     "name": "ARI @ DAL",
+     "state": "post",
+     "detail": "Final/OT",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "DAL",
+       "name": "Dallas Cowboys",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+       "score": "30",
+       "winner": false,
+       "record": "3-5"
+      },
+      {
+       "home": false,
+       "abbr": "ARI",
+       "name": "Arizona Cardinals",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
+       "score": "33",
+       "winner": true,
+       "record": "3-5"
+      }
+     ]
+    },
+    {
+     "id": "401873030",
+     "date": "2026-11-01T18:00Z",
+     "name": "MIN @ DET",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "DET",
+       "name": "Detroit Lions",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
+       "score": "19",
+       "winner": true,
+       "record": "5-2"
+      },
+      {
+       "home": false,
+       "abbr": "MIN",
+       "name": "Minnesota Vikings",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
+       "score": "15",
+       "winner": false,
+       "record": "6-1"
+      }
+     ]
+    },
+    {
+     "id": "401873029",
+     "date": "2026-11-01T18:00Z",
+     "name": "LV @ NYJ",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "NYJ",
+       "name": "New York Jets",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+       "score": "33",
+       "winner": false,
+       "record": "2-6"
+      },
+      {
+       "home": false,
+       "abbr": "LV",
+       "name": "Las Vegas Raiders",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
+       "score": "38",
+       "winner": true,
+       "record": "4-4"
+      }
+     ]
+    },
+    {
+     "id": "401873027",
+     "date": "2026-11-01T18:00Z",
+     "name": "CLE @ PIT",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "PIT",
+       "name": "Pittsburgh Steelers",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
+       "score": "27",
+       "winner": true,
+       "record": "6-2"
+      },
+      {
+       "home": false,
+       "abbr": "CLE",
+       "name": "Cleveland Browns",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+       "score": "6",
+       "winner": false,
+       "record": "5-3"
+      }
+     ]
+    },
+    {
+     "id": "401873025",
+     "date": "2026-11-01T18:00Z",
+     "name": "ATL @ TB",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "TB",
+       "name": "Tampa Bay Buccaneers",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
+       "score": "16",
+       "winner": true,
+       "record": "3-5"
+      },
+      {
+       "home": false,
+       "abbr": "ATL",
+       "name": "Atlanta Falcons",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
+       "score": "0",
+       "winner": false,
+       "record": "3-5"
+      }
+     ]
+    },
+    {
+     "id": "401873028",
+     "date": "2026-11-01T18:00Z",
+     "name": "IND @ JAX",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "JAX",
+       "name": "Jacksonville Jaguars",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
+       "score": "42",
+       "winner": true,
+       "record": "5-2"
+      },
+      {
+       "home": false,
+       "abbr": "IND",
+       "name": "Indianapolis Colts",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
+       "score": "7",
+       "winner": false,
+       "record": "2-6"
+      }
+     ]
+    },
+    {
+     "id": "401873032",
+     "date": "2026-11-01T21:05Z",
+     "name": "LAC @ LAR",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "LAR",
+       "name": "Los Angeles Rams",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
+       "score": "24",
+       "winner": true,
+       "record": "4-4"
+      },
+      {
+       "home": false,
+       "abbr": "LAC",
+       "name": "Los Angeles Chargers",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
+       "score": "9",
+       "winner": false,
+       "record": "0-7"
+      }
+     ]
+    },
+    {
+     "id": "401873033",
+     "date": "2026-11-01T21:25Z",
+     "name": "KC @ DEN",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "DEN",
+       "name": "Denver Broncos",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
+       "score": "28",
+       "winner": true,
+       "record": "6-2"
+      },
+      {
+       "home": false,
+       "abbr": "KC",
+       "name": "Kansas City Chiefs",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
+       "score": "24",
+       "winner": false,
+       "record": "5-2"
+      }
+     ]
+    },
+    {
+     "id": "401873034",
+     "date": "2026-11-01T21:25Z",
+     "name": "NE @ MIA",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "MIA",
+       "name": "Miami Dolphins",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png",
+       "score": "19",
+       "winner": false,
+       "record": "1-6"
+      },
+      {
+       "home": false,
+       "abbr": "NE",
+       "name": "New England Patriots",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
+       "score": "24",
+       "winner": true,
+       "record": "5-3"
+      }
+     ]
+    },
+    {
+     "id": "401873035",
+     "date": "2026-11-02T01:20Z",
+     "name": "PHI @ WSH",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "WSH",
+       "name": "Washington Commanders",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
+       "score": "27",
+       "winner": true,
+       "record": "2-4-1"
+      },
+      {
+       "home": false,
+       "abbr": "PHI",
+       "name": "Philadelphia Eagles",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
+       "score": "10",
+       "winner": false,
+       "record": "2-6"
+      }
+     ]
+    },
+    {
+     "id": "401873036",
+     "date": "2026-11-03T01:15Z",
+     "name": "CHI @ SEA",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "SEA",
+       "name": "Seattle Seahawks",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
+       "score": "17",
+       "winner": false,
+       "record": "4-4"
+      },
+      {
+       "home": false,
+       "abbr": "CHI",
+       "name": "Chicago Bears",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
+       "score": "34",
+       "winner": true,
+       "record": "6-2"
+      }
+     ]
+    }
+   ]
+  },
+  "mlb": {
+   "key": "mlb",
+   "emoji": "⚾",
+   "teamName": "Red Sox",
+   "record": "87-75",
+   "results": [
+    {
+     "id": "401907963",
+     "date": "2026-10-01T00:00Z",
+     "name": "BOS @ NYY",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "NYY",
+       "name": "New York Yankees",
+       "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/nyy.png",
+       "score": "9",
+       "winner": true,
+       "record": null
+      },
+      {
+       "home": false,
+       "abbr": "BOS",
+       "name": "Boston Red Sox",
+       "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/bos.png",
+       "score": "2",
+       "winner": false,
+       "record": null
+      }
+     ]
+    },
+    {
+     "id": "401907924",
+     "date": "2026-09-30T00:00Z",
+     "name": "BOS @ NYY",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "NYY",
+       "name": "New York Yankees",
+       "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/nyy.png",
+       "score": "9",
+       "winner": true,
+       "record": null
+      },
+      {
+       "home": false,
+       "abbr": "BOS",
+       "name": "Boston Red Sox",
+       "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/bos.png",
+       "score": "0",
+       "winner": false,
+       "record": null
+      }
+     ]
+    }
+   ],
+   "next": [],
+   "slate": [
+    {
+     "id": "401908046",
+     "date": "2026-10-29T00:00Z",
+     "name": "MIL @ TB",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "TB",
+       "name": "Tampa Bay Rays",
+       "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tb.png",
+       "score": "1",
+       "winner": false,
+       "record": "98-64"
+      },
+      {
+       "home": false,
+       "abbr": "MIL",
+       "name": "Milwaukee Brewers",
+       "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mil.png",
+       "score": "4",
+       "winner": true,
+       "record": "103-59"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "errors": []
+}

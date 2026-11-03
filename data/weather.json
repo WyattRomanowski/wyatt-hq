@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-03T11:57:13.100Z",
+ "updated": "2026-11-03T12:07:07.783Z",
  "location": "Stoneham, MA",
  "current": {
-  "temp": 53,
-  "feels": 48,
+  "temp": 54,
+  "feels": 49,
   "humidity": 57,
   "wind": 5,
   "code": 0,
@@ -11,12 +11,6 @@
   "isDay": true
  },
  "hourly": [
-  {
-   "t": "2026-11-03T06:00",
-   "temp": 53,
-   "rain": 1,
-   "code": 0
-  },
   {
    "t": "2026-11-03T07:00",
    "temp": 54,
@@ -153,6 +147,12 @@
    "t": "2026-11-04T05:00",
    "temp": 54,
    "rain": 4,
+   "code": 0
+  },
+  {
+   "t": "2026-11-04T06:00",
+   "temp": 53,
+   "rain": 5,
    "code": 0
   }
  ],

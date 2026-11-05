@@ -1,6 +1,7 @@
 import { h, store, uid, ymd, parse, addDays, DAYS, MONTHS, ago, money, sgn, clock, dayShort, spark, lineChart, barChart, ring, donut, heat, card, toast, modal, weekStart } from "./core.js?v=BUILD";
 import { JOKES, FACTS } from "./assets.js?v=BUILD";
 import { hero3d, confetti, chime } from "./fx.js?v=BUILD";
+import { ico } from "./icons.js?v=BUILD";
 
 const WX = (c) => (c === 0 ? "☀️" : c <= 2 ? "🌤️" : c === 3 ? "☁️" : c <= 48 ? "🌫️" : c <= 57 ? "🌦️" : c <= 67 ? "🌧️" : c <= 77 ? "🌨️" : c <= 82 ? "🌦️" : c <= 86 ? "🌨️" : "⛈️");
 const today = () => ymd();
@@ -42,10 +43,10 @@ function happy(ctx) {
   const cv = h("canvas", { class: "hero3d" }); setTimeout(() => cv.isConnected && hero3d(cv), 0);
   const dstr = now.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric", year: "numeric" });
   const w = D.weather;
-  const hello = h("div", { class: "hello" }, cv, h("div", { class: "sub" }, dstr), h("h1", {}, "Happy " + DAYS[now.getDay()]),
+  const hello = h("div", { class: "hello" }, h("div", { class: "hello-t" }, h("div", { class: "sub" }, dstr), h("h1", {}, "Happy " + DAYS[now.getDay()]),
     h("div", { class: "row" }, h("span", { class: "chip" }, greeting() + ", Wyatt"), w ? h("span", { class: "chip" }, `${WX(w.current.code)} ${w.current.temp}° ${w.current.desc}`) : null, w && w.hourly.slice(0, 12).some((x) => x.rain >= 50) ? h("span", { class: "chip warn" }, "☂️ Rain likely today") : null, top1 ? h("span", { class: "chip" }, "Focus: " + top1.title.slice(0, 40)) : null,
-      open.length ? h("span", { class: "chip " + (dueSoon ? "warn" : "") }, `${open.length} open task${open.length > 1 ? "s" : ""}${dueSoon ? ` · ${dueSoon} due` : ""}`) : h("span", { class: "chip ok" }, "inbox zero ✓")));
-  const g = h("div", { class: "grid" });
+      open.length ? h("span", { class: "chip " + (dueSoon ? "warn" : "") }, `${open.length} open task${open.length > 1 ? "s" : ""}${dueSoon ? ` · ${dueSoon} due` : ""}`) : h("span", { class: "chip ok" }, "inbox zero ✓"))), cv);
+  const g = h("div", { class: "bento" });
   // weather
   g.append(weatherCard(w, "w2"));
   // tasks
@@ -77,7 +78,7 @@ function happy(ctx) {
   const R = (id) => (c) => wyTabs.find((t) => t.id === id).render(c);
   const FEED = [["tasks", "Tasks", "✅"], ["news", "News", "📰"], ["sports", "Sports", "🏟️"], ["money", "Money", "💰"], ["calendar", "Calendar", "📅"], ["goals", "Goals", "🎯"], ["habits", "Habits", "🔥"], ["notes", "Notes", "📝"]].map(([id, l, ic]) => [id, l, ic, R(id)]);
   const jump = h("div", { class: "jump" }, FEED.map(([id, l, ic]) => h("button", { class: "chipbtn", onclick: () => document.getElementById("sec-" + id)?.scrollIntoView({ behavior: "smooth", block: "start" }) }, ic + " " + l)), h("button", { class: "chipbtn", onclick: () => scrollTo({ top: 0, behavior: "smooth" }) }, "↑ Top"));
-  const wrap = h("div"); wrap.append(hello, jump, g);
+  const wrap = h("div"); wrap.append(hello, kpis(ctx), jump, g);
   FEED.forEach(([id, l, ic, f]) => { let body; try { body = f({ ...ctx, compact: true }); } catch (e) { body = h("div", { class: "card" }, "Error: " + e.message); } wrap.append(h("section", { class: "feed-sec", id: "sec-" + id }, h("div", { class: "feed-h" }, h("span", { class: "feed-ic" }, ic), h("h2", {}, l), h("button", { class: "chipbtn", onclick: () => go(id) }, "Open ›")), body)); });
   wrap.append(h("div", { class: "end" }, "That's everything ✦ ", h("button", { class: "chipbtn", onclick: () => scrollTo({ top: 0, behavior: "smooth" }) }, "Back to top")));
   return wrap;
@@ -95,6 +96,13 @@ function nextUpCard() {
   const t = today(), ev = allEvents().filter((e) => e.date >= t && e.kind !== "task").sort((a, b) => a.date.localeCompare(b.date)).slice(0, 5);
   const n = (d) => Math.round((parse(d) - parse(t)) / 864e5);
   return card("Next up", "⏳", ev.length ? h("ul", { class: "list" }, ev.map((e) => h("li", {}, h("span", {}, e.title), h("span", { class: "chip " + (n(e.date) <= 2 ? "warn" : "") }, n(e.date) === 0 ? "today" : n(e.date) === 1 ? "tomorrow" : "in " + n(e.date) + "d")))) : empty("Nothing coming up."));
+}
+function kpis({ D, go }) {
+  const w = D.weather?.current, ac = store.get("accts", []), nw = ac.reduce((a, x) => a + (x.debt ? -x.bal : x.bal), 0), tk = store.get("tasks", []).filter((t) => t.status !== "done"), t0 = today();
+  const ev = allEvents().filter((e) => e.date >= t0 && e.kind !== "task").sort((a, b) => a.date.localeCompare(b.date))[0], xp = store.get("xp", 0);
+  const tile = (tab, ic, lab, val, sub) => h("button", { class: "kpi", onclick: () => go(tab) }, h("div", { class: "kpi-l" }, h("span", { html: ico(ic, 15) }), lab), h("div", { class: "kpi-v" }, val), h("div", { class: "kpi-s" }, sub));
+  return h("div", { class: "kpis" }, tile("happy", "home", "Weather", w ? w.temp + "°" : "—", w ? w.desc + " · feels " + w.feels + "°" : "loading"), tile("money", "money", "Net worth", ac.length ? money(nw) : "—", ac.length ? "tap for details" : "add accounts"),
+    tile("tasks", "tasks", "Open tasks", String(tk.length), tk.filter((t) => t.due && t.due <= t0).length + " due or overdue"), tile("calendar", "calendar", "Next up", ev ? ev.title.slice(0, 18) : "—", ev ? dayShort(ev.date + "T12:00") : "nothing scheduled"), tile("happy", "habits", "Level " + lvl(xp), xp + " XP", "keep the streak"));
 }
 function gameMini(e) {
   const t = e.teams || [], a = t.find((x) => !x.home), hm = t.find((x) => x.home);
@@ -134,14 +142,16 @@ function upcomingCard(go) {
 }
 
 /* ===================== TASKS ===================== */
-let tview = store.get("tview", "list"), tlist = "All";
+let tview = store.get("tview", "list"), tlist = "All", tq = "", tpri = "all";
 function tasks({ render }) {
   const all = store.get("tasks", []), save = () => { store.set("tasks", all); render(); };
   const lists = ["Personal", "Money", "Health", "School", "Home", "Ideas"];
   const title = h("input", { type: "text", class: "grow", id: "newtask", placeholder: "New task — press Enter" }), pri = h("select", {}, ["med", "high", "low"].map((p) => h("option", { value: p }, p))), due = h("input", { type: "date" }), lst = h("select", {}, lists.map((l) => h("option", {}, l))), rp = h("select", {}, [["", "No repeat"], ["daily", "Daily"], ["weekly", "Weekly"], ["monthly", "Monthly"]].map(([v, l]) => h("option", { value: v }, l)));
   const add = () => { if (!title.value.trim()) return; all.unshift({ id: uid(), title: title.value.trim(), pri: pri.value, due: due.value || (rp.value ? today() : ""), list: lst.value, status: "todo", rep: rp.value }); save(); setTimeout(() => document.getElementById("newtask")?.focus(), 30); };
   title.addEventListener("keydown", (e) => e.key === "Enter" && add());
-  const vis = all.filter((t) => tlist === "All" || t.list === tlist);
+  const vis = all.filter((t) => (tlist === "All" || t.list === tlist) && (tpri === "all" || t.pri === tpri) && (!tq || t.title.toLowerCase().includes(tq)));
+  const t0 = today(), nOver = all.filter((t) => t.status !== "done" && t.due && t.due < t0).length, nToday = all.filter((t) => t.status !== "done" && t.due === t0).length;
+  const sq = h("input", { type: "text", id: "tsearch", class: "grow", placeholder: "Search tasks…", value: tq, oninput: (e) => { tq = e.target.value.toLowerCase(); render(); const el = document.getElementById("tsearch"); el.focus(); el.setSelectionRange(el.value.length, el.value.length); } });
   const row = (t) => h("li", { class: "pri-" + t.pri }, h("label", { class: "row", style: { flex: 1, cursor: "pointer" } }, done((v) => { v ? finish(t, all) : (t.status = "todo"); save(); }, t.status === "done"), h("span", { style: { textDecoration: t.status === "done" ? "line-through" : "", opacity: t.status === "done" ? 0.5 : 1 } }, t.title)), h("span", { class: "chip" }, t.list), t.due ? h("span", { class: "chip " + (t.due < today() && t.status !== "done" ? "bad" : "") }, t.due.slice(5)) : null, h("button", { class: "x", onclick: () => { all.splice(all.indexOf(t), 1); save(); } }, "✕"));
   let body;
   if (tview === "board") {
@@ -154,6 +164,7 @@ function tasks({ render }) {
   } else body = card("Tasks", "", vis.length ? h("ul", { class: "list" }, vis.sort((a, b) => (a.status === "done") - (b.status === "done")).map(row)) : empty("No tasks yet — add one above."));
   const dn = vis.filter((t) => t.status === "done").length;
   return h("div", {}, card("Add", "＋", h("div", { class: "form" }, title, pri, due, lst, rp, h("button", { class: "btn", onclick: add }, "Add"))),
+    h("div", { class: "toolbar" }, sq, h("select", { onchange: (e) => { tpri = e.target.value; render(); } }, ["all", "high", "med", "low"].map((p) => h("option", { value: p, selected: tpri === p }, p === "all" ? "Any priority" : p + " priority"))), nOver ? h("span", { class: "chip bad" }, nOver + " overdue") : null, h("span", { class: "chip" }, nToday + " today"), h("span", { class: "chip ok" }, all.filter((t) => t.status === "done").length + " done")),
     h("div", { class: "subtabs", style: { marginTop: "14px" } }, ["list", "board", "plan"].map((v) => h("button", { class: "chipbtn" + (tview === v ? " on" : ""), onclick: () => { tview = v; store.set("tview", v); render(); } }, v[0].toUpperCase() + v.slice(1))), h("span", { class: "spacer" }), ["All", ...lists].map((l) => h("button", { class: "chipbtn" + (tlist === l ? " on" : ""), onclick: () => { tlist = l; render(); } }, l))),
     h("div", { class: "bar", style: { marginBottom: "14px" } }, h("i", { style: { width: (vis.length ? (dn / vis.length) * 100 : 0) + "%" } })), body);
 }
@@ -175,7 +186,10 @@ function overview(D, render) {
   const parts = ac.filter((x) => !x.debt && x.bal > 0).map((x, i) => ({ l: x.name, v: x.bal, color: BILLCOL[i % 8] }));
   const snap = () => { const d = today(); const i = hist.findIndex((x) => x.d === d); const e = { d, total, accts: ac.map((a) => ({ n: a.name, b: a.bal, debt: !!a.debt })) }; i >= 0 ? (hist[i] = e) : hist.push(e); store.set("nw", hist); toast("Snapshot saved"); render(); };
   const chg = hist.length > 1 ? total - hist[hist.length - 2].total : 0;
-  return h("div", { class: "grid" },
+  const bd = store.get("budget", { income: 0, bills: [] }), billT = bd.bills.reduce((a, x) => a + x.amt, 0), cash = ac.filter((x) => !x.debt && /check|sav|cash/i.test(x.name)).reduce((a, x) => a + x.bal, 0);
+  const kp = (l, v, sub) => h("div", { class: "kpi" }, h("div", { class: "kpi-l" }, l), h("div", { class: "kpi-v" }, v), h("div", { class: "kpi-s" }, sub));
+  const kr = h("div", { class: "kpis wall", style: { gridColumn: "1/-1" } }, kp("Recurring / mo", money(billT), bd.bills.length + " bills"), kp("Savings rate", bd.income ? Math.round(((bd.income - billT) / bd.income) * 100) + "%" : "—", bd.income ? "after recurring" : "set income in Budget"), kp("Cash runway", billT ? (cash / billT).toFixed(1) + " mo" : "—", billT ? money(cash) + " cash" : "add bills"), kp("Debt", money(debt), debt ? "pay down first" : "none ✓"));
+  return h("div", { class: "grid" }, kr,
     card("Net worth", "💰", h("div", { class: "big mono" }, money(total)), hist.length > 1 ? h("div", { class: "mono " + (chg >= 0 ? "gain" : "loss") }, `${chg >= 0 ? "▲" : "▼"} ${money(Math.abs(chg))} since last snapshot`) : null,
       h("div", { class: "row", style: { marginTop: "10px" } }, h("span", { class: "chip ok" }, "Assets " + money(assets)), debt ? h("span", { class: "chip bad" }, "Debt " + money(debt)) : null), h("div", { style: { marginTop: "12px" } }, h("button", { class: "btn sm", onclick: snap }, "Save snapshot"))),
     card("Where it sits", "🍩", parts.length ? h("div", { class: "row", style: { gap: "18px" } }, donut(parts), h("div", { class: "src" }, parts.map((p) => h("div", {}, h("span", { style: { color: p.color } }, "● "), `${p.l} ${Math.round((p.v / assets) * 100)}%`)))) : empty("Add accounts to see the split.")),
@@ -243,14 +257,20 @@ function study({ render }) {
 }
 
 /* ===================== CALENDAR ===================== */
-let cm = new Date(), csel = today();
+let cm = new Date(), csel = today(), cview = "month";
+function agenda(render) {
+  const t = today(), end = ymd(addDays(new Date(), 60)), ev = allEvents().filter((e) => e.date >= t && e.date <= end).sort((a, b) => a.date.localeCompare(b.date)), by = {}; ev.forEach((e) => (by[e.date] ||= []).push(e));
+  return h("div", {}, h("div", { class: "row", style: { marginBottom: "12px" } }, calToggle(render)), Object.keys(by).length ? Object.entries(by).map(([d, list]) => h("div", { class: "ag-day" }, h("div", { class: "ag-d" }, h("b", {}, new Date(d + "T12:00").toLocaleDateString("en-US", { weekday: "short" })), h("span", {}, new Date(d + "T12:00").getDate())), h("div", { class: "ag-list" }, list.map((e) => h("div", { class: "ag-e " + (e.kind || "") }, h("span", { class: "ag-dot" }), e.title, h("span", { class: "chip", style: { marginLeft: "auto" } }, e.kind || "event")))))) : card("Agenda", "", empty("Nothing in the next 60 days.")));
+}
+const calToggle = (render) => h("div", { class: "seg" }, ["month", "agenda"].map((v) => h("button", { class: cview === v ? "on" : "", onclick: () => { cview = v; render(); } }, v[0].toUpperCase() + v.slice(1))));
 function calendar({ render }) {
+  if (cview === "agenda") return agenda(render);
   const first = new Date(cm.getFullYear(), cm.getMonth(), 1), start = addDays(first, -first.getDay()), ev = allEvents(), by = {}; ev.forEach((e) => (by[e.date] ||= []).push(e));
   const grid = h("div", { class: "cal" }, ["S", "M", "T", "W", "T", "F", "S"].map((d) => h("div", { class: "dow" }, d)));
   for (let i = 0; i < 42; i++) { const d = addDays(start, i), k = ymd(d); grid.append(h("div", { class: "cell" + (d.getMonth() !== cm.getMonth() ? " out" : "") + (k === today() ? " today" : "") + (k === csel ? " sel" : ""), onclick: () => { csel = k; render(); } }, h("div", { class: "d" }, d.getDate()), (by[k] || []).slice(0, 3).map((e) => h("span", { class: "ev " + (e.kind || "") }, e.title)), (by[k] || []).length > 3 ? h("span", { class: "src" }, "+" + (by[k].length - 3)) : null)); }
   const nm = h("input", { type: "text", class: "grow", placeholder: "Event title" }), kind = h("select", {}, [["", "Event"], ["pay", "Payday"], ["bill", "Bill"]].map(([v, l]) => h("option", { value: v }, l))), rep = h("select", {}, [["", "One time"], ["weekly", "Weekly"], ["biweekly", "Every 2 weeks"], ["monthly", "Monthly"]].map(([v, l]) => h("option", { value: v }, l)));
   const evs = store.get("events", []);
-  return h("div", {}, h("div", { class: "row", style: { marginBottom: "12px" } }, h("button", { class: "iconbtn", onclick: () => { cm = new Date(cm.getFullYear(), cm.getMonth() - 1, 1); render(); } }, "‹"), h("h2", { style: { minWidth: "190px", textAlign: "center" } }, `${MONTHS[cm.getMonth()]} ${cm.getFullYear()}`), h("button", { class: "iconbtn", onclick: () => { cm = new Date(cm.getFullYear(), cm.getMonth() + 1, 1); render(); } }, "›"), h("button", { class: "btn sm ghost", onclick: () => { cm = new Date(); csel = today(); render(); } }, "Today")),
+  return h("div", {}, h("div", { class: "row", style: { marginBottom: "12px" } }, h("button", { class: "iconbtn", onclick: () => { cm = new Date(cm.getFullYear(), cm.getMonth() - 1, 1); render(); } }, "‹"), h("h2", { style: { minWidth: "190px", textAlign: "center" } }, `${MONTHS[cm.getMonth()]} ${cm.getFullYear()}`), h("button", { class: "iconbtn", onclick: () => { cm = new Date(cm.getFullYear(), cm.getMonth() + 1, 1); render(); } }, "›"), h("button", { class: "btn sm ghost", onclick: () => { cm = new Date(); csel = today(); render(); } }, "Today"), h("span", { class: "spacer" }), calToggle(render)),
     grid, h("div", { style: { height: "14px" } }), h("div", { class: "grid" },
       card(dayShort(csel + "T12:00"), "📌", (by[csel] || []).length ? h("ul", { class: "list" }, by[csel].map((e) => h("li", {}, h("span", {}, e.title), e.kind === "task" || e.kind === "bill" || !evs.find((x) => x.id === e.id) ? h("span", { class: "chip" }, e.kind || "event") : h("button", { class: "x", onclick: () => { evs.splice(evs.findIndex((x) => x.id === e.id), 1); store.set("events", evs); render(); } }, "✕")))) : empty("Nothing on this day."),
         h("div", { class: "form", style: { marginTop: "10px" } }, nm, kind, rep, h("button", { class: "btn sm", onclick: () => { if (nm.value) { evs.push({ id: uid(), title: nm.value, date: csel, kind: kind.value, rep: rep.value }); store.set("events", evs); render(); } } }, "Add"))), upcomingCard(() => {})));

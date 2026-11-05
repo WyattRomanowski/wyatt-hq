@@ -2,6 +2,7 @@ import { $, $$, h, svg, store, load, ago, DAYS, download, toast, modal, debounce
 import { LOGOS, ALKU_A } from "./assets.js";
 import { startBackground, hero3d, tilt } from "./fx.js";
 import { wyTabs, quickAdd, parseTask } from "./views.js";
+import { liveWeather, liveSports, liveNews } from "./live.js";
 import { alTabs } from "./alku.js";
 
 const D = { weather: null, quotes: null, sports: null, news: null, fun: null, meta: null };
@@ -81,10 +82,13 @@ function render() {
   const lbl = $(".tab.pin"); if (lbl) lbl.textContent = tabLabel(tabs[0]);
 }
 function drawPill() {
-  const p = $("#pill"); if (!p) return; const m = D.meta; const age = m ? (Date.now() - new Date(m.updated)) / 60000 : 1e9;
-  const bad = m && Object.values(m.modules || {}).some((x) => !x.ok);
-  p.className = "pill" + (!m ? " off" : age > 100 ? " stale" : bad ? " stale" : "");
-  p.lastChild.textContent = !m ? "offline — showing last saved" : `updated ${ago(m.updated)}` + (age > 100 ? " · refresh delayed" : bad ? " · partial" : "");
+  const p = $("#pill"); if (!p) return; const m = D.meta;
+  const stamps = ["weather", "sports", "news", "quotes"].map((k) => D[k]?.updated).filter(Boolean);
+  if (!stamps.length) { p.className = "pill off"; p.lastChild.textContent = "offline — showing last saved"; return; }
+  const q = D.quotes?.updated, qAge = q ? (Date.now() - new Date(q)) / 60000 : 1e9, liveNow = D.weather?.live;
+  p.className = "pill" + (qAge > 600 ? " stale" : "");
+  p.lastChild.textContent = (liveNow ? "Live" : "Updated " + ago(D.weather?.updated)) + (qAge > 90 ? ` · markets ${ago(q)}` : "");
+  p.title = "Weather & sports refresh live in your browser. Markets & news refresh via GitHub every ~30 min (GitHub can delay it). Markets: " + ago(q) + ", news: " + ago(D.news?.updated);
 }
 function drawTape() {
   const t = $("#tape"); if (!t) return; t.innerHTML = ""; const q = D.quotes?.items; if (!q) return;
@@ -93,11 +97,24 @@ function drawTape() {
 }
 
 /* ---------- data refresh ---------- */
+let liveBusy = false, lastNews = 0;
+const newer = (a, b) => !a || !a.updated || (b && new Date(b.updated) > new Date(a.updated));
+async function liveRefresh() {
+  if (liveBusy) return false; liveBusy = true; let ch = false;
+  try {
+    const [w, sp] = await Promise.allSettled([liveWeather(), liveSports(D.sports)]);
+    if (w.status === "fulfilled") { D.weather = w.value; ch = true; } if (sp.status === "fulfilled") { D.sports = sp.value; ch = true; }
+    const age = D.news ? (Date.now() - new Date(D.news.updated)) / 60000 : 1e9;
+    if (age > 45 && Date.now() - lastNews > 15 * 60000) { lastNews = Date.now(); try { D.news = await liveNews(D.news); ch = true; } catch {} }
+  } finally { liveBusy = false; }
+  return ch;
+}
+const idle = () => ctx.mode && !document.activeElement?.matches?.("input,textarea,select") && !$(".modal") && !$("#pal.open");
 async function refresh() {
   const names = Object.keys(D); const res = await Promise.all(names.map(load));
-  names.forEach((n, i) => { if (res[i]) D[n] = res[i]; });
-  drawPill(); drawTape();
-  if (ctx.mode && !document.activeElement?.matches?.("input,textarea,select") && !$(".modal") && !$("#pal.open")) render();
+  names.forEach((n, i) => { if (res[i] && newer(D[n], res[i])) D[n] = res[i]; });
+  drawPill(); drawTape(); if (idle()) render();
+  liveRefresh().then((ch) => { drawPill(); drawTape(); if (ch && idle()) render(); });
   return !!res[0];
 }
 
@@ -115,7 +132,6 @@ function openPalette() {
     }
     const q = $("#pal input").value.trim();
     if (q && ctx.mode === "wyatt") { a.unshift({ l: "Add task: " + q, r: "quick add", f: () => { const all = store.get("tasks", []); all.unshift(parseTask(q)); store.set("tasks", all); toast("Task added"); render(); }, always: 1 }); for (const n of store.get("notes", []).filter((n) => n.t.toLowerCase().includes(q.toLowerCase())).slice(0, 4)) a.push({ l: "Note: " + n.t.slice(0, 60), r: "note", f: () => go("notes") }); }
-    for (const x of (store.get("phone", { apps: [], dock: [] }).apps.flatMap((a) => a.folder || [a]).concat(store.get("phone", { dock: [] }).dock)).filter((x) => x.u)) a.push({ l: "Open " + x.n, r: "link", f: () => window.open(x.u, "_blank", "noopener") });
     a.push({ l: "Settings & backup", r: "action", f: settings }, { l: "Export my data (JSON)", r: "action", f: exportData }, { l: "Refresh live data now", r: "action", f: async () => { await refresh(); toast("Refreshed"); } });
     return a;
   };
@@ -153,9 +169,9 @@ addEventListener("keydown", (e) => {
     else if (e.key.toLowerCase() === "n" && ctx.mode === "wyatt") { quickAdd(render); e.preventDefault(); }
   } if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") { e.preventDefault(); ctx.mode && openPalette(); } });
 document.addEventListener("visibilitychange", () => !document.hidden && ctx.mode && refresh());
-setInterval(() => ctx.mode && refresh(), 5 * 60000); setInterval(drawPill, 30000);
+setInterval(() => ctx.mode && refresh(), 2 * 60000); addEventListener("focus", () => ctx.mode && refresh()); addEventListener("pageshow", () => ctx.mode && refresh()); addEventListener("online", () => ctx.mode && refresh()); setInterval(drawPill, 30000);
 startBackground($("#bg")); tilt(document.body);
 if ("serviceWorker" in navigator && location.protocol.startsWith("http")) navigator.serviceWorker.register("./sw.js").catch(() => {});
 refresh();
-setTimeout(() => { $("#boot")?.classList.add("out"); chooseScreen(); }, matchMedia("(prefers-reduced-motion: reduce)").matches ? 100 : 1500);
+setTimeout(() => { $("#boot")?.classList.add("out"); chooseScreen(); }, matchMedia("(prefers-reduced-motion: reduce)").matches ? 60 : 650);
 export { D, ctx, hero3d };

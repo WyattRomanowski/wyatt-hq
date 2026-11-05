@@ -42,8 +42,9 @@ export function hero3d(cv) {
     const faces = F.map((f) => ({ f, z: (P[f[0]][2] + P[f[1]][2] + P[f[2]][2]) / 3 })).sort((p, q) => q.z - p.z);
     ctx.lineJoin = "round";
     for (const { f, z } of faces) { ctx.globalAlpha = 0.07 + (1 - (z + 1) / 2) * 0.1; ctx.fillStyle = c; ctx.beginPath(); f.forEach((i, n) => (n ? ctx.lineTo(P[i][0], P[i][1]) : ctx.moveTo(P[i][0], P[i][1]))); ctx.fill(); }
-    ctx.lineWidth = 1.4; ctx.strokeStyle = c;
+    ctx.lineWidth = 1.6; ctx.strokeStyle = c; ctx.shadowColor = c; ctx.shadowBlur = 10;
     for (const e of E) { const [i, j] = e.split(",").map(Number); ctx.globalAlpha = 0.35 + (1 - (P[i][2] + P[j][2] + 2) / 4) * 0.5; ctx.beginPath(); ctx.moveTo(P[i][0], P[i][1]); ctx.lineTo(P[j][0], P[j][1]); ctx.stroke(); }
+    ctx.shadowBlur = 0; { const gr = ctx.createRadialGradient(S / 2, S / 2, 0, S / 2, S / 2, 70); gr.addColorStop(0, c + "66"); gr.addColorStop(1, "transparent"); ctx.globalAlpha = 0.9; ctx.fillStyle = gr; ctx.fillRect(0, 0, S, S); }
     ctx.fillStyle = "#fff"; for (const p of P) { ctx.globalAlpha = 0.9; ctx.beginPath(); ctx.arc(p[0], p[1], 2.2, 0, 6.3); ctx.fill(); }
     // orbit ring
     ctx.strokeStyle = c2; ctx.lineWidth = 1.2; ctx.globalAlpha = 0.55; ctx.beginPath();

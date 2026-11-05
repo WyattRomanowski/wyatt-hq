@@ -2,7 +2,7 @@ name: Refresh data and deploy site
 
 on:
   schedule:
-    - cron: "*/30 * * * *"     # live data every 30 minutes
+    - cron: "*/15 * * * *"     # every 15 min (GitHub may delay)
   workflow_dispatch:           # "Run workflow" button
   push:
     branches: [main]

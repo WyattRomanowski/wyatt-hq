@@ -1,7 +1,6 @@
 import { h, store, uid, ymd, parse, addDays, DAYS, MONTHS, ago, money, sgn, clock, dayShort, spark, lineChart, barChart, ring, donut, heat, card, toast, modal, weekStart } from "./core.js";
 import { JOKES, FACTS } from "./assets.js";
 import { hero3d, confetti, chime } from "./fx.js";
-import { phone } from "./phone.js";
 
 const WX = (c) => (c === 0 ? "☀️" : c <= 2 ? "🌤️" : c === 3 ? "☁️" : c <= 48 ? "🌫️" : c <= 57 ? "🌦️" : c <= 67 ? "🌧️" : c <= 77 ? "🌨️" : c <= 82 ? "🌦️" : c <= 86 ? "🌨️" : "⛈️");
 const today = () => ymd();
@@ -35,7 +34,8 @@ const done = (cb, on) => h("input", { type: "checkbox", class: "check", checked:
 const mount = (x) => { const d = h("div"); d.append(x); return d; };
 
 /* ===================== HAPPY (home) ===================== */
-function happy({ D, go, render }) {
+function happy(ctx) {
+  const { D, go, render } = ctx;
   const now = new Date(), tasks = store.get("tasks", []), open = tasks.filter((t) => t.status !== "done");
   const top1 = [...open].sort((a, b) => ({ high: 0, med: 1, low: 2 }[a.pri] - { high: 0, med: 1, low: 2 }[b.pri]) || (a.due || "9").localeCompare(b.due || "9"))[0];
   const dueSoon = open.filter((t) => t.due && t.due <= today()).length;
@@ -74,7 +74,13 @@ function happy({ D, go, render }) {
   g.append(card("Daily spark", "✨", h("p", { class: "q" }, "“" + (f?.quote?.text || "Make it count.") + "”"), f?.quote?.author ? h("div", { class: "src" }, "— " + f.quote.author) : null, h("hr", { style: { border: 0, borderTop: "1px solid var(--line)", margin: "12px 0" } }),
     h("div", {}, h("b", {}, "Joke  "), f?.joke || JOKES[day % JOKES.length]), h("div", { style: { marginTop: "10px" } }, h("b", {}, "Fact  "), f?.fact || FACTS[day % FACTS.length])));
   const hide = store.get("hide", []); [...g.children].forEach((c) => hide.includes(c.dataset.t) && c.remove());
-  const wrap = h("div"); wrap.append(hello, g); return wrap;
+  const R = (id) => (c) => wyTabs.find((t) => t.id === id).render(c);
+  const FEED = [["tasks", "Tasks", "✅"], ["news", "News", "📰"], ["sports", "Sports", "🏟️"], ["money", "Money", "💰"], ["calendar", "Calendar", "📅"], ["goals", "Goals", "🎯"], ["habits", "Habits", "🔥"], ["notes", "Notes", "📝"]].map(([id, l, ic]) => [id, l, ic, R(id)]);
+  const jump = h("div", { class: "jump" }, FEED.map(([id, l, ic]) => h("button", { class: "chipbtn", onclick: () => document.getElementById("sec-" + id)?.scrollIntoView({ behavior: "smooth", block: "start" }) }, ic + " " + l)), h("button", { class: "chipbtn", onclick: () => scrollTo({ top: 0, behavior: "smooth" }) }, "↑ Top"));
+  const wrap = h("div"); wrap.append(hello, jump, g);
+  FEED.forEach(([id, l, ic, f]) => { let body; try { body = f({ ...ctx, compact: true }); } catch (e) { body = h("div", { class: "card" }, "Error: " + e.message); } wrap.append(h("section", { class: "feed-sec", id: "sec-" + id }, h("div", { class: "feed-h" }, h("span", { class: "feed-ic" }, ic), h("h2", {}, l), h("button", { class: "chipbtn", onclick: () => go(id) }, "Open ›")), body)); });
+  wrap.append(h("div", { class: "end" }, "That's everything ✦ ", h("button", { class: "chipbtn", onclick: () => scrollTo({ top: 0, behavior: "smooth" }) }, "Back to top")));
+  return wrap;
 }
 function levelCard() {
   const x = store.get("xp", 0), l = lvl(x), lo = 40 * (l - 1) ** 2, hi = 40 * l ** 2;
@@ -95,12 +101,17 @@ function gameMini(e) {
   return h("div", { style: { textAlign: "right", fontSize: "13px" } }, h("div", {}, e.state === "in" ? h("span", { class: "live" }, "● LIVE ") : null, `${a?.abbr || ""} @ ${hm?.abbr || ""}`), h("div", { class: "src mono" }, e.state === "pre" ? e.detail : e.state === "in" ? `${a?.score}-${hm?.score} ${e.detail}` : `${e.detail} ${a?.score}-${hm?.score}`));
 }
 function weatherCard(w, cls) {
-  const c = card("Weather · Stoneham", "🌡️", w ? h("div", {},
+  const c = card("Weather · Stoneham", "🌡️", w ? wxScene(w.current.code, w.current.isDay) : null, w ? h("div", { style: { position: "relative" } },
     h("div", { class: "row", style: { gap: "18px", marginBottom: "8px" } }, h("div", { style: { fontSize: "54px" } }, WX(w.current.code)), h("div", {}, h("div", { class: "big" }, w.current.temp + "°"), h("div", { class: "src" }, `${w.current.desc} · feels ${w.current.feels}° · ${w.current.wind} mph · ${w.current.humidity}% humidity`))),
     lineChart(w.hourly.map((x) => ({ x: x.t, y: x.temp })), { h: 150, xlabel: (p) => new Date(p.x).toLocaleTimeString("en-US", { hour: "numeric" }).replace(" ", "").toLowerCase(), yfmt: (v) => Math.round(v) + "°", bars: w.hourly.map((x) => x.rain), ticks: 6 }),
     h("div", { class: "src" }, "Line = temperature, bars = chance of rain"),
     h("div", { class: "row", style: { marginTop: "10px", gap: "8px", justifyContent: "space-between", flexWrap: "nowrap", overflow: "auto" } }, w.daily.map((d) => h("div", { style: { textAlign: "center", minWidth: "58px", fontSize: "12px" } }, h("div", { class: "muted" }, new Date(d.d + "T12:00").toLocaleDateString("en-US", { weekday: "short" })), h("div", { style: { fontSize: "22px" } }, WX(d.code)), h("div", { class: "mono" }, d.hi + "°"), h("div", { class: "mono muted" }, d.lo + "°"), d.rain > 20 ? h("div", { class: "src" }, d.rain + "%") : null)))) : empty("Weather loading…"));
   if (cls) c.classList.add(cls); return c;
+}
+function wxScene(code, day) {
+  const rain = (code >= 51 && code <= 67) || (code >= 80 && code <= 82) || code >= 95, snow = (code >= 71 && code <= 77) || code === 85 || code === 86, cloud = code >= 2;
+  const drops = rain || snow ? Array.from({ length: 22 }, (_, i) => `<i style="left:${(i * 4.7) % 100}%;animation-delay:${(i * 0.13) % 1.6}s;animation-duration:${(snow ? 3 : 0.9) + (i % 3) * 0.3}s"></i>`).join("") : "";
+  return h("div", { class: "scene " + (day ? "day" : "night") + (rain ? " rain" : "") + (snow ? " snow" : ""), html: (day ? '<div class="sun"></div>' : '<div class="moon"></div>') + (cloud ? '<div class="cl c1"></div><div class="cl c2"></div>' : "") + '<div class="drops">' + drops + "</div>" });
 }
 const newsLi = (n) => h("li", {}, h("a", { class: "t", href: n.url, target: "_blank", rel: "noopener" }, n.t), h("div", { class: "meta" }, n.lean ? h("span", { class: "chip " + n.lean }, { L: "Left", C: "Center", R: "Right" }[n.lean]) : null, n.src, n.ts ? " · " + ago(new Date(n.ts).toISOString()) : ""));
 
@@ -197,13 +208,13 @@ function grow(D, render) {
 /* ===================== NEWS ===================== */
 let nsec = "politics", nlean = "ALL";
 const NSECS = [["politics", "Politics"], ["trending", "Trending"], ["business", "Business"], ["finance", "Finance"], ["boston", "Boston"]];
-function news({ D, render }) {
+function news({ D, render, compact }) {
   const sec = D.news?.sections?.[nsec] || []; let items = nlean === "ALL" ? sec : sec.filter((n) => n.lean === nlean);
   const cnt = { L: 0, C: 0, R: 0 }; sec.forEach((n) => n.lean && cnt[n.lean]++); const tot = cnt.L + cnt.C + cnt.R || 1;
   return h("div", {}, h("div", { class: "subtabs" }, NSECS.map(([k, l]) => h("button", { class: "chipbtn" + (nsec === k ? " on" : ""), onclick: () => { nsec = k; nlean = "ALL"; render(); } }, l))),
     nsec === "politics" || nsec === "trending" ? h("div", { class: "card", style: { marginBottom: "14px" } }, h("h3", {}, "Source balance"), h("div", { class: "spectrum" }, [["L", "#60a5fa"], ["C", "#a78bfa"], ["R", "#fb7185"]].map(([k, c]) => h("i", { style: { width: (cnt[k] / tot) * 100 + "%", background: c } }))),
       h("div", { class: "row", style: { marginTop: "10px" } }, [["ALL", "All"], ["L", "Left"], ["C", "Center"], ["R", "Right"]].map(([k, l]) => h("button", { class: "chipbtn" + (nlean === k ? " on" : ""), onclick: () => { nlean = k; render(); } }, l + (k === "ALL" ? ` (${sec.length})` : ` (${cnt[k]})`))), h("span", { class: "src" }, "Headlines are mixed across outlets so no single side dominates."))) : null,
-    card(NSECS.find((x) => x[0] === nsec)[1], "📰", items.length ? h("ul", { class: "list news" }, items.slice(0, 40).map((n) => { const li = newsLi(n); if (n.summary) li.append(h("div", { class: "src" }, n.summary.slice(0, 180))); return li; })) : empty(D.news ? "Nothing in this view." : "Loading…"), h("div", { class: "src" }, D.news ? "Updated " + ago(D.news.updated) : "")));
+    card(NSECS.find((x) => x[0] === nsec)[1], "📰", items.length ? h("ul", { class: "list news" }, items.slice(0, compact ? 12 : 40).map((n) => { const li = newsLi(n); if (n.summary) li.append(h("div", { class: "src" }, n.summary.slice(0, 180))); return li; })) : empty(D.news ? "Nothing in this view." : "Loading…"), h("div", { class: "src" }, D.news ? "Updated " + ago(D.news.updated) : "")));
 }
 
 /* ===================== SPORTS ===================== */
@@ -287,7 +298,7 @@ function notes({ render }) {
 
 export const wyTabs = [
   { id: "happy", label: () => "Happy " + DAYS[new Date().getDay()], render: happy },
-  { id: "phone", label: "📱 Phone", render: phone }, { id: "tasks", label: "Tasks", render: tasks }, { id: "money", label: "Money", render: moneyTab }, { id: "news", label: "News", render: news }, { id: "sports", label: "Sports", render: sports },
+  { id: "tasks", label: "Tasks", render: tasks }, { id: "money", label: "Money", render: moneyTab }, { id: "news", label: "News", render: news }, { id: "sports", label: "Sports", render: sports },
   { id: "study", label: "Study", render: study }, { id: "calendar", label: "Calendar", render: calendar }, { id: "goals", label: "Goals", render: goals }, { id: "habits", label: "Habits", render: habits }, { id: "focus", label: "Focus", render: focus }, { id: "notes", label: "Notes", render: notes },
 ];
 export { weatherCard, newsLi };

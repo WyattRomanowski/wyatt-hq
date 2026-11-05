@@ -171,7 +171,7 @@ addEventListener("keydown", (e) => {
 document.addEventListener("visibilitychange", () => !document.hidden && ctx.mode && refresh());
 setInterval(() => ctx.mode && refresh(), 2 * 60000); addEventListener("focus", () => ctx.mode && refresh()); addEventListener("pageshow", () => ctx.mode && refresh()); addEventListener("online", () => ctx.mode && refresh()); setInterval(drawPill, 30000);
 startBackground($("#bg")); tilt(document.body);
-if ("serviceWorker" in navigator && location.protocol.startsWith("http")) navigator.serviceWorker.register("./sw.js").catch(() => {});
+if ("serviceWorker" in navigator && location.protocol.startsWith("http")) navigator.serviceWorker.register("./sw.js", { updateViaCache: "none" }).catch(() => {}); let hadCtl = !!navigator.serviceWorker.controller; navigator.serviceWorker.addEventListener("controllerchange", () => { if (hadCtl && !ctx.mode) location.reload(); hadCtl = true; });
 refresh();
 setTimeout(() => { $("#boot")?.classList.add("out"); chooseScreen(); }, matchMedia("(prefers-reduced-motion: reduce)").matches ? 60 : 650);
 export { D, ctx, hero3d };

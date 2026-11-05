@@ -1,6 +1,6 @@
 // ALKU (work) mode: black / red / white, narrow, work-safe. DBAs + pipelines only.
-import { h, store, uid, ymd, addDays, weekStart, parse, quarterOf, ago, ring, barChart, card, toast, MONTHS } from "./core.js";
-import { newsLi } from "./views.js";
+import { h, store, uid, ymd, addDays, weekStart, parse, quarterOf, ago, ring, barChart, card, toast, MONTHS } from "./core.js?v=BUILD";
+import { newsLi } from "./views.js?v=BUILD";
 
 const TARGET = { dba: 6, pipe: 2 };
 let wk = weekStart();

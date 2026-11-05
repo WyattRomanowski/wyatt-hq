@@ -1,9 +1,9 @@
-import { $, $$, h, svg, store, load, ago, DAYS, download, toast, modal, debounce, sgn } from "./core.js";
-import { LOGOS, ALKU_A } from "./assets.js";
-import { startBackground, hero3d, tilt } from "./fx.js";
-import { wyTabs, quickAdd, parseTask } from "./views.js";
-import { liveWeather, liveSports, liveNews } from "./live.js";
-import { alTabs } from "./alku.js";
+import { $, $$, h, svg, store, load, ago, DAYS, download, toast, modal, debounce, sgn } from "./core.js?v=BUILD";
+import { LOGOS, ALKU_A } from "./assets.js?v=BUILD";
+import { startBackground, hero3d, tilt } from "./fx.js?v=BUILD";
+import { wyTabs, quickAdd, parseTask } from "./views.js?v=BUILD";
+import { liveWeather, liveSports, liveNews } from "./live.js?v=BUILD";
+import { alTabs } from "./alku.js?v=BUILD";
 
 const D = { weather: null, quotes: null, sports: null, news: null, fun: null, meta: null };
 const ctx = { D, mode: null, tab: null, go, render, openPalette, settings };
@@ -171,7 +171,7 @@ addEventListener("keydown", (e) => {
 document.addEventListener("visibilitychange", () => !document.hidden && ctx.mode && refresh());
 setInterval(() => ctx.mode && refresh(), 2 * 60000); addEventListener("focus", () => ctx.mode && refresh()); addEventListener("pageshow", () => ctx.mode && refresh()); addEventListener("online", () => ctx.mode && refresh()); setInterval(drawPill, 30000);
 startBackground($("#bg")); tilt(document.body);
-if ("serviceWorker" in navigator && location.protocol.startsWith("http")) navigator.serviceWorker.register("./sw.js", { updateViaCache: "none" }).catch(() => {}); let hadCtl = !!navigator.serviceWorker.controller; navigator.serviceWorker.addEventListener("controllerchange", () => { if (hadCtl && !ctx.mode) location.reload(); hadCtl = true; });
+if ("serviceWorker" in navigator && location.protocol.startsWith("http")) navigator.serviceWorker.register("./sw.js?v=BUILD", { updateViaCache: "none" }).catch(() => {}); let hadCtl = !!navigator.serviceWorker.controller; navigator.serviceWorker.addEventListener("controllerchange", () => { if (hadCtl && !ctx.mode) location.reload(); hadCtl = true; });
 refresh();
 setTimeout(() => { $("#boot")?.classList.add("out"); chooseScreen(); }, matchMedia("(prefers-reduced-motion: reduce)").matches ? 60 : 650);
 export { D, ctx, hero3d };

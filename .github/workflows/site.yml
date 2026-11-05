@@ -44,6 +44,8 @@ jobs:
         run: |
           mkdir _site
           cp -r index.html manifest.webmanifest sw.js .nojekyll css js data icons og _site/ 2>/dev/null || true
+          V=$(date +%s)
+          sed -i "s/v=BUILD/v=$V/g" _site/index.html _site/js/*.js
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

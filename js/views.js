@@ -1,6 +1,6 @@
-import { h, store, uid, ymd, parse, addDays, DAYS, MONTHS, ago, money, sgn, clock, dayShort, spark, lineChart, barChart, ring, donut, heat, card, toast, modal, weekStart } from "./core.js";
-import { JOKES, FACTS } from "./assets.js";
-import { hero3d, confetti, chime } from "./fx.js";
+import { h, store, uid, ymd, parse, addDays, DAYS, MONTHS, ago, money, sgn, clock, dayShort, spark, lineChart, barChart, ring, donut, heat, card, toast, modal, weekStart } from "./core.js?v=BUILD";
+import { JOKES, FACTS } from "./assets.js?v=BUILD";
+import { hero3d, confetti, chime } from "./fx.js?v=BUILD";
 
 const WX = (c) => (c === 0 ? "☀️" : c <= 2 ? "🌤️" : c === 3 ? "☁️" : c <= 48 ? "🌫️" : c <= 57 ? "🌦️" : c <= 67 ? "🌧️" : c <= 77 ? "🌨️" : c <= 82 ? "🌦️" : c <= 86 ? "🌨️" : "⛈️");
 const today = () => ymd();

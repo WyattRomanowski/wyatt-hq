@@ -1,22 +1,30 @@
 {
- "updated": "2026-11-06T01:48:29.604Z",
+ "updated": "2026-11-06T01:50:36.817Z",
  "errors": [],
  "sections": {
   "politics": [
+   {
+    "t": "Democrats flip more seats in Congress as GOP grapples with stunning losses",
+    "url": "https://www.cbsnews.com/live-updates/midterm-election-results-2026-democrats-house-senate-trump/",
+    "ts": 1793929806000,
+    "summary": "After Democrats' sweeping House and Senate victories, the party is laying out how it plans to wield power, while President Trump and Republicans react to their midterm losses.",
+    "src": "CBS News",
+    "lean": "C"
+   },
+   {
+    "t": "Top Democrat vows ‘vigorous’ oversight of Pentagon",
+    "url": "https://thehill.com/newsletters/defense-national-security/6202978-asmith-pentagon-oversight-armed-services-committee/",
+    "ts": 1793929693000,
+    "summary": "Welcome to The Hill’s Defense & NatSec newsletter {beacon} Defense &National Security Defense &National Security The Big Story Top Democrat vows ‘vigorous’ oversight of Pentagon Rep. Adam Smith (D-Wash.), the ranking member of the House Arm",
+    "src": "The Hill",
+    "lean": "C"
+   },
    {
     "t": "Major tech stocks plunge as US midterms add to fears of AI slowdown",
     "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
     "ts": 1793929443000,
     "summary": "Markets have been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US midterms.",
     "src": "BBC US",
-    "lean": "C"
-   },
-   {
-    "t": "Indiana, Florida and Alabama carry out 3 U.S. executions on the same day",
-    "url": "https://www.cbsnews.com/news/3-us-executions-same-day-second-time/",
-    "ts": 1793929364000,
-    "summary": "This marks the second time this year that three people in the U.S. were put to death on a single day.",
-    "src": "CBS News",
     "lean": "C"
    },
    {
@@ -34,14 +42,6 @@
     "summary": "Political editor Tom McIlroy speaks to Bruce Wolpe – a senior fellow at the United States Studies Centre and a former congressional staffer during the Obama era – about the seismic win by the Democrats in the US midterms. Wolpe reflects on ",
     "src": "The Guardian US",
     "lean": "L"
-   },
-   {
-    "t": "Meta, TikTok, Google sue California over child online safety restrictions",
-    "url": "https://thehill.com/policy/technology/6202882-meta-tiktok-google-social-media-california/",
-    "ts": 1793926266000,
-    "summary": "Meta, TikTok and Google filed separate lawsuits against California over a new law seeking to tighten restrictions on child social media usage, arguing the legislation violates the companies’ First Amendment rights. California’s bipartisan “",
-    "src": "The Hill",
-    "lean": "C"
    },
    {
     "t": "Hegseth not being considered for Blackburn’s Tennessee Senate seat: Report",
@@ -76,12 +76,28 @@
     "lean": "C"
    },
    {
-    "t": "Trump's European Far-Right Allies Suddenly Have A Problem With Him",
-    "url": "https://www.huffpost.com/entry/europe-far-right-donald-trump-midterms_n_6aec6fbde4b0f78622d909d9",
-    "ts": 1793880465000,
-    "summary": "The far-right politicians began to distance themselves from Donald Trump following the midterms rout, but mostly avoided direct criticism.",
+    "t": "Lawrence O’Donnell Makes Absolute Cinema Out Of This Dem’s ‘Simplest’ Midterm Verdict",
+    "url": "https://www.huffpost.com/entry/lawrence-odonnell-abdul-el-sayed-bad-guys-lost-midterms_n_6aec70ede4b0dcee62e2f469",
+    "ts": 1793894335000,
+    "summary": "The MS NOW host said the Democratic candidate described the “most important thing” about the election night results.",
     "src": "HuffPost",
     "lean": "L"
+   },
+   {
+    "t": "Indiana, Florida and Alabama carry out 3 U.S. executions on the same day",
+    "url": "https://www.cbsnews.com/news/3-us-executions-same-day-second-time/",
+    "ts": 1793929364000,
+    "summary": "This marks the second time this year that three people in the U.S. were put to death on a single day.",
+    "src": "CBS News",
+    "lean": "C"
+   },
+   {
+    "t": "Meta, TikTok, Google sue California over child online safety restrictions",
+    "url": "https://thehill.com/policy/technology/6202882-meta-tiktok-google-social-media-california/",
+    "ts": 1793926266000,
+    "summary": "Meta, TikTok and Google filed separate lawsuits against California over a new law seeking to tighten restrictions on child social media usage, arguing the legislation violates the companies’ First Amendment rights. California’s bipartisan “",
+    "src": "The Hill",
+    "lean": "C"
    },
    {
     "t": "Trump signs order preventing future presidents from changing Oval Office",
@@ -89,14 +105,6 @@
     "ts": 1793928001000,
     "summary": "The order comes after Trump made a series of big changes the Oval Office decor and launched landmark construction projects across Washington.",
     "src": "BBC US",
-    "lean": "C"
-   },
-   {
-    "t": "Democrats flip more seats in Congress as GOP grapples with stunning losses",
-    "url": "https://www.cbsnews.com/live-updates/midterm-election-results-2026-democrats-house-senate-trump/",
-    "ts": 1793929152000,
-    "summary": "After Democrats' sweeping House and Senate victories, the party is laying out how it plans to wield power, while President Trump and Republicans react to their midterm losses.",
-    "src": "CBS News",
     "lean": "C"
    },
    {
@@ -114,14 +122,6 @@
     "summary": "Democrats widen gap in House chamber by flipping more seats, including in Ohio, Arizona and North Carolina; Ted Cruz calls election a ‘Watergate-level repudiation’ Live results | Q&amp;A: Ask your questions about Democrats’ win Sign up for ",
     "src": "The Guardian US",
     "lean": "L"
-   },
-   {
-    "t": "GOP’s McKinney wins election for Newhouse’s open Washington seat",
-    "url": "https://thehill.com/homenews/campaign/6134794-republican-amanda-mckinney-washington-4th-district/",
-    "ts": 1793925095000,
-    "summary": "Republican Amanda McKinney, a Yakima County commissioner, is projected to win the race for Washington’s 4th Congressional District, according to Decision Desk HQ. McKinney defeated Air Force veteran John Duresky (D) in the battle for the se",
-    "src": "The Hill",
-    "lean": "C"
    },
    {
     "t": "Wisconsin reports first measles death in over 30 years",
@@ -156,20 +156,12 @@
     "lean": "C"
    },
    {
-    "t": "Trump's MAGA Makeover Of The Courts Is Over",
-    "url": "https://www.huffpost.com/entry/trumps-maga-makeover-of-the-courts-is-over_n_6aeb5e96e4b08d8d4a8cd0af",
-    "ts": 1793880017000,
-    "summary": "With Democrats set to run the Senate, the president can no longer rely on the GOP to rubber-stamp judicial nominees who won’t say he lost in 2020.",
+    "t": "Tucker Carlson Marks The 'End Of The Trump Era' In Devastating Midterms Postmortem",
+    "url": "https://www.huffpost.com/entry/tucker-carlson-end-trump-era-republican-party-midterms_n_6aec7128e4b0f78622d90a49",
+    "ts": 1793889834000,
+    "summary": "The ex-MAGA loyalist declared that there’s “kind of no coming back” from the red wipeout “for a generation.”",
     "src": "HuffPost",
     "lean": "L"
-   },
-   {
-    "t": "California governor commutes sentences for state's 548 death row inmates",
-    "url": "https://www.bbc.co.uk/news/articles/cqrkyyd2j8mvo?at_medium=RSS&at_campaign=rss",
-    "ts": 1793920173000,
-    "summary": "California has historically had the largest population of people on death row in the US.",
-    "src": "BBC US",
-    "lean": "C"
    },
    {
     "t": "Nithya Raman ousts incumbent Karen Bass in LA mayor's race, CBS News projects",
@@ -177,6 +169,22 @@
     "ts": 1793928502000,
     "summary": "Raman's win comes after resounding victories for Democrats across the country on Election Day.",
     "src": "CBS News",
+    "lean": "C"
+   },
+   {
+    "t": "GOP’s McKinney wins election for Newhouse’s open Washington seat",
+    "url": "https://thehill.com/homenews/campaign/6134794-republican-amanda-mckinney-washington-4th-district/",
+    "ts": 1793925095000,
+    "summary": "Republican Amanda McKinney, a Yakima County commissioner, is projected to win the race for Washington’s 4th Congressional District, according to Decision Desk HQ. McKinney defeated Air Force veteran John Duresky (D) in the battle for the se",
+    "src": "The Hill",
+    "lean": "C"
+   },
+   {
+    "t": "California governor commutes sentences for state's 548 death row inmates",
+    "url": "https://www.bbc.co.uk/news/articles/cqrkyyd2j8mvo?at_medium=RSS&at_campaign=rss",
+    "ts": 1793920173000,
+    "summary": "California has historically had the largest population of people on death row in the US.",
+    "src": "BBC US",
     "lean": "C"
    },
    {
@@ -194,14 +202,6 @@
     "summary": "President seeks to make Oval Office a national monument to ensure designs are not ‘ripped down by stupid people’ Donald Trump signed a proclamation on Thursday that he says will prevent future administrations from changing his design of the",
     "src": "The Guardian US",
     "lean": "L"
-   },
-   {
-    "t": "Failed GOP redistricting in South Carolina, Indiana would have backfired: DDHQ",
-    "url": "https://thehill.com/homenews/campaign/6202901-midterm-congressional-gop-redistricting-analysis/",
-    "ts": 1793924627000,
-    "summary": "Republicans across the country redrew congressional maps for their benefit ahead of the 2026 midterms, but it failed to yield them gains in most places. An analysis shared Thursday shows it could have been worse. South Carolina and Indiana ",
-    "src": "The Hill",
-    "lean": "C"
    },
    {
     "t": "Supreme Court urged to protect homeowners’ property rights in data center power fight",
@@ -236,10 +236,10 @@
     "lean": "C"
    },
    {
-    "t": "Ron DeSantis Pins Blame For GOP's Midterm Flop On Surprising Factors",
-    "url": "https://www.huffpost.com/entry/ron-desantis-blames-republicans-not-interested-bold-conservative-change_n_6aec5511e4b08d8d4a8dd780",
-    "ts": 1793879279000,
-    "summary": "The Florida governor, who made it clear that the results were a rebuke of Trump, took his scapegoating in another direction.",
+    "t": "Fox News Host Jesse Watters Totally Keeps His Cool About Midterms: ‘We Lost Whites?!’",
+    "url": "https://www.huffpost.com/entry/fox-news-host-jesse-watters-loses-it-midterms-we-lost-whites_n_6aec6f23e4b0f78622d90982",
+    "ts": 1793889025000,
+    "summary": "The conservative commentator appeared genuinely confused that Americans, even with pale skin tones, joined the colossal rebuke.",
     "src": "HuffPost",
     "lean": "L"
    }
@@ -520,10 +520,10 @@
     "lean": "C"
    },
    {
-    "t": "SpaceX, Tesla stocks tumble as Democratic sweep raises questions on merger prospects, AI build-out - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNQ3FPNFVNS29WSDJ6eFFqa3kwc0p0ZUZUbm5rbUp6M3poX3ZYNjFwMVR3bXJ6Tko4c0Y2ZUpGZ202LU1pQlc0cEVvQS01Z0RUMVVxemNzcGlIcmdaTkdIWjlrYlpaUFRxYXA5aTBPVWRCRkdSR3VsVjkwREJxLUt0elduNmdESVFQbWphX1RTQ3p1YkdsV1pneXAtYmlCcVgzZUFobGhZMmZxTl9CV1FVSEY0Z1k5dEk5M2U3d0hFQXI3RktJS1FKT2pYdjBFei1maGpjTEFNdjRmWTRIUGxLaVRmN2YtTlE?oc=5",
-    "ts": 1793912604000,
-    "summary": "SpaceX, Tesla stocks tumble as Democratic sweep raises questions on merger prospects, AI build-out Yahoo Finance",
+    "t": "Qualcomm, Micron, Sandisk, and AMD stocks sink, leading chip sector lower - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQT1V3SHFuWkhMcHVRTGdVUUM1ODctZTZESFNFWXlVSUhkUHRoMUdwOXY2M2IzMG9kMHE2ZjJnMGV5S1dMUFNTNlpyemliSUNvSUdvSlJyanU2a2RoeVFULWt4UWRiSUx3V2NVY05WVnJCSUtOMUlkbUxHX01kRHZxRS1NTjgwS2VEZ3hUTWpxS3BRY3BKckNLN0V6ZVMzWjRuUmIyNE56N2FLcmwyUE9EWg?oc=5",
+    "ts": 1793912861000,
+    "summary": "Qualcomm, Micron, Sandisk, and AMD stocks sink, leading chip sector lower Yahoo Finance",
     "src": "Yahoo Finance (GN)",
     "lean": "C"
    },
@@ -544,10 +544,10 @@
     "lean": "C"
    },
    {
-    "t": "Retail traders dump $358 million in stocks in biggest selling day since 2020 - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNS3NWN3NZWlBmeDk4UEk4UlhfSF9ZZWZIcXZPV1RyZ0Z3Zms2eGlraEhTVnljWVJsZGk1RlpxajB4Rkw5N3FJTXF0a1Bub0NxVk9YLXk3eXdFdFBQWEw3a0dmdHFKX2ZfZl9pS2RqUHNuY3FLa05GWjMzOFk3bE9hYlVXaTdXN0MwdWJOR1NtZHg5RmZEdC1tZ1l0MXFOS2VFZmV1cXRhZE1lT0FDLU1TRTNwYm5BOGlEWEs4VUpvZlVISE4zV1hOYUh0Qjc?oc=5",
-    "ts": 1793912364000,
-    "summary": "Retail traders dump $358 million in stocks in biggest selling day since 2020 Yahoo Finance",
+    "t": "SpaceX, Tesla stocks tumble as Democratic sweep raises questions on merger prospects, AI build-out - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNQ3FPNFVNS29WSDJ6eFFqa3kwc0p0ZUZUbm5rbUp6M3poX3ZYNjFwMVR3bXJ6Tko4c0Y2ZUpGZ202LU1pQlc0cEVvQS01Z0RUMVVxemNzcGlIcmdaTkdIWjlrYlpaUFRxYXA5aTBPVWRCRkdSR3VsVjkwREJxLUt0elduNmdESVFQbWphX1RTQ3p1YkdsV1pneXAtYmlCcVgzZUFobGhZMmZxTl9CV1FVSEY0Z1k5dEk5M2U3d0hFQXI3RktJS1FKT2pYdjBFei1maGpjTEFNdjRmWTRIUGxLaVRmN2YtTlE?oc=5",
+    "ts": 1793912604000,
+    "summary": "SpaceX, Tesla stocks tumble as Democratic sweep raises questions on merger prospects, AI build-out Yahoo Finance",
     "src": "Yahoo Finance (GN)",
     "lean": "C"
    },
@@ -568,10 +568,10 @@
     "lean": "C"
    },
    {
-    "t": "What Anthropic's IPO could mean for Amazon and Google - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTXd6NEY2WG1OWVdrbGg5Ty1ROXgwdHZXNlBzd2J1VXBfWVNlSGFsdVBKNHVYMTNTYURkdkZram9lVHhDdmV6MnZqZ0lqOEQtU2diY1czeXBWbEc5al9NUEZ5M1NVYVM5MC0yUHV2VkJLWVZZNDVVZUh0YU43cThrSUw2ejlFOG9jZGpZZlZkdmdQaC12d056LU9QbFljcEQtOEdzZF9qUXJsSTJhWGNRcWJ3?oc=5",
-    "ts": 1793906836000,
-    "summary": "What Anthropic's IPO could mean for Amazon and Google Yahoo Finance",
+    "t": "Retail traders dump $358 million in stocks in biggest selling day since 2020 - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNS3NWN3NZWlBmeDk4UEk4UlhfSF9ZZWZIcXZPV1RyZ0Z3Zms2eGlraEhTVnljWVJsZGk1RlpxajB4Rkw5N3FJTXF0a1Bub0NxVk9YLXk3eXdFdFBQWEw3a0dmdHFKX2ZfZl9pS2RqUHNuY3FLa05GWjMzOFk3bE9hYlVXaTdXN0MwdWJOR1NtZHg5RmZEdC1tZ1l0MXFOS2VFZmV1cXRhZE1lT0FDLU1TRTNwYm5BOGlEWEs4VUpvZlVISE4zV1hOYUh0Qjc?oc=5",
+    "ts": 1793912364000,
+    "summary": "Retail traders dump $358 million in stocks in biggest selling day since 2020 Yahoo Finance",
     "src": "Yahoo Finance (GN)",
     "lean": "C"
    },
@@ -592,10 +592,10 @@
     "lean": "C"
    },
    {
-    "t": "AppLovin stock soars after Q3 earnings, outlook beat - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPV2gwY3NHX2wxNmU5Zjg5M3JuenBkNDlZWjBxa0kxUmRnNGl1ZEV6SUM3VU43eng4WTUteE1jTmFjQzJuMUs2d2UzWjRLZV9PZzRsYTNYTm9RQnZEdjlMaDJLd1RzcmNTZ1RrNXRUMGNuaUhCR0h1bnNXSHFUUFJXMWFaLXdrTjRSZlgzYVV5bk9DbnNEZ1pyeHZGOWw4djZ6MGg1dEFJcHdObkhL?oc=5",
-    "ts": 1793898582000,
-    "summary": "AppLovin stock soars after Q3 earnings, outlook beat Yahoo Finance",
+    "t": "What Anthropic's IPO could mean for Amazon and Google - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTXd6NEY2WG1OWVdrbGg5Ty1ROXgwdHZXNlBzd2J1VXBfWVNlSGFsdVBKNHVYMTNTYURkdkZram9lVHhDdmV6MnZqZ0lqOEQtU2diY1czeXBWbEc5al9NUEZ5M1NVYVM5MC0yUHV2VkJLWVZZNDVVZUh0YU43cThrSUw2ejlFOG9jZGpZZlZkdmdQaC12d056LU9QbFljcEQtOEdzZF9qUXJsSTJhWGNRcWJ3?oc=5",
+    "ts": 1793906836000,
+    "summary": "What Anthropic's IPO could mean for Amazon and Google Yahoo Finance",
     "src": "Yahoo Finance (GN)",
     "lean": "C"
    },
@@ -616,10 +616,10 @@
     "lean": "C"
    },
    {
-    "t": "Everyone should assume they are under attack: Circle CEO on AI's risk to US infrastructure - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNRVhxNEQ3X0xwTlkzVHo4Zi1rdW90SmdUaWd6N0JWWFlCSk5obnhZcjRldzMtSGNrVjNZMTdlXzlhTThKajFOSUlnckljYXJ6aGFJTzFlNkE4WFFlUXhkNUdjNXVmalhocW8zRFVhb1MxNk5vbmVncnlVa0J4d1BnZTBxTTh6OTRUQlB1S0xZaHcxY2FySF90WHo3SE04S2ozSmZUbzVzeVNaNWdsbGtURUpaSnlZY2hiaENveUNMZGEtNk5OUWN6NWpkck9EWVYzYzZodXEtTmZJNXNid2c?oc=5",
-    "ts": 1793898458000,
-    "summary": "Everyone should assume they are under attack: Circle CEO on AI's risk to US infrastructure Yahoo Finance",
+    "t": "AppLovin stock soars after Q3 earnings, outlook beat - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPV2gwY3NHX2wxNmU5Zjg5M3JuenBkNDlZWjBxa0kxUmRnNGl1ZEV6SUM3VU43eng4WTUteE1jTmFjQzJuMUs2d2UzWjRLZV9PZzRsYTNYTm9RQnZEdjlMaDJLd1RzcmNTZ1RrNXRUMGNuaUhCR0h1bnNXSHFUUFJXMWFaLXdrTjRSZlgzYVV5bk9DbnNEZ1pyeHZGOWw4djZ6MGg1dEFJcHdObkhL?oc=5",
+    "ts": 1793898582000,
+    "summary": "AppLovin stock soars after Q3 earnings, outlook beat Yahoo Finance",
     "src": "Yahoo Finance (GN)",
     "lean": "C"
    },
@@ -640,10 +640,10 @@
     "lean": "C"
    },
    {
-    "t": "Mortgage rates dropped again, helped by the tech stock rout and post-election trades - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNSGVPQTByZTE1UXVDdjJWTG4tMEVxRTFUa1NnNWE2di1mWk1Lbng2bG5oWE9nRU9jNmc3NnZnRG12bE5XR0FCelVFd19Nb054YU5Dc3pvNkI2UC1tR2VzWF9rdnVZOU9fSUd4d1RtWFZ4RFlzUGVUMlE3TGR2VHk4ZDBWMU1ucHVOUFRIQW5QTTNFMTBVQXVsSExRejBmbFYzRkN5TVQ0SVlWT1BWa1ZKc3o4X1pQRElpRU9fTFJqd2p2U0s2em9ESUNqNHJNcXg2Y2k5WkRycE14eGR1?oc=5",
-    "ts": 1793898000000,
-    "summary": "Mortgage rates dropped again, helped by the tech stock rout and post-election trades Yahoo Finance",
+    "t": "Everyone should assume they are under attack: Circle CEO on AI's risk to US infrastructure - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNRVhxNEQ3X0xwTlkzVHo4Zi1rdW90SmdUaWd6N0JWWFlCSk5obnhZcjRldzMtSGNrVjNZMTdlXzlhTThKajFOSUlnckljYXJ6aGFJTzFlNkE4WFFlUXhkNUdjNXVmalhocW8zRFVhb1MxNk5vbmVncnlVa0J4d1BnZTBxTTh6OTRUQlB1S0xZaHcxY2FySF90WHo3SE04S2ozSmZUbzVzeVNaNWdsbGtURUpaSnlZY2hiaENveUNMZGEtNk5OUWN6NWpkck9EWVYzYzZodXEtTmZJNXNid2c?oc=5",
+    "ts": 1793898458000,
+    "summary": "Everyone should assume they are under attack: Circle CEO on AI's risk to US infrastructure Yahoo Finance",
     "src": "Yahoo Finance (GN)",
     "lean": "C"
    },
@@ -746,19 +746,19 @@
   ],
   "trending": [
    {
+    "t": "Democrats flip more seats in Congress as GOP grapples with stunning losses",
+    "url": "https://www.cbsnews.com/live-updates/midterm-election-results-2026-democrats-house-senate-trump/",
+    "ts": 1793929806000,
+    "summary": "After Democrats' sweeping House and Senate victories, the party is laying out how it plans to wield power, while President Trump and Republicans react to their midterm losses.",
+    "src": "CBS News",
+    "lean": "C"
+   },
+   {
     "t": "Major tech stocks plunge as US midterms add to fears of AI slowdown",
     "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
     "ts": 1793929443000,
     "summary": "Markets have been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US midterms.",
     "src": "BBC",
-    "lean": "C"
-   },
-   {
-    "t": "Indiana, Florida and Alabama carry out 3 U.S. executions on the same day",
-    "url": "https://www.cbsnews.com/news/3-us-executions-same-day-second-time/",
-    "ts": 1793929364000,
-    "summary": "This marks the second time this year that three people in the U.S. were put to death on a single day.",
-    "src": "CBS News",
     "lean": "C"
    },
    {
@@ -778,6 +778,14 @@
     "lean": "R"
    },
    {
+    "t": "Indiana, Florida and Alabama carry out 3 U.S. executions on the same day",
+    "url": "https://www.cbsnews.com/news/3-us-executions-same-day-second-time/",
+    "ts": 1793929364000,
+    "summary": "This marks the second time this year that three people in the U.S. were put to death on a single day.",
+    "src": "CBS News",
+    "lean": "C"
+   },
+   {
     "t": "Trump signs order preventing future presidents from changing Oval Office",
     "url": "https://www.bbc.co.uk/news/articles/cmy0eeg101djo?at_medium=RSS&at_campaign=rss",
     "ts": 1793928001000,
@@ -786,18 +794,10 @@
     "lean": "C"
    },
    {
-    "t": "Democrats flip more seats in Congress as GOP grapples with stunning losses",
-    "url": "https://www.cbsnews.com/live-updates/midterm-election-results-2026-democrats-house-senate-trump/",
-    "ts": 1793929152000,
-    "summary": "After Democrats' sweeping House and Senate victories, the party is laying out how it plans to wield power, while President Trump and Republicans react to their midterm losses.",
-    "src": "CBS News",
-    "lean": "C"
-   },
-   {
     "t": "Trump signs proclamation to try to prevent changes to gold-covered Oval Office - The Guardian",
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNem85Z3hoQWN4SjhHUDViMzU4cFJsdU5ZT1U0OHBVVW1fb2hqQWRSaVc2SlJDZlB4OVVfWDJ6OVBmdTlBLUVqZkw1Z0dscndiajBET0RUUmh5c2VjVlk2V1dUSUNWOFhIVzdsTy00c012SjgyRWtPZjRqMVF1dng5dS0tUlNsM3ZITTZ1OFRn?oc=5",
     "ts": 1793925060000,
-    "summary": "Trump signs proclamation to try to prevent changes to gold-covered Oval Office The Guardian Trump makes the Oval Office a national monument. But future presidents can still redecorate AP News Trump signs order to prevent future presidents f",
+    "summary": "Trump signs proclamation to try to prevent changes to gold-covered Oval Office The Guardian Trump makes the Oval Office a national monument. But future presidents can still redecorate AP News Trump’s first post-election executive action: Pr",
     "src": "Google News",
     "lean": null
    },
@@ -810,19 +810,19 @@
     "lean": "R"
    },
    {
-    "t": "Met chief warns policing 'heading for failure' without reform",
-    "url": "https://www.bbc.co.uk/news/articles/cvglww2r307ko?at_medium=RSS&at_campaign=rss",
-    "ts": 1793927633000,
-    "summary": "Sir Mark Rowley will argue that the current system is unable to cope with the sophistication of modern criminals.",
-    "src": "BBC",
-    "lean": "C"
-   },
-   {
     "t": "Nithya Raman ousts incumbent Karen Bass in LA mayor's race, CBS News projects",
     "url": "https://www.cbsnews.com/news/los-angeles-mayor-election-2026-nithya-raman-karen-bass/",
     "ts": 1793928502000,
     "summary": "Raman's win comes after resounding victories for Democrats across the country on Election Day.",
     "src": "CBS News",
+    "lean": "C"
+   },
+   {
+    "t": "Met chief warns policing 'heading for failure' without reform",
+    "url": "https://www.bbc.co.uk/news/articles/cvglww2r307ko?at_medium=RSS&at_campaign=rss",
+    "ts": 1793927633000,
+    "summary": "Sir Mark Rowley will argue that the current system is unable to cope with the sophistication of modern criminals.",
+    "src": "BBC",
     "lean": "C"
    },
    {
@@ -842,19 +842,19 @@
     "lean": "R"
    },
    {
-    "t": "Andrew received up to £2,000 per month from sub-letting, watchdog reports",
-    "url": "https://www.bbc.co.uk/news/articles/c6m2d7vpd0meo?at_medium=RSS&at_campaign=rss",
-    "ts": 1793925558000,
-    "summary": "The income went to the former prince rather than his landlord the Crown Estate.",
-    "src": "BBC",
-    "lean": "C"
-   },
-   {
     "t": "Mississippi Senate race is toss-up, with razor-thin margin",
     "url": "https://www.cbsnews.com/news/mississippi-senate-race-results-2026-midterms/",
     "ts": 1793928480000,
     "summary": "The Senate race in deep-red Mississippi remains unresolved, as Democrat Scott Colom has mounted a surprisingly competitive challenge to incumbent Sen. Cindy Hyde-Smith.",
     "src": "CBS News",
+    "lean": "C"
+   },
+   {
+    "t": "Andrew received up to £2,000 per month from sub-letting, watchdog reports",
+    "url": "https://www.bbc.co.uk/news/articles/c6m2d7vpd0meo?at_medium=RSS&at_campaign=rss",
+    "ts": 1793925558000,
+    "summary": "The income went to the former prince rather than his landlord the Crown Estate.",
+    "src": "BBC",
     "lean": "C"
    },
    {
@@ -874,19 +874,19 @@
     "lean": "R"
    },
    {
-    "t": "Thatcher's Right to Buy split my estate. Now its days could be numbered",
-    "url": "https://www.bbc.co.uk/news/articles/c699zde85xn7o?at_medium=RSS&at_campaign=rss",
-    "ts": 1793923796000,
-    "summary": "Labour is weakening Margaret Thatcher's landmark housing policy. Will it really fix Britain's social housing woes?",
-    "src": "BBC",
-    "lean": "C"
-   },
-   {
     "t": "Pete Hegseth doubles down on Iran war in new video despite election losses",
     "url": "https://www.cbsnews.com/video/pete-hegseth-doubles-down-on-iran-war-in-new-video-despite-election-losses/",
     "ts": 1793927830000,
     "summary": "In a new video posted to X, Defense Secretary Pete Hegseth vowed to keep fighting Iran, despite many blaming Republicans' midterm losses on the war. CBS News' Charlie D'Agata has more.",
     "src": "CBS News",
+    "lean": "C"
+   },
+   {
+    "t": "Thatcher's Right to Buy split my estate. Now its days could be numbered",
+    "url": "https://www.bbc.co.uk/news/articles/c699zde85xn7o?at_medium=RSS&at_campaign=rss",
+    "ts": 1793923796000,
+    "summary": "Labour is weakening Margaret Thatcher's landmark housing policy. Will it really fix Britain's social housing woes?",
+    "src": "BBC",
     "lean": "C"
    },
    {
@@ -906,14 +906,6 @@
     "lean": "R"
    },
    {
-    "t": "California governor commutes sentences for state's 548 death row inmates",
-    "url": "https://www.bbc.co.uk/news/articles/cqrkyyd2j8mvo?at_medium=RSS&at_campaign=rss",
-    "ts": 1793920173000,
-    "summary": "California has historically had the largest population of people on death row in the US.",
-    "src": "BBC",
-    "lean": "C"
-   },
-   {
     "t": "The new voice of Boston Logan Airport on winning contest: \"I am so honored\"",
     "url": "https://www.cbsnews.com/video/new-voice-boston-logan-airport-winning-contest-honored/",
     "ts": 1793927790000,
@@ -922,10 +914,18 @@
     "lean": "C"
    },
    {
+    "t": "California governor commutes sentences for state's 548 death row inmates",
+    "url": "https://www.bbc.co.uk/news/articles/cqrkyyd2j8mvo?at_medium=RSS&at_campaign=rss",
+    "ts": 1793920173000,
+    "summary": "California has historically had the largest population of people on death row in the US.",
+    "src": "BBC",
+    "lean": "C"
+   },
+   {
     "t": "Paraguay's Peña resigns as bank collapse triggers political crisis - Reuters",
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWGc3WWZCT3BZUUFMY3E0VW43Z244SWNKVUk4NS1RZ1RHVGVSdG1RSVNKVjFaZGdlQjktT2JvcElpNEVvMllaNTdIbWRMdmdQZ1F3RjZwMThjcVU5X1pYY20wajc0MzIyenBHX3MtaEVRRnpRTC16TWdITnA4QWZxcFhtNHh0UlR0YlZ2UkVqUmF4YXZWejdWY2xsZ0c2bm5oWUNiczZnWms4NHo2eHctcHJKSHJEMmNDQmtZ?oc=5",
     "ts": 1793920117000,
-    "summary": "Paraguay's Peña resigns as bank collapse triggers political crisis Reuters Explainer: What is ueno bank and how did it trigger Paraguay's political crisis? Reuters President of Paraguay faces criminal investigation and impeachment after ban",
+    "summary": "Paraguay's Peña resigns as bank collapse triggers political crisis Reuters Explainer: What is ueno bank and how did it trigger Paraguay's political crisis? Reuters Santiago Pena, Paraguay president struck down by a bank scandal Yahoo How a ",
     "src": "Google News",
     "lean": null
    },
@@ -938,14 +938,6 @@
     "lean": "R"
    },
    {
-    "t": "Firms told to publish salaries in job adverts ahead of new law",
-    "url": "https://www.bbc.co.uk/news/articles/cmd9343z3zw2o?at_medium=RSS&at_campaign=rss",
-    "ts": 1793917922000,
-    "summary": "The government argues the change will help jobseekers and could help to prevent pay discrimination.",
-    "src": "BBC",
-    "lean": "C"
-   },
-   {
     "t": "Political twists and turns of the 2026 midterms",
     "url": "https://www.cbsnews.com/video/political-twists-and-turns-of-the-2026-midterms/",
     "ts": 1793927773000,
@@ -954,10 +946,18 @@
     "lean": "C"
    },
    {
+    "t": "Firms told to publish salaries in job adverts ahead of new law",
+    "url": "https://www.bbc.co.uk/news/articles/cmd9343z3zw2o?at_medium=RSS&at_campaign=rss",
+    "ts": 1793917922000,
+    "summary": "The government argues the change will help jobseekers and could help to prevent pay discrimination.",
+    "src": "BBC",
+    "lean": "C"
+   },
+   {
     "t": "Mississippi Senate election: Democrat Scott Colom narrowly leads Republican Cindy Hyde-Smith - CNBC",
     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOakxhcDZneXF2MVZCSXh2YzFDVWp5UVBOT0w1cmtoQ1R4NHBKTkNRMTJFOV9DN18xd3hwTEo5cGNUWVhLdElWd3VvLUcteXRzMThLek4tWXE0UWV1WHJwWEhacmQtRkszZDNVcTVKaGpjYzdGMkFSLWphTk41OGxmb0UxMnBfbUhVLUNQbm5CN3nSAZYBQVVfeXFMUGk2V0ZVVUdnZFo4M2tuUklLTy1SQVZBZUR3b19SdWxreWpLOExrVzcyeUwzTTg0MlZ1bW1Zd1dsUmNUcVJYb2VXY3B6MDRMbjl4YndEa2Z4eW9YYmo2bjlkajV3aHhvYm1YVzUxaG01ck1OYklJQl9FUGlraHotVlZuTkVfU0ZVWTVMckV5S0ZONlJnMmZ3?oc=5",
     "ts": 1793917219000,
-    "summary": "Mississippi Senate election: Democrat Scott Colom narrowly leads Republican Cindy Hyde-Smith CNBC Colom campaign says GOP seeks to ‘violate Mississippi voters’ rights’ as legal battle ignites Democracy Docket Lafayette County's Affidavit Ba",
+    "summary": "Mississippi Senate election: Democrat Scott Colom narrowly leads Republican Cindy Hyde-Smith CNBC Colom campaign says GOP seeks to ‘violate Mississippi voters’ rights’ as legal battle ignites Democracy Docket Republicans Float Vote Rigging ",
     "src": "Google News",
     "lean": null
    },
@@ -970,19 +970,19 @@
     "lean": "R"
    },
    {
-    "t": "King relishes 'politically charged' deployments, Palace aide says",
-    "url": "https://www.bbc.co.uk/news/articles/c8n5vvr906dvo?at_medium=RSS&at_campaign=rss",
-    "ts": 1793916284000,
-    "summary": "The monarch faced questions on the UK's involvement in the slave trade during his Caribbean tour.",
-    "src": "BBC",
-    "lean": "C"
-   },
-   {
     "t": "Voters pass 44 ballot measures to restrict data centers on Election Day",
     "url": "https://www.cbsnews.com/video/voters-pass-44-ballot-measures-to-restrict-data-centers-on-election-day/",
     "ts": 1793927754000,
     "summary": "Voters passed 44 measures to restrict data centers on Election Day amid concerns over their power usage and potential job losses tied to artificial intelligence. CBS News' Megan Cerullo has more.",
     "src": "CBS News",
+    "lean": "C"
+   },
+   {
+    "t": "King relishes 'politically charged' deployments, Palace aide says",
+    "url": "https://www.bbc.co.uk/news/articles/c8n5vvr906dvo?at_medium=RSS&at_campaign=rss",
+    "ts": 1793916284000,
+    "summary": "The monarch faced questions on the UK's involvement in the slave trade during his Caribbean tour.",
+    "src": "BBC",
     "lean": "C"
    },
    {
@@ -1248,7 +1248,7 @@
    {
     "t": "Rob Gronkowski clarifies Election Day photographs - The Boston Globe",
     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSURuZG1YSEF6Y3JhQzBQNWZueXM3WmJ6ZkZNYUpQcVhpT0xJa0VZaU92QzJVWTQ5bnNUeVBZTmRTd3RXUlVDQTFzQk1QLXR2REJxa3BpYzRZTi1Oejd1REY0VUlQQS1jTHNwQ28xc0t0R21xcVJPOWtDQUxReWNRQjgtVDVjQnRzdlFfbElxRmdkdw?oc=5",
-    "ts": 1793928600000,
+    "ts": 1793928896000,
     "summary": "Rob Gronkowski clarifies Election Day photographs The Boston Globe",
     "src": "Boston Globe",
     "lean": "L"

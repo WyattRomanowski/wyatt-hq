@@ -14,7 +14,7 @@ function tracker({ render }) {
   for (let d = weekStart(q.start); d <= q.end; d = addDays(d, 7)) { if (d > new Date()) break; const w = a[ymd(d)]; weeks++; qd += w?.dba || 0; qp += w?.pipe || 0; }
   let streak = 0; for (let d = addDays(weekStart(), -7); ; d = addDays(d, -7)) { const w = a[ymd(d)]; if (w && w.dba >= TARGET.dba && w.pipe >= TARGET.pipe) streak++; else break; if (streak > 200) break; }
   const dow = new Date().getDay(), daysLeft = isNow ? Math.max(1, dow === 0 || dow === 6 ? 0 : 6 - dow) : 0, needD = Math.max(0, TARGET.dba - cur.dba), needP = Math.max(0, TARGET.pipe - cur.pipe);
-  const report = () => navigator.clipboard?.writeText(`ALKU week of ${ymd(wk)}: ${cur.dba}/${TARGET.dba} DBAs, ${cur.pipe}/${TARGET.pipe} pipelines. Q${q.q} ${q.y}: ${qd} DBAs, ${qp} pipelines (${paceD}/${paceP} per week).`).then(() => toast("Report copied"));
+  const names = (k) => [...new Set(store.get("alkulog", []).filter((e) => e.kind === k && e.d >= ymd(wk) && e.d <= ymd(addDays(wk, 6))).map((e) => e.company))].join(", "); const report = () => navigator.clipboard?.writeText(`ALKU week of ${ymd(wk)}: ${cur.dba}/${TARGET.dba} DBAs, ${cur.pipe}/${TARGET.pipe} pipelines. Q${q.q} ${q.y}: ${qd} DBAs, ${qp} pipelines (${paceD}/${paceP} per week).` + (names("dba") ? `\nDBAs: ${names("dba")}` : "") + (names("pipe") ? `\nPipelines: ${names("pipe")}` : "")).then(() => toast("Report copied"));
   const paceD = weeks ? (qd / weeks).toFixed(1) : "0.0", paceP = weeks ? (qp / weeks).toFixed(1) : "0.0";
   const wkLabel = `${wk.toLocaleDateString("en-US", { month: "short", day: "numeric" })} – ${addDays(wk, 6).toLocaleDateString("en-US", { month: "short", day: "numeric" })}`;
   const step = (k, label) => h("div", { class: "ringl" }, ring(cur[k] / TARGET[k], { size: 118, label: `${cur[k]}/${TARGET[k]}`, sub: label, color: cur[k] >= TARGET[k] ? "var(--ink)" : "var(--accent)" }),
@@ -52,6 +52,23 @@ function workNotes({ render }) {
     ns.map((n) => h("div", { style: { marginBottom: "12px" } }, card(new Date(n.d).toLocaleString("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }), "", h("div", { style: { whiteSpace: "pre-wrap" } }, n.t), h("button", { class: "x", onclick: () => { ns.splice(ns.indexOf(n), 1); store.set("alkunotes", ns); render(); } }, "Delete")))));
 }
 
+
+const STAGES = ["Reached out", "Replied", "Meeting set", "Proposal", "Won", "Lost"];
+let lq = "", lk = "all";
+function log({ render }) {
+  const all = store.get("alkulog", []), save = () => { store.set("alkulog", all); render(); }, t0 = ymd(new Date());
+  const kind = h("select", {}, h("option", { value: "dba" }, "DBA"), h("option", { value: "pipe" }, "Pipeline")), co = h("input", { type: "text", class: "grow", id: "lco", placeholder: "Company" }), ct = h("input", { type: "text", placeholder: "Contact" }), st = h("select", {}, STAGES.map((s) => h("option", {}, s))), fu = h("input", { type: "date", title: "Follow-up date" }), nt = h("input", { type: "text", class: "grow", placeholder: "Note" });
+  const add = () => { if (!co.value.trim()) return; const e = { id: uid(), d: t0, kind: kind.value, company: co.value.trim(), contact: ct.value.trim(), stage: st.value, fu: fu.value, note: nt.value.trim() }; all.unshift(e); setW(weekStart(), e.kind, getW(weekStart())[e.kind] + 1); save(); toast("Logged · week count +1"); setTimeout(() => document.getElementById("lco")?.focus(), 40); };
+  [co, ct, nt].forEach((i) => i.addEventListener("keydown", (e) => e.key === "Enter" && add()));
+  const due = all.filter((e) => e.fu && e.fu <= t0), vis = all.filter((e) => (lk === "all" || e.kind === lk) && (!lq || (e.company + " " + e.contact + " " + e.note).toLowerCase().includes(lq)));
+  const row = (e) => h("li", {}, h("div", { style: { flex: 1, minWidth: 0 } }, h("div", {}, h("b", {}, e.company), e.contact ? " · " + e.contact : ""), h("div", { class: "src" }, `${e.kind === "dba" ? "DBA" : "Pipeline"} · ${e.d.slice(5)}${e.note ? " · " + e.note : ""}`)),
+    h("div", { class: "row", style: { gap: "6px", flexWrap: "nowrap" } }, h("select", { style: { fontSize: "12px", padding: "3px" }, onchange: (x) => { e.stage = x.target.value; save(); } }, STAGES.map((s) => h("option", { selected: s === e.stage }, s))), e.fu ? h("span", { class: "chip " + (e.fu <= t0 ? "bad" : "") }, "↻ " + e.fu.slice(5)) : null, h("button", { class: "x", onclick: () => { const w = getW(weekStart(parse(e.d))); setW(weekStart(parse(e.d)), e.kind, w[e.kind] - 1); all.splice(all.indexOf(e), 1); save(); } }, "✕")));
+  const sq = h("input", { type: "text", class: "grow", placeholder: "Search company or contact…", value: lq, oninput: (x) => { lq = x.target.value.toLowerCase(); render(); const el = document.querySelector("#lsq"); el?.focus(); el?.setSelectionRange(el.value.length, el.value.length); } }); sq.id = "lsq";
+  return h("div", {}, card("Log activity", "", h("div", { class: "form" }, kind, co, ct, st, fu, nt, h("button", { class: "btn", onclick: add }, "Log")), h("div", { class: "src", style: { marginTop: "8px" } }, "Each entry adds 1 to this week's DBA / pipeline count.")), h("div", { style: { height: "14px" } }),
+    due.length ? h("div", { style: { marginBottom: "14px" } }, card(`Follow-ups due · ${due.length}`, "", h("ul", { class: "list" }, due.map((e) => h("li", {}, h("div", {}, h("b", {}, e.company), h("div", { class: "src" }, `${e.contact || "—"} · ${e.stage}`)), h("button", { class: "btn sm ghost", onclick: () => { e.fu = ""; save(); } }, "Done")))))) : null,
+    card(`History · ${vis.length}`, "", h("div", { class: "row", style: { marginBottom: "10px" } }, sq, ["all", "dba", "pipe"].map((k) => h("button", { class: "btn sm " + (lk === k ? "" : "ghost"), onclick: () => { lk = k; render(); } }, k === "all" ? "All" : k === "dba" ? "DBAs" : "Pipelines"))), vis.length ? h("ul", { class: "list" }, vis.slice(0, 60).map(row)) : empty("Nothing logged yet.")));
+}
+
 export const alTabs = [
-  { id: "tracker", label: "Tracker", render: tracker }, { id: "todo", label: "To-do", render: todo }, { id: "news", label: "News", render: staffNews }, { id: "notes", label: "Notes", render: workNotes },
+  { id: "tracker", label: "Tracker", render: tracker }, { id: "todo", label: "To-do", render: todo }, { id: "log", label: "Log", render: log }, { id: "news", label: "News", render: staffNews }, { id: "notes", label: "Notes", render: workNotes },
 ];

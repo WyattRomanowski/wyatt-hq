@@ -25,7 +25,7 @@ function enter(mode) {
   applyTheme(); tabs = mode === "alku" ? alTabs : wyTabs;
   const saved = store.get("order:" + mode, null);
   if (saved) tabs = [tabs[0], ...saved.map((id) => tabs.find((t) => t.id === id)).filter(Boolean), ...tabs.slice(1).filter((t) => !saved.includes(t.id))];
-  ctx.tab = tabs[0].id; shell(); render(); markEnter();
+  ctx.tab = tabs[0].id; shell(); render(); markEnter(); if (mode === "wyatt") backupNudge();
 }
 function applyTheme() {
   const b = document.body; [...b.classList].filter((c) => c.startsWith("th-")).forEach((c) => b.classList.remove(c));
@@ -204,7 +204,18 @@ function openPalette() {
   inp.onkeydown = (e) => { if (e.key === "Escape") close(); else if (e.key === "ArrowDown") { sel = Math.min(items.length - 1, sel + 1); draw(); e.preventDefault(); } else if (e.key === "ArrowUp") { sel = Math.max(0, sel - 1); draw(); e.preventDefault(); } else if (e.key === "Enter" && items[sel]) run(items[sel]); };
   pal.onclick = (e) => e.target === pal && close(); draw(); inp.focus();
 }
-const exportData = () => { download(`wyatt-hq-backup-${new Date().toISOString().slice(0, 10)}.json`, JSON.stringify(store.all(), null, 1)); toast("Backup downloaded"); };
+const exportData = async () => {
+  const name = `wyatt-hq-backup-${new Date().toISOString().slice(0, 10)}.json`, body = JSON.stringify(store.all(), null, 1); store.set("lastBackup", Date.now());
+  try { const f = new File([body], name, { type: "application/json" }); if (navigator.canShare?.({ files: [f] })) { await navigator.share({ files: [f], title: "Wyatt HQ backup" }); toast("Backup shared"); return; } } catch (e) { if (e?.name === "AbortError") return; }
+  download(name, body); toast("Backup downloaded");
+};
+const standalone = () => matchMedia("(display-mode: standalone)").matches || navigator.standalone;
+function backupNudge() {
+  const has = store.get("tasks", []).length || store.get("accts", []).length || store.get("notes", []).length; if (!has) return;
+  const last = store.get("lastBackup", 0), seen = store.get("nudgeAt", 0), day = 864e5;
+  if (Date.now() - last > 14 * day && Date.now() - seen > day) { store.set("nudgeAt", Date.now()); setTimeout(() => toast("Tip: export a backup (Settings) — your data lives only on this device"), 2500); }
+}
+navigator.storage?.persist?.().catch(() => {});
 function settings() {
   const f = h("input", { type: "file", accept: "application/json", style: { display: "none" }, onchange: async (e) => { try { const o = JSON.parse(await e.target.files[0].text()); store.load(o); toast("Imported — reloading"); setTimeout(() => location.reload(), 700); } catch { toast("That file isn't valid JSON"); } } });
   const logos = h("div", { class: "row" }, ["3a", "3b", "3c", "1a", "1b", "1c", "7a", "7b", "7c", "C1", "C2", "C3", "C4", "C5", "C6", "C7"].filter((k) => LOGOS[k]).map((k) => h("button", { class: "iconbtn", style: { width: "44px", height: "44px", padding: "4px", borderColor: store.get("logo", "3a") === k ? "var(--accent)" : "" }, title: LOGOS[k].name, html: LOGOS[k].svg, onclick: () => { store.set("logo", k); toast("Logo set"); } })));
@@ -212,7 +223,7 @@ function settings() {
   const city = h("div", { class: "src" }, "Weather location: Stoneham, MA (set in scripts/update.mjs).");
   modal("Settings & backup", h("div", { style: { display: "grid", gap: "14px" } },
     h("div", {}, h("b", {}, "Your data"), h("p", { class: "src" }, "Tasks, goals, money and notes are stored only in this browser — never in the public repo. Export a backup to move devices."),
-      h("div", { class: "row" }, h("button", { class: "btn sm", onclick: exportData }, "Export backup"), h("button", { class: "btn sm ghost", onclick: () => f.click() }, "Import backup"), f)),
+      h("p", { class: "src" }, "Last backup: " + (store.get("lastBackup", 0) ? ago(new Date(store.get("lastBackup")).toISOString()) : "never") + (/iPhone|iPad/.test(navigator.userAgent) && !standalone() ? " · Tip: Share → Add to Home Screen keeps your data from being cleared by Safari." : "")), h("div", { class: "row" }, h("button", { class: "btn sm", onclick: exportData }, "Export / share backup"), h("button", { class: "btn sm ghost", onclick: () => f.click() }, "Import backup"), f)),
     h("div", {}, h("b", {}, "Wyatt logo"), logos),
     h("div", {}, h("b", {}, "Home cards"), h("div", { class: "row" }, ["Weather · Stoneham", "Today", "Markets", "Boston sports", "Headlines", "Net worth", "Level", "This week", "Next up", "Upcoming", "Daily spark"].map((n) => h("label", { class: "chip", style: { cursor: "pointer" } }, h("input", { type: "checkbox", checked: !store.get("hide", []).includes(n), onchange: (e) => { const hd = store.get("hide", []).filter((x) => x !== n); if (!e.target.checked) hd.push(n); store.set("hide", hd); render(); } }), " " + n)))),
     h("div", { class: "row" }, h("b", {}, "Appearance"), h("select", { onchange: (e) => { store.set("themeMode", e.target.value); applyTheme(); } }, ["dark", "light", "auto"].map((m) => h("option", { value: m, selected: store.get("themeMode", "dark") === m }, m))), h("label", { class: "chip", style: { cursor: "pointer" } }, h("input", { type: "checkbox", checked: !!store.get("compact", false), onchange: (e) => { store.set("compact", e.target.checked); applyTheme(); } }), " Compact density")),

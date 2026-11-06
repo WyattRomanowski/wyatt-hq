@@ -2,6 +2,7 @@ import { h, store, uid, ymd, parse, addDays, DAYS, MONTHS, ago, money, sgn, cloc
 import { JOKES, FACTS } from "./assets.js?v=BUILD";
 import { hero3d, confetti, chime } from "./fx.js?v=BUILD";
 import { ico } from "./icons.js?v=BUILD";
+import { liveWatch, watch, liveStandings, standings } from "./live.js?v=BUILD";
 
 const WX = (c) => (c === 0 ? "☀️" : c <= 2 ? "🌤️" : c === 3 ? "☁️" : c <= 48 ? "🌫️" : c <= 57 ? "🌦️" : c <= 67 ? "🌧️" : c <= 77 ? "🌨️" : c <= 82 ? "🌦️" : c <= 86 ? "🌨️" : "⛈️");
 const today = () => ymd();
@@ -24,7 +25,9 @@ export function parseTask(txt) {
 const pad2 = (n) => String(n).padStart(2, "0");
 export function quickAdd(render) {
   const i = h("input", { type: "text", class: "grow", style: { width: "100%" }, placeholder: "call Bob fri !high @money every week" });
-  const m = modal("Quick add task", h("div", {}, i, h("div", { class: "src", style: { marginTop: "8px" } }, "Understands: today/tomorrow/fri/11/20 · !high !low · @money @home · every day/week/month")), [{ t: "Add", fn: () => add() }]);
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  const mic = SR ? h("button", { class: "iconbtn", title: "Speak a task", style: { marginLeft: "8px" }, onclick: () => { try { const r = new SR(); r.lang = "en-US"; r.interimResults = false; mic.classList.add("rec"); r.onresult = (e) => { i.value = e.results[0][0].transcript; }; r.onend = () => { mic.classList.remove("rec"); i.focus(); }; r.onerror = () => mic.classList.remove("rec"); r.start(); } catch { toast("Voice isn't available here"); } } }, "🎤") : null;
+  const m = modal("Quick add task", h("div", {}, h("div", { class: "row", style: { flexWrap: "nowrap" } }, i, mic), h("div", { class: "src", style: { marginTop: "8px" } }, "Understands: today/tomorrow/fri/11/20 · !high !low · @money @home · every day/week/month")), [{ t: "Add", fn: () => add() }]);
   const add = () => { if (!i.value.trim()) return false; const all = store.get("tasks", []); all.unshift(parseTask(i.value)); store.set("tasks", all); toast("Task added"); render(); };
   i.addEventListener("keydown", (e) => { if (e.key === "Enter") { if (add() !== false) m.remove(); } }); setTimeout(() => i.focus(), 30);
 }
@@ -63,7 +66,7 @@ function briefing(ctx) {
   const dn = (d) => Math.round((parse(d) - parse(t0)) / 864e5), when = (n) => (n === 0 ? "today" : n === 1 ? "tomorrow" : `in ${n} days`);
   if (nx) rows.push(["📅", `${nx.title.slice(0, 52)} — ${when(dn(nx.date))}`, "calendar"]);
   if (ev) rows.push(["💵", `${ev.title.replace(/\s*\$.*/, "")} — ${when(dn(ev.date))}`, "calendar"]);
-  const top = D.news?.sections?.trending?.[0]; if (top) rows.push(["📰", h("a", { href: top.url, target: "_blank", rel: "noopener" }, top.t.slice(0, 90), h("span", { class: "src" }, " · " + top.src)), "news"]);
+  const top = unmuted(D.news?.sections?.trending || [])[0]; if (top) rows.push(["📰", h("a", { href: top.url, target: "_blank", rel: "noopener" }, top.t.slice(0, 90), h("span", { class: "src" }, " · " + top.src)), "news"]);
   const c = card("Today's briefing", "☀️", h("ul", { class: "brief-l" }, rows.map(([ic, tx, tab, cls]) => h("li", { class: cls || "", onclick: (e) => { if (e.target.closest("a")) return; go(tab); } }, h("span", { class: "bi" }, ic), h("span", { class: "bt2" }, tx), h("span", { class: "bgo" }, "›")))), h("div", { class: "src", style: { marginTop: "8px" } }, "Built live from your data · " + (D.quotes?.updated ? "markets " + ago(D.quotes.updated) : "")));
   c.classList.add("brief"); return c;
 }
@@ -95,7 +98,7 @@ function happy(ctx) {
   g.append(card("Boston sports", "🏟️", sp ? h("ul", { class: "list" }, Object.values(sp).map((l) => { const nx = l.live || l.next?.[0] || l.slate?.[0]; return h("li", {}, h("div", {}, h("b", {}, `${l.emoji} ${l.teamName}`), h("div", { class: "src" }, l.record || "")), nx ? gameMini(nx) : h("span", { class: "src" }, "offseason")); })) : empty("Loading scores…"), h("button", { class: "btn sm ghost", onclick: () => go("sports") }, "Sports →")));
   // news
   const nw = D.news?.sections;
-  const top = nw ? [...(nw.trending || []).slice(0, 3), ...(nw.business || []).slice(0, 2)] : [];
+  const top = nw ? [...unmuted(nw.trending || []).slice(0, 3), ...unmuted(nw.business || []).slice(0, 2)] : [];
   g.append(card("Headlines", "📰", top.length ? h("ul", { class: "list news" }, top.map(newsLi)) : empty("Loading headlines…"), h("button", { class: "btn sm ghost", onclick: () => go("news") }, "News →")));
   // net worth
   const ac = store.get("accts", []), nw0 = ac.reduce((a, x) => a + (x.debt ? -x.bal : x.bal), 0), hist = store.get("nw", []);
@@ -153,7 +156,10 @@ function wxScene(code, day) {
   const drops = rain || snow ? Array.from({ length: 22 }, (_, i) => `<i style="left:${(i * 4.7) % 100}%;animation-delay:${(i * 0.13) % 1.6}s;animation-duration:${(snow ? 3 : 0.9) + (i % 3) * 0.3}s"></i>`).join("") : "";
   return h("div", { class: "scene " + (day ? "day" : "night") + (rain ? " rain" : "") + (snow ? " snow" : ""), html: (day ? '<div class="sun"></div>' : '<div class="moon"></div>') + (cloud ? '<div class="cl c1"></div><div class="cl c2"></div>' : "") + '<div class="drops">' + drops + "</div>" });
 }
-const newsLi = (n) => h("li", {}, h("a", { class: "t", href: n.url, target: "_blank", rel: "noopener" }, n.t), h("div", { class: "meta" }, n.lean ? h("span", { class: "chip " + n.lean }, { L: "Left", C: "Center", R: "Right" }[n.lean]) : null, n.src, n.ts ? " · " + ago(new Date(n.ts).toISOString()) : ""));
+const isSaved = (n) => store.get("saved", []).some((x) => x.url === n.url);
+const star = (n) => { const b = h("button", { class: "x star", title: "Save for later", onclick: (e) => { e.preventDefault(); let s = store.get("saved", []); if (isSaved(n)) { s = s.filter((x) => x.url !== n.url); toast("Removed from saved"); } else { s.unshift({ t: n.t, url: n.url, src: n.src, lean: n.lean, ts: n.ts, savedAt: Date.now() }); toast("Saved for later ★"); } store.set("saved", s.slice(0, 200)); b.textContent = isSaved(n) ? "★" : "☆"; } }, isSaved(n) ? "★" : "☆"); return b; };
+export const unmuted = (arr) => { const w = store.get("mute", []).map((x) => x.toLowerCase()).filter(Boolean); return w.length ? arr.filter((n) => !w.some((k) => (n.t + " " + (n.summary || "")).toLowerCase().includes(k))) : arr; };
+const newsLi = (n) => h("li", {}, h("a", { class: "t", href: n.url, target: "_blank", rel: "noopener" }, n.t), h("div", { class: "meta" }, star(n), n.lean ? h("span", { class: "chip " + n.lean }, { L: "Left", C: "Center", R: "Right" }[n.lean]) : null, n.src, n.ts ? " · " + ago(new Date(n.ts).toISOString()) : ""));
 
 function allEvents() {
   const ev = store.get("events", []).map((e) => ({ ...e })), out = [], now = new Date(), end = addDays(now, 120);
@@ -170,6 +176,13 @@ function upcomingCard(go) {
 
 /* ===================== TASKS ===================== */
 let tview = store.get("tview", "list"), tlist = "All", tq = "", tpri = "all";
+function subModal(t, save) {
+  t.subs ||= []; const box = h("div", { style: { display: "grid", gap: "4px", marginBottom: "10px" } }), inp = h("input", { type: "text", class: "grow", style: { width: "100%" }, placeholder: "Add a step — Enter" });
+  const draw = () => { box.innerHTML = ""; t.subs.forEach((s, i) => box.append(h("div", { class: "row", style: { padding: "4px 0" } }, done((v) => { s.d = v; save(); draw(); }, !!s.d), h("span", { class: "grow", style: { opacity: s.d ? 0.5 : 1, textDecoration: s.d ? "line-through" : "" } }, s.t), h("button", { class: "x", onclick: () => { t.subs.splice(i, 1); save(); draw(); } }, "✕")))); if (!t.subs.length) box.append(h("div", { class: "src" }, "Break it into steps.")); };
+  inp.addEventListener("keydown", (e) => { if (e.key === "Enter" && inp.value.trim()) { t.subs.push({ t: inp.value.trim(), d: false }); inp.value = ""; save(); draw(); inp.focus(); } });
+  draw(); modal("Steps · " + t.title.slice(0, 40), h("div", {}, box, inp), [{ t: "Done" }]); setTimeout(() => inp.focus(), 40);
+}
+const subChip = (t, save) => { const n = (t.subs || []).length, d = (t.subs || []).filter((s) => s.d).length; return h("button", { class: "chipbtn", title: "Steps / subtasks", style: { padding: "2px 9px", fontSize: "12px" }, onclick: () => subModal(t, save) }, n ? `☑ ${d}/${n}` : "＋ step"); };
 function tasks({ render }) {
   const all = store.get("tasks", []), save = () => { store.set("tasks", all); render(); };
   const lists = ["Personal", "Money", "Health", "School", "Home", "Ideas"];
@@ -179,7 +192,7 @@ function tasks({ render }) {
   const vis = all.filter((t) => (tlist === "All" || t.list === tlist) && (tpri === "all" || t.pri === tpri) && (!tq || t.title.toLowerCase().includes(tq)));
   const t0 = today(), nOver = all.filter((t) => t.status !== "done" && t.due && t.due < t0).length, nToday = all.filter((t) => t.status !== "done" && t.due === t0).length;
   const sq = h("input", { type: "text", id: "tsearch", class: "grow", placeholder: "Search tasks…", value: tq, oninput: (e) => { tq = e.target.value.toLowerCase(); render(); const el = document.getElementById("tsearch"); el.focus(); el.setSelectionRange(el.value.length, el.value.length); } });
-  const row = (t) => h("li", { class: "pri-" + t.pri }, h("label", { class: "row", style: { flex: 1, cursor: "pointer" } }, done((v) => { v ? finish(t, all) : (t.status = "todo"); save(); }, t.status === "done"), h("span", { style: { textDecoration: t.status === "done" ? "line-through" : "", opacity: t.status === "done" ? 0.5 : 1 } }, t.title)), h("span", { class: "chip" }, t.list), t.due ? h("span", { class: "chip " + (t.due < today() && t.status !== "done" ? "bad" : "") }, t.due.slice(5)) : null, h("button", { class: "x", onclick: () => { all.splice(all.indexOf(t), 1); save(); } }, "✕"));
+  const row = (t) => h("li", { class: "pri-" + t.pri }, h("label", { class: "row", style: { flex: 1, cursor: "pointer" } }, done((v) => { v ? finish(t, all) : (t.status = "todo"); save(); }, t.status === "done"), h("span", { style: { textDecoration: t.status === "done" ? "line-through" : "", opacity: t.status === "done" ? 0.5 : 1 } }, t.title)), subChip(t, save), h("span", { class: "chip" }, t.list), t.due ? h("span", { class: "chip " + (t.due < today() && t.status !== "done" ? "bad" : "") }, t.due.slice(5)) : null, h("button", { class: "x", onclick: () => { all.splice(all.indexOf(t), 1); save(); } }, "✕"));
   let body;
   if (tview === "board") {
     body = h("div", { class: "board" }, [["todo", "To do"], ["doing", "Doing"], ["done", "Done"]].map(([k, l]) => { const col = h("div", { class: "col", ondragover: (e) => { e.preventDefault(); col.classList.add("over"); }, ondragleave: () => col.classList.remove("over"), ondrop: (e) => { e.preventDefault(); const t = all.find((x) => x.id === e.dataTransfer.getData("text")); if (t) { t.status = k; save(); } } }, h("h4", {}, `${l} · ${vis.filter((t) => t.status === k).length}`));
@@ -232,9 +245,35 @@ function budget(D, render) {
     card("Recurring", "🔁", b.bills.length ? h("ul", { class: "list" }, b.bills.sort((x, y) => x.day - y.day).map((x) => h("li", {}, h("span", {}, x.name, h("span", { class: "src" }, ` · day ${x.day}`)), h("div", { class: "row" }, h("span", { class: "mono" }, money(x.amt, 2)), h("button", { class: "x", onclick: () => { b.bills.splice(b.bills.indexOf(x), 1); save(); } }, "✕"))))) : empty("No recurring charges tracked."), h("div", { class: "form", style: { marginTop: "10px" } }, nm, am, dy, h("button", { class: "btn sm", onclick: () => { if (nm.value && am.value) { b.bills.push({ id: uid(), name: nm.value, amt: +am.value, day: +dy.value || 1 }); save(); } } }, "Add"))),
     b.bills.length ? card("Bill mix", "🍩", h("div", { class: "row", style: { gap: "18px" } }, donut(b.bills.map((x, i) => ({ l: x.name, v: x.amt, color: BILLCOL[i % 8] }))), h("div", { class: "src" }, b.bills.map((x, i) => h("div", {}, h("span", { style: { color: BILLCOL[i % 8] } }, "● "), x.name))))) : null);
 }
-function markets(D) {
-  const q = D.quotes; if (!q) return card("Markets", "", empty("No market data yet."));
-  return h("div", { class: "grid" }, q.items.map((i) => { const c = h("div", { class: "card" }, h("h3", {}, i.name, h("span", { class: "asof" }, i.sym + (i.stale ? " · stale" : ""))), h("div", { class: "row", style: { justifyContent: "space-between" } }, h("div", { class: "big mono" }, i.price.toLocaleString(undefined, { maximumFractionDigits: 2 })), h("span", { class: "chip " + (i.pct >= 0 ? "ok" : "bad") }, sgn(i.pct) + "%")), lineChart(i.closes.map((y, k) => ({ x: k, y })), { h: 120, color: i.closes.at(-1) >= i.closes[0] ? "var(--gain)" : "var(--loss)", xlabel: (p) => (p.x === 0 ? "90d ago" : p.x === i.closes.length - 1 ? "now" : ""), ticks: 2 })); return c; }));
+function watchlist(render) {
+  const ws = store.get("watch", []), save = () => { store.set("watch", ws); render(); };
+  if (ws.length && Date.now() - watch.at > 45000) liveWatch(ws.map((w) => w.s)).then(() => { watch.at = Date.now(); if (document.querySelector(".watchcard")?.isConnected && !document.activeElement?.matches?.("input,textarea")) render(); }).catch(() => {});
+  const inp = h("input", { type: "text", placeholder: "Add ticker (AAPL, MSFT, ETH…)", class: "grow", style: { textTransform: "uppercase" } });
+  const add = async () => { const s = inp.value.trim().toUpperCase().replace(/[^A-Z0-9.^@=-]/g, ""); if (!s || ws.some((w) => w.s === s)) return; try { const r = await liveWatch([s]); if (!r[s]) return toast("Unknown ticker: " + s); ws.push({ s }); save(); } catch { toast("Couldn't reach the quote service"); } };
+  inp.addEventListener("keydown", (e) => e.key === "Enter" && add());
+  const alertModal = (w) => { const ab = h("input", { type: "number", step: "0.01", value: w.above || "", placeholder: "Alert above $" }), bl = h("input", { type: "number", step: "0.01", value: w.below || "", placeholder: "Alert below $" });
+    modal(`Price alert · ${w.s}`, h("div", { class: "form" }, ab, bl), [{ t: "Save", fn: () => { w.above = +ab.value || 0; w.below = +bl.value || 0; w.fired = ""; save(); toast("Alert saved"); } }, { t: "Cancel", ghost: true }]); };
+  const row = (w) => { const q = watch.data[w.s]; return h("li", {}, h("div", {}, h("b", {}, w.s), h("div", { class: "src" }, q?.name?.slice(0, 28) || "loading…")), q ? h("div", { style: { textAlign: "right" } }, h("div", { class: "mono" }, q.price.toLocaleString(undefined, { maximumFractionDigits: 2 })), h("div", { class: "mono " + (q.pct >= 0 ? "gain" : "loss") }, sgn(q.pct) + "%")) : h("span", { class: "skel", style: { width: "70px", height: "30px" } }),
+    h("div", { class: "row", style: { gap: "4px" } }, h("button", { class: "x", title: "Price alert", style: { opacity: w.above || w.below ? 1 : 0.5 }, onclick: () => alertModal(w) }, "🔔"), h("button", { class: "x", onclick: () => { ws.splice(ws.indexOf(w), 1); save(); } }, "✕"))); };
+  const perm = typeof Notification !== "undefined" && Notification.permission === "default" ? h("button", { class: "btn sm ghost", onclick: () => Notification.requestPermission().then(() => render()) }, "Enable notifications") : null;
+  const c = card("Watchlist", "👀", ws.length ? h("ul", { class: "list" }, ws.map(row)) : empty("Add any stock, ETF or crypto — prices update live."), h("div", { class: "form", style: { marginTop: "10px" } }, inp, h("button", { class: "btn sm", onclick: add }, "Add")), h("div", { class: "src", style: { marginTop: "8px" } }, "🔔 sets a price alert — you'll get a notice while the app is open. ", perm));
+  c.classList.add("watchcard", "w2"); return c;
+}
+export async function checkAlerts() {
+  const ws = store.get("watch", []); if (!ws.some((w) => w.above || w.below)) return;
+  try { await liveWatch(ws.map((w) => w.s)); } catch { return; }
+  let ch = false; for (const w of ws) { const q = watch.data[w.s]; if (!q) continue; const hit = w.above && q.price >= w.above ? `${w.s} is $${q.price} — above your $${w.above} alert` : w.below && q.price <= w.below ? `${w.s} is $${q.price} — below your $${w.below} alert` : null;
+    if (hit && w.fired !== today()) { w.fired = today(); ch = true; toast("🔔 " + hit); try { if (typeof Notification !== "undefined" && Notification.permission === "granted") new Notification("Wyatt HQ", { body: hit }); } catch {} } }
+  if (ch) store.set("watch", ws);
+}
+export function autoSnapshot() {
+  const ac = store.get("accts", []); if (!ac.length) return; const hist = store.get("nw", []), last = hist[hist.length - 1];
+  if (last && (new Date() - parse(last.d)) / 864e5 < 7) return;
+  hist.push({ d: today(), total: ac.reduce((a, x) => a + (x.debt ? -x.bal : x.bal), 0), accts: ac.map((a) => ({ n: a.name, b: a.bal, debt: !!a.debt })) }); store.set("nw", hist);
+}
+function markets(D, render) {
+  const q = D.quotes; if (!q) return h("div", {}, watchlist(render), card("Markets", "", empty("No market data yet.")));
+  return h("div", {}, h("div", { class: "grid" }, watchlist(render)), h("div", { class: "grid", style: { marginTop: "14px" } }, q.items.map((i) => { const c = h("div", { class: "card" }, h("h3", {}, i.name, h("span", { class: "asof" }, i.sym + (i.stale ? " · stale" : ""))), h("div", { class: "row", style: { justifyContent: "space-between" } }, h("div", { class: "big mono" }, i.price.toLocaleString(undefined, { maximumFractionDigits: 2 })), h("span", { class: "chip " + (i.pct >= 0 ? "ok" : "bad") }, sgn(i.pct) + "%")), lineChart(i.closes.map((y, k) => ({ x: k, y })), { h: 120, color: i.closes.at(-1) >= i.closes[0] ? "var(--gain)" : "var(--loss)", xlabel: (p) => (p.x === 0 ? "90d ago" : p.x === i.closes.length - 1 ? "now" : ""), ticks: 2 })); return c; })));
 }
 function grow(D, render) {
   const s = store.get("proj", { start: 5000, monthly: 200, rate: 8, years: 30 }), age = store.get("age", 25), yr0 = new Date().getFullYear();
@@ -248,9 +287,9 @@ function grow(D, render) {
 
 /* ===================== NEWS ===================== */
 let nsec = "politics", nlean = "ALL";
-const NSECS = [["politics", "Politics"], ["trending", "Trending"], ["business", "Business"], ["finance", "Finance"], ["boston", "Boston"]];
+const NSECS = [["politics", "Politics"], ["trending", "Trending"], ["business", "Business"], ["finance", "Finance"], ["boston", "Boston"], ["saved", "★ Saved"]];
 function news({ D, render, compact }) {
-  const sec = D.news?.sections?.[nsec] || []; let items = nlean === "ALL" ? sec : sec.filter((n) => n.lean === nlean);
+  const sec = nsec === "saved" ? store.get("saved", []) : unmuted(D.news?.sections?.[nsec] || []); let items = nlean === "ALL" ? sec : sec.filter((n) => n.lean === nlean);
   const cnt = { L: 0, C: 0, R: 0 }; sec.forEach((n) => n.lean && cnt[n.lean]++); const tot = cnt.L + cnt.C + cnt.R || 1;
   return h("div", {}, h("div", { class: "subtabs" }, NSECS.map(([k, l]) => h("button", { class: "chipbtn" + (nsec === k ? " on" : ""), onclick: () => { nsec = k; nlean = "ALL"; render(); } }, l))),
     nsec === "politics" || nsec === "trending" ? h("div", { class: "card", style: { marginBottom: "14px" } }, h("h3", {}, "Source balance"), h("div", { class: "spectrum" }, [["L", "#60a5fa"], ["C", "#a78bfa"], ["R", "#fb7185"]].map(([k, c]) => h("i", { style: { width: (cnt[k] / tot) * 100 + "%", background: c } }))),
@@ -259,13 +298,20 @@ function news({ D, render, compact }) {
 }
 
 /* ===================== SPORTS ===================== */
-function sports({ D }) {
+function standingsCard(render) {
+  if (!standings.data || Date.now() - standings.at > 15 * 60000) liveStandings().then(() => { if (document.querySelector(".stand")?.isConnected) render(); }).catch(() => {});
+  const S = standings.data; if (!S) return h("div", { class: "card stand", style: { marginTop: "14px" } }, h("h3", {}, "Standings"), h("div", { class: "skel", style: { height: "120px" } }));
+  return h("div", { class: "grid stand", style: { marginTop: "14px" } }, Object.entries(S).map(([k, L]) => { const hasPts = L.rows.some((r) => r.pts), hasOt = L.rows.some((r) => r.otl), top = L.rows.slice(0, 8), mine = L.rows.find((r) => r.me), show = mine && !top.includes(mine) ? [...top, mine] : top;
+    return card(`${L.emoji} ${L.label} · ${(L.conf || "").replace(" Conference", "").replace("American Football", "AFC").replace("National Football", "NFC")}`, "", h("table", { class: "stbl" }, h("tr", {}, h("th", {}, "#"), h("th", { class: "l" }, "Team"), h("th", {}, "W"), h("th", {}, "L"), hasOt ? h("th", {}, "OT") : null, h("th", {}, hasPts ? "PTS" : "GB"), h("th", {}, "Strk")),
+      show.map((r) => h("tr", { class: r.me ? "me" : "" }, h("td", {}, r.seed < 99 ? r.seed : ""), h("td", { class: "l" }, r.abbr), h("td", {}, r.w), h("td", {}, r.l), hasOt ? h("td", {}, r.otl) : null, h("td", {}, hasPts ? r.pts : r.gb), h("td", {}, r.streak))))); }));
+}
+function sports({ D, render }) {
   const L = D.sports?.leagues; if (!L) return card("Sports", "", empty("Loading scores…"));
   const g = (e) => { const t = e.teams || [], a = t.find((x) => !x.home) || t[0] || {}, hm = t.find((x) => x.home) || t[1] || {}; const side = (x, r) => h("div", { class: "t" + (r ? " r" : "") }, r ? null : x.logo ? h("img", { src: x.logo, alt: "", onerror: (e) => e.target.remove() }) : null, h("span", { style: { opacity: e.done && !x.winner ? 0.55 : 1 } }, x.abbr), r && x.logo ? h("img", { src: x.logo, alt: "", onerror: (e) => e.target.remove() }) : null);
     return h("div", { class: "game" }, side(a), h("div", { class: "sc" }, e.state === "pre" ? h("span", { class: "src" }, e.detail) : [e.state === "in" ? h("div", { class: "live" }, "LIVE") : null, `${a.score}–${hm.score}`, e.state === "in" ? h("div", { class: "src" }, e.detail) : null]), side(hm, true)); };
-  return h("div", { class: "grid" }, Object.values(L).map((l) => card(`${l.emoji} ${l.teamName}`, "", h("div", { class: "row", style: { marginBottom: "8px" } }, h("span", { class: "chip" }, "Record " + (l.record || "—")), l.stale ? h("span", { class: "chip warn" }, "stale") : null, l.results?.slice().reverse().map((r) => { const me = r.teams.find((t) => t.abbr && l.teamName && (t.name || "").includes(l.teamName)); return me ? h("span", { class: "wl " + (me.winner ? "W" : "L") }, me.winner ? "W" : "L") : null; })),
+  return h("div", {}, h("div", { class: "grid" }, Object.values(L).map((l) => card(`${l.emoji} ${l.teamName}`, "", h("div", { class: "row", style: { marginBottom: "8px" } }, h("span", { class: "chip" }, "Record " + (l.record || "—")), l.stale ? h("span", { class: "chip warn" }, "stale") : null, l.results?.slice().reverse().map((r) => { const me = r.teams.find((t) => t.abbr && l.teamName && (t.name || "").includes(l.teamName)); return me ? h("span", { class: "wl " + (me.winner ? "W" : "L") }, me.winner ? "W" : "L") : null; })),
     l.live ? g(l.live) : null, l.slate?.length ? h("div", {}, h("div", { class: "src" }, "League slate"), l.slate.slice(0, 5).map(g)) : null,
-    h("div", { class: "src", style: { marginTop: "6px" } }, "Next"), l.next?.length ? l.next.slice(0, 4).map(g) : empty("No games scheduled"), h("div", { class: "src", style: { marginTop: "6px" } }, "Recent"), l.results?.length ? l.results.slice(0, 4).map(g) : empty("—"))));
+    h("div", { class: "src", style: { marginTop: "6px" } }, "Next"), l.next?.length ? l.next.slice(0, 4).map(g) : empty("No games scheduled"), h("div", { class: "src", style: { marginTop: "6px" } }, "Recent"), l.results?.length ? l.results.slice(0, 4).map(g) : empty("—")))), standingsCard(render));
 }
 
 /* ===================== STUDY ===================== */
@@ -321,9 +367,37 @@ function notes({ render }) {
   return h("div", {}, card("Quick capture", "📝", ta, h("div", { class: "row", style: { marginTop: "10px" } }, h("button", { class: "btn", onclick: () => { if (ta.value.trim()) { ns.unshift({ id: uid(), d: new Date().toISOString(), t: ta.value.trim() }); store.set("notes", ns); render(); } } }, "Save"), q)), list);
 }
 
+/* ===================== SHIFTS (income tracker) ===================== */
+function shifts({ render }) {
+  const all = store.get("shifts", []), save = () => { store.set("shifts", all); render(); }, rate0 = store.get("shiftRate", 15);
+  const d = h("input", { type: "date", value: today() }), hrs = h("input", { type: "number", step: "0.25", placeholder: "Hours", style: { width: "90px" } }), rate = h("input", { type: "number", step: "0.25", value: rate0, style: { width: "90px" }, title: "Hourly rate" }), tips = h("input", { type: "number", step: "0.01", placeholder: "Tips $", style: { width: "90px" } }), note = h("input", { type: "text", class: "grow", placeholder: "Note (event, role…)" });
+  const add = () => { if (!hrs.value || !d.value) return toast("Add the hours"); store.set("shiftRate", +rate.value || rate0); all.unshift({ id: uid(), d: d.value, hrs: +hrs.value, rate: +rate.value || rate0, tips: +tips.value || 0, note: note.value.trim() }); all.sort((a, b) => b.d.localeCompare(a.d)); save(); toast("Shift logged"); };
+  const pay = (s) => s.hrs * s.rate + (s.tips || 0), sum = (a) => a.reduce((x, s) => x + pay(s), 0), hsum = (a) => a.reduce((x, s) => x + s.hrs, 0);
+  const ws = ymd(weekStart()), mo = today().slice(0, 7), yr = today().slice(0, 4), wk = all.filter((s) => s.d >= ws), mn = all.filter((s) => s.d.startsWith(mo)), yt = all.filter((s) => s.d.startsWith(yr));
+  const kp = (l, v, sub) => h("div", { class: "kpi" }, h("div", { class: "kpi-l" }, l), h("div", { class: "kpi-v" }, v), h("div", { class: "kpi-s" }, sub));
+  const bars = Array.from({ length: 12 }, (_, i) => { const a = addDays(weekStart(), (i - 11) * 7), b = ymd(addDays(a, 6)), v = sum(all.filter((s) => s.d >= ymd(a) && s.d <= b)); return { l: `${a.getMonth() + 1}/${a.getDate()}`, v: Math.round(v), color: "var(--accent)", dim: i < 11 }; });
+  return h("div", {}, h("div", { class: "kpis", style: { gridTemplateColumns: "repeat(4,minmax(0,1fr))" } }, kp("This week", money(sum(wk)), hsum(wk) + " hrs"), kp("This month", money(sum(mn)), hsum(mn) + " hrs"), kp("This year", money(sum(yt)), hsum(yt) + " hrs · " + yt.length + " shifts"), kp("Avg / shift", yt.length ? money(sum(yt) / yt.length) : "—", yt.length ? (hsum(yt) / yt.length).toFixed(1) + " hrs avg" : "log your first")),
+    card("Log a shift · Stoneham Arena Concessions", "🕒", h("div", { class: "form" }, d, hrs, rate, tips, note, h("button", { class: "btn", onclick: add }, "Log"))), h("div", { style: { height: "14px" } }),
+    h("div", { class: "grid" }, card("Earnings · last 12 weeks", "📊", barChart(bars, { max: Math.max(100, ...bars.map((b) => b.v)) })), card("Recent shifts", "🗒️", all.length ? h("ul", { class: "list" }, all.slice(0, 12).map((s) => h("li", {}, h("div", {}, h("b", {}, dayShort(s.d + "T12:00")), h("div", { class: "src" }, `${s.hrs} h × $${s.rate}${s.tips ? " + $" + s.tips + " tips" : ""}${s.note ? " · " + s.note : ""}`)), h("div", { class: "row" }, h("b", { class: "mono" }, money(pay(s))), h("button", { class: "x", onclick: () => { all.splice(all.indexOf(s), 1); save(); } }, "✕"))))) : empty("No shifts yet."))));
+}
+
+/* ===================== BOOKS ===================== */
+function books({ render }) {
+  const all = store.get("books", []), save = () => { store.set("books", all); render(); };
+  const ti = h("input", { type: "text", class: "grow", placeholder: "Book title" }), au = h("input", { type: "text", placeholder: "Author" }), pg = h("input", { type: "number", placeholder: "Pages", style: { width: "90px" } });
+  const add = (st) => { if (!ti.value.trim()) return; all.unshift({ id: uid(), title: ti.value.trim(), author: au.value.trim(), pages: +pg.value || 0, page: 0, status: st, notes: "", added: today() }); save(); };
+  const yr = today().slice(0, 4), finished = all.filter((b) => b.status === "done" && (b.doneAt || "").startsWith(yr)).length;
+  const bk = (b) => { const p = b.pages ? Math.min(1, b.page / b.pages) : 0, ta = h("textarea", { placeholder: "Notes, quotes, takeaways…", style: { minHeight: "70px" } }, b.notes || ""); ta.onchange = () => { b.notes = ta.value; store.set("books", all); toast("Notes saved"); };
+    return card(b.title, "📖", h("div", { class: "src" }, [b.author, b.pages ? `${b.page}/${b.pages} pages` : ""].filter(Boolean).join(" · ")), b.status === "reading" && b.pages ? h("div", { class: "bar", style: { margin: "8px 0" } }, h("i", { style: { width: p * 100 + "%" } })) : null,
+      h("div", { class: "row", style: { margin: "8px 0" } }, b.status === "reading" ? [h("button", { class: "btn sm ghost", onclick: () => { b.page = Math.min(b.pages || 1e5, b.page + 10); save(); } }, "+10 pg"), h("button", { class: "btn sm ghost", onclick: () => { b.page = Math.min(b.pages || 1e5, b.page + 25); save(); } }, "+25 pg"), h("button", { class: "btn sm", onclick: () => { b.status = "done"; b.doneAt = today(); b.page = b.pages || b.page; addXP(30); confetti(); save(); } }, "Finished ✓")] : b.status === "want" ? h("button", { class: "btn sm", onclick: () => { b.status = "reading"; save(); } }, "Start reading") : h("span", { class: "chip ok" }, "Finished " + (b.doneAt || "")), h("button", { class: "x", onclick: () => { all.splice(all.indexOf(b), 1); save(); } }, "✕")), ta); };
+  const sec = (l, st) => { const a = all.filter((b) => b.status === st); return a.length ? h("div", { style: { marginTop: "16px" } }, h("h3", { style: { margin: "0 0 10px" } }, `${l} · ${a.length}`), h("div", { class: "grid" }, a.map(bk))) : null; };
+  return h("div", {}, h("div", { class: "kpis", style: { gridTemplateColumns: "repeat(3,minmax(0,1fr))" } }, [["Finished this year", finished, "books"], ["Reading now", all.filter((b) => b.status === "reading").length, "in progress"], ["Up next", all.filter((b) => b.status === "want").length, "on the shelf"]].map(([l, v, s]) => h("div", { class: "kpi" }, h("div", { class: "kpi-l" }, l), h("div", { class: "kpi-v" }, String(v)), h("div", { class: "kpi-s" }, s)))),
+    card("Add a book", "＋", h("div", { class: "form" }, ti, au, pg, h("button", { class: "btn", onclick: () => add("reading") }, "Reading"), h("button", { class: "btn ghost", onclick: () => add("want") }, "Want to read"))), sec("Reading now", "reading"), sec("Up next", "want"), sec("Finished", "done"), all.length ? null : empty("Track what you read — pages, notes, takeaways."));
+}
+
 export const wyTabs = [
   { id: "happy", label: () => "Happy " + DAYS[new Date().getDay()], render: happy },
   { id: "tasks", label: "Tasks", render: tasks }, { id: "money", label: "Money", render: moneyTab }, { id: "news", label: "News", render: news }, { id: "sports", label: "Sports", render: sports },
-  { id: "study", label: "Study", render: study }, { id: "calendar", label: "Calendar", render: calendar }, { id: "goals", label: "Goals", render: goals }, { id: "notes", label: "Notes", render: notes },
+  { id: "shifts", label: "Shifts", render: shifts }, { id: "books", label: "Books", render: books }, { id: "study", label: "Study", render: study }, { id: "calendar", label: "Calendar", render: calendar }, { id: "goals", label: "Goals", render: goals }, { id: "notes", label: "Notes", render: notes },
 ];
 export { weatherCard, newsLi };

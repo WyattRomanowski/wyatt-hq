@@ -2,7 +2,7 @@ import { $, $$, h, svg, store, load, ago, DAYS, download, toast, modal, debounce
 import { LOGOS, ALKU_A } from "./assets.js?v=BUILD";
 import { startBackground, hero3d } from "./fx.js?v=BUILD";
 import { ico } from "./icons.js?v=BUILD";
-import { wyTabs, quickAdd, parseTask } from "./views.js?v=BUILD";
+import { wyTabs, quickAdd, parseTask, checkAlerts, autoSnapshot } from "./views.js?v=BUILD";
 import { liveWeather, liveSports, liveNews, liveQuotes } from "./live.js?v=BUILD";
 import { alTabs } from "./alku.js?v=BUILD";
 
@@ -41,9 +41,9 @@ const cycleTheme = () => { const m = store.get("themeMode", "dark"); store.set("
 /* ---------- shell ---------- */
 const META = {
   happy: ["home", "Overview", "Your day at a glance"], tasks: ["tasks", "Tasks", "Capture, plan and finish"], calendar: ["calendar", "Calendar", "Paydays, bills and events"], goals: ["goals", "Goals", "Targets and progress"],
-  money: ["money", "Money", "Net worth, budget, markets"], news: ["news", "News", "Balanced headlines across the spectrum"], sports: ["sports", "Sports", "Boston teams, live"], study: ["study", "Study", "Spaced-repetition flashcards"], notes: ["notes", "Notes", "Quick capture"],
+  money: ["money", "Money", "Net worth, budget, markets"], shifts: ["clock", "Shifts", "Concessions hours and pay"], books: ["book", "Books", "Reading list and notes"], news: ["news", "News", "Balanced headlines across the spectrum"], sports: ["sports", "Sports", "Boston teams, live"], study: ["study", "Study", "Spaced-repetition flashcards"], notes: ["notes", "Notes", "Quick capture"],
 };
-const GROUPS = [["Overview", ["happy"]], ["Plan", ["tasks", "calendar", "goals"]], ["Money", ["money"]], ["Discover", ["news", "sports"]], ["Mind", ["study", "notes"]]];
+const GROUPS = [["Overview", ["happy"]], ["Plan", ["tasks", "calendar", "goals"]], ["Money", ["money", "shifts"]], ["Discover", ["news", "sports"]], ["Mind", ["study", "books", "notes"]]];
 function shell() {
   const app = $("#app"); app.innerHTML = ""; const alku = ctx.mode === "alku";
   const pill = h("button", { class: "pill", id: "pill", title: "Data status", onclick: () => freshSheet() }, h("i", { class: "dot" }), h("span", {}, "loading…"));
@@ -150,6 +150,7 @@ async function refresh(force) {
   names.forEach((n, i) => { if (res[i] && newer(D[n], res[i])) D[n] = res[i]; });
   drawPill(); drawTape(); if (idle()) render();
   const ch = await liveRefresh(force); drawPill(); drawTape(); if (ch && idle()) render();
+  if (ctx.mode === "wyatt") { autoSnapshot(); checkAlerts(); }
   return !!res[0];
 }
 function freshness() {
@@ -215,6 +216,7 @@ function settings() {
     h("div", {}, h("b", {}, "Wyatt logo"), logos),
     h("div", {}, h("b", {}, "Home cards"), h("div", { class: "row" }, ["Weather · Stoneham", "Today", "Markets", "Boston sports", "Headlines", "Net worth", "Level", "This week", "Next up", "Upcoming", "Daily spark"].map((n) => h("label", { class: "chip", style: { cursor: "pointer" } }, h("input", { type: "checkbox", checked: !store.get("hide", []).includes(n), onchange: (e) => { const hd = store.get("hide", []).filter((x) => x !== n); if (!e.target.checked) hd.push(n); store.set("hide", hd); render(); } }), " " + n)))),
     h("div", { class: "row" }, h("b", {}, "Appearance"), h("select", { onchange: (e) => { store.set("themeMode", e.target.value); applyTheme(); } }, ["dark", "light", "auto"].map((m) => h("option", { value: m, selected: store.get("themeMode", "dark") === m }, m))), h("label", { class: "chip", style: { cursor: "pointer" } }, h("input", { type: "checkbox", checked: !!store.get("compact", false), onchange: (e) => { store.set("compact", e.target.checked); applyTheme(); } }), " Compact density")),
+    h("div", {}, h("b", {}, "Muted news words"), h("p", { class: "src" }, "Headlines containing these words are hidden (comma-separated)."), h("input", { type: "text", class: "grow", style: { width: "100%" }, placeholder: "e.g. kardashian, celebrity", value: store.get("mute", []).join(", "), onchange: (e) => { store.set("mute", e.target.value.split(",").map((x) => x.trim()).filter(Boolean)); render(); } })),
     h("div", { class: "row" }, h("b", {}, "My age"), age, h("span", { class: "src" }, "(used for the growth projector's Age axis)")), city,
     h("div", { class: "src" }, "Live data refreshes in your browser (markets, weather, sports every ≤10 min, news ≤25 min). Last: " + (D.meta ? ago(D.meta.updated) : "n/a"))), [{ t: "Done" }]);
 }

@@ -73,3 +73,9 @@ body.mode-wyatt .kpi-v{font-size:26px}
 @keyframes shim{to{transform:translateX(100%)}}
 
 /* ALKU keeps its own look; only the shared loader + pill apply */
+
+/* v5.1 */
+.star{font-size:15px;padding:0 6px 0 0;color:var(--warn)}
+.rec{background:var(--loss)!important;color:#fff;animation:pulse 1s infinite}
+.skel{display:inline-block}
+.stbl{width:100%;border-collapse:collapse;font-size:13px}.stbl th{font-size:11px;color:var(--muted);font-weight:600;text-align:right;padding:4px 6px}.stbl td{padding:6px;text-align:right;font-family:var(--mono)}.stbl .l{text-align:left;font-family:inherit;font-weight:600}.stbl tr+tr td{border-top:1px solid var(--line)}.stbl tr.me td{background:var(--accent-soft);color:var(--ink)}.stbl tr.me td:first-child{border-radius:8px 0 0 8px}.stbl tr.me td:last-child{border-radius:0 8px 8px 0}

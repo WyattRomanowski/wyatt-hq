@@ -73,3 +73,29 @@ export async function liveQuotes(prev) {
   if (!hit) throw new Error("no live quotes");
   return { ...prev, updated: new Date().toISOString(), live: true, errors: [], items };
 }
+
+// Custom watchlist quotes (any ticker CNBC knows; crypto symbols get the "=" suffix).
+export const watch = { data: {}, at: 0 };
+const CRYPTO = new Set(["BTC", "ETH", "SOL", "DOGE", "XRP", "ADA", "LTC", "AVAX", "LINK", "DOT"]);
+export const cn = (s) => { s = String(s).trim().toUpperCase(); return CRYPTO.has(s) ? s + "=" : s; };
+export async function liveWatch(syms) {
+  if (!syms.length) return {};
+  const r = await j("https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=" + encodeURIComponent(syms.map(cn).join("|")) + "&output=json&fund=1&exthrs=1", 10000), out = {};
+  for (const q of r?.FormattedQuoteResult?.FormattedQuote || []) { const p = num(q.last); if (!isFinite(p) || (q.code && q.code != 0)) continue; out[String(q.symbol).replace(/=$/, "")] = { name: q.name || q.symbol, price: p, chg: num(q.change), pct: num(q.change_pct), at: Date.now() }; }
+  watch.data = { ...watch.data, ...out }; watch.at = Date.now(); return out;
+}
+
+// League standings (ESPN, CORS-enabled): conference table for each Boston team's league.
+const SL = [["nhl", "hockey/nhl", "BOS", "NHL", "🏒"], ["nba", "basketball/nba", "BOS", "NBA", "🏀"], ["nfl", "football/nfl", "NE", "NFL", "🏈"], ["mlb", "baseball/mlb", "BOS", "MLB", "⚾"]];
+export const standings = { data: null, at: 0 };
+export async function liveStandings() {
+  const out = {};
+  await Promise.all(SL.map(async ([k, p, me, label, emoji]) => { try {
+    const d = await j(`https://site.api.espn.com/apis/v2/sports/${p}/standings`, 10000), groups = d.children || [], g = groups.find((c) => (c.standings?.entries || []).some((e) => e.team?.abbreviation === me)) || groups[0];
+    const rows = (g?.standings?.entries || []).map((e) => { const s = (n) => e.stats?.find((x) => x.name === n), dv = (...ns) => { for (const n of ns) { const v = s(n)?.displayValue; if (v != null && v !== "") return v; } return ""; };
+      return { abbr: e.team?.abbreviation, name: e.team?.shortDisplayName || e.team?.displayName, seed: +s("playoffSeed")?.value || 99, w: dv("wins"), l: dv("losses"), otl: dv("otLosses", "overtimeLosses"), pts: dv("points"), pct: dv("winPercent"), gb: dv("gamesBehind"), streak: dv("streak"), me: e.team?.abbreviation === me }; }).sort((a, b) => a.seed - b.seed);
+    if (rows.length) out[k] = { label, emoji, conf: g?.name, rows };
+  } catch {} }));
+  if (!Object.keys(out).length) throw new Error("no standings");
+  standings.data = out; standings.at = Date.now(); return out;
+}

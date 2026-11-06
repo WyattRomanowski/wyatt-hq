@@ -131,15 +131,15 @@ function render() {
 /* ---------- data refresh ---------- */
 // Freshness contract: every source is re-fetched live in the browser once it is older than its limit; the page checks every 4 min, on focus, on wake and on reconnect. Nothing shown is older than ~30 min while the app is open.
 const SRC = { quotes: { label: "Markets", max: 10 }, weather: { label: "Weather", max: 10 }, sports: { label: "Sports", max: 10 }, news: { label: "News", max: 25 } };
-let liveBusy = false, lastNews = 0, lastTry = {};
+let liveBusy = false, lastNews = 0, lastTry = {}, firstLive = true;
 const ageMin = (k) => (D[k]?.updated ? (Date.now() - new Date(D[k].updated)) / 60000 : 1e9);
 const newer = (a, b) => !a || !a.updated || (b && new Date(b.updated) > new Date(a.updated));
 async function liveRefresh(force) {
-  if (liveBusy) return false; liveBusy = true; let ch = false; const due = (k) => force || ageMin(k) > SRC[k].max, jobs = [];
+  if (liveBusy) return false; liveBusy = true; let ch = false; const first = firstLive; firstLive = false; const due = (k) => force || first || ageMin(k) > SRC[k].max, jobs = [];
   const run = (k, fn) => { if (!due(k) || (!force && Date.now() - (lastTry[k] || 0) < 60000)) return; lastTry[k] = Date.now(); jobs.push(fn().then((v) => { D[k] = v; ch = true; }).catch(() => {})); };
   try {
     run("weather", liveWeather); run("sports", () => liveSports(D.sports)); run("quotes", () => liveQuotes(D.quotes));
-    if (due("news") && (force || Date.now() - lastNews > 10 * 60000)) { lastNews = Date.now(); jobs.push(liveNews(D.news).then((v) => { D.news = v; ch = true; }).catch(() => {})); }
+    if (due("news") && (force || (first ? ageMin("news") > 20 : Date.now() - lastNews > 10 * 60000))) { lastNews = Date.now(); jobs.push(liveNews(D.news).then((v) => { D.news = v; ch = true; }).catch(() => {})); }
     await Promise.all(jobs);
   } finally { liveBusy = false; }
   return ch;

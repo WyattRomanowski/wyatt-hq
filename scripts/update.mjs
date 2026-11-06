@@ -157,7 +157,10 @@ async function yahoo(sym) {
   const r = j.chart?.result?.[0]; if (!r) throw new Error("no result " + sym.y);
   const cl = r.indicators.quote[0].close;
   const m = r.meta;
-  return shape(sym, cl, m.regularMarketPrice, m.chartPreviousClose ?? m.previousClose, m.regularMarketTime ? new Date(m.regularMarketTime * 1000).toISOString() : null);
+  // chartPreviousClose is the close BEFORE the 6-month window, so derive the real previous close from the daily bars instead.
+  const ts = r.timestamp || [], day = (t) => new Date(t * 1000).toISOString().slice(0, 10), lastBar = ts.length ? day(ts[ts.length - 1]) : null, liveDay = m.regularMarketTime ? day(m.regularMarketTime) : null;
+  const valid = cl.filter((x) => x != null), prevClose = lastBar && liveDay && lastBar === liveDay ? valid[valid.length - 2] : valid[valid.length - 1];
+  return shape(sym, cl, m.regularMarketPrice, prevClose ?? m.previousClose, m.regularMarketTime ? new Date(m.regularMarketTime * 1000).toISOString() : null);
 }
 async function stooq(sym) {
   const csv = await get(`https://stooq.com/q/d/l/?s=${encodeURIComponent(sym.s)}&i=d`);

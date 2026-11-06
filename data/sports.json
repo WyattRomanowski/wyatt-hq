@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T01:50:34.171Z",
+ "updated": "2026-11-06T01:56:53.145Z",
  "leagues": {
   "nba": {
    "key": "nba",
@@ -644,7 +644,7 @@
      "date": "2026-11-06T00:00Z",
      "name": "UTA @ MTL",
      "state": "in",
-     "detail": "0:17 - 2nd",
+     "detail": "End of 2nd",
      "done": false,
      "teams": [
       {
@@ -700,7 +700,7 @@
      "date": "2026-11-06T00:00Z",
      "name": "CHI @ TB",
      "state": "in",
-     "detail": "1:18 - 2nd",
+     "detail": "End of 2nd",
      "done": false,
      "teams": [
       {
@@ -784,7 +784,7 @@
      "date": "2026-11-06T00:00Z",
      "name": "PHI @ NYR",
      "state": "in",
-     "detail": "End of 2nd",
+     "detail": "19:52 - 3rd",
      "done": false,
      "teams": [
       {
@@ -812,7 +812,7 @@
      "date": "2026-11-06T00:00Z",
      "name": "BOS @ PIT",
      "state": "in",
-     "detail": "End of 2nd",
+     "detail": "20:00 - 3rd",
      "done": false,
      "teams": [
       {
@@ -896,7 +896,7 @@
      "date": "2026-11-06T01:00Z",
      "name": "ANA @ EDM",
      "state": "in",
-     "detail": "0:26 - 1st",
+     "detail": "End of 1st",
      "done": false,
      "teams": [
       {
@@ -904,7 +904,7 @@
        "abbr": "EDM",
        "name": "Edmonton Oilers",
        "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/edm.png",
-       "score": "0",
+       "score": "1",
        "winner": false,
        "record": "11-2-3"
       },
@@ -953,7 +953,7 @@
     "date": "2026-11-06T00:00Z",
     "name": "BOS @ PIT",
     "state": "in",
-    "detail": "End of 2nd",
+    "detail": "20:00 - 3rd",
     "done": false,
     "teams": [
      {
@@ -961,7 +961,7 @@
       "abbr": "PIT",
       "name": "Pittsburgh Penguins",
       "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/pit.png",
-      "score": "2",
+      "score": null,
       "winner": false,
       "record": null
      },
@@ -970,7 +970,7 @@
       "abbr": "BOS",
       "name": "Boston Bruins",
       "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/bos.png",
-      "score": "5",
+      "score": null,
       "winner": false,
       "record": null
      }
@@ -1272,7 +1272,7 @@
      "date": "2026-11-06T01:15Z",
      "name": "JAX @ BAL",
      "state": "in",
-     "detail": "0:30 - 1st",
+     "detail": "13:31 - 2nd",
      "done": false,
      "teams": [
       {

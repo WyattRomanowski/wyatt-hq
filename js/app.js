@@ -3,7 +3,7 @@ import { LOGOS, ALKU_A } from "./assets.js?v=BUILD";
 import { startBackground, hero3d } from "./fx.js?v=BUILD";
 import { ico } from "./icons.js?v=BUILD";
 import { wyTabs, quickAdd, parseTask } from "./views.js?v=BUILD";
-import { liveWeather, liveSports, liveNews } from "./live.js?v=BUILD";
+import { liveWeather, liveSports, liveNews, liveQuotes } from "./live.js?v=BUILD";
 import { alTabs } from "./alku.js?v=BUILD";
 
 const D = { weather: null, quotes: null, sports: null, news: null, fun: null, meta: null };
@@ -25,7 +25,7 @@ function enter(mode) {
   applyTheme(); tabs = mode === "alku" ? alTabs : wyTabs;
   const saved = store.get("order:" + mode, null);
   if (saved) tabs = [tabs[0], ...saved.map((id) => tabs.find((t) => t.id === id)).filter(Boolean), ...tabs.slice(1).filter((t) => !saved.includes(t.id))];
-  ctx.tab = tabs[0].id; shell(); render();
+  ctx.tab = tabs[0].id; shell(); render(); markEnter();
 }
 function applyTheme() {
   const b = document.body; [...b.classList].filter((c) => c.startsWith("th-")).forEach((c) => b.classList.remove(c));
@@ -40,13 +40,13 @@ const cycleTheme = () => { const m = store.get("themeMode", "dark"); store.set("
 
 /* ---------- shell ---------- */
 const META = {
-  happy: ["home", "Overview", "Your day at a glance"], tasks: ["tasks", "Tasks", "Capture, plan and finish"], calendar: ["calendar", "Calendar", "Paydays, bills and events"], goals: ["goals", "Goals", "Targets and progress"], habits: ["habits", "Habits", "Streaks and consistency"], focus: ["focus", "Focus", "Deep-work timer"],
+  happy: ["home", "Overview", "Your day at a glance"], tasks: ["tasks", "Tasks", "Capture, plan and finish"], calendar: ["calendar", "Calendar", "Paydays, bills and events"], goals: ["goals", "Goals", "Targets and progress"],
   money: ["money", "Money", "Net worth, budget, markets"], news: ["news", "News", "Balanced headlines across the spectrum"], sports: ["sports", "Sports", "Boston teams, live"], study: ["study", "Study", "Spaced-repetition flashcards"], notes: ["notes", "Notes", "Quick capture"],
 };
-const GROUPS = [["Overview", ["happy"]], ["Plan", ["tasks", "calendar", "goals", "habits", "focus"]], ["Money", ["money"]], ["Discover", ["news", "sports"]], ["Mind", ["study", "notes"]]];
+const GROUPS = [["Overview", ["happy"]], ["Plan", ["tasks", "calendar", "goals"]], ["Money", ["money"]], ["Discover", ["news", "sports"]], ["Mind", ["study", "notes"]]];
 function shell() {
   const app = $("#app"); app.innerHTML = ""; const alku = ctx.mode === "alku";
-  const pill = h("div", { class: "pill", id: "pill", title: "Live data status" }, h("i", { class: "dot" }), h("span", {}, "loading…"));
+  const pill = h("button", { class: "pill", id: "pill", title: "Data status", onclick: () => freshSheet() }, h("i", { class: "dot" }), h("span", {}, "loading…"));
   const brand = h("div", { class: "brand", title: "Switch screen", onclick: () => location.reload() },
     alku ? h("img", { class: "logo", src: ALKU_A, alt: "" }) : h("div", { class: "logo", html: logo(store.get("logo", "3a")) }),
     alku ? h("span", {}, "ALKU ", h("small", {}, "Work")) : h("span", {}, "Wyatt ", h("small", {}, "HQ")));
@@ -106,7 +106,19 @@ function enableNavDrag(nav) {
     });
   });
 }
-function go(id) { ctx.tab = id; drawTabs(); render(); scrollTo({ top: 0, behavior: "smooth" }); }
+const NUM = /^([^\d-]*)(-?[\d,]*\.?\d+)([^\d]*)$/;
+function animateNums(root) {
+  if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  $$(".kpi-v,.big,.kpi-v *", root).forEach((el) => {
+    if (el.children.length || el.dataset.cu) return; const m = NUM.exec(el.textContent.trim()); if (!m) return; const to = parseFloat(m[2].replace(/,/g, "")); if (!isFinite(to) || Math.abs(to) < 2) return;
+    el.dataset.cu = 1; const dec = (m[2].split(".")[1] || "").length, t0 = performance.now(), dur = 650;
+    const f = (n) => n.toLocaleString("en-US", { minimumFractionDigits: dec, maximumFractionDigits: dec });
+    const step = (t) => { const k = Math.min(1, (t - t0) / dur), e = 1 - Math.pow(1 - k, 3); el.textContent = m[1] + f(to * e) + m[3]; if (k < 1 && el.isConnected) requestAnimationFrame(step); else el.textContent = m[1] + f(to) + m[3]; };
+    requestAnimationFrame(step);
+  });
+}
+function markEnter() { const v = $("#view"); if (!v) return; v.classList.remove("enter"); void v.offsetWidth; v.classList.add("enter"); animateNums(v); setTimeout(() => v.classList.remove("enter"), 1100); }
+function go(id) { ctx.tab = id; drawTabs(); render(); markEnter(); scrollTo({ top: 0, behavior: "smooth" }); }
 function render() {
   const v = $("#view"); if (!v) return; const t = tabs.find((x) => x.id === ctx.tab) || tabs[0];
   v.innerHTML = "";
@@ -115,41 +127,52 @@ function render() {
   const lbl = $(".nav-i[data-id=happy] .nl, .tab.pin"); if (lbl) lbl.textContent = tabLabel(tabs[0]);
   const nb = $(".nav-i[data-id=tasks] .nbadge"); if (nb) nb.textContent = openTasks() || "";
 }
+
+/* ---------- data refresh ---------- */
+// Freshness contract: every source is re-fetched live in the browser once it is older than its limit; the page checks every 4 min, on focus, on wake and on reconnect. Nothing shown is older than ~30 min while the app is open.
+const SRC = { quotes: { label: "Markets", max: 10 }, weather: { label: "Weather", max: 10 }, sports: { label: "Sports", max: 10 }, news: { label: "News", max: 25 } };
+let liveBusy = false, lastNews = 0, lastTry = {};
+const ageMin = (k) => (D[k]?.updated ? (Date.now() - new Date(D[k].updated)) / 60000 : 1e9);
+const newer = (a, b) => !a || !a.updated || (b && new Date(b.updated) > new Date(a.updated));
+async function liveRefresh(force) {
+  if (liveBusy) return false; liveBusy = true; let ch = false; const due = (k) => force || ageMin(k) > SRC[k].max, jobs = [];
+  const run = (k, fn) => { if (!due(k) || (!force && Date.now() - (lastTry[k] || 0) < 60000)) return; lastTry[k] = Date.now(); jobs.push(fn().then((v) => { D[k] = v; ch = true; }).catch(() => {})); };
+  try {
+    run("weather", liveWeather); run("sports", () => liveSports(D.sports)); run("quotes", () => liveQuotes(D.quotes));
+    if (due("news") && (force || Date.now() - lastNews > 10 * 60000)) { lastNews = Date.now(); jobs.push(liveNews(D.news).then((v) => { D.news = v; ch = true; }).catch(() => {})); }
+    await Promise.all(jobs);
+  } finally { liveBusy = false; }
+  return ch;
+}
+const idle = () => ctx.mode && !document.activeElement?.matches?.("input,textarea,select") && !$(".modal") && !$("#pal.open");
+async function refresh(force) {
+  const names = Object.keys(D); const res = await Promise.all(names.map(load));
+  names.forEach((n, i) => { if (res[i] && newer(D[n], res[i])) D[n] = res[i]; });
+  drawPill(); drawTape(); if (idle()) render();
+  const ch = await liveRefresh(force); drawPill(); drawTape(); if (ch && idle()) render();
+  return !!res[0];
+}
+function freshness() {
+  const rows = Object.entries(SRC).map(([k, s]) => { const m = ageMin(k); return { k, label: s.label, m, ok: m <= 30, live: !!D[k]?.live }; });
+  return rows;
+}
 function drawPill() {
-  const p = $("#pill"); if (!p) return;
-  const stamps = ["weather", "sports", "news", "quotes"].map((k) => D[k]?.updated).filter(Boolean);
-  if (!stamps.length) { p.className = "pill off"; p.lastChild.textContent = "offline — showing last saved"; return; }
-  const q = D.quotes?.updated, qAge = q ? (Date.now() - new Date(q)) / 60000 : 1e9, liveNow = D.weather?.live;
-  p.className = "pill" + (qAge > 600 ? " stale" : "");
-  p.lastChild.textContent = (liveNow ? "Live" : "Updated " + ago(D.weather?.updated)) + (qAge > 90 ? ` · markets ${ago(q)}` : "");
-  p.title = "Weather & sports refresh live in your browser. Markets & news refresh via GitHub every ~15–30 min. Markets: " + ago(q) + ", news: " + ago(D.news?.updated);
+  const p = $("#pill"); if (!p) return; const rows = freshness();
+  if (rows.every((r) => r.m > 1e8)) { p.className = "pill off"; p.lastChild.textContent = "offline"; return; }
+  const worst = rows.reduce((a, r) => (r.m > a.m ? r : a), rows[0]), bad = rows.filter((r) => !r.ok);
+  p.className = "pill" + (bad.length ? " stale" : "");
+  p.lastChild.textContent = bad.length ? `${bad[0].label} ${ago(D[bad[0].k]?.updated)}` : worst.m < 2 ? "Live · just now" : `Live · ${Math.round(worst.m)}m`;
+  p.title = rows.map((r) => `${r.label}: ${r.m > 1e8 ? "n/a" : ago(D[r.k]?.updated)}`).join(" · ");
+}
+function freshSheet() {
+  const body = h("div", { class: "fresh" });
+  const draw = () => { body.innerHTML = ""; freshness().forEach((r) => body.append(h("div", { class: "fr" }, h("i", { class: "dot" + (r.ok ? "" : " bad") }), h("b", {}, r.label), h("span", { class: "src" }, r.m > 1e8 ? "no data" : (r.live ? "live in your browser · " : "saved copy · ") + ago(D[r.k]?.updated))))); };
+  draw(); const m = modal("Data freshness", h("div", {}, body, h("div", { class: "src", style: { marginTop: "10px" } }, "Everything refreshes on open, on wake, and every 4 min while open. Anything older than 30 min is re-fetched live.")), [{ t: "Refresh now", fn: async () => { toast("Refreshing…"); await refresh(true); toast("Up to date"); } }, { t: "Close", ghost: true }]);
 }
 function drawTape() {
   const t = $("#tape"); if (!t) return; t.innerHTML = ""; const q = D.quotes?.items; if (!q) return;
   const row = () => q.map((i) => h("span", {}, h("b", {}, i.sym), " ", h("span", { class: "mono" }, i.price?.toLocaleString(undefined, { maximumFractionDigits: 2 })), " ", h("span", { class: "mono " + (i.pct >= 0 ? "gain" : "loss") }, (i.pct >= 0 ? "▲" : "▼") + Math.abs(i.pct).toFixed(2) + "%")));
   t.append(h("div", { class: "track" }, row(), row()));
-}
-
-/* ---------- data refresh ---------- */
-let liveBusy = false, lastNews = 0;
-const newer = (a, b) => !a || !a.updated || (b && new Date(b.updated) > new Date(a.updated));
-async function liveRefresh() {
-  if (liveBusy) return false; liveBusy = true; let ch = false;
-  try {
-    const [w, sp] = await Promise.allSettled([liveWeather(), liveSports(D.sports)]);
-    if (w.status === "fulfilled") { D.weather = w.value; ch = true; } if (sp.status === "fulfilled") { D.sports = sp.value; ch = true; }
-    const age = D.news ? (Date.now() - new Date(D.news.updated)) / 60000 : 1e9;
-    if (age > 45 && Date.now() - lastNews > 15 * 60000) { lastNews = Date.now(); try { D.news = await liveNews(D.news); ch = true; } catch {} }
-  } finally { liveBusy = false; }
-  return ch;
-}
-const idle = () => ctx.mode && !document.activeElement?.matches?.("input,textarea,select") && !$(".modal") && !$("#pal.open");
-async function refresh() {
-  const names = Object.keys(D); const res = await Promise.all(names.map(load));
-  names.forEach((n, i) => { if (res[i] && newer(D[n], res[i])) D[n] = res[i]; });
-  drawPill(); drawTape(); if (idle()) render();
-  liveRefresh().then((ch) => { drawPill(); drawTape(); if (ch && idle()) render(); });
-  return !!res[0];
 }
 
 /* ---------- command palette ---------- */
@@ -167,7 +190,7 @@ function openPalette() {
     }
     const q = $("#pal input").value.trim();
     if (q && ctx.mode === "wyatt") { a.unshift({ l: "Add task: " + q, r: "quick add", f: () => { const all = store.get("tasks", []); all.unshift(parseTask(q)); store.set("tasks", all); toast("Task added"); render(); }, always: 1 }); for (const n of store.get("notes", []).filter((n) => n.t.toLowerCase().includes(q.toLowerCase())).slice(0, 4)) a.push({ l: "Note: " + n.t.slice(0, 60), r: "note", f: () => go("notes") }); }
-    a.push({ l: "Settings & backup", r: "action", f: settings }, { l: "Export my data (JSON)", r: "action", f: exportData }, { l: "Refresh live data now", r: "action", f: async () => { await refresh(); toast("Refreshed"); } });
+    a.push({ l: "Settings & backup", r: "action", f: settings }, { l: "Export my data (JSON)", r: "action", f: exportData }, { l: "Refresh live data now", r: "action", f: async () => { await refresh(true); toast("Refreshed"); } }, { l: "Data freshness", r: "status", f: freshSheet });
     return a;
   };
   const draw = () => {
@@ -187,13 +210,13 @@ function settings() {
   const age = h("input", { type: "number", value: store.get("age", 25), style: { width: "80px" }, onchange: (e) => store.set("age", +e.target.value) });
   const city = h("div", { class: "src" }, "Weather location: Stoneham, MA (set in scripts/update.mjs).");
   modal("Settings & backup", h("div", { style: { display: "grid", gap: "14px" } },
-    h("div", {}, h("b", {}, "Your data"), h("p", { class: "src" }, "Tasks, goals, money, habits and notes are stored only in this browser — never in the public repo. Export a backup to move devices."),
+    h("div", {}, h("b", {}, "Your data"), h("p", { class: "src" }, "Tasks, goals, money and notes are stored only in this browser — never in the public repo. Export a backup to move devices."),
       h("div", { class: "row" }, h("button", { class: "btn sm", onclick: exportData }, "Export backup"), h("button", { class: "btn sm ghost", onclick: () => f.click() }, "Import backup"), f)),
     h("div", {}, h("b", {}, "Wyatt logo"), logos),
-    h("div", {}, h("b", {}, "Home cards"), h("div", { class: "row" }, ["Weather · Stoneham", "Today", "Markets", "Boston sports", "Headlines", "Net worth", "Level", "This week", "Next up", "Habits", "Upcoming", "Daily spark"].map((n) => h("label", { class: "chip", style: { cursor: "pointer" } }, h("input", { type: "checkbox", checked: !store.get("hide", []).includes(n), onchange: (e) => { const hd = store.get("hide", []).filter((x) => x !== n); if (!e.target.checked) hd.push(n); store.set("hide", hd); render(); } }), " " + n)))),
+    h("div", {}, h("b", {}, "Home cards"), h("div", { class: "row" }, ["Weather · Stoneham", "Today", "Markets", "Boston sports", "Headlines", "Net worth", "Level", "This week", "Next up", "Upcoming", "Daily spark"].map((n) => h("label", { class: "chip", style: { cursor: "pointer" } }, h("input", { type: "checkbox", checked: !store.get("hide", []).includes(n), onchange: (e) => { const hd = store.get("hide", []).filter((x) => x !== n); if (!e.target.checked) hd.push(n); store.set("hide", hd); render(); } }), " " + n)))),
     h("div", { class: "row" }, h("b", {}, "Appearance"), h("select", { onchange: (e) => { store.set("themeMode", e.target.value); applyTheme(); } }, ["dark", "light", "auto"].map((m) => h("option", { value: m, selected: store.get("themeMode", "dark") === m }, m))), h("label", { class: "chip", style: { cursor: "pointer" } }, h("input", { type: "checkbox", checked: !!store.get("compact", false), onchange: (e) => { store.set("compact", e.target.checked); applyTheme(); } }), " Compact density")),
     h("div", { class: "row" }, h("b", {}, "My age"), age, h("span", { class: "src" }, "(used for the growth projector's Age axis)")), city,
-    h("div", { class: "src" }, "Live data: weather, markets, sports, news and fun refresh automatically every 30 min. Last: " + (D.meta ? ago(D.meta.updated) : "n/a"))), [{ t: "Done" }]);
+    h("div", { class: "src" }, "Live data refreshes in your browser (markets, weather, sports every ≤10 min, news ≤25 min). Last: " + (D.meta ? ago(D.meta.updated) : "n/a"))), [{ t: "Done" }]);
 }
 
 /* ---------- init ---------- */
@@ -206,9 +229,15 @@ addEventListener("keydown", (e) => {
     else if (e.key.toLowerCase() === "n" && ctx.mode === "wyatt") { quickAdd(render); e.preventDefault(); }
   } if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") { e.preventDefault(); ctx.mode && openPalette(); } });
 document.addEventListener("visibilitychange", () => !document.hidden && ctx.mode && refresh());
-setInterval(() => ctx.mode && refresh(), 2 * 60000); addEventListener("focus", () => ctx.mode && refresh()); addEventListener("pageshow", () => ctx.mode && refresh()); addEventListener("online", () => ctx.mode && refresh()); setInterval(drawPill, 30000);
+setInterval(() => ctx.mode && !document.hidden && refresh(), 4 * 60000); addEventListener("focus", () => ctx.mode && refresh()); addEventListener("pageshow", () => ctx.mode && refresh()); addEventListener("online", () => ctx.mode && refresh()); setInterval(drawPill, 30000);
+(function ptr() {
+  const el = h("div", { id: "ptr", html: ico("up", 20) }); document.body.append(el); let y0 = 0, dy = 0, on = false;
+  addEventListener("touchstart", (e) => { on = scrollY <= 0 && ctx.mode && !$(".modal") && !$("#pal.open"); y0 = e.touches[0].clientY; dy = 0; }, { passive: true });
+  addEventListener("touchmove", (e) => { if (!on) return; dy = e.touches[0].clientY - y0; if (dy > 8 && scrollY <= 0) { const p = Math.min(1, dy / 110); el.style.opacity = p; el.style.top = Math.min(70, dy * 0.55) + "px"; el.firstChild.style.transform = `rotate(${p * 180}deg)`; } else if (dy <= 8) { el.style.opacity = 0; el.style.top = "-44px"; } }, { passive: true });
+  addEventListener("touchend", async () => { if (!on) return; on = false; if (dy > 110 && scrollY <= 0) { el.classList.add("spin"); el.style.top = "64px"; el.style.opacity = 1; await refresh(true); toast("Refreshed"); } el.classList.remove("spin"); el.style.opacity = 0; el.style.top = "-44px"; }, { passive: true });
+})();
 startBackground($("#bg"));
 if ("serviceWorker" in navigator && location.protocol.startsWith("http")) navigator.serviceWorker.register("./sw.js?v=BUILD", { updateViaCache: "none" }).catch(() => {}); let hadCtl = !!navigator.serviceWorker.controller; navigator.serviceWorker.addEventListener("controllerchange", () => { if (hadCtl && !ctx.mode) location.reload(); hadCtl = true; });
 refresh();
-setTimeout(() => { $("#boot")?.classList.add("out"); chooseScreen(); }, matchMedia("(prefers-reduced-motion: reduce)").matches ? 60 : 650);
+setTimeout(() => { $("#boot")?.classList.add("out"); chooseScreen(); }, matchMedia("(prefers-reduced-motion: reduce)").matches ? 60 : 460);
 export { D, ctx, hero3d };

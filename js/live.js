@@ -55,3 +55,21 @@ export async function liveNews(prev) {
   if (!Object.values(sections).some((a) => a.length)) throw new Error("no news");
   return { updated: new Date().toISOString(), live: true, errors, sections };
 }
+
+// Live market quotes straight from the browser (CNBC's quote service allows CORS). Keeps the saved sparkline history, swaps in the live price.
+const CNBC = { VTI: "VTI", VXUS: "VXUS", TSLA: "TSLA", NVDA: "NVDA", AMZN: "AMZN", SPX: ".SPX", NDX: ".IXIC", DJI: ".DJI", GOLD: "@GC.1", BTC: "BTC=" };
+const num = (s) => parseFloat(String(s ?? "").replace(/[,%+\s]/g, ""));
+export async function liveQuotes(prev) {
+  if (!prev?.items?.length) throw new Error("no base quotes");
+  const r = await j("https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=" + encodeURIComponent(Object.values(CNBC).join("|")) + "&output=json&fund=1&exthrs=1", 10000);
+  const by = {}; for (const q of r?.FormattedQuoteResult?.FormattedQuote || []) by[q.symbol] = q;
+  let hit = 0;
+  const items = prev.items.map((it) => {
+    const q = by[CNBC[it.sym]]; if (!q) return it; const p = num(q.last), c = num(q.change), pc = num(q.change_pct);
+    if (!isFinite(p) || !isFinite(c)) return it; hit++;
+    const cl = it.closes?.length ? [...it.closes.slice(0, -1), p] : [p];
+    return { ...it, price: Math.round(p * 100) / 100, chg: Math.round(c * 100) / 100, pct: isFinite(pc) ? Math.round(pc * 100) / 100 : it.pct, closes: cl, time: new Date().toISOString() };
+  });
+  if (!hit) throw new Error("no live quotes");
+  return { ...prev, updated: new Date().toISOString(), live: true, errors: [], items };
+}

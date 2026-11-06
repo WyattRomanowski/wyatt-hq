@@ -34,6 +34,40 @@ const empty = (t) => h("div", { class: "empty" }, t);
 const done = (cb, on) => h("input", { type: "checkbox", class: "check", checked: on, onchange: (e) => cb(e.target.checked) });
 const mount = (x) => { const d = h("div"); d.append(x); return d; };
 
+
+/* ===== v5: briefing, portfolio estimate, game night ===== */
+const isToday = (iso) => iso && ymd(new Date(iso)) === ymd();
+function gamesToday(D) {
+  const out = []; for (const l of Object.values(D.sports?.leagues || {})) { const e = [l.live, ...(l.next || []), ...(l.slate || [])].filter(Boolean).find((x) => (x.state === "in" || (isToday(x.date) && x.state !== "post")) && (x.teams || []).some((tm) => /bos|ne$|^ne/i.test(tm.abbr || ""))); if (e) out.push({ l, e }); } return out;
+}
+function portfolioToday(D) {
+  const q = (D.quotes?.items || []).filter((i) => i.w > 0); if (!q.length) return null;
+  const ws = q.reduce((a, i) => a + i.w, 0), pct = q.reduce((a, i) => a + i.w * i.pct, 0) / ws;
+  const bal = store.get("accts", []).filter((a) => !a.debt && /brokerage|roth|ira|invest|401/i.test(a.name)).reduce((a, x) => a + x.bal, 0);
+  return { pct, usd: bal * pct / 100, bal };
+}
+const hr12 = (iso) => new Date(iso).toLocaleTimeString("en-US", { hour: "numeric" }).replace(" ", "").toLowerCase();
+function briefing(ctx) {
+  const { D, go } = ctx, rows = [], now = new Date(), t0 = today(), q = D.quotes?.items || [], g = (s) => q.find((i) => i.sym === s);
+  const spx = g("SPX");
+  if (spx) { const m = spx.pct <= -3 ? "panic" : spx.pct <= -1.5 ? "fear" : spx.pct < -0.4 ? "cautious" : spx.pct < 0.4 ? "flat" : spx.pct < 1.5 ? "upbeat" : "euphoric"; rows.push(["📈", `S&P 500 ${sgn(spx.pct)}% · market mood: ${m}`, "money", spx.pct >= 0 ? "gain" : "loss"]); }
+  const mv = q.filter((i) => !/^(SPX|NDX|DJI|BTC|GOLD)$/.test(i.sym)).sort((a, b) => Math.abs(b.pct) - Math.abs(a.pct))[0];
+  if (mv && Math.abs(mv.pct) >= 2) rows.push([mv.pct > 0 ? "🚀" : "🔻", `Biggest mover: ${mv.sym} ${sgn(mv.pct)}%`, "money", mv.pct >= 0 ? "gain" : "loss"]);
+  const pf = portfolioToday(D); if (pf && pf.bal) rows.push(["💼", `Your investments ≈ ${pf.usd >= 0 ? "+" : "−"}${money(Math.abs(pf.usd))} today (est., ${sgn(pf.pct)}%)`, "money", pf.usd >= 0 ? "gain" : "loss"]);
+  const w = D.weather;
+  if (w) { const d0 = w.daily?.[0], wet = (w.hourly || []).slice(0, 14).find((x) => x.rain >= 40); rows.push([WX(w.current.code), `${w.current.temp}° now, ${d0 ? `high ${d0.hi}° / low ${d0.lo}°` : ""} — ${wet ? `rain around ${hr12(wet.t)} (${wet.rain}%)` : "no rain expected"}`, "happy"]); }
+  for (const { l, e } of gamesToday(D)) { const a = (e.teams || []).find((x) => !x.home), hm = (e.teams || []).find((x) => x.home); rows.push([l.emoji, e.state === "in" ? `${l.teamName} LIVE ${a?.abbr} ${a?.score}–${hm?.score} ${hm?.abbr} · ${e.detail}` : `${l.teamName} today — ${a?.abbr} @ ${hm?.abbr}, ${new Date(e.date).toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit" })}`, "sports", e.state === "in" ? "loss" : ""]); }
+  const open = store.get("tasks", []).filter((x) => x.status !== "done"), due = open.filter((x) => x.due && x.due <= t0);
+  rows.push(["✅", due.length ? `${due.length} task${due.length > 1 ? "s" : ""} due or overdue — start with “${due[0].title.slice(0, 40)}”` : open.length ? `${open.length} open task${open.length > 1 ? "s" : ""}, none due today` : "Task list is clear", "tasks", due.length ? "warn" : ""]);
+  const ev = allEvents().filter((e) => e.date >= t0 && e.kind !== "task").sort((a, b) => a.date.localeCompare(b.date)).find((e) => e.kind === "pay") , nx = allEvents().filter((e) => e.date >= t0 && e.kind !== "task" && e.kind !== "pay").sort((a, b) => a.date.localeCompare(b.date))[0];
+  const dn = (d) => Math.round((parse(d) - parse(t0)) / 864e5), when = (n) => (n === 0 ? "today" : n === 1 ? "tomorrow" : `in ${n} days`);
+  if (nx) rows.push(["📅", `${nx.title.slice(0, 52)} — ${when(dn(nx.date))}`, "calendar"]);
+  if (ev) rows.push(["💵", `${ev.title.replace(/\s*\$.*/, "")} — ${when(dn(ev.date))}`, "calendar"]);
+  const top = D.news?.sections?.trending?.[0]; if (top) rows.push(["📰", h("a", { href: top.url, target: "_blank", rel: "noopener" }, top.t.slice(0, 90), h("span", { class: "src" }, " · " + top.src)), "news"]);
+  const c = card("Today's briefing", "☀️", h("ul", { class: "brief-l" }, rows.map(([ic, tx, tab, cls]) => h("li", { class: cls || "", onclick: (e) => { if (e.target.closest("a")) return; go(tab); } }, h("span", { class: "bi" }, ic), h("span", { class: "bt2" }, tx), h("span", { class: "bgo" }, "›")))), h("div", { class: "src", style: { marginTop: "8px" } }, "Built live from your data · " + (D.quotes?.updated ? "markets " + ago(D.quotes.updated) : "")));
+  c.classList.add("brief"); return c;
+}
+
 /* ===================== HAPPY (home) ===================== */
 function happy(ctx) {
   const { D, go, render } = ctx;
@@ -44,7 +78,7 @@ function happy(ctx) {
   const dstr = now.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric", year: "numeric" });
   const w = D.weather;
   const hello = h("div", { class: "hello" }, h("div", { class: "hello-t" }, h("div", { class: "sub" }, dstr), h("h1", {}, "Happy " + DAYS[now.getDay()]),
-    h("div", { class: "row" }, h("span", { class: "chip" }, greeting() + ", Wyatt"), w ? h("span", { class: "chip" }, `${WX(w.current.code)} ${w.current.temp}° ${w.current.desc}`) : null, w && w.hourly.slice(0, 12).some((x) => x.rain >= 50) ? h("span", { class: "chip warn" }, "☂️ Rain likely today") : null, top1 ? h("span", { class: "chip" }, "Focus: " + top1.title.slice(0, 40)) : null,
+    h("div", { class: "row" }, h("span", { class: "chip" }, greeting() + ", Wyatt"), w ? h("span", { class: "chip" }, `${WX(w.current.code)} ${w.current.temp}° ${w.current.desc}`) : null, w && w.hourly.slice(0, 12).some((x) => x.rain >= 50) ? h("span", { class: "chip warn" }, "☂️ Rain likely today") : null, top1 ? h("span", { class: "chip" }, "Next: " + top1.title.slice(0, 40)) : null, ...gamesToday(D).map(({ l, e }) => h("span", { class: "chip " + (e.state === "in" ? "bad" : "warn") }, `${l.emoji} ${l.teamName} ${e.state === "in" ? "LIVE" : "tonight"}`)),
       open.length ? h("span", { class: "chip " + (dueSoon ? "warn" : "") }, `${open.length} open task${open.length > 1 ? "s" : ""}${dueSoon ? ` · ${dueSoon} due` : ""}`) : h("span", { class: "chip ok" }, "inbox zero ✓"))), cv);
   const g = h("div", { class: "bento" });
   // weather
@@ -67,7 +101,6 @@ function happy(ctx) {
   const ac = store.get("accts", []), nw0 = ac.reduce((a, x) => a + (x.debt ? -x.bal : x.bal), 0), hist = store.get("nw", []);
   g.append(card("Net worth", "💰", ac.length ? h("div", {}, h("div", { class: "big mono" }, money(nw0)), hist.length > 1 ? lineChart(hist.slice(-20).map((x) => ({ x: x.d, y: x.total })), { h: 110, xlabel: (p) => p.x.slice(5), yfmt: (v) => "$" + Math.round(v / 100) / 10 + "k", ticks: 4 }) : h("div", { class: "src" }, "Save snapshots weekly to see the trend.")) : empty("Add accounts in Money to track net worth."), h("button", { class: "btn sm ghost", onclick: () => go("money") }, "Money →")));
   g.append(levelCard(), reviewCard(D), nextUpCard());
-  g.append(habitsToday(render));
   // upcoming
   g.append(upcomingCard(go));
   // fun
@@ -76,21 +109,20 @@ function happy(ctx) {
     h("div", {}, h("b", {}, "Joke  "), f?.joke || JOKES[day % JOKES.length]), h("div", { style: { marginTop: "10px" } }, h("b", {}, "Fact  "), f?.fact || FACTS[day % FACTS.length])));
   const hide = store.get("hide", []); [...g.children].forEach((c) => hide.includes(c.dataset.t) && c.remove());
   const R = (id) => (c) => wyTabs.find((t) => t.id === id).render(c);
-  const FEED = [["tasks", "Tasks", "✅"], ["news", "News", "📰"], ["sports", "Sports", "🏟️"], ["money", "Money", "💰"], ["calendar", "Calendar", "📅"], ["goals", "Goals", "🎯"], ["habits", "Habits", "🔥"], ["notes", "Notes", "📝"]].map(([id, l, ic]) => [id, l, ic, R(id)]);
+  const FEED = [["tasks", "Tasks", "✅"], ["news", "News", "📰"], ["sports", "Sports", "🏟️"], ["money", "Money", "💰"], ["calendar", "Calendar", "📅"], ["goals", "Goals", "🎯"], ["notes", "Notes", "📝"]].map(([id, l, ic]) => [id, l, ic, R(id)]);
   const jump = h("div", { class: "jump" }, FEED.map(([id, l, ic]) => h("button", { class: "chipbtn", onclick: () => document.getElementById("sec-" + id)?.scrollIntoView({ behavior: "smooth", block: "start" }) }, ic + " " + l)), h("button", { class: "chipbtn", onclick: () => scrollTo({ top: 0, behavior: "smooth" }) }, "↑ Top"));
-  const wrap = h("div"); wrap.append(hello, kpis(ctx), jump, g);
+  const wrap = h("div"); wrap.append(hello, briefing(ctx), kpis(ctx), jump, g);
   FEED.forEach(([id, l, ic, f]) => { let body; try { body = f({ ...ctx, compact: true }); } catch (e) { body = h("div", { class: "card" }, "Error: " + e.message); } wrap.append(h("section", { class: "feed-sec", id: "sec-" + id }, h("div", { class: "feed-h" }, h("span", { class: "feed-ic" }, ic), h("h2", {}, l), h("button", { class: "chipbtn", onclick: () => go(id) }, "Open ›")), body)); });
   wrap.append(h("div", { class: "end" }, "That's everything ✦ ", h("button", { class: "chipbtn", onclick: () => scrollTo({ top: 0, behavior: "smooth" }) }, "Back to top")));
   return wrap;
 }
 function levelCard() {
   const x = store.get("xp", 0), l = lvl(x), lo = 40 * (l - 1) ** 2, hi = 40 * l ** 2;
-  return card("Level", "⚡", h("div", { class: "row", style: { gap: "16px" } }, ring((x - lo) / (hi - lo), { size: 92, label: "L" + l }), h("div", {}, h("div", { class: "big mono", style: { fontSize: "28px" } }, x + " XP"), h("div", { class: "src" }, `${hi - x} XP to level ${l + 1}`), h("div", { class: "src" }, "+10 task · +5 habit · +20 focus"))));
+  return card("Level", "⚡", h("div", { class: "row", style: { gap: "16px" } }, ring((x - lo) / (hi - lo), { size: 92, label: "L" + l }), h("div", {}, h("div", { class: "big mono", style: { fontSize: "28px" } }, x + " XP"), h("div", { class: "src" }, `${hi - x} XP to level ${l + 1}`), h("div", { class: "src" }, "+10 XP per task finished"))));
 }
 function reviewCard(D) {
-  const ws = ymd(weekStart()), tk = store.get("tasks", []).filter((t) => t.doneAt >= ws).length, log = store.get("hlog", {}), hb = store.get("habits", []), fo = store.get("focus", {});
-  let hd = 0, ht = 0, fc = 0; for (let i = 0; i < 7; i++) { const d = ymd(addDays(weekStart(), i)); if (d > today()) break; ht += hb.length; hd += hb.filter((x) => log[d]?.[x.id]).length; fc += fo[d] || 0; }
-  return card("This week", "🗒️", h("div", { class: "ring-wrap" }, ring(ht ? hd / ht : 0, { size: 84, label: ht ? Math.round((hd / ht) * 100) + "%" : "—", sub: "habits" }), h("div", { class: "ringl" }, h("b", {}, tk), "tasks done"), h("div", { class: "ringl" }, h("b", {}, fc), "focus blocks")));
+  const ws = ymd(weekStart()), all = store.get("tasks", []), tk = all.filter((t) => t.doneAt >= ws).length, left = all.filter((t) => t.status !== "done").length, tot = tk + left;
+  return card("This week", "🗒️", h("div", { class: "ring-wrap" }, ring(tot ? tk / tot : 0, { size: 84, label: tot ? Math.round((tk / tot) * 100) + "%" : "—", sub: "done" }), h("div", { class: "ringl" }, h("b", {}, tk), "tasks done"), h("div", { class: "ringl" }, h("b", {}, left), "still open")));
 }
 function nextUpCard() {
   const t = today(), ev = allEvents().filter((e) => e.date >= t && e.kind !== "task").sort((a, b) => a.date.localeCompare(b.date)).slice(0, 5);
@@ -99,10 +131,10 @@ function nextUpCard() {
 }
 function kpis({ D, go }) {
   const w = D.weather?.current, ac = store.get("accts", []), nw = ac.reduce((a, x) => a + (x.debt ? -x.bal : x.bal), 0), tk = store.get("tasks", []).filter((t) => t.status !== "done"), t0 = today();
-  const ev = allEvents().filter((e) => e.date >= t0 && e.kind !== "task").sort((a, b) => a.date.localeCompare(b.date))[0], xp = store.get("xp", 0);
+  const ev = allEvents().filter((e) => e.date >= t0 && e.kind !== "task").sort((a, b) => a.date.localeCompare(b.date))[0], xp = store.get("xp", 0), spx = D.quotes?.items?.find((i) => i.sym === "SPX");
   const tile = (tab, ic, lab, val, sub) => h("button", { class: "kpi", onclick: () => go(tab) }, h("div", { class: "kpi-l" }, h("span", { html: ico(ic, 15) }), lab), h("div", { class: "kpi-v" }, val), h("div", { class: "kpi-s" }, sub));
   return h("div", { class: "kpis" }, tile("happy", "home", "Weather", w ? w.temp + "°" : "—", w ? w.desc + " · feels " + w.feels + "°" : "loading"), tile("money", "money", "Net worth", ac.length ? money(nw) : "—", ac.length ? "tap for details" : "add accounts"),
-    tile("tasks", "tasks", "Open tasks", String(tk.length), tk.filter((t) => t.due && t.due <= t0).length + " due or overdue"), tile("calendar", "calendar", "Next up", ev ? ev.title.slice(0, 18) : "—", ev ? dayShort(ev.date + "T12:00") : "nothing scheduled"), tile("happy", "habits", "Level " + lvl(xp), xp + " XP", "keep the streak"));
+    tile("tasks", "tasks", "Open tasks", String(tk.length), tk.filter((t) => t.due && t.due <= t0).length + " due or overdue"), tile("calendar", "calendar", "Next up", ev ? ev.title.slice(0, 18) : "—", ev ? dayShort(ev.date + "T12:00") : "nothing scheduled"), tile("money", "money", "S&P 500", spx ? spx.price.toLocaleString(undefined, { maximumFractionDigits: 0 }) : "—", spx ? (spx.pct >= 0 ? "▲ " : "▼ ") + Math.abs(spx.pct).toFixed(2) + "% today" : "loading"), tile("happy", "goals", "Level " + lvl(xp), xp + " XP", "finish tasks to level up"));
 }
 function gameMini(e) {
   const t = e.teams || [], a = t.find((x) => !x.home), hm = t.find((x) => x.home);
@@ -123,11 +155,6 @@ function wxScene(code, day) {
 }
 const newsLi = (n) => h("li", {}, h("a", { class: "t", href: n.url, target: "_blank", rel: "noopener" }, n.t), h("div", { class: "meta" }, n.lean ? h("span", { class: "chip " + n.lean }, { L: "Left", C: "Center", R: "Right" }[n.lean]) : null, n.src, n.ts ? " · " + ago(new Date(n.ts).toISOString()) : ""));
 
-function habitsToday(render) {
-  const hb = store.get("habits", []), log = store.get("hlog", {}), t = today();
-  return card("Habits", "🔥", hb.length ? h("ul", { class: "list" }, hb.map((x) => h("li", {}, h("label", { class: "row", style: { cursor: "pointer", flex: 1 } }, done((v) => { (log[t] ||= {})[x.id] = v; v && addXP(5); store.set("hlog", log); render(); }, !!log[t]?.[x.id]), x.name), h("span", { class: "chip" }, "🔥 " + streak(x.id, log))))) : empty("Add habits in the Habits tab."));
-}
-function streak(id, log) { let n = 0, d = new Date(); if (!log[ymd(d)]?.[id]) d = addDays(d, -1); while (log[ymd(d)]?.[id]) { n++; d = addDays(d, -1); } return n; }
 function allEvents() {
   const ev = store.get("events", []).map((e) => ({ ...e })), out = [], now = new Date(), end = addDays(now, 120);
   for (const e of ev) { if (!e.rep) { out.push(e); continue; } let d = parse(e.date); let i = 0; while (d <= end && i++ < 400) { if (d >= addDays(now, -40)) out.push({ ...e, date: ymd(d) }); d = e.rep === "weekly" ? addDays(d, 7) : e.rep === "biweekly" ? addDays(d, 14) : new Date(d.getFullYear(), d.getMonth() + 1, d.getDate()); } }
@@ -284,28 +311,6 @@ function goals({ render }) {
     h("div", { class: "grid", style: { marginTop: "14px" } }, gl.length ? gl.map((g) => { const p = Math.min(1, g.cur / g.target); return card(g.title, "", h("div", { class: "row", style: { gap: "16px" } }, ring(p, { size: 96, label: Math.round(p * 100) + "%" }), h("div", { style: { flex: 1 } }, h("div", { class: "mono" }, `${g.cur.toLocaleString()} / ${g.target.toLocaleString()} ${g.unit}`), g.due ? h("div", { class: "src" }, "Due " + g.due) : null, h("div", { class: "row", style: { marginTop: "8px" } }, h("input", { type: "number", value: g.cur, style: { width: "110px" }, onchange: (e) => { g.cur = +e.target.value; save(); } }), h("button", { class: "x", onclick: () => { gl.splice(gl.indexOf(g), 1); save(); } }, "✕"))))); }) : [card("Goals", "", empty("Add a goal to start tracking."))]));
 }
 
-/* ===================== HABITS ===================== */
-function habits({ render }) {
-  const hb = store.get("habits", []), log = store.get("hlog", {}), n = h("input", { type: "text", class: "grow", placeholder: "New habit (e.g. Workout)" }), t = today();
-  const sum = {}; for (const d in log) sum[d] = Object.values(log[d]).filter(Boolean).length;
-  const days = Array.from({ length: 7 }, (_, i) => addDays(new Date(), i - 6));
-  return h("div", { class: "grid" },
-    card("This week", "🔥", hb.length ? h("table", { style: { width: "100%", borderCollapse: "collapse", fontSize: "13px" } }, h("tr", {}, h("th"), days.map((d) => h("th", { class: "muted", style: { padding: "4px" } }, DAYS[d.getDay()][0])), h("th")), hb.map((x) => h("tr", {}, h("td", { style: { padding: "6px 4px" } }, x.name), days.map((d) => h("td", { style: { textAlign: "center" } }, done((v) => { (log[ymd(d)] ||= {})[x.id] = v; v && addXP(5); store.set("hlog", log); render(); }, !!log[ymd(d)]?.[x.id]))), h("td", {}, h("span", { class: "chip" }, "🔥" + streak(x.id, log)), h("button", { class: "x", onclick: () => { hb.splice(hb.indexOf(x), 1); store.set("habits", hb); render(); } }, "✕"))))) : empty("No habits yet."), h("div", { class: "form", style: { marginTop: "10px" } }, n, h("button", { class: "btn sm", onclick: () => { if (n.value) { hb.push({ id: uid(), name: n.value }); store.set("habits", hb); render(); } } }, "Add"))),
-    card("Consistency (18 weeks)", "🗓️", heat(sum), h("div", { class: "src" }, "Darker = more habits done that day")));
-}
-
-/* ===================== FOCUS ===================== */
-const F = { mode: "focus", left: 25 * 60, run: false, int: null };
-function focus({ render }) {
-  const total = F.mode === "focus" ? 25 * 60 : 5 * 60, log = store.get("focus", {}), t = today();
-  const wrap = h("div", { class: "grid" });
-  const r = h("div", {}, ring(1 - F.left / total, { size: 190, stroke: 14, label: `${Math.floor(F.left / 60)}:${String(F.left % 60).padStart(2, "0")}`, sub: F.mode === "focus" ? "focus" : "break" }));
-  const tick = () => { F.left--; if (F.left <= 0) { clearInterval(F.int); F.run = false; if (F.mode === "focus") { log[t] = (log[t] || 0) + 1; store.set("focus", log); addXP(20); confetti(100); } chime(); F.mode = F.mode === "focus" ? "break" : "focus"; F.left = F.mode === "focus" ? 1500 : 300; toast("Time! Switching to " + F.mode); try { navigator.vibrate?.(300); } catch {} } render(); };
-  wrap.append(card("Pomodoro", "⏱️", h("div", { class: "row", style: { justifyContent: "center", flexDirection: "column", gap: "14px" } }, r, h("div", { class: "row" }, h("button", { class: "btn", onclick: () => { if (F.run) { clearInterval(F.int); F.run = false; } else { F.run = true; F.int = setInterval(tick, 1000); } render(); } }, F.run ? "Pause" : "Start"), h("button", { class: "btn ghost", onclick: () => { clearInterval(F.int); F.run = false; F.left = F.mode === "focus" ? 1500 : 300; render(); } }, "Reset"), h("button", { class: "btn ghost", onclick: () => { clearInterval(F.int); F.run = false; F.mode = F.mode === "focus" ? "break" : "focus"; F.left = F.mode === "focus" ? 1500 : 300; render(); } }, "Skip")))),
-    card("Sessions", "📊", h("div", { class: "big" }, log[t] || 0), h("div", { class: "src" }, "focus blocks today"), barChart(Array.from({ length: 7 }, (_, i) => { const d = addDays(new Date(), i - 6); return { l: DAYS[d.getDay()].slice(0, 3), v: log[ymd(d)] || 0 }; }), { h: 140 })));
-  return wrap;
-}
-
 /* ===================== NOTES ===================== */
 function notes({ render }) {
   const ns = store.get("notes", []), ta = h("textarea", { placeholder: "Capture an idea, link or thought…" }), q = h("input", { type: "text", placeholder: "Search notes…", class: "grow" });
@@ -319,6 +324,6 @@ function notes({ render }) {
 export const wyTabs = [
   { id: "happy", label: () => "Happy " + DAYS[new Date().getDay()], render: happy },
   { id: "tasks", label: "Tasks", render: tasks }, { id: "money", label: "Money", render: moneyTab }, { id: "news", label: "News", render: news }, { id: "sports", label: "Sports", render: sports },
-  { id: "study", label: "Study", render: study }, { id: "calendar", label: "Calendar", render: calendar }, { id: "goals", label: "Goals", render: goals }, { id: "habits", label: "Habits", render: habits }, { id: "focus", label: "Focus", render: focus }, { id: "notes", label: "Notes", render: notes },
+  { id: "study", label: "Study", render: study }, { id: "calendar", label: "Calendar", render: calendar }, { id: "goals", label: "Goals", render: goals }, { id: "notes", label: "Notes", render: notes },
 ];
 export { weatherCard, newsLi };

@@ -1,5 +1,5 @@
 // Shell cached for offline; data/* is network-first so live numbers stay fresh.
-const V = "whq-v6", SHELL = ["./", "./index.html", "./css/app.css", "./css/v4.css", "./js/icons.js", "./js/app.js", "./js/core.js", "./js/fx.js", "./js/views.js", "./js/alku.js", "./js/live.js", "./js/assets.js", "./icons/icon.svg"];
+const V = "whq-v7", SHELL = ["./", "./index.html", "./css/app.css", "./css/v4.css", "./css/v5.css", "./js/icons.js", "./js/app.js", "./js/core.js", "./js/fx.js", "./js/views.js", "./js/alku.js", "./js/live.js", "./js/assets.js", "./icons/icon.svg"];
 self.addEventListener("install", (e) => { e.waitUntil(caches.open(V).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting())); });
 self.addEventListener("activate", (e) => { e.waitUntil(caches.keys().then((k) => Promise.all(k.filter((x) => x !== V).map((x) => caches.delete(x)))).then(() => self.clients.claim())); });
 self.addEventListener("fetch", (e) => {

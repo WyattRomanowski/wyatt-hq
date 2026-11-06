@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T23:56:48.514Z",
+ "updated": "2026-11-06T01:48:25.225Z",
  "leagues": {
   "nba": {
    "key": "nba",
@@ -498,34 +498,6 @@
    ],
    "next": [
     {
-     "id": "401892654",
-     "date": "2026-11-06T00:00Z",
-     "name": "BOS @ PIT",
-     "state": "pre",
-     "detail": "11/5 - 7:00 PM EST",
-     "done": false,
-     "teams": [
-      {
-       "home": true,
-       "abbr": "PIT",
-       "name": "Pittsburgh Penguins",
-       "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/pit.png",
-       "score": null,
-       "winner": false,
-       "record": null
-      },
-      {
-       "home": false,
-       "abbr": "BOS",
-       "name": "Boston Bruins",
-       "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/bos.png",
-       "score": null,
-       "winner": false,
-       "record": null
-      }
-     ]
-    },
-    {
      "id": "401892674",
      "date": "2026-11-08T18:00Z",
      "name": "FLA @ BOS",
@@ -636,6 +608,34 @@
        "record": null
       }
      ]
+    },
+    {
+     "id": "401892739",
+     "date": "2026-11-19T00:30Z",
+     "name": "BOS @ DET",
+     "state": "pre",
+     "detail": "11/18 - 7:30 PM EST",
+     "done": false,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "DET",
+       "name": "Detroit Red Wings",
+       "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/det.png",
+       "score": null,
+       "winner": false,
+       "record": null
+      },
+      {
+       "home": false,
+       "abbr": "BOS",
+       "name": "Boston Bruins",
+       "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/bos.png",
+       "score": null,
+       "winner": false,
+       "record": null
+      }
+     ]
     }
    ],
    "slate": [
@@ -643,8 +643,8 @@
      "id": "401892648",
      "date": "2026-11-06T00:00Z",
      "name": "UTA @ MTL",
-     "state": "pre",
-     "detail": "11/5 - 7:00 PM EST",
+     "state": "in",
+     "detail": "0:45 - 2nd",
      "done": false,
      "teams": [
       {
@@ -652,7 +652,7 @@
        "abbr": "MTL",
        "name": "Montreal Canadiens",
        "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/mtl.png",
-       "score": "0",
+       "score": "2",
        "winner": false,
        "record": "9-3-3"
       },
@@ -661,7 +661,7 @@
        "abbr": "UTA",
        "name": "Utah Mammoth",
        "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/uta.png",
-       "score": "0",
+       "score": "3",
        "winner": false,
        "record": "10-6-0"
       }
@@ -671,8 +671,8 @@
      "id": "401892649",
      "date": "2026-11-06T00:00Z",
      "name": "VGK @ DET",
-     "state": "pre",
-     "detail": "11/5 - 7:00 PM EST",
+     "state": "in",
+     "detail": "End of 2nd",
      "done": false,
      "teams": [
       {
@@ -699,8 +699,8 @@
      "id": "401892650",
      "date": "2026-11-06T00:00Z",
      "name": "CHI @ TB",
-     "state": "pre",
-     "detail": "11/5 - 7:00 PM EST",
+     "state": "in",
+     "detail": "2:52 - 2nd",
      "done": false,
      "teams": [
       {
@@ -708,7 +708,7 @@
        "abbr": "TB",
        "name": "Tampa Bay Lightning",
        "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tb.png",
-       "score": "0",
+       "score": "2",
        "winner": false,
        "record": "9-3-2"
       },
@@ -727,8 +727,8 @@
      "id": "401892651",
      "date": "2026-11-06T00:00Z",
      "name": "STL @ NJ",
-     "state": "pre",
-     "detail": "11/5 - 7:00 PM EST",
+     "state": "in",
+     "detail": "End of 2nd",
      "done": false,
      "teams": [
       {
@@ -736,7 +736,7 @@
        "abbr": "NJ",
        "name": "New Jersey Devils",
        "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nj.png",
-       "score": "0",
+       "score": "4",
        "winner": false,
        "record": "10-5-0"
       },
@@ -745,7 +745,7 @@
        "abbr": "STL",
        "name": "St. Louis Blues",
        "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/stl.png",
-       "score": "0",
+       "score": "1",
        "winner": false,
        "record": "7-7-1"
       }
@@ -755,8 +755,8 @@
      "id": "401892652",
      "date": "2026-11-06T00:00Z",
      "name": "CAR @ NYI",
-     "state": "pre",
-     "detail": "11/5 - 7:00 PM EST",
+     "state": "in",
+     "detail": "End of 2nd",
      "done": false,
      "teams": [
       {
@@ -764,7 +764,7 @@
        "abbr": "NYI",
        "name": "New York Islanders",
        "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyi.png",
-       "score": "0",
+       "score": "3",
        "winner": false,
        "record": "7-5-2"
       },
@@ -773,7 +773,7 @@
        "abbr": "CAR",
        "name": "Carolina Hurricanes",
        "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/car.png",
-       "score": "0",
+       "score": "3",
        "winner": false,
        "record": "12-3-2"
       }
@@ -783,8 +783,8 @@
      "id": "401892653",
      "date": "2026-11-06T00:00Z",
      "name": "PHI @ NYR",
-     "state": "pre",
-     "detail": "11/5 - 7:00 PM EST",
+     "state": "in",
+     "detail": "End of 2nd",
      "done": false,
      "teams": [
       {
@@ -792,7 +792,7 @@
        "abbr": "NYR",
        "name": "New York Rangers",
        "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyr.png",
-       "score": "0",
+       "score": "1",
        "winner": false,
        "record": "8-7-1"
       },
@@ -801,7 +801,7 @@
        "abbr": "PHI",
        "name": "Philadelphia Flyers",
        "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/phi.png",
-       "score": "0",
+       "score": "2",
        "winner": false,
        "record": "4-9-4"
       }
@@ -811,8 +811,8 @@
      "id": "401892654",
      "date": "2026-11-06T00:00Z",
      "name": "BOS @ PIT",
-     "state": "pre",
-     "detail": "11/5 - 7:00 PM EST",
+     "state": "in",
+     "detail": "End of 2nd",
      "done": false,
      "teams": [
       {
@@ -820,7 +820,7 @@
        "abbr": "PIT",
        "name": "Pittsburgh Penguins",
        "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/pit.png",
-       "score": "0",
+       "score": "2",
        "winner": false,
        "record": "5-8-2"
       },
@@ -829,7 +829,7 @@
        "abbr": "BOS",
        "name": "Boston Bruins",
        "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/bos.png",
-       "score": "0",
+       "score": "5",
        "winner": false,
        "record": "11-4-1"
       }
@@ -839,8 +839,8 @@
      "id": "401892655",
      "date": "2026-11-06T00:00Z",
      "name": "DAL @ CBJ",
-     "state": "pre",
-     "detail": "11/5 - 7:00 PM EST",
+     "state": "in",
+     "detail": "End of 2nd",
      "done": false,
      "teams": [
       {
@@ -865,10 +865,10 @@
     },
     {
      "id": "401892656",
-     "date": "2026-11-06T01:00Z",
+     "date": "2026-11-06T00:00Z",
      "name": "VAN @ WPG",
-     "state": "pre",
-     "detail": "11/5 - 8:00 PM EST",
+     "state": "in",
+     "detail": "End of 2nd",
      "done": false,
      "teams": [
       {
@@ -876,7 +876,7 @@
        "abbr": "WPG",
        "name": "Winnipeg Jets",
        "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/wpg.png",
-       "score": "0",
+       "score": "5",
        "winner": false,
        "record": "5-8-3"
       },
@@ -885,7 +885,7 @@
        "abbr": "VAN",
        "name": "Vancouver Canucks",
        "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/van.png",
-       "score": "0",
+       "score": "1",
        "winner": false,
        "record": "3-13-1"
       }
@@ -895,8 +895,8 @@
      "id": "401892657",
      "date": "2026-11-06T01:00Z",
      "name": "ANA @ EDM",
-     "state": "pre",
-     "detail": "11/5 - 8:00 PM EST",
+     "state": "in",
+     "detail": "2:09 - 1st",
      "done": false,
      "teams": [
       {
@@ -913,7 +913,7 @@
        "abbr": "ANA",
        "name": "Anaheim Ducks",
        "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/ana.png",
-       "score": "0",
+       "score": "1",
        "winner": false,
        "record": "7-7-1"
       }
@@ -947,7 +947,35 @@
       }
      ]
     }
-   ]
+   ],
+   "live": {
+    "id": "401892654",
+    "date": "2026-11-06T00:00Z",
+    "name": "BOS @ PIT",
+    "state": "in",
+    "detail": "End of 2nd",
+    "done": false,
+    "teams": [
+     {
+      "home": true,
+      "abbr": "PIT",
+      "name": "Pittsburgh Penguins",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/pit.png",
+      "score": "2",
+      "winner": false,
+      "record": null
+     },
+     {
+      "home": false,
+      "abbr": "BOS",
+      "name": "Boston Bruins",
+      "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/bos.png",
+      "score": "5",
+      "winner": false,
+      "record": null
+     }
+    ]
+   }
   },
   "nfl": {
    "key": "nfl",
@@ -1243,8 +1271,8 @@
      "id": "401873037",
      "date": "2026-11-06T01:15Z",
      "name": "JAX @ BAL",
-     "state": "pre",
-     "detail": "11/5 - 8:15 PM EST",
+     "state": "in",
+     "detail": "2:00 - 1st",
      "done": false,
      "teams": [
       {
@@ -1252,7 +1280,7 @@
        "abbr": "BAL",
        "name": "Baltimore Ravens",
        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png",
-       "score": "0",
+       "score": "3",
        "winner": false,
        "record": "4-4"
       },
@@ -1261,7 +1289,7 @@
        "abbr": "JAX",
        "name": "Jacksonville Jaguars",
        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
-       "score": "0",
+       "score": "10",
        "winner": false,
        "record": "5-2"
       }

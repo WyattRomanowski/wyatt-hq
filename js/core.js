@@ -50,7 +50,7 @@ export const dayShort = (iso) => new Date(iso).toLocaleDateString("en-US", { wee
 
 /* ---- data fetch (relative URLs; cache-busted) ---- */
 export async function load(name) {
-  try { const r = await fetch(`./data/${name}.json?t=${Math.floor(Date.now() / 60000)}`, { cache: "no-store" }); if (!r.ok) throw 0; return await r.json(); } catch { return null; }
+  try { const r = await fetch(`./data/${name}.json?t=${Math.floor(Date.now() / 60000)}`, { cache: "no-store", signal: AbortSignal.timeout(8000) }); if (!r.ok) throw 0; return await r.json(); } catch { return null; }
 }
 
 /* ---- SVG charts ---- */

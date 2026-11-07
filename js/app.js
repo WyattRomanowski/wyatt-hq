@@ -131,11 +131,11 @@ function render() {
 /* ---------- data refresh ---------- */
 // Freshness contract: every source is re-fetched live in the browser once it is older than its limit; the page checks every 4 min, on focus, on wake and on reconnect. Nothing shown is older than ~30 min while the app is open.
 const SRC = { quotes: { label: "Markets", max: 10 }, weather: { label: "Weather", max: 10 }, sports: { label: "Sports", max: 10 }, news: { label: "News", max: 25 } };
-let liveBusy = false, lastNews = 0, lastTry = {}, firstLive = true;
+let liveBusy = false, busySince = 0, lastNews = 0, lastHeal = 0, lastTry = {}, firstLive = true;
 const ageMin = (k) => (D[k]?.updated ? (Date.now() - new Date(D[k].updated)) / 60000 : 1e9);
 const newer = (a, b) => !a || !a.updated || (b && new Date(b.updated) > new Date(a.updated));
 async function liveRefresh(force) {
-  if (liveBusy) return false; liveBusy = true; let ch = false; const first = firstLive; firstLive = false; const due = (k) => force || first || ageMin(k) > SRC[k].max, jobs = [];
+  if (liveBusy && Date.now() - busySince < 30000) return false; liveBusy = true; busySince = Date.now(); let ch = false; const first = firstLive; firstLive = false; const due = (k) => force || first || ageMin(k) > SRC[k].max, jobs = [];
   const run = (k, fn) => { if (!due(k) || (!force && Date.now() - (lastTry[k] || 0) < 60000)) return; lastTry[k] = Date.now(); jobs.push(fn().then((v) => { D[k] = v; ch = true; }).catch(() => {})); };
   try {
     run("weather", liveWeather); run("sports", () => liveSports(D.sports)); run("quotes", () => liveQuotes(D.quotes));
@@ -241,8 +241,16 @@ addEventListener("keydown", (e) => {
     else if (e.key === "?") { modal("Keyboard shortcuts", h("div", { class: "src", style: { display: "grid", gap: "8px", fontSize: "14px" } }, [["⌘/Ctrl K or /", "Search & commands"], ["N", "Quick add a task"], ["1–9", "Jump to a page"], ["?", "This help"], ["Esc", "Close dialogs"]].map(([k, d]) => h("div", { class: "row", style: { justifyContent: "space-between" } }, h("kbd", {}, k), d))), [{ t: "Close" }]); }
     else if (e.key.toLowerCase() === "n" && ctx.mode === "wyatt") { quickAdd(render); e.preventDefault(); }
   } if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") { e.preventDefault(); ctx.mode && openPalette(); } });
-document.addEventListener("visibilitychange", () => !document.hidden && ctx.mode && refresh());
-setInterval(() => ctx.mode && !document.hidden && refresh(), 4 * 60000); addEventListener("focus", () => ctx.mode && refresh()); addEventListener("pageshow", () => ctx.mode && refresh()); addEventListener("online", () => ctx.mode && refresh()); setInterval(drawPill, 30000);
+const myV = new URL(import.meta.url).searchParams.get("v");
+async function versionCheck() { // a frozen/old copy of the app reloads itself when a newer deploy exists
+  try { const t = await (await fetch("./index.html", { cache: "no-store", signal: AbortSignal.timeout(6000) })).text(), m = /js\/app\.js\?v=([^"'&]+)/.exec(t); if (m && myV && myV !== "BUILD" && m[1] !== myV && idle()) location.reload(); } catch {}
+}
+let lastWake = 0;
+const wake = () => { if (!ctx.mode || Date.now() - lastWake < 3000) return; lastWake = Date.now(); refresh(); versionCheck(); };
+document.addEventListener("visibilitychange", () => !document.hidden && wake());
+document.addEventListener("resume", wake); addEventListener("focus", wake); addEventListener("pageshow", wake); addEventListener("online", () => ctx.mode && refresh(true));
+setInterval(() => ctx.mode && !document.hidden && refresh(), 4 * 60000);
+setInterval(() => { drawPill(); if (ctx.mode && !document.hidden && Date.now() - lastHeal > 3 * 60000 && freshness().some((r) => !r.ok && r.m < 1e8)) { lastHeal = Date.now(); refresh(true); } }, 60000);
 (function ptr() {
   const el = h("div", { id: "ptr", html: ico("up", 20) }); document.body.append(el); let y0 = 0, dy = 0, on = false;
   addEventListener("touchstart", (e) => { on = scrollY <= 0 && ctx.mode && !$(".modal") && !$("#pal.open"); y0 = e.touches[0].clientY; dy = 0; }, { passive: true });

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T20:29:14.760Z",
+ "updated": "2026-11-07T23:49:00.977Z",
  "leagues": {
   "nba": {
    "key": "nba",
@@ -295,8 +295,8 @@
      "id": "401909938",
      "date": "2026-11-07T22:00Z",
      "name": "DEN VS IND",
-     "state": "pre",
-     "detail": "11/7 - 5:00 PM EST",
+     "state": "in",
+     "detail": "4:13 - 3rd",
      "done": false,
      "teams": [
       {
@@ -304,7 +304,7 @@
        "abbr": "IND",
        "name": "Indiana Pacers",
        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ind.png",
-       "score": "0",
+       "score": "67",
        "winner": false,
        "record": "3-6"
       },
@@ -313,7 +313,7 @@
        "abbr": "DEN",
        "name": "Denver Nuggets",
        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
-       "score": "0",
+       "score": "81",
        "winner": false,
        "record": "4-3"
       }
@@ -811,18 +811,18 @@
      "id": "401892663",
      "date": "2026-11-07T18:00Z",
      "name": "STL @ NSH",
-     "state": "in",
-     "detail": "4:20 - 3rd",
-     "done": false,
+     "state": "post",
+     "detail": "Final",
+     "done": true,
      "teams": [
       {
        "home": true,
        "abbr": "NSH",
        "name": "Nashville Predators",
        "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nsh.png",
-       "score": "2",
-       "winner": false,
-       "record": "7-4-5"
+       "score": "3",
+       "winner": true,
+       "record": "8-4-5"
       },
       {
        "home": false,
@@ -831,7 +831,7 @@
        "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/stl.png",
        "score": "1",
        "winner": false,
-       "record": "7-7-2"
+       "record": "7-8-2"
       }
      ]
     },
@@ -839,8 +839,8 @@
      "id": "401892664",
      "date": "2026-11-07T22:00Z",
      "name": "NYR @ SEA",
-     "state": "pre",
-     "detail": "11/7 - 5:00 PM EST",
+     "state": "in",
+     "detail": "End of 2nd",
      "done": false,
      "teams": [
       {
@@ -857,7 +857,7 @@
        "abbr": "NYR",
        "name": "New York Rangers",
        "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyr.png",
-       "score": "0",
+       "score": "4",
        "winner": false,
        "record": "9-7-1"
       }

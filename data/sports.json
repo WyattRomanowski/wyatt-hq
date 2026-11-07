@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T16:37:23.670Z",
+ "updated": "2026-11-07T20:29:14.760Z",
  "leagues": {
   "nba": {
    "key": "nba",
@@ -783,27 +783,27 @@
      "id": "401892662",
      "date": "2026-11-07T17:30Z",
      "name": "FLA @ WSH",
-     "state": "pre",
-     "detail": "11/7 - 12:30 PM EST",
-     "done": false,
+     "state": "post",
+     "detail": "Final",
+     "done": true,
      "teams": [
       {
        "home": true,
        "abbr": "WSH",
        "name": "Washington Capitals",
        "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/wsh.png",
-       "score": "0",
-       "winner": false,
-       "record": "8-6-0"
+       "score": "4",
+       "winner": true,
+       "record": "9-6-0"
       },
       {
        "home": false,
        "abbr": "FLA",
        "name": "Florida Panthers",
        "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/fla.png",
-       "score": "0",
+       "score": "3",
        "winner": false,
-       "record": "9-5-2"
+       "record": "9-6-2"
       }
      ]
     },
@@ -811,8 +811,8 @@
      "id": "401892663",
      "date": "2026-11-07T18:00Z",
      "name": "STL @ NSH",
-     "state": "pre",
-     "detail": "11/7 - 1:00 PM EST",
+     "state": "in",
+     "detail": "4:20 - 3rd",
      "done": false,
      "teams": [
       {
@@ -820,7 +820,7 @@
        "abbr": "NSH",
        "name": "Nashville Predators",
        "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nsh.png",
-       "score": "0",
+       "score": "2",
        "winner": false,
        "record": "7-4-5"
       },
@@ -829,7 +829,7 @@
        "abbr": "STL",
        "name": "St. Louis Blues",
        "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/stl.png",
-       "score": "0",
+       "score": "1",
        "winner": false,
        "record": "7-7-2"
       }

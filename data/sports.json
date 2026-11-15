@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T17:03:33.191Z",
+ "updated": "2026-11-15T21:44:20.915Z",
  "leagues": {
   "nba": {
    "key": "nba",
@@ -295,27 +295,27 @@
      "id": "401909985",
      "date": "2026-11-15T18:00Z",
      "name": "IND @ PHI",
-     "state": "pre",
-     "detail": "11/15 - 1:00 PM EST",
-     "done": false,
+     "state": "post",
+     "detail": "Final",
+     "done": true,
      "teams": [
       {
        "home": true,
        "abbr": "PHI",
        "name": "Philadelphia 76ers",
        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
-       "score": "0",
-       "winner": false,
-       "record": "10-3"
+       "score": "131",
+       "winner": true,
+       "record": "11-3"
       },
       {
        "home": false,
        "abbr": "IND",
        "name": "Indiana Pacers",
        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ind.png",
-       "score": "0",
+       "score": "124",
        "winner": false,
-       "record": "5-8"
+       "record": "5-9"
       }
      ]
     },
@@ -323,8 +323,8 @@
      "id": "401909986",
      "date": "2026-11-15T21:00Z",
      "name": "LAL @ PHX",
-     "state": "pre",
-     "detail": "11/15 - 4:00 PM EST",
+     "state": "in",
+     "detail": "34.3 - 1st",
      "done": false,
      "teams": [
       {
@@ -332,7 +332,7 @@
        "abbr": "PHX",
        "name": "Phoenix Suns",
        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
-       "score": "0",
+       "score": "24",
        "winner": false,
        "record": "5-6"
       },
@@ -341,7 +341,7 @@
        "abbr": "LAL",
        "name": "Los Angeles Lakers",
        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
-       "score": "0",
+       "score": "31",
        "winner": false,
        "record": "11-2"
       }
@@ -351,8 +351,8 @@
      "id": "401909987",
      "date": "2026-11-15T21:30Z",
      "name": "CHA @ LAC",
-     "state": "pre",
-     "detail": "11/15 - 4:30 PM EST",
+     "state": "in",
+     "detail": "10:14 - 1st",
      "done": false,
      "teams": [
       {
@@ -360,7 +360,7 @@
        "abbr": "LAC",
        "name": "LA Clippers",
        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png",
-       "score": "0",
+       "score": "7",
        "winner": false,
        "record": "3-8"
       },
@@ -981,8 +981,36 @@
    "key": "nfl",
    "emoji": "🏈",
    "teamName": "Patriots",
-   "record": "5-4",
+   "record": "5-5",
    "results": [
+    {
+     "id": "401873053",
+     "date": "2026-11-15T14:30Z",
+     "name": "NE VS DET",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "DET",
+       "name": "Detroit Lions",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+       "score": "35",
+       "winner": true,
+       "record": null
+      },
+      {
+       "home": false,
+       "abbr": "NE",
+       "name": "New England Patriots",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+       "score": "10",
+       "winner": false,
+       "record": null
+      }
+     ]
+    },
     {
      "id": "401873049",
      "date": "2026-11-08T21:25Z",
@@ -1090,34 +1118,6 @@
        "name": "New York Jets",
        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
        "score": "19",
-       "winner": false,
-       "record": null
-      }
-     ]
-    },
-    {
-     "id": "401872986",
-     "date": "2026-10-11T17:00Z",
-     "name": "LV @ NE",
-     "state": "post",
-     "detail": "Final",
-     "done": true,
-     "teams": [
-      {
-       "home": true,
-       "abbr": "NE",
-       "name": "New England Patriots",
-       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
-       "score": "45",
-       "winner": true,
-       "record": null
-      },
-      {
-       "home": false,
-       "abbr": "LV",
-       "name": "Las Vegas Raiders",
-       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
-       "score": "17",
        "winner": false,
        "record": null
       }
@@ -1268,235 +1268,11 @@
    ],
    "slate": [
     {
-     "id": "401873053",
-     "date": "2026-11-15T14:30Z",
-     "name": "NE VS DET",
-     "state": "in",
-     "detail": "13:44 - 4th",
-     "done": false,
-     "teams": [
-      {
-       "home": true,
-       "abbr": "DET",
-       "name": "Detroit Lions",
-       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
-       "score": "28",
-       "winner": false,
-       "record": "6-2"
-      },
-      {
-       "home": false,
-       "abbr": "NE",
-       "name": "New England Patriots",
-       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
-       "score": "3",
-       "winner": false,
-       "record": "5-4"
-      }
-     ]
-    },
-    {
-     "id": "401873058",
-     "date": "2026-11-15T18:00Z",
-     "name": "KC @ ATL",
-     "state": "pre",
-     "detail": "11/15 - 1:00 PM EST",
-     "done": false,
-     "teams": [
-      {
-       "home": true,
-       "abbr": "ATL",
-       "name": "Atlanta Falcons",
-       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
-       "score": "0",
-       "winner": false,
-       "record": "3-6"
-      },
-      {
-       "home": false,
-       "abbr": "KC",
-       "name": "Kansas City Chiefs",
-       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
-       "score": "0",
-       "winner": false,
-       "record": "6-2"
-      }
-     ]
-    },
-    {
-     "id": "401873056",
-     "date": "2026-11-15T18:00Z",
-     "name": "HOU @ CLE",
-     "state": "pre",
-     "detail": "11/15 - 1:00 PM EST",
-     "done": false,
-     "teams": [
-      {
-       "home": true,
-       "abbr": "CLE",
-       "name": "Cleveland Browns",
-       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
-       "score": "0",
-       "winner": false,
-       "record": "5-4"
-      },
-      {
-       "home": false,
-       "abbr": "HOU",
-       "name": "Houston Texans",
-       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
-       "score": "0",
-       "winner": false,
-       "record": "3-5"
-      }
-     ]
-    },
-    {
-     "id": "401873060",
-     "date": "2026-11-15T18:00Z",
-     "name": "MIN @ GB",
-     "state": "pre",
-     "detail": "11/15 - 1:00 PM EST",
-     "done": false,
-     "teams": [
-      {
-       "home": true,
-       "abbr": "GB",
-       "name": "Green Bay Packers",
-       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
-       "score": "0",
-       "winner": false,
-       "record": "6-3"
-      },
-      {
-       "home": false,
-       "abbr": "MIN",
-       "name": "Minnesota Vikings",
-       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
-       "score": "0",
-       "winner": false,
-       "record": "6-2"
-      }
-     ]
-    },
-    {
-     "id": "401873057",
-     "date": "2026-11-15T18:00Z",
-     "name": "JAX @ TEN",
-     "state": "pre",
-     "detail": "11/15 - 1:00 PM EST",
-     "done": false,
-     "teams": [
-      {
-       "home": true,
-       "abbr": "TEN",
-       "name": "Tennessee Titans",
-       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png",
-       "score": "0",
-       "winner": false,
-       "record": "1-7"
-      },
-      {
-       "home": false,
-       "abbr": "JAX",
-       "name": "Jacksonville Jaguars",
-       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
-       "score": "0",
-       "winner": false,
-       "record": "6-2"
-      }
-     ]
-    },
-    {
-     "id": "401873059",
-     "date": "2026-11-15T18:00Z",
-     "name": "MIA @ IND",
-     "state": "pre",
-     "detail": "11/15 - 1:00 PM EST",
-     "done": false,
-     "teams": [
-      {
-       "home": true,
-       "abbr": "IND",
-       "name": "Indianapolis Colts",
-       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
-       "score": "0",
-       "winner": false,
-       "record": "2-7"
-      },
-      {
-       "home": false,
-       "abbr": "MIA",
-       "name": "Miami Dolphins",
-       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png",
-       "score": "0",
-       "winner": false,
-       "record": "1-7"
-      }
-     ]
-    },
-    {
-     "id": "401873055",
-     "date": "2026-11-15T18:00Z",
-     "name": "CAR @ NO",
-     "state": "pre",
-     "detail": "11/15 - 1:00 PM EST",
-     "done": false,
-     "teams": [
-      {
-       "home": true,
-       "abbr": "NO",
-       "name": "New Orleans Saints",
-       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
-       "score": "0",
-       "winner": false,
-       "record": "3-5"
-      },
-      {
-       "home": false,
-       "abbr": "CAR",
-       "name": "Carolina Panthers",
-       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
-       "score": "0",
-       "winner": false,
-       "record": "3-5"
-      }
-     ]
-    },
-    {
-     "id": "401873054",
-     "date": "2026-11-15T18:00Z",
-     "name": "BUF @ NYJ",
-     "state": "pre",
-     "detail": "11/15 - 1:00 PM EST",
-     "done": false,
-     "teams": [
-      {
-       "home": true,
-       "abbr": "NYJ",
-       "name": "New York Jets",
-       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
-       "score": "0",
-       "winner": false,
-       "record": "2-7"
-      },
-      {
-       "home": false,
-       "abbr": "BUF",
-       "name": "Buffalo Bills",
-       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
-       "score": "0",
-       "winner": false,
-       "record": "7-1"
-      }
-     ]
-    },
-    {
      "id": "401873062",
      "date": "2026-11-15T21:05Z",
      "name": "SEA @ LV",
-     "state": "pre",
-     "detail": "11/15 - 4:05 PM EST",
+     "state": "in",
+     "detail": "11:13 - 2nd",
      "done": false,
      "teams": [
       {
@@ -1504,7 +1280,7 @@
        "abbr": "LV",
        "name": "Las Vegas Raiders",
        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
-       "score": "0",
+       "score": "10",
        "winner": false,
        "record": "4-5"
       },
@@ -1513,7 +1289,7 @@
        "abbr": "SEA",
        "name": "Seattle Seahawks",
        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
-       "score": "0",
+       "score": "7",
        "winner": false,
        "record": "5-4"
       }
@@ -1523,8 +1299,8 @@
      "id": "401873061",
      "date": "2026-11-15T21:05Z",
      "name": "LAR @ ARI",
-     "state": "pre",
-     "detail": "11/15 - 4:05 PM EST",
+     "state": "in",
+     "detail": "15:00 - 2nd",
      "done": false,
      "teams": [
       {
@@ -1532,7 +1308,7 @@
        "abbr": "ARI",
        "name": "Arizona Cardinals",
        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
-       "score": "0",
+       "score": "6",
        "winner": false,
        "record": "3-6"
       },
@@ -1541,7 +1317,7 @@
        "abbr": "LAR",
        "name": "Los Angeles Rams",
        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
-       "score": "0",
+       "score": "3",
        "winner": false,
        "record": "5-4"
       }
@@ -1551,8 +1327,8 @@
      "id": "401873063",
      "date": "2026-11-15T21:25Z",
      "name": "SF @ DAL",
-     "state": "pre",
-     "detail": "11/15 - 4:25 PM EST",
+     "state": "in",
+     "detail": "6:56 - 1st",
      "done": false,
      "teams": [
       {
@@ -1560,7 +1336,7 @@
        "abbr": "DAL",
        "name": "Dallas Cowboys",
        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
-       "score": "0",
+       "score": "3",
        "winner": false,
        "record": "4-5"
       },
@@ -1569,9 +1345,233 @@
        "abbr": "SF",
        "name": "San Francisco 49ers",
        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
-       "score": "0",
+       "score": "6",
        "winner": false,
        "record": "7-1"
+      }
+     ]
+    },
+    {
+     "id": "401873053",
+     "date": "2026-11-15T14:30Z",
+     "name": "NE VS DET",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "DET",
+       "name": "Detroit Lions",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
+       "score": "35",
+       "winner": true,
+       "record": "7-2"
+      },
+      {
+       "home": false,
+       "abbr": "NE",
+       "name": "New England Patriots",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
+       "score": "10",
+       "winner": false,
+       "record": "5-5"
+      }
+     ]
+    },
+    {
+     "id": "401873058",
+     "date": "2026-11-15T18:00Z",
+     "name": "KC @ ATL",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "ATL",
+       "name": "Atlanta Falcons",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
+       "score": "13",
+       "winner": false,
+       "record": "3-7"
+      },
+      {
+       "home": false,
+       "abbr": "KC",
+       "name": "Kansas City Chiefs",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
+       "score": "35",
+       "winner": true,
+       "record": "7-2"
+      }
+     ]
+    },
+    {
+     "id": "401873056",
+     "date": "2026-11-15T18:00Z",
+     "name": "HOU @ CLE",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "CLE",
+       "name": "Cleveland Browns",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+       "score": "27",
+       "winner": true,
+       "record": "6-4"
+      },
+      {
+       "home": false,
+       "abbr": "HOU",
+       "name": "Houston Texans",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+       "score": "24",
+       "winner": false,
+       "record": "3-6"
+      }
+     ]
+    },
+    {
+     "id": "401873060",
+     "date": "2026-11-15T18:00Z",
+     "name": "MIN @ GB",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "GB",
+       "name": "Green Bay Packers",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+       "score": "10",
+       "winner": false,
+       "record": "6-4"
+      },
+      {
+       "home": false,
+       "abbr": "MIN",
+       "name": "Minnesota Vikings",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
+       "score": "30",
+       "winner": true,
+       "record": "7-2"
+      }
+     ]
+    },
+    {
+     "id": "401873057",
+     "date": "2026-11-15T18:00Z",
+     "name": "JAX @ TEN",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "TEN",
+       "name": "Tennessee Titans",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png",
+       "score": "23",
+       "winner": false,
+       "record": "1-8"
+      },
+      {
+       "home": false,
+       "abbr": "JAX",
+       "name": "Jacksonville Jaguars",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
+       "score": "40",
+       "winner": true,
+       "record": "7-2"
+      }
+     ]
+    },
+    {
+     "id": "401873059",
+     "date": "2026-11-15T18:00Z",
+     "name": "MIA @ IND",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "IND",
+       "name": "Indianapolis Colts",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
+       "score": "24",
+       "winner": true,
+       "record": "3-7"
+      },
+      {
+       "home": false,
+       "abbr": "MIA",
+       "name": "Miami Dolphins",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/mia.png",
+       "score": "22",
+       "winner": false,
+       "record": "1-8"
+      }
+     ]
+    },
+    {
+     "id": "401873055",
+     "date": "2026-11-15T18:00Z",
+     "name": "CAR @ NO",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "NO",
+       "name": "New Orleans Saints",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
+       "score": "17",
+       "winner": false,
+       "record": "3-6"
+      },
+      {
+       "home": false,
+       "abbr": "CAR",
+       "name": "Carolina Panthers",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
+       "score": "20",
+       "winner": true,
+       "record": "4-5"
+      }
+     ]
+    },
+    {
+     "id": "401873054",
+     "date": "2026-11-15T18:00Z",
+     "name": "BUF @ NYJ",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "NYJ",
+       "name": "New York Jets",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+       "score": "12",
+       "winner": false,
+       "record": "2-8"
+      },
+      {
+       "home": false,
+       "abbr": "BUF",
+       "name": "Buffalo Bills",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
+       "score": "31",
+       "winner": true,
+       "record": "8-1"
       }
      ]
     },
@@ -1659,35 +1659,7 @@
       }
      ]
     }
-   ],
-   "live": {
-    "id": "401873053",
-    "date": "2026-11-15T14:30Z",
-    "name": "NE VS DET",
-    "state": "in",
-    "detail": "13:44 - 4th",
-    "done": false,
-    "teams": [
-     {
-      "home": true,
-      "abbr": "DET",
-      "name": "Detroit Lions",
-      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
-      "score": null,
-      "winner": false,
-      "record": null
-     },
-     {
-      "home": false,
-      "abbr": "NE",
-      "name": "New England Patriots",
-      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
-      "score": null,
-      "winner": false,
-      "record": null
-     }
-    ]
-   }
+   ]
   },
   "mlb": {
    "key": "mlb",

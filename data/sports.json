@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T02:53:58.844Z",
+ "updated": "2026-11-15T10:07:31.398Z",
  "leagues": {
   "nba": {
    "key": "nba",
@@ -323,27 +323,27 @@
      "id": "401909981",
      "date": "2026-11-15T00:30Z",
      "name": "DAL @ CLE",
-     "state": "in",
-     "detail": "2:53 - 4th",
-     "done": false,
+     "state": "post",
+     "detail": "Final",
+     "done": true,
      "teams": [
       {
        "home": true,
        "abbr": "CLE",
        "name": "Cleveland Cavaliers",
        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
-       "score": "122",
-       "winner": false,
-       "record": "6-7"
+       "score": "127",
+       "winner": true,
+       "record": "7-7"
       },
       {
        "home": false,
        "abbr": "DAL",
        "name": "Dallas Mavericks",
        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png",
-       "score": "110",
+       "score": "117",
        "winner": false,
-       "record": "7-5"
+       "record": "7-6"
       }
      ]
     },
@@ -351,27 +351,27 @@
      "id": "401909982",
      "date": "2026-11-15T01:00Z",
      "name": "DET @ MIA",
-     "state": "in",
-     "detail": "6:20 - 3rd",
-     "done": false,
+     "state": "post",
+     "detail": "Final",
+     "done": true,
      "teams": [
       {
        "home": true,
        "abbr": "MIA",
        "name": "Miami Heat",
        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png",
-       "score": "84",
-       "winner": false,
-       "record": "6-6"
+       "score": "137",
+       "winner": true,
+       "record": "7-6"
       },
       {
        "home": false,
        "abbr": "DET",
        "name": "Detroit Pistons",
        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
-       "score": "76",
+       "score": "117",
        "winner": false,
-       "record": "8-3"
+       "record": "8-4"
       }
      ]
     },
@@ -379,27 +379,27 @@
      "id": "401909983",
      "date": "2026-11-15T01:00Z",
      "name": "BKN @ MEM",
-     "state": "in",
-     "detail": "1:10 - 3rd",
-     "done": false,
+     "state": "post",
+     "detail": "Final",
+     "done": true,
      "teams": [
       {
        "home": true,
        "abbr": "MEM",
        "name": "Memphis Grizzlies",
        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png",
-       "score": "98",
-       "winner": false,
-       "record": "8-4"
+       "score": "129",
+       "winner": true,
+       "record": "9-4"
       },
       {
        "home": false,
        "abbr": "BKN",
        "name": "Brooklyn Nets",
        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png",
-       "score": "78",
+       "score": "110",
        "winner": false,
-       "record": "3-8"
+       "record": "3-9"
       }
      ]
     },
@@ -407,27 +407,27 @@
      "id": "401909984",
      "date": "2026-11-15T01:00Z",
      "name": "CHI @ MIN",
-     "state": "in",
-     "detail": "11:27 - 4th",
-     "done": false,
+     "state": "post",
+     "detail": "Final",
+     "done": true,
      "teams": [
       {
        "home": true,
        "abbr": "MIN",
        "name": "Minnesota Timberwolves",
        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
-       "score": "80",
+       "score": "106",
        "winner": false,
-       "record": "9-3"
+       "record": "9-4"
       },
       {
        "home": false,
        "abbr": "CHI",
        "name": "Chicago Bulls",
        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
-       "score": "88",
-       "winner": false,
-       "record": "2-9"
+       "score": "117",
+       "winner": true,
+       "record": "3-9"
       }
      ]
     }
@@ -839,9 +839,9 @@
      "id": "401892711",
      "date": "2026-11-15T00:00Z",
      "name": "COL @ MTL",
-     "state": "in",
-     "detail": "1:53 - 3rd",
-     "done": false,
+     "state": "post",
+     "detail": "Final",
+     "done": true,
      "teams": [
       {
        "home": true,
@@ -850,16 +850,16 @@
        "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/mtl.png",
        "score": "1",
        "winner": false,
-       "record": "12-3-4"
+       "record": "12-4-4"
       },
       {
        "home": false,
        "abbr": "COL",
        "name": "Colorado Avalanche",
        "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/col.png",
-       "score": "3",
-       "winner": false,
-       "record": "11-6-3"
+       "score": "4",
+       "winner": true,
+       "record": "12-6-3"
       }
      ]
     },
@@ -895,9 +895,9 @@
      "id": "401892713",
      "date": "2026-11-15T00:00Z",
      "name": "OTT @ PIT",
-     "state": "in",
-     "detail": "1:03 - 3rd",
-     "done": false,
+     "state": "post",
+     "detail": "Final",
+     "done": true,
      "teams": [
       {
        "home": true,
@@ -906,16 +906,16 @@
        "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/pit.png",
        "score": "1",
        "winner": false,
-       "record": "7-10-2"
+       "record": "7-11-2"
       },
       {
        "home": false,
        "abbr": "OTT",
        "name": "Ottawa Senators",
        "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/ott.png",
-       "score": "3",
-       "winner": false,
-       "record": "12-6-2"
+       "score": "4",
+       "winner": true,
+       "record": "13-6-2"
       }
      ]
     },
@@ -1007,18 +1007,18 @@
      "id": "401892717",
      "date": "2026-11-15T01:00Z",
      "name": "BUF @ DAL",
-     "state": "in",
-     "detail": "End of 2nd",
-     "done": false,
+     "state": "post",
+     "detail": "Final",
+     "done": true,
      "teams": [
       {
        "home": true,
        "abbr": "DAL",
        "name": "Dallas Stars",
        "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/dal.png",
-       "score": "1",
-       "winner": false,
-       "record": "10-6-2"
+       "score": "2",
+       "winner": true,
+       "record": "11-6-2"
       },
       {
        "home": false,
@@ -1027,7 +1027,7 @@
        "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/buf.png",
        "score": "0",
        "winner": false,
-       "record": "8-7-4"
+       "record": "8-8-4"
       }
      ]
     },
@@ -1035,27 +1035,27 @@
      "id": "401892718",
      "date": "2026-11-15T02:00Z",
      "name": "SJ @ UTA",
-     "state": "in",
-     "detail": "End of 1st",
-     "done": false,
+     "state": "post",
+     "detail": "Final/SO",
+     "done": true,
      "teams": [
       {
        "home": true,
        "abbr": "UTA",
        "name": "Utah Mammoth",
        "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/uta.png",
-       "score": "3",
+       "score": "5",
        "winner": false,
-       "record": "10-8-2"
+       "record": "10-8-3"
       },
       {
        "home": false,
        "abbr": "SJ",
        "name": "San Jose Sharks",
        "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sj.png",
-       "score": "1",
-       "winner": false,
-       "record": "8-11-2"
+       "score": "6",
+       "winner": true,
+       "record": "9-11-2"
       }
      ]
     },
@@ -1063,27 +1063,27 @@
      "id": "401892719",
      "date": "2026-11-15T03:00Z",
      "name": "NYI @ ANA",
-     "state": "pre",
-     "detail": "11/14 - 10:00 PM EST",
-     "done": false,
+     "state": "post",
+     "detail": "Final",
+     "done": true,
      "teams": [
       {
        "home": true,
        "abbr": "ANA",
        "name": "Anaheim Ducks",
        "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/ana.png",
-       "score": "0",
+       "score": "2",
        "winner": false,
-       "record": "10-8-1"
+       "record": "10-9-1"
       },
       {
        "home": false,
        "abbr": "NYI",
        "name": "New York Islanders",
        "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyi.png",
-       "score": "0",
-       "winner": false,
-       "record": "8-6-4"
+       "score": "6",
+       "winner": true,
+       "record": "9-6-4"
       }
      ]
     },
@@ -1091,27 +1091,27 @@
      "id": "401892720",
      "date": "2026-11-15T03:00Z",
      "name": "CGY @ LA",
-     "state": "pre",
-     "detail": "11/14 - 10:00 PM EST",
-     "done": false,
+     "state": "post",
+     "detail": "Final",
+     "done": true,
      "teams": [
       {
        "home": true,
        "abbr": "LA",
        "name": "Los Angeles Kings",
        "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/la.png",
-       "score": "0",
+       "score": "2",
        "winner": false,
-       "record": "5-10-2"
+       "record": "5-11-2"
       },
       {
        "home": false,
        "abbr": "CGY",
        "name": "Calgary Flames",
        "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/cgy.png",
-       "score": "0",
-       "winner": false,
-       "record": "8-10-1"
+       "score": "3",
+       "winner": true,
+       "record": "9-10-1"
       }
      ]
     }
@@ -1407,34 +1407,6 @@
     }
    ],
    "slate": [
-    {
-     "id": "401873052",
-     "date": "2026-11-13T01:15Z",
-     "name": "WSH @ NYG",
-     "state": "post",
-     "detail": "Final",
-     "done": true,
-     "teams": [
-      {
-       "home": true,
-       "abbr": "NYG",
-       "name": "New York Giants",
-       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
-       "score": "21",
-       "winner": false,
-       "record": "5-3-1"
-      },
-      {
-       "home": false,
-       "abbr": "WSH",
-       "name": "Washington Commanders",
-       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
-       "score": "24",
-       "winner": true,
-       "record": "3-5-1"
-      }
-     ]
-    },
     {
      "id": "401873053",
      "date": "2026-11-15T14:30Z",
@@ -1768,6 +1740,34 @@
        "score": "0",
        "winner": false,
        "record": "6-2"
+      }
+     ]
+    },
+    {
+     "id": "401873052",
+     "date": "2026-11-13T01:15Z",
+     "name": "WSH @ NYG",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "NYG",
+       "name": "New York Giants",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
+       "score": "21",
+       "winner": false,
+       "record": "5-3-1"
+      },
+      {
+       "home": false,
+       "abbr": "WSH",
+       "name": "Washington Commanders",
+       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/wsh.png",
+       "score": "24",
+       "winner": true,
+       "record": "3-5-1"
       }
      ]
     },

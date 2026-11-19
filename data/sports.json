@@ -1,12 +1,40 @@
 {
- "updated": "2026-11-19T04:29:44.438Z",
+ "updated": "2026-11-19T13:44:44.860Z",
  "leagues": {
   "nba": {
    "key": "nba",
    "emoji": "🏀",
    "teamName": "Celtics",
-   "record": "11-3",
+   "record": "11-4",
    "results": [
+    {
+     "id": "401910015",
+     "date": "2026-11-19T02:30Z",
+     "name": "BOS @ DEN",
+     "state": "post",
+     "detail": "Final",
+     "done": true,
+     "teams": [
+      {
+       "home": true,
+       "abbr": "DEN",
+       "name": "Denver Nuggets",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png",
+       "score": "105",
+       "winner": true,
+       "record": null
+      },
+      {
+       "home": false,
+       "abbr": "BOS",
+       "name": "Boston Celtics",
+       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
+       "score": "101",
+       "winner": false,
+       "record": null
+      }
+     ]
+    },
     {
      "id": "401909994",
      "date": "2026-11-17T00:00Z",
@@ -114,34 +142,6 @@
        "name": "Boston Celtics",
        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
        "score": "123",
-       "winner": true,
-       "record": null
-      }
-     ]
-    },
-    {
-     "id": "401909949",
-     "date": "2026-11-09T01:00Z",
-     "name": "BOS @ MIL",
-     "state": "post",
-     "detail": "Final",
-     "done": true,
-     "teams": [
-      {
-       "home": true,
-       "abbr": "MIL",
-       "name": "Milwaukee Bucks",
-       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/mil.png",
-       "score": "97",
-       "winner": false,
-       "record": null
-      },
-      {
-       "home": false,
-       "abbr": "BOS",
-       "name": "Boston Celtics",
-       "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
-       "score": "117",
        "winner": true,
        "record": null
       }
@@ -547,27 +547,27 @@
      "id": "401910015",
      "date": "2026-11-19T02:30Z",
      "name": "BOS @ DEN",
-     "state": "in",
-     "detail": "3:43 - 3rd",
-     "done": false,
+     "state": "post",
+     "detail": "Final",
+     "done": true,
      "teams": [
       {
        "home": true,
        "abbr": "DEN",
        "name": "Denver Nuggets",
        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
-       "score": "69",
-       "winner": false,
-       "record": "7-5"
+       "score": "105",
+       "winner": true,
+       "record": "8-5"
       },
       {
        "home": false,
        "abbr": "BOS",
        "name": "Boston Celtics",
        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
-       "score": "67",
+       "score": "101",
        "winner": false,
-       "record": "11-3"
+       "record": "11-4"
       }
      ]
     },
@@ -575,27 +575,27 @@
      "id": "401910017",
      "date": "2026-11-19T03:00Z",
      "name": "UTAH @ LAL",
-     "state": "in",
-     "detail": "11:19 - 3rd",
-     "done": false,
+     "state": "post",
+     "detail": "Final",
+     "done": true,
      "teams": [
       {
        "home": true,
        "abbr": "LAL",
        "name": "Los Angeles Lakers",
        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
-       "score": "54",
+       "score": "97",
        "winner": false,
-       "record": "13-2"
+       "record": "13-3"
       },
       {
        "home": false,
        "abbr": "UTAH",
        "name": "Utah Jazz",
        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
-       "score": "56",
-       "winner": false,
-       "record": "2-13"
+       "score": "109",
+       "winner": true,
+       "record": "3-13"
       }
      ]
     },
@@ -603,59 +603,31 @@
      "id": "401910018",
      "date": "2026-11-19T03:00Z",
      "name": "PHX @ SAC",
-     "state": "in",
-     "detail": "5:20 - 3rd",
-     "done": false,
+     "state": "post",
+     "detail": "Final",
+     "done": true,
      "teams": [
       {
        "home": true,
        "abbr": "SAC",
        "name": "Sacramento Kings",
        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
-       "score": "74",
+       "score": "107",
        "winner": false,
-       "record": "1-12"
+       "record": "1-13"
       },
       {
        "home": false,
        "abbr": "PHX",
        "name": "Phoenix Suns",
        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
-       "score": "87",
-       "winner": false,
-       "record": "6-7"
+       "score": "128",
+       "winner": true,
+       "record": "7-7"
       }
      ]
     }
-   ],
-   "live": {
-    "id": "401910015",
-    "date": "2026-11-19T02:30Z",
-    "name": "BOS @ DEN",
-    "state": "in",
-    "detail": "3:43 - 3rd",
-    "done": false,
-    "teams": [
-     {
-      "home": true,
-      "abbr": "DEN",
-      "name": "Denver Nuggets",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/den.png",
-      "score": null,
-      "winner": false,
-      "record": null
-     },
-     {
-      "home": false,
-      "abbr": "BOS",
-      "name": "Boston Celtics",
-      "logo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
-      "score": null,
-      "winner": false,
-      "record": null
-     }
-    ]
-   }
+   ]
   },
   "nhl": {
    "key": "nhl",
@@ -1007,27 +979,27 @@
      "id": "401892741",
      "date": "2026-11-19T03:00Z",
      "name": "COL @ UTA",
-     "state": "in",
-     "detail": "14:14 - 2nd",
-     "done": false,
+     "state": "post",
+     "detail": "Final",
+     "done": true,
      "teams": [
       {
        "home": true,
        "abbr": "UTA",
        "name": "Utah Mammoth",
        "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/uta.png",
-       "score": "1",
-       "winner": false,
-       "record": "10-9-3"
+       "score": "4",
+       "winner": true,
+       "record": "11-9-3"
       },
       {
        "home": false,
        "abbr": "COL",
        "name": "Colorado Avalanche",
        "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/col.png",
-       "score": "0",
+       "score": "1",
        "winner": false,
-       "record": "12-6-3"
+       "record": "12-7-3"
       }
      ]
     }

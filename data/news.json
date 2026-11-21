@@ -1,47 +1,63 @@
 {
- "updated": "2026-11-21T00:28:27.137Z",
+ "updated": "2026-11-21T07:33:46.240Z",
  "errors": [],
  "sections": {
   "politics": [
    {
-    "t": "Sotomayor suggests Supreme Court colleagues may applaud midterm results as safeguard",
-    "url": "https://thehill.com/regulation/court-battles/6234774-justice-sotomayor-midterm-safeguards/",
-    "ts": 1795220859000,
-    "summary": "Supreme Court Justice Sonia Sotomayor on Friday suggested her colleagues may view Democrats’ sweeping victories in the midterm elections as a sign that their recent immunity decision has not eliminated checks on the president. Speaking in P",
+    "t": "Hackers reportedly breach FBI crime database — the 2nd time the bureau was targeted in months",
+    "url": "https://nypost.com/2026/11/20/us-news/hackers-reportedly-breach-fbi-crime-database-the-2nd-time-the-bureau-was-targeted-in-months/",
+    "ts": 1795236224000,
+    "summary": "The hackers breached the FBI’s National Crime Information Center (NCIC) database, CNN reported on Friday, citing multiple sources familiar with the investigation.",
+    "src": "NY Post",
+    "lean": "R"
+   },
+   {
+    "t": "Virginia reports first measles-related death of 2026",
+    "url": "https://thehill.com/policy/healthcare/6234958-virginia-child-measles-death-elimination-status/",
+    "ts": 1795234820000,
+    "summary": "A young child in Virginia died after testing positive for measles, the state’s health department said Friday, marking the first death tied to the illness in the state this year. The department said the child was aged 0-4 but declined to sha",
     "src": "The Hill",
     "lean": "C"
    },
    {
-    "t": "Former Mississippi Democratic mayor sentenced to three years for corruption",
-    "url": "https://www.washingtonexaminer.com/news/crime/4810769/former-jackson-mississippi-mayor-chokwe-antar-lumumba-sentenced-corruption/",
-    "ts": 1795220380000,
-    "summary": "A federal judge sentenced the former Democratic mayor of Jackson, Mississippi, to more than three years in prison for bribery on Friday after he entered his plea in July. Chokwe Antar Lumumba, 43, pleaded guilty to one count of conspiracy t",
-    "src": "Washington Examiner",
-    "lean": "R"
-   },
-   {
-    "t": "Republican senator blocks Trump pick to lead cybersecurity agency who denied US Capitol was attacked on January 6 – as it happened",
-    "url": "https://www.theguardian.com/us-news/live/2026/nov/20/donald-trump-brooke-rollins-religion-sean-cairncross-senate-alaska-white-house-press-conference-us-politics-latest-news-updates",
-    "ts": 1795219476000,
-    "summary": "This live blog is now closed. Republican senator blocks Trump cyber nominee over January 6 denial Sign up for the Breaking News US email We’re also following the latest on Capitol Hill as the battle for Senate majority leader between Democr",
-    "src": "The Guardian US",
-    "lean": "L"
-   },
-   {
-    "t": "Mamdani announces plan to close New York's Rikers Island jail by 2032",
-    "url": "https://www.bbc.co.uk/news/articles/cmjeqv89egylo?at_medium=RSS&at_campaign=rss",
-    "ts": 1795219299000,
-    "summary": "Plans to shutter the troubled facility date back to 2019, when the city council first voted to close it but delays arose over where to place inmates.",
+    "t": "Judge approves $7.25bn settlement for Roundup weedkiller cancer claims",
+    "url": "https://www.bbc.co.uk/news/articles/cwvg21gyl650o?at_medium=RSS&at_campaign=rss",
+    "ts": 1795232949000,
+    "summary": "The settlement will be paid by Bayer to users who already have non-Hodgkin lymphoma and those who fall ill in the future.",
     "src": "BBC US",
     "lean": "C"
    },
    {
-    "t": "Trump insists he's \"not rushing to make any decisions on Iran\"",
-    "url": "https://www.cbsnews.com/live-updates/iran-war-trump-tehran-denies-chemical-weapons/",
-    "ts": 1795219242000,
-    "summary": "Despite rising tension, President Trump told an Israeli outlet he may not make a decision on his next move in the Iran war until 2027.",
+    "t": "Katie Miller reposts then deletes Trump’s ‘whole civilization will die tonight’ warning on Iran",
+    "url": "https://www.washingtonexaminer.com/news/white-house/4810903/katie-miller-posts-and-deletes-trump-iran-threat/",
+    "ts": 1795230799000,
+    "summary": "Katie Miller, the wife of White House chief of staff Stephen Miller, raised eyebrows on Friday night when she resurfaced President Donald Trump’s warning that Iran would be wiped out. Katie Miller shared a cropped screenshot of Trump’s Apri",
+    "src": "Washington Examiner",
+    "lean": "R"
+   },
+   {
+    "t": "Trump defends calling Putin his friend, talks outages in first presser after China summit",
+    "url": "https://www.cbsnews.com/video/trump-defends-calling-putin-his-friend-talks-outages-in-first-presser-after-china-summit/",
+    "ts": 1795223302000,
+    "summary": "President Trump addressed Iran's nuclear program, the Ukraine war and more in his first press conference following his summit with Vladimir Putin and Xi Jinping on Friday. Ed O'Keefe reports.",
     "src": "CBS News",
     "lean": "C"
+   },
+   {
+    "t": "Trump turns White House press conference into a 2028 succession audition",
+    "url": "https://www.theguardian.com/us-news/2026/nov/20/trump-republican-succession-battle-vance-rubio",
+    "ts": 1795220186000,
+    "summary": "The president appeared to put Vance and Rubio through their paces as potential successors, though Stephen Miller unexpectedly stole the spotlight “Which of you shall we say doth love us most?” The ageing King Lear’s question to his daughter",
+    "src": "The Guardian US",
+    "lean": "L"
+   },
+   {
+    "t": "Federal Jury Convicts Man Of Starting Deadly 2025 Palisades Fire In Los Angeles",
+    "url": "https://www.huffpost.com/entry/federal-jury-convicts-man-of-starting-deadly-2025-palisades-fire_n_6b00d928e4b0db04454aad91",
+    "ts": 1795217980000,
+    "summary": "Jurors convicted Jonathan Rinderknecht, 30, on arson charges for sparking last year’s deadly Palisades Fire.",
+    "src": "HuffPost",
+    "lean": "L"
    },
    {
     "t": "Texas Gov-elect Gina Hinojosa vows to rescind Abbott's H-1B visa restrictions despite admitting program abuse",
@@ -49,14 +65,6 @@
     "ts": 1795217859000,
     "summary": "Texas Gov.-elect Gina Hinojosa says she will rescind Greg Abbott's H-1B hiring freeze on day one, even conceding companies have abused the visa program.",
     "src": "Fox News",
-    "lean": "R"
-   },
-   {
-    "t": "Melania Trump attends Fox News ‘All-American Christmas Tree Lighting’ to kick off holiday season",
-    "url": "https://nypost.com/2026/11/20/us-news/melania-trump-attends-fox-news-all-american-christmas-tree-lighting-to-kick-off-holiday-season/",
-    "ts": 1795216330000,
-    "summary": "First lady Melania Trump helped bring the holiday spirit to the Big Apple on Friday, taking part in Fox News’ seventh annual “All-American Christmas Tree Lighting.” Melania, 56, was joined at the festive celebration at Fox News headquarters",
-    "src": "NY Post",
     "lean": "R"
    },
    {
@@ -76,52 +84,60 @@
     "lean": "C"
    },
    {
-    "t": "Donald Trump Makes 'Dummer' Mistake In Announcement To Pardon Pete Rose",
-    "url": "https://www.huffpost.com/entry/donald-trump-flubs-pete-rose-hits-season-career_n_6b00174de4b0976dc4a2be02",
-    "ts": 1795174889000,
-    "summary": "The president’s praise of the baseball great could have used some serious fact-checking.",
-    "src": "HuffPost",
-    "lean": "L"
+    "t": "Trump admin quietly releases government Bigfoot files: ‘Very uneasy feeling’",
+    "url": "https://nypost.com/2026/11/20/us-news/trump-admin-quietly-releases-governments-bigfoot-files-very-uneasy-feeling/",
+    "ts": 1795231457000,
+    "summary": "“If the tracks were faked, someone went to a great deal of trouble and detail,” Johnson wrote, noting that some of the print marks on the feet “would have to be very hard to duplicate” and “appear very natural.”",
+    "src": "NY Post",
+    "lean": "R"
    },
    {
-    "t": "Court formally approves $7.25B class settlement for cancer claims from Roundup weed killer",
-    "url": "https://thehill.com/policy/energy-environment/6234796-judge-approves-roundup-settlement/",
-    "ts": 1795219945000,
-    "summary": "A judge Friday formally approved a proposed $7.25 billion agreement to settle current and future cancer claims related to exposure of Monsanto’s Roundup weed killer. The decision, by Missouri Judge Timothy Boyer, wraps up years of litigatio",
+    "t": "Democratic Sen.-elect Colom responds to Trump’s praise",
+    "url": "https://thehill.com/homenews/campaign/6234930-scott-colom-trump-praise-response/",
+    "ts": 1795230584000,
+    "summary": "Sen.-elect Scott Colom (D-Miss.) reacted in an interview Friday to President Trump’s recent praise of his midterm campaign strategy, saying his tactic of reaching out to Republicans during the election cycle shows how he plans to represent ",
     "src": "The Hill",
     "lean": "C"
    },
    {
-    "t": "Boebert’s midterm post-mortem: ‘I think it’s all of it’",
-    "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4810647/boebert-midterm-post-mortem-after-clashing-with-trump-and-his-last-minute-endorsement/",
-    "ts": 1795218050000,
-    "summary": "Rep. Lauren Boebert (R-CO) gave a post-mortem assessment of the 2026 midterms following her reelection defeat. Boebert pointed to the Trump administration’s policies and congressional stagnation as reasons she lost Colorado’s 4th Congressio",
-    "src": "Washington Examiner",
-    "lean": "R"
-   },
-   {
-    "t": "Republican senator blocks Trump cyber nominee over January 6 denial",
-    "url": "https://www.theguardian.com/us-news/2026/nov/20/tillis-republican-senator-trump-cyber-nominee",
-    "ts": 1795218518000,
-    "summary": "Thom Tillis move comes after Michael LoSapio, nominated for Cisa role, told hearing ‘I don’t believe it was an attack’ Senator Thom Tillis, the outgoing North Carolina Republican who is due to be replaced by a Democrat, has reportedly block",
-    "src": "The Guardian US",
-    "lean": "L"
-   },
-   {
-    "t": "In a year of AI solving maths problems, Anthropic may have just solved the biggest",
-    "url": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o?at_medium=RSS&at_campaign=rss",
-    "ts": 1795216137000,
-    "summary": "A mathematician at Anthropic says he used an AI to prove the famed Riemann hypothesis, though verification will take some time.",
+    "t": "Ghanaian boy killed in US 'deserved so much better', says New York Mayor Mamdani",
+    "url": "https://www.bbc.co.uk/news/articles/cv8e07825l90o?at_medium=RSS&at_campaign=rss",
+    "ts": 1795223965000,
+    "summary": "At the funeral for the 15-year-old who was fatally shot last month, Mamdani spoke alongside the boy's father and civil rights leaders.",
     "src": "BBC US",
     "lean": "C"
    },
    {
-    "t": "Marine Corps hero under federal investigation",
-    "url": "https://www.cbsnews.com/news/marine-corps-hero-brad-kasal-federal-investigation/",
-    "ts": 1795215650000,
-    "summary": "Retired Sgt. Maj. Bradley Kasal, whose bloodied visage was depicted in an iconic Iraq War photo, is under investigation stemming from his tenure as a high school JROTC instructor.",
+    "t": "Nationwide settlement for $7 billion approved over Roundup cancer claims",
+    "url": "https://www.washingtonexaminer.com/news/justice/4810852/7-billion-dollar-settlement-roundup-weed-killer-cancer/",
+    "ts": 1795225147000,
+    "summary": "A $7 billion settlement was issued on Friday over agrochemical giant Bayer’s popular weedkiller Roundup, which plaintiffs claimed caused non-Hodgkin lymphoma. The ruling comes out of Missouri, where Judge Timothy Boyer ordered Bayer to pay ",
+    "src": "Washington Examiner",
+    "lean": "R"
+   },
+   {
+    "t": "Trump insists he's \"not rushing to make any decisions on Iran\"",
+    "url": "https://www.cbsnews.com/live-updates/iran-war-trump-tehran-denies-chemical-weapons/",
+    "ts": 1795219242000,
+    "summary": "Despite rising tension, President Trump told an Israeli outlet he may not make a decision on his next move in the Iran war until 2027.",
     "src": "CBS News",
     "lean": "C"
+   },
+   {
+    "t": "Republican senator blocks Trump pick to lead cybersecurity agency who denied US Capitol was attacked on January 6 – as it happened",
+    "url": "https://www.theguardian.com/us-news/live/2026/nov/20/donald-trump-brooke-rollins-religion-sean-cairncross-senate-alaska-white-house-press-conference-us-politics-latest-news-updates",
+    "ts": 1795219476000,
+    "summary": "This live blog is now closed. Republican senator blocks Trump cyber nominee over January 6 denial Sign up for the Breaking News US email We’re also following the latest on Capitol Hill as the battle for Senate majority leader between Democr",
+    "src": "The Guardian US",
+    "lean": "L"
+   },
+   {
+    "t": "Trump Insists Putin Is His 'Friend,' But Admits He ‘Can’t Speak To America’",
+    "url": "https://www.huffpost.com/entry/trump-insists-putin-is-his-friend-but-admits-he-cant-speak-to-america_n_6b00b80ae4b0213d862752db",
+    "ts": 1795215046000,
+    "summary": "The president talked about his “very good relationship” with the Russian leader on Friday. This shook some people on social media.",
+    "src": "HuffPost",
+    "lean": "L"
    },
    {
     "t": "Fiona the hippo honored by US Senate in unanimous resolution praising Cincinnati Zoo staff",
@@ -129,14 +145,6 @@
     "ts": 1795216566000,
     "summary": "Fiona the hippo received a formal Senate tribute from Sen. Bernie Moreno one day after the Cincinnati Zoo Nile hippopotamus died after a medical emergency.",
     "src": "Fox News",
-    "lean": "R"
-   },
-   {
-    "t": "Russia open to ‘NATO-like’ status for Ukraine — but only if Putin can keep captured territory: US official",
-    "url": "https://nypost.com/2026/11/20/us-news/russia-open-to-nato-like-status-for-ukraine-but-only-if-putin-can-keep-captured-territory-us-official-2/",
-    "ts": 1795215036000,
-    "summary": "The goal would be to get Ukraine \"as close to NATO as possible without the brand,\" the official noted.",
-    "src": "NY Post",
     "lean": "R"
    },
    {
@@ -156,52 +164,60 @@
     "lean": "C"
    },
    {
-    "t": "White House's Trump-Putin-Xi Video Goes Viral For All The Wrong Reasons",
-    "url": "https://www.huffpost.com/entry/trump-white-house-xi-putin-video_n_6afff15de4b0976dc4a2b702",
-    "ts": 1795171697000,
-    "summary": "The 18-second clip was slammed as “unbelievably disgraceful,” “the wrong video at the wrong time” and an “eternal humiliation.”",
-    "src": "HuffPost",
-    "lean": "L"
+    "t": "Melania Trump attends Fox News ‘All-American Christmas Tree Lighting’ to kick off holiday season",
+    "url": "https://nypost.com/2026/11/20/us-news/melania-trump-attends-fox-news-all-american-christmas-tree-lighting-to-kick-off-holiday-season/",
+    "ts": 1795216330000,
+    "summary": "First lady Melania Trump helped bring the holiday spirit to the Big Apple on Friday, taking part in Fox News’ seventh annual “All-American Christmas Tree Lighting.”",
+    "src": "NY Post",
+    "lean": "R"
    },
    {
-    "t": "Casten, Lieu propose whistleblower program for prediction market insider trading",
-    "url": "https://thehill.com/homenews/house/6234775-casten-lieu-prediction-market-bill/",
-    "ts": 1795219123000,
-    "summary": "Reps. Sean Casten (D-Ill.) and Ted Lieu (D-Calif.) introduced new legislation Friday to regulate prediction markets and prevent insider trading, allowing whistleblowers to come forward and report wrongdoing. The Policing Insider Trading in ",
+    "t": "Former Jackson, Mississippi, mayor sentenced to federal prison for bribery",
+    "url": "https://thehill.com/homenews/state-watch/6234903-jackson-mayor-lumumba-sentenced/",
+    "ts": 1795227018000,
+    "summary": "The former mayor of Jackson, Miss., was sentenced to more than three years in federal prison after pleading guilty to bribery charges from his time in office. Former Mayor Chokwe Antar Lumumba (D) was indicted on charges related to a briber",
     "src": "The Hill",
     "lean": "C"
    },
    {
-    "t": "Trump, Blanche, and Patel to take on Newsom over plan to commute 548 death sentences",
-    "url": "https://www.washingtonexaminer.com/news/justice/4810735/trump-blanche-patel-take-on-newsom-commutations-california-death-sentences/",
-    "ts": 1795216908000,
-    "summary": "President Donald Trump, Attorney General Todd Blanche, and FBI Director Kash Patel will hold a press conference at the Justice Department on Monday to call out Gov. Gavin Newsom’s (D-CA) plan to commute the death sentences of all 548 prison",
-    "src": "Washington Examiner",
-    "lean": "R"
-   },
-   {
-    "t": "Trump threatens ‘tremendous penalties’ for US tech firms that build datacenters abroad",
-    "url": "https://www.theguardian.com/us-news/2026/nov/20/trump-datacenters-white-house",
-    "ts": 1795211261000,
-    "summary": "President gives wide-ranging White House press conference and says he has ‘fantastic relationships’ with Putin and Xi Donald Trump threatened on Friday to impose “tremendous penalties” on American tech companies that build datacenters outsi",
-    "src": "The Guardian US",
-    "lean": "L"
-   },
-   {
-    "t": "Birds killed in blaze at one of the largest foie gras farms in the US",
-    "url": "https://www.bbc.co.uk/news/articles/cq4gn0dg9194o?at_medium=RSS&at_campaign=rss",
-    "ts": 1795215446000,
-    "summary": "Hundreds of young birds were also rescued from the fire, which comes as foie gras is under renewed scrutiny over animal welfare concerns.",
+    "t": "They were fined $811m for conning detained migrants, but the scams didn't stop",
+    "url": "https://www.bbc.co.uk/news/articles/cqgm0zlkgrm2o?at_medium=RSS&at_campaign=rss",
+    "ts": 1795222959000,
+    "summary": "How convicted fraudsters made millions from detained immigrants, evaded efforts to shut down their bail business and left migrants behind bars.",
     "src": "BBC US",
     "lean": "C"
    },
    {
-    "t": "House Ethics aims to speed up sexual misconduct investigations",
-    "url": "https://www.cbsnews.com/news/house-ethics-committee-sexual-misconduct-investigations-changes/",
-    "ts": 1795208603000,
-    "summary": "The pace of the committee's investigations has come under scrutiny after several members were accused of sexual misconduct this year.",
+    "t": "Palisades Fire arsonist found guilty on all counts in deadly blaze that killed 12",
+    "url": "https://www.washingtonexaminer.com/news/crime/4810846/palisades-fire-arsonist-guilty-all-counts-california/",
+    "ts": 1795224040000,
+    "summary": "The California man accused of starting the Palisades Fire in January 2025 was found guilty on all counts by a federal jury on Friday after his mistrial in June. Jonathan Rinderknecht, 30, faced two federal charges for destruction of propert",
+    "src": "Washington Examiner",
+    "lean": "R"
+   },
+   {
+    "t": "11/20: CBS Evening News",
+    "url": "https://www.cbsnews.com/video/112026-cbs-evening-news/",
+    "ts": 1795217400000,
+    "summary": "Markets plunge amid tech selloff; Storms hit Florida and California.",
     "src": "CBS News",
     "lean": "C"
+   },
+   {
+    "t": "Republican senator blocks Trump cyber nominee over January 6 denial",
+    "url": "https://www.theguardian.com/us-news/2026/nov/20/tillis-republican-senator-trump-cyber-nominee",
+    "ts": 1795218518000,
+    "summary": "Thom Tillis move comes after Michael LoSapio, nominated for Cisa role, told hearing ‘I don’t believe it was an attack’ Senator Thom Tillis, the outgoing North Carolina Republican who is due to be replaced by a Democrat, has reportedly block",
+    "src": "The Guardian US",
+    "lean": "L"
+   },
+   {
+    "t": "Bob Costas Holds Nothing Back In Takedown Of ‘Sociopath’ Trump",
+    "url": "https://www.huffpost.com/entry/bob-costas-donald-trump-sociopath-criticism_n_6b0085c8e4b0213d8626a0b4",
+    "ts": 1795214036000,
+    "summary": "“If he was your next-door neighbor, that’s when you’d build a wall,” the legendary sportscaster said.",
+    "src": "HuffPost",
+    "lean": "L"
    },
    {
     "t": "Trump floats an unexpected name to be his successor as powerhouses Rubio and Vance stand by",
@@ -209,14 +225,6 @@
     "ts": 1795210089000,
     "summary": "Donald Trump stunned the White House press briefing room by asking Stephen Miller if he wants to run for president, as JD Vance and Marco Rubio looked on.",
     "src": "Fox News",
-    "lean": "R"
-   },
-   {
-    "t": "Families of victims murdered by California death row criminals back Trump’s meeting with loved ones",
-    "url": "https://nypost.com/2026/11/20/us-news/families-of-victims-murdered-by-california-death-row-inmates-back-trump-meeting/",
-    "ts": 1795213440000,
-    "summary": "President Trump will meet with the families of murdered loved ones outraged by Gov. Gavin Newsom’s decision to spare California’s death row inmates.",
-    "src": "NY Post",
     "lean": "R"
    },
    {
@@ -234,17 +242,25 @@
     "summary": "Every week political cartoonists throughout the country and across the political spectrum apply their ink-stained skills to capture the foibles, memes, hypocrisies and other head-slapping events in the world of politics. The fruits of these",
     "src": "Politico",
     "lean": "C"
-   },
-   {
-    "t": "Trump's $15 Billion Defamation Case Against New York Times May Proceed, Judge Rules",
-    "url": "https://www.huffpost.com/entry/trump-nyt-defamation-case-proceeds_n_6b001c55e4b0db04454917e0",
-    "ts": 1795170039000,
-    "summary": "A spokesperson for the outlet said the president’s lawsuit was “a baseless attack on The Times and the rights of the free and independent press in this country.”",
-    "src": "HuffPost",
-    "lean": "L"
    }
   ],
   "business": [
+   {
+    "t": "California entrepreneur says state avoided economic disaster with billionaire tax rejection",
+    "url": "https://www.foxbusiness.com/economy/california-entrepreneur-says-state-avoided-economic-disaster-billionaire-tax-rejection",
+    "ts": 1795241796000,
+    "summary": "California voters rejected Proposition 40, the billionaire wealth tax, in a win Eric Schiffer says spared the state a mass exodus of entrepreneurs.",
+    "src": "Fox Business",
+    "lean": "R"
+   },
+   {
+    "t": "Tech outages are rattling Americans so much that they’re stockpiling cash and supplies",
+    "url": "https://www.marketwatch.com/story/why-are-these-tech-outages-rattling-americans-so-much-that-theyre-stockpiling-cash-and-supplies-07516bdd?mod=mw_rss_topstories",
+    "ts": 1795231200000,
+    "summary": "A lack of clarity from world leaders is prompting some people to prepare for the worst.",
+    "src": "MarketWatch",
+    "lean": "C"
+   },
    {
     "t": "The race to prove the Riemann Hypothesis just became a human-versus-AI showdown",
     "url": "https://www.businessinsider.com/riemann-hypothesis-math-human-ai-dueling-solution-alpoge-masullo-2026-11",
@@ -252,6 +268,22 @@
     "summary": "Drama in the math community reached new levels on Friday when two mathematicians claimed solutions to famous problems, and only one used AI.",
     "src": "Business Insider",
     "lean": "L"
+   },
+   {
+    "t": "Gap names new Athleta CEO, says Old Navy turnaround is seeing signs of progress",
+    "url": "https://www.cnbc.com/2026/11/19/gap-gap-q3-2026-earnings.html",
+    "ts": 1795208688000,
+    "summary": "Gap on Thursday announced Ashley Kechter as the new CEO of Athleta. The retailer also reported mixed fiscal third-quarter earnings.",
+    "src": "CNBC",
+    "lean": "C"
+   },
+   {
+    "t": "Mamdani dodges pointed question on economics of taxpayer-funded grocery stores",
+    "url": "https://www.foxbusiness.com/politics/mamdani-dodges-pointed-question-economics-taxpayer-funded-grocery-stores",
+    "ts": 1795229520000,
+    "summary": "NYC Mayor Zohran Mamdani did not directly address how taxpayer subsidies for his grocery stores would affect competing supermarkets during a DealBook interview.",
+    "src": "Fox Business",
+    "lean": "R"
    },
    {
     "t": "Dow, S&P 500 enter correction as Nasdaq suffers worst week since 2020",
@@ -262,10 +294,82 @@
     "lean": "C"
    },
    {
-    "t": "Gap names new Athleta CEO, says Old Navy turnaround is seeing signs of progress",
-    "url": "https://www.cnbc.com/2026/11/19/gap-gap-q3-2026-earnings.html",
-    "ts": 1795208688000,
-    "summary": "Gap on Thursday announced Ashley Kechter as the new CEO of Athleta. The retailer also reported mixed fiscal third-quarter earnings.",
+    "t": "How an Army vet turned a side hustle into a $175,000 soap business",
+    "url": "https://www.businessinsider.com/how-army-vet-turned-side-hustle-into-175-000-business-2026-11",
+    "ts": 1795214701000,
+    "summary": "Cai Valdez started making soap as a way to cope with her PTSD. A year and a half later, the former teacher and Army vet is on track to make $175,000 .",
+    "src": "Business Insider",
+    "lean": "L"
+   },
+   {
+    "t": "Ex-GM CEO on Mary Barra succession planning: 'It's going to be tough'",
+    "url": "https://www.cnbc.com/2026/11/20/gm-ceo-succession-mary-barra-dan-akerson.html",
+    "ts": 1795189827000,
+    "summary": "Former GM CEO Dan Akerson says whoever replaces Mary Barra will have a difficult task because they'll inherit rapid change in technology and the auto industry.",
+    "src": "CNBC",
+    "lean": "C"
+   },
+   {
+    "t": "Over 51,000 units of kids' and adult toothpaste, mouthwash recalled nationwide over hormone contamination",
+    "url": "https://www.foxbusiness.com/lifestyle/over-51000-units-kids-adult-toothpaste-mouthwash-recalled-nationwide-over-hormone-contamination",
+    "ts": 1795228233000,
+    "summary": "More than 51,000 units of ORL Organic Oral Care toothpaste and mouthwash for children and adults were recalled nationwide over hormone contamination.",
+    "src": "Fox Business",
+    "lean": "R"
+   },
+   {
+    "t": "Chip stocks see $2.3 trillion weekly wipeout as panic grips the AI trade",
+    "url": "https://www.marketwatch.com/story/chip-stocks-see-2-3-trillion-weekly-wipeout-as-panic-grips-the-ai-trade-371f2f03?mod=mw_rss_topstories",
+    "ts": 1795214640000,
+    "summary": "A major semiconductor index just posted its worst weekly performance in 25 years.",
+    "src": "MarketWatch",
+    "lean": "C"
+   },
+   {
+    "t": "Trump threatens a 'tremendous tax' on tech companies building data centers outside the US",
+    "url": "https://www.businessinsider.com/trump-warning-building-overseas-data-centers-2026-11",
+    "ts": 1795213743000,
+    "summary": "Trump, who just returned from a tech hub in China, warns that companies will face a \"tremendous tax\" for building data centers outside the US.",
+    "src": "Business Insider",
+    "lean": "L"
+   },
+   {
+    "t": "Rejecting cheap fabrics, higher prices: Why shoppers are asking for better clothes",
+    "url": "https://www.cnbc.com/2026/11/20/clothing-prices-polyester-cotton-quality.html",
+    "ts": 1795176002000,
+    "summary": "Retailers are charging higher prices for clothing made with cheaper materials. Shoppers are taking notice and experts say it could shift how they spend.",
+    "src": "CNBC",
+    "lean": "C"
+   },
+   {
+    "t": "Wall Street suffers historic losses as Dow, S&P 500 plunge into correction territory",
+    "url": "https://www.foxbusiness.com/markets/wall-street-suffers-historic-losses-dow-sp-500-plunge-correction-territory",
+    "ts": 1795224506000,
+    "summary": "Nvidia shares tumbled about 14%, and newly public Anthropic fell 9% as AI fears fueled a brutal sell-off that erased the Nasdaq's gains for the year.",
+    "src": "Fox Business",
+    "lean": "R"
+   },
+   {
+    "t": "These stocks were crushed the most this week as the tech wreck accelerated",
+    "url": "https://www.marketwatch.com/story/these-stocks-were-crushed-the-most-this-week-as-the-tech-wreck-accelerated-8d6f7323?mod=mw_rss_topstories",
+    "ts": 1795214640000,
+    "summary": "94% of stocks in the S&P 500 declined for the week, 11 of them by at least 20%. But for now, analysts still think you can make a lot of money if you buy them.",
+    "src": "MarketWatch",
+    "lean": "C"
+   },
+   {
+    "t": "The Covey is important in 'Sunrise on the Reaping.' Here's a guide to the family and their relationship to Katniss.",
+    "url": "https://www.businessinsider.com/the-covey-hunger-games-explained-lucy-gray-katniss-everdeen-2025-3",
+    "ts": 1795212981000,
+    "summary": "In the \"Hunger Games\" prequel, \"Sunrise on the Reaping,\" Suzanne Collins revealed that Katniss Everdeen is a descendant of the Covey family.",
+    "src": "Business Insider",
+    "lean": "L"
+   },
+   {
+    "t": "A24 is having a great year at the box office. That could give HBO Max a streaming edge",
+    "url": "https://www.cnbc.com/2026/11/20/a24-box-office-hbo-max.html",
+    "ts": 1795176002000,
+    "summary": "A24 films \"Backrooms,\" \"The Drama\" and the Elizabeth Holmes documentary, \"You Can See Everything,\" are fueling a banner year at the box office.",
     "src": "CNBC",
     "lean": "C"
    },
@@ -278,26 +382,26 @@
     "lean": "R"
    },
    {
-    "t": "How an Army vet turned a side hustle into a $175,000 soap business",
-    "url": "https://www.businessinsider.com/how-army-vet-turned-side-hustle-into-175-000-business-2026-11",
-    "ts": 1795214701000,
-    "summary": "Cai Valdez started making soap as a way to cope with her PTSD. A year and a half later, the former teacher and Army vet is on track to make $175,000 .",
-    "src": "Business Insider",
-    "lean": "L"
-   },
-   {
-    "t": "Chip stocks see $2.3 trillion weekly wipeout as panic grips the AI trade",
-    "url": "https://www.marketwatch.com/story/chip-stocks-see-2-3-trillion-weekly-wipeout-as-panic-grips-the-ai-trade-371f2f03?mod=mw_rss_topstories",
-    "ts": 1795214640000,
-    "summary": "A major semiconductor index just posted its worst weekly performance in 25 years.",
+    "t": "Nvidia’s stock clinches a stretch of weekly losses not seen since 2008",
+    "url": "https://www.marketwatch.com/story/nvidias-stock-heads-for-a-stretch-of-weekly-losses-unseen-since-2008-91aba9a6?mod=mw_rss_topstories",
+    "ts": 1795211880000,
+    "summary": "One fund manager says the continued uncertainty makes Nvidia vulnerable to more selling, even as the stock has erased $1.16 trillion in market value in the past seven trading sessions.",
     "src": "MarketWatch",
     "lean": "C"
    },
    {
-    "t": "Ex-GM CEO on Mary Barra succession planning: 'It's going to be tough'",
-    "url": "https://www.cnbc.com/2026/11/20/gm-ceo-succession-mary-barra-dan-akerson.html",
-    "ts": 1795189827000,
-    "summary": "Former GM CEO Dan Akerson says whoever replaces Mary Barra will have a difficult task because they'll inherit rapid change in technology and the auto industry.",
+    "t": "Intuit asks Mailchimp employees to 'care for one another' after Bending Spoons acquisition news",
+    "url": "https://www.businessinsider.com/mailchimp-intuit-plans-bending-spoons-sale-memo-2026-11",
+    "ts": 1795211488000,
+    "summary": "Read Intuit's memo to \"unsettled\" Mailchimp employees after it announced it's selling the platform to Bending Spoons, an Italian conglomerate.",
+    "src": "Business Insider",
+    "lean": "L"
+   },
+   {
+    "t": "Walmart hikes outlook as CEO tells CNBC retailer aims to keep prices low despite soaring fuel costs",
+    "url": "https://www.cnbc.com/2026/11/19/walmart-wmt-q3-2026-earnings.html",
+    "ts": 1795118310000,
+    "summary": "Walmart said it saw strength with store-fulfilled pickup and delivery in its fiscal third quarter.",
     "src": "CNBC",
     "lean": "C"
    },
@@ -310,26 +414,26 @@
     "lean": "R"
    },
    {
-    "t": "Trump threatens a 'tremendous tax' on tech companies building data centers outside the US",
-    "url": "https://www.businessinsider.com/trump-warning-building-overseas-data-centers-2026-11",
-    "ts": 1795213743000,
-    "summary": "Trump, who just returned from a tech hub in China, warns that companies will face a \"tremendous tax\" for building data centers outside the US.",
-    "src": "Business Insider",
-    "lean": "L"
-   },
-   {
-    "t": "These stocks were crushed the most this week as the tech wreck accelerated",
-    "url": "https://www.marketwatch.com/story/these-stocks-were-crushed-the-most-this-week-as-the-tech-wreck-accelerated-8d6f7323?mod=mw_rss_topstories",
-    "ts": 1795214640000,
-    "summary": "94% of stocks in the S&P 500 declined for the week, 11 of them by at least 20%. But for now, analysts still think you can make a lot of money if you buy them.",
+    "t": "Everyone’s making money off ‘GTA 6’ this week — except investors in Take-Two’s stock",
+    "url": "https://www.marketwatch.com/story/everyones-making-money-off-gta-6-this-week-except-investors-in-take-twos-stock-489ee01b?mod=mw_rss_topstories",
+    "ts": 1795210740000,
+    "summary": "‘Grand Theft Auto VI’ might be a blockbuster game, but investors are shrugging it off.",
     "src": "MarketWatch",
     "lean": "C"
    },
    {
-    "t": "Rejecting cheap fabrics, higher prices: Why shoppers are asking for better clothes",
-    "url": "https://www.cnbc.com/2026/11/20/clothing-prices-polyester-cotton-quality.html",
-    "ts": 1795176002000,
-    "summary": "Retailers are charging higher prices for clothing made with cheaper materials. Shoppers are taking notice and experts say it could shift how they spend.",
+    "t": "Do not threaten to pee on your employees, no matter how effective the results may be",
+    "url": "https://www.businessinsider.com/nvidia-jensen-huang-management-style-report-pee-brain-2026-11",
+    "ts": 1795211017000,
+    "summary": "Why, you might ask, am I stating what should be obvious to every CEO and manager? Because the Jensen Huang scandal has taken yet another turn.",
+    "src": "Business Insider",
+    "lean": "L"
+   },
+   {
+    "t": "Lowe's posts strong online sales, raises outlook despite slow housing market",
+    "url": "https://www.cnbc.com/2026/11/18/lowes-low-q3-2026-earnings.html",
+    "ts": 1795026472000,
+    "summary": "Lowe's said it saw strength in online sales during its quarter that contributed to a guidance raise for the full year.",
     "src": "CNBC",
     "lean": "C"
    },
@@ -342,26 +446,26 @@
     "lean": "R"
    },
    {
-    "t": "The Covey is important in 'Sunrise on the Reaping.' Here's a guide to the family and their relationship to Katniss.",
-    "url": "https://www.businessinsider.com/the-covey-hunger-games-explained-lucy-gray-katniss-everdeen-2025-3",
-    "ts": 1795212981000,
-    "summary": "In the \"Hunger Games\" prequel, \"Sunrise on the Reaping,\" Suzanne Collins revealed that Katniss Everdeen is a descendant of the Covey family.",
-    "src": "Business Insider",
-    "lean": "L"
-   },
-   {
-    "t": "Nvidia’s stock clinches a stretch of weekly losses not seen since 2008",
-    "url": "https://www.marketwatch.com/story/nvidias-stock-heads-for-a-stretch-of-weekly-losses-unseen-since-2008-91aba9a6?mod=mw_rss_topstories",
-    "ts": 1795211880000,
-    "summary": "One fund manager says the continued uncertainty makes Nvidia vulnerable to more selling, even as the stock has erased $1.16 trillion in market value in the past seven trading sessions.",
+    "t": "The hidden catch in Anthropic’s IPO: Billions of locked-up shares are waiting in the wings",
+    "url": "https://www.marketwatch.com/story/the-hidden-catch-in-anthropics-ipo-billions-of-locked-up-shares-are-waiting-in-the-wings-279d33ce?mod=mw_rss_topstories",
+    "ts": 1795210740000,
+    "summary": "A looming oversupply problem could weigh on the stock over the next year",
     "src": "MarketWatch",
     "lean": "C"
    },
    {
-    "t": "A24 is having a great year at the box office. That could give HBO Max a streaming edge",
-    "url": "https://www.cnbc.com/2026/11/20/a24-box-office-hbo-max.html",
-    "ts": 1795176002000,
-    "summary": "A24 films \"Backrooms,\" \"The Drama\" and the Elizabeth Holmes documentary, \"You Can See Everything,\" are fueling a banner year at the box office.",
+    "t": "Wall Street just put an astonishing price on Nvidia's Jensen Huang: $1 trillion",
+    "url": "https://www.businessinsider.com/nvidia-loses-1-trillion-market-value-after-jensen-huang-ouster-2026-11",
+    "ts": 1795209633000,
+    "summary": "Nvidia has lost $1 trillion in market value since Jensen Huang's ouster, raising questions about the board.",
+    "src": "Business Insider",
+    "lean": "L"
+   },
+   {
+    "t": "Investigators make progress in hunt for cause of FAA ground stop",
+    "url": "https://www.cnbc.com/2026/11/18/faa-ground-stop-router-investigation.html",
+    "ts": 1795025605000,
+    "summary": "Engineers and analysts are still searching for the root cause of the issue, which led to a four-hour ground stop on Friday.",
     "src": "CNBC",
     "lean": "C"
    },
@@ -374,100 +478,12 @@
     "lean": "R"
    },
    {
-    "t": "Intuit asks Mailchimp employees to 'care for one another' after Bending Spoons acquisition news",
-    "url": "https://www.businessinsider.com/mailchimp-intuit-plans-bending-spoons-sale-memo-2026-11",
-    "ts": 1795211488000,
-    "summary": "Read Intuit's memo to \"unsettled\" Mailchimp employees after it announced it's selling the platform to Bending Spoons, an Italian conglomerate.",
-    "src": "Business Insider",
-    "lean": "L"
-   },
-   {
-    "t": "Everyone’s making money off ‘GTA 6’ this week — except investors in Take-Two’s stock",
-    "url": "https://www.marketwatch.com/story/everyones-making-money-off-gta-6-this-week-except-investors-in-take-twos-stock-489ee01b?mod=mw_rss_topstories",
-    "ts": 1795210740000,
-    "summary": "‘Grand Theft Auto VI’ might be a blockbuster game, but investors are shrugging it off.",
-    "src": "MarketWatch",
-    "lean": "C"
-   },
-   {
-    "t": "Walmart hikes outlook as CEO tells CNBC retailer aims to keep prices low despite soaring fuel costs",
-    "url": "https://www.cnbc.com/2026/11/19/walmart-wmt-q3-2026-earnings.html",
-    "ts": 1795118310000,
-    "summary": "Walmart said it saw strength with store-fulfilled pickup and delivery in its fiscal third quarter.",
-    "src": "CNBC",
-    "lean": "C"
-   },
-   {
-    "t": "Over 314,000 older Toyota and Lexus vehicles recalled for potentially dangerous airbag issue",
-    "url": "https://www.foxbusiness.com/lifestyle/over-314k-older-toyota-lexus-vehicles-recalled-potentially-dangerous-airbag-issue",
-    "ts": 1795134335000,
-    "summary": "A recall covers 314,029 Toyota and Lexus vehicles from the 2002 through 2017 model years whose aging Takata front passenger airbag inflators could rupture and hurl metal fragments.",
-    "src": "Fox Business",
-    "lean": "R"
-   },
-   {
-    "t": "Do not threaten to pee on your employees, no matter how effective the results may be",
-    "url": "https://www.businessinsider.com/nvidia-jensen-huang-management-style-report-pee-brain-2026-11",
-    "ts": 1795211017000,
-    "summary": "Why, you might ask, am I stating what should be obvious to every CEO and manager? Because the Jensen Huang scandal has taken yet another turn.",
-    "src": "Business Insider",
-    "lean": "L"
-   },
-   {
-    "t": "The hidden catch in Anthropic’s IPO: Billions of locked-up shares are waiting in the wings",
-    "url": "https://www.marketwatch.com/story/the-hidden-catch-in-anthropics-ipo-billions-of-locked-up-shares-are-waiting-in-the-wings-279d33ce?mod=mw_rss_topstories",
-    "ts": 1795210740000,
-    "summary": "A looming oversupply problem could weigh on the stock over the next year",
-    "src": "MarketWatch",
-    "lean": "C"
-   },
-   {
-    "t": "Lowe's posts strong online sales, raises outlook despite slow housing market",
-    "url": "https://www.cnbc.com/2026/11/18/lowes-low-q3-2026-earnings.html",
-    "ts": 1795026472000,
-    "summary": "Lowe's said it saw strength in online sales during its quarter that contributed to a guidance raise for the full year.",
-    "src": "CNBC",
-    "lean": "C"
-   },
-   {
-    "t": "Anthropic IPO turns thousands of tech workers into overnight millionaires, reports say",
-    "url": "https://www.foxbusiness.com/markets/anthropic-ipo-turns-thousands-tech-workers-overnight-millionaires-reports-say",
-    "ts": 1795133139000,
-    "summary": "Thousands of workers at the artificial intelligence giant are reportedly cashing in on a historic stock windfall after Anthropic's public market debut.",
-    "src": "Fox Business",
-    "lean": "R"
-   },
-   {
-    "t": "Wall Street just put an astonishing price on Nvidia's Jensen Huang: $1 trillion",
-    "url": "https://www.businessinsider.com/nvidia-loses-1-trillion-market-value-after-jensen-huang-ouster-2026-11",
-    "ts": 1795209633000,
-    "summary": "Nvidia has lost $1 trillion in market value since Jensen Huang's ouster, raising questions about the board.",
-    "src": "Business Insider",
-    "lean": "L"
-   },
-   {
     "t": "Micron and Sandisk stocks might look like bargains, but analysts say that’s actually a red flag",
     "url": "https://www.marketwatch.com/story/micron-and-sandisk-stocks-might-look-like-bargains-but-analysts-say-thats-actually-a-red-flag-da1f1f5d?mod=mw_rss_topstories",
     "ts": 1795210560000,
     "summary": "Cheap valuation multiples for memory stocks have historically been associated with peak pricing levels, according to analysts.",
     "src": "MarketWatch",
     "lean": "C"
-   },
-   {
-    "t": "Investigators make progress in hunt for cause of FAA ground stop",
-    "url": "https://www.cnbc.com/2026/11/18/faa-ground-stop-router-investigation.html",
-    "ts": 1795025605000,
-    "summary": "Engineers and analysts are still searching for the root cause of the issue, which led to a four-hour ground stop on Friday.",
-    "src": "CNBC",
-    "lean": "C"
-   },
-   {
-    "t": "Costco sees panic buying surge after tech outages, report says",
-    "url": "https://www.foxbusiness.com/lifestyle/costco-sees-panic-buying-surge-after-tech-outages-report-says",
-    "ts": 1795119679000,
-    "summary": "Shoppers are \"pantry-loading\" and cleaning out backup power systems following the Microsoft Outlook outage and nationwide ground stop of flights, according to a new report.",
-    "src": "Fox Business",
-    "lean": "R"
    },
    {
     "t": "Melania Trump says public displays of affection with Donald Trump are 'not my style'",
@@ -478,36 +494,20 @@
     "lean": "L"
    },
    {
-    "t": "One thing Thanksgiving travelers can be thankful for: Gas prices are down 75 cents from this year’s peak",
-    "url": "https://www.marketwatch.com/story/one-thing-thanksgiving-travelers-can-be-thankful-for-gas-prices-are-down-75-cents-from-this-years-peak-efac1809?mod=mw_rss_topstories",
-    "ts": 1795210440000,
-    "summary": "Travelers preparing for Thanksgiving trips will find cheaper gasoline prices at the pump after months of elevated fuel prices.",
-    "src": "MarketWatch",
-    "lean": "C"
-   },
-   {
     "t": "Target shares rise 7% as retailer posts best sales growth in five years, hikes guidance",
     "url": "https://www.cnbc.com/2026/11/18/target-tgt-q3-2026-earnings.html",
     "ts": 1795024610000,
     "summary": "Target beat third-quarter sales expectations and raised its guidance as it continues a turnaround effort.",
     "src": "CNBC",
     "lean": "C"
-   },
-   {
-    "t": "Anthropic makes stock market debut: Who stands to gain from the blockbuster IPO?",
-    "url": "https://www.foxbusiness.com/markets/anthropic-makes-stock-market-debut-who-could-gain-from-blockbuster-ipo",
-    "ts": 1795118557000,
-    "summary": "Anthropic stock is now on the Nasdaq under ticker ANT, and experts say index funds and 401(k) plans could soon give Americans exposure to the AI developer.",
-    "src": "Fox Business",
-    "lean": "R"
    }
   ],
   "finance": [
    {
-    "t": "These stocks were crushed the most this week as the tech wreck accelerated - MarketWatch",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQX3VaSHFscXlQWEVYSy1ncEZaeVFpU2FXQXNfM295RmY5bGMwWUs0VWNNUTI2dW9qV2ZYdW5jV29SR3pPeXIxRWplZF9ubUhOaGltdWxSb3YtNnI1ejRJbHM5eHlNZ1IxUkFBWWxqdUJoOUlwUjNia1VDTkFkdUNFcG9md0s3X1JETWVscjJVU1dxdFJXZkNQejBTX2FKZjlQZzdDR2tvMS16clE2UGxMWXl2V0FnRVM3?oc=5",
+    "t": "Chip stocks see $2.3 trillion weekly wipeout as panic grips the AI trade - MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYXBIem5aUUk0SXcwSmk3RUhqS0JsX0ZXXzNYZTFQYW5hR0l1UzhCdXV0UTlaeW5zLThlQTN3UlRTQm16T0U2amk1dHVWWVd4RVNQVmdsM3BVcXVuT01ucXBNV2M1akFQdWwyOG45RjBMaW4ycml0VWJObjBGZ1BFc2MzdnFwN1hWajFnWktfbVhXamQ2bFhRLUZFS1MwX04ybmsyekpVZ2Q3OGR2VjhrVzV1dzM?oc=5",
     "ts": 1795214640000,
-    "summary": "These stocks were crushed the most this week as the tech wreck accelerated MarketWatch",
+    "summary": "Chip stocks see $2.3 trillion weekly wipeout as panic grips the AI trade MarketWatch",
     "src": "MarketWatch (GN)",
     "lean": "C"
    },
@@ -528,10 +528,10 @@
     "lean": "C"
    },
    {
-    "t": "Chip stocks see $2.3 trillion weekly wipeout as panic grips the AI trade - MarketWatch",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYXBIem5aUUk0SXcwSmk3RUhqS0JsX0ZXXzNYZTFQYW5hR0l1UzhCdXV0UTlaeW5zLThlQTN3UlRTQm16T0U2amk1dHVWWVd4RVNQVmdsM3BVcXVuT01ucXBNV2M1akFQdWwyOG45RjBMaW4ycml0VWJObjBGZ1BFc2MzdnFwN1hWajFnWktfbVhXamQ2bFhRLUZFS1MwX04ybmsyekpVZ2Q3OGR2VjhrVzV1dzM?oc=5",
+    "t": "These stocks were crushed the most this week as the tech wreck accelerated - MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQX3VaSHFscXlQWEVYSy1ncEZaeVFpU2FXQXNfM295RmY5bGMwWUs0VWNNUTI2dW9qV2ZYdW5jV29SR3pPeXIxRWplZF9ubUhOaGltdWxSb3YtNnI1ejRJbHM5eHlNZ1IxUkFBWWxqdUJoOUlwUjNia1VDTkFkdUNFcG9md0s3X1JETWVscjJVU1dxdFJXZkNQejBTX2FKZjlQZzdDR2tvMS16clE2UGxMWXl2V0FnRVM3?oc=5",
     "ts": 1795214640000,
-    "summary": "Chip stocks see $2.3 trillion weekly wipeout as panic grips the AI trade MarketWatch",
+    "summary": "These stocks were crushed the most this week as the tech wreck accelerated MarketWatch",
     "src": "MarketWatch (GN)",
     "lean": "C"
    },
@@ -576,18 +576,18 @@
     "lean": "C"
    },
    {
-    "t": "Micron and Sandisk stocks might look like bargains, but analysts say that’s actually a red flag - MarketWatch",
-    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONFBQTHoyOUt3Zi1vMFh5ZFN3ejlKb0tXSjlQQnkzQkZweXJZdEtRTFVKcll5LTVIQWQxbWQtSFRJanVXbThPbU16NUNQTUVFYVdvSTIySi1NMk9YTmkyYmtlcV9hQzV2SXJ1RzZfd0xqQ3NJY1otQ2ZrZ2VWMEU2azNkdXVDcG55SFJfRy1GQmpwQzM0eGw3dUNFbVZVQUZ4QVQyYVpHWnhWY3BLSDVPcnA1ZkFRcnlGdVB6b2ZDcUNVRVNQdTM5OWMzdkRyTXBGa3c?oc=5",
-    "ts": 1795210560000,
-    "summary": "Micron and Sandisk stocks might look like bargains, but analysts say that’s actually a red flag MarketWatch",
+    "t": "Opinion: The hidden catch in Anthropic’s IPO: Billions of locked-up shares are waiting in the wings - MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNckhYaUM0Y3lvVWxQdnJXLVBUVGFFRi1TYkdydXBscF85Nnp5MGJLNW16TzJFbE9WQk11Tm5nTkRwTlNyckxWUElUSkdNdzRMRl9pdDVJUXJjRl9IQkR2Y180QVp1OGU0TUZwZTAtWldZOFhjc0hKVTBwVjFHNmg5ZVlGLUhrYWItbzR0RVdBbURBUU9ucVRoYmJFQWxzNkVscnpVSWhySFJRRGhJU2tnLU83Zk0zRHgtTC1kNzNrc3VGZDhqVEFGRElwTQ?oc=5",
+    "ts": 1795210740000,
+    "summary": "Opinion: The hidden catch in Anthropic’s IPO: Billions of locked-up shares are waiting in the wings MarketWatch",
     "src": "MarketWatch (GN)",
     "lean": "C"
    },
    {
-    "t": "Chips suffer worst week since 2001 as the Nasdaq 100 nears a bear market - Yahoo Finance",
+    "t": "Chips suffer worst week since 2001 as the Nasdaq nears a bear market - Yahoo Finance",
     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQmc2cHN6ZXN3Y1BKcGNfazRTNUNYTWp2enR1RVp4d2VEWnE4NE4yWFhwQkpYSDRMdzU5U3RTQTdtMzFOSGtVYmd4RnZNYWthSGdPUVY2MmRab3FUX0lLQWdZZ19tSmh0NktIWUxLMXVQRVl3dDByUExZbzVENzhiY25vRTl2cnNJcEtkR202Q0tIdlFWWURQTEFDaHVORU1FYkR6MXJQaFpZdTU3Q1hvcjRPdXU3NXI3ekZKclJycmVROU84Q0E?oc=5",
     "ts": 1795209834000,
-    "summary": "Chips suffer worst week since 2001 as the Nasdaq 100 nears a bear market Yahoo Finance",
+    "summary": "Chips suffer worst week since 2001 as the Nasdaq nears a bear market Yahoo Finance",
     "src": "Yahoo Finance (GN)",
     "lean": "C"
    },
@@ -600,10 +600,10 @@
     "lean": "C"
    },
    {
-    "t": "Anthropic’s stock sees dramatic slide but manages to stay above its IPO price - MarketWatch",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOd2ZHdUVSUExQTTh1QktRTS13QzBkXzB6Z01QUU5wc2hZb2lPTUxydXpjQlNhMUhQOENVaHVyNUZqOGZqSFMtYXdJN052Sy0tTGVGMjV2TlZMaUhvaDVMbGUxc1hjMVFmcXlmcmFvUGtpS2I0YjFwXzEySVAxWm5JeXQ4MFJyallFWk1IZnd1NE9rY2dUMlZIN2pQR1lZTzZfTWhLUjZybFdNZGs0M09id3RIa2o?oc=5",
-    "ts": 1795209900000,
-    "summary": "Anthropic’s stock sees dramatic slide but manages to stay above its IPO price MarketWatch",
+    "t": "Micron and Sandisk stocks might look like bargains, but analysts say that’s actually a red flag - MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONFBQTHoyOUt3Zi1vMFh5ZFN3ejlKb0tXSjlQQnkzQkZweXJZdEtRTFVKcll5LTVIQWQxbWQtSFRJanVXbThPbU16NUNQTUVFYVdvSTIySi1NMk9YTmkyYmtlcV9hQzV2SXJ1RzZfd0xqQ3NJY1otQ2ZrZ2VWMEU2azNkdXVDcG55SFJfRy1GQmpwQzM0eGw3dUNFbVZVQUZ4QVQyYVpHWnhWY3BLSDVPcnA1ZkFRcnlGdVB6b2ZDcUNVRVNQdTM5OWMzdkRyTXBGa3c?oc=5",
+    "ts": 1795210560000,
+    "summary": "Micron and Sandisk stocks might look like bargains, but analysts say that’s actually a red flag MarketWatch",
     "src": "MarketWatch (GN)",
     "lean": "C"
    },
@@ -624,18 +624,18 @@
     "lean": "C"
    },
    {
-    "t": "The tech wreck is one stock trade Trump can’t ‘TACO’ away - MarketWatch",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTTRxdEJUWEhNR29HNmE3cG1Ca0dJVWVQTWdsZmhqcnR3UW41ekZ3UXo5dGxtMVVvU0RSejBWcW9UUkVtVXFFZG1JQ3I0TlpaZTUtem41d0xGM3h2bWQ3cjM1VVRXVGNreTBHR0Q0VnhyaFBXcnFOd0RiVDRucEdtTHpMejZLSkFiTEszemdyd3pLbG5YZ2xYREFDT1pSdw?oc=5",
-    "ts": 1795207920000,
-    "summary": "The tech wreck is one stock trade Trump can’t ‘TACO’ away MarketWatch",
+    "t": "Anthropic’s stock sees dramatic slide but manages to stay above its IPO price - MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOd2ZHdUVSUExQTTh1QktRTS13QzBkXzB6Z01QUU5wc2hZb2lPTUxydXpjQlNhMUhQOENVaHVyNUZqOGZqSFMtYXdJN052Sy0tTGVGMjV2TlZMaUhvaDVMbGUxc1hjMVFmcXlmcmFvUGtpS2I0YjFwXzEySVAxWm5JeXQ4MFJyallFWk1IZnd1NE9rY2dUMlZIN2pQR1lZTzZfTWhLUjZybFdNZGs0M09id3RIa2o?oc=5",
+    "ts": 1795209900000,
+    "summary": "Anthropic’s stock sees dramatic slide but manages to stay above its IPO price MarketWatch",
     "src": "MarketWatch (GN)",
     "lean": "C"
    },
    {
-    "t": "Nvidia Shares Sink to 52-Week Low After Report SEC Is Probing Accounting - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbEx6c1BUSEpEMUF5OHd4d3prVHYwYnJxdzNWbTdvNl80QWVOaWZHX2F1UVFxTy1UQU9pMmhLdzVfTk9zSS1mWElBR0lWdDExWkNINEtNemJSZmQxcUhxWXlwN01RaHBBZGVmcHNnek1jSEZVQUVuaEx3VXFBS1VkV3hIcWpxRC1IcnNOLURVa1RsdVQxLUE?oc=5",
-    "ts": 1795207014000,
-    "summary": "Nvidia Shares Sink to 52-Week Low After Report SEC Is Probing Accounting Yahoo Finance",
+    "t": "Wall St ends sharply lower on AI selloff, S&P 500, Dow in correction - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQV3dOZlc3N2c4UXkySVk4bUFjN3RFdy1ldjRKcXdJSlJYelZmU1RRN0NsNWVlQ0thZmxQOWhnMEg4c2RUcFJKTGYtU0JsMlRYN0k4QWRqakVPazBPSkJDWmxLNjIxSlJmSWdOMXhmUnhhZlpFQkNJendNb0VkRjJlTE5JRi1NSDZQV3FaRENSTXhkNXJqNWJRMkFJUQ?oc=5",
+    "ts": 1795208432000,
+    "summary": "Wall St ends sharply lower on AI selloff, S&P 500, Dow in correction Yahoo Finance",
     "src": "Yahoo Finance (GN)",
     "lean": "C"
    },
@@ -648,18 +648,18 @@
     "lean": "C"
    },
    {
-    "t": "I’m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity? - MarketWatch",
-    "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQVGhIcDJEM3EtdjhleHRnallld3ZRN1lLYjBGaUZ6emgyQzYybGwzeXlmZVRjc09BQk9jM2N3dFM0azNUSU5rOWRaTnJaMXBVX25JUnBxZUJqZnFkRGxyc29OMFY4RE5CNlpLMEN5ci14V0U5akhFTzQ1T3NxWllsVkszcE1WWFk3RVVhYXZ2LVVOaEVQbV80d2hBZ2dITlB0ODM5VUpZOVR4M2hyS2RuTXc4aE81d3JCSmhaNjBtTFJjbDdvQWFsRkVxS2Zka1pMWkkxZ3pRaTF6dXNhZE5QSzdPeVRmTFBaekNkRENLQzdkYWN4VlFv?oc=5",
-    "ts": 1795206600000,
-    "summary": "I’m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity? MarketWatch",
+    "t": "The tech wreck is one stock trade Trump can’t ‘TACO’ away - MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTTRxdEJUWEhNR29HNmE3cG1Ca0dJVWVQTWdsZmhqcnR3UW41ekZ3UXo5dGxtMVVvU0RSejBWcW9UUkVtVXFFZG1JQ3I0TlpaZTUtem41d0xGM3h2bWQ3cjM1VVRXVGNreTBHR0Q0VnhyaFBXcnFOd0RiVDRucEdtTHpMejZLSkFiTEszemdyd3pLbG5YZ2xYREFDT1pSdw?oc=5",
+    "ts": 1795207920000,
+    "summary": "The tech wreck is one stock trade Trump can’t ‘TACO’ away MarketWatch",
     "src": "MarketWatch (GN)",
     "lean": "C"
    },
    {
-    "t": "Nvidia drops 12%, Broadcom and AMD extend declines as the AI trade melts down - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMHB0U3N0WnlCMjZCUFZ3QlNZSEhXZnVVbUdMSElkZTJ3TkszdTFxQnlpMkpZV05ZajNXM0VJYXlDM293OEdkUWl4RHVTZXRvSG1rQnJMWVJrMEp3a00zSm9VbTF6eHByZmpwNGMxcFlEQ3ZFSDQwU0FpNHlzV2xDRndWMnVzdDUzbkdDamxKX2FZeWNBbTJBamg2SVFwamZWdEh1elZ3?oc=5",
-    "ts": 1795206079000,
-    "summary": "Nvidia drops 12%, Broadcom and AMD extend declines as the AI trade melts down Yahoo Finance",
+    "t": "Bitcoin plunges below $59,000, on pace for its worst month since June 2022 - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRElXRUZRbXlfNVZIY09CRXlMTDV6a1JZeVpKQV9SYVpqX3F5X2RoYWV4YjNkeUJkX2ZXekpMM3ExRFpJYXRSYkk0cHk1aUk3R0U4ZktpTUI4VTNoUkp0ZEhNM1A0NExvNWhFY2RmVThRY0JuV0JyeUdHdGZEOFE4WE1aTFpxUmZqWnM2dHBaLXNQa1JWN0FGOUdEZzhKeUZPQmlKYmFHZmhNLVFLcUVrc2ZId0k2MjBlSHZ6SFZUT2VsT1FxVU93?oc=5",
+    "ts": 1795207449000,
+    "summary": "Bitcoin plunges below $59,000, on pace for its worst month since June 2022 Yahoo Finance",
     "src": "Yahoo Finance (GN)",
     "lean": "C"
    },
@@ -672,18 +672,18 @@
     "lean": "C"
    },
    {
-    "t": "The Fed is too busy fighting inflation to rescue the stock market - MarketWatch",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcXlrMXRSSklDUVdOYXMwYnNBdk1PeXZpcVRwUFY4MDdfR0IzLXdZVGQzX1ZsbzViOXE0ZmdYSjVUWXB2QnY1bVdLMWRmUUx6d3NLUXZBVHl0M0Y4dkJtSnRIR0pjekFtRHJlMXd0X1pvZzZBeVhSNnRaUWJOVHczcU1RbUxQS1NEajhtSV80R0dqNWNZY3lxUGpjbjFmcXc3Z1lhSHhiV2RqNm9r?oc=5",
-    "ts": 1795204380000,
-    "summary": "The Fed is too busy fighting inflation to rescue the stock market MarketWatch",
+    "t": "I’m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity? - MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQVGhIcDJEM3EtdjhleHRnallld3ZRN1lLYjBGaUZ6emgyQzYybGwzeXlmZVRjc09BQk9jM2N3dFM0azNUSU5rOWRaTnJaMXBVX25JUnBxZUJqZnFkRGxyc29OMFY4RE5CNlpLMEN5ci14V0U5akhFTzQ1T3NxWllsVkszcE1WWFk3RVVhYXZ2LVVOaEVQbV80d2hBZ2dITlB0ODM5VUpZOVR4M2hyS2RuTXc4aE81d3JCSmhaNjBtTFJjbDdvQWFsRkVxS2Zka1pMWkkxZ3pRaTF6dXNhZE5QSzdPeVRmTFBaekNkRENLQzdkYWN4VlFv?oc=5",
+    "ts": 1795206600000,
+    "summary": "I’m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity? MarketWatch",
     "src": "MarketWatch (GN)",
     "lean": "C"
    },
    {
-    "t": "Nvidia Stock Plunges 12% After Reuters Reports an SEC Probe of Its Accounting. It’s Nvidia’s Worst Day Since DeepSeek and It Has Lost $2.7 Trillion Since October - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNek83Um5vdUVIV3dWb2FVZlZSemZJUmh3Zkt6cUxiYUgxVjJzS3k4Z3lRWEhFRzZ4THRWVTlvSzR6TFVPaDVLYVlIV2Q1alRwODNZNndjQnctNFNmcTJGamk1LWR2bl9oMktRWThaeURldFFJRnowaXE4Nzd1T2hUaFpDSVQ2dlZ1TEVVU3EzOXg1STRmWmRQbDZRNU8?oc=5",
-    "ts": 1795205822000,
-    "summary": "Nvidia Stock Plunges 12% After Reuters Reports an SEC Probe of Its Accounting. It’s Nvidia’s Worst Day Since DeepSeek and It Has Lost $2.7 Trillion Since October Yahoo Finance",
+    "t": "Nvidia Shares Sink to 52-Week Low After Report SEC Is Probing Accounting - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbEx6c1BUSEpEMUF5OHd4d3prVHYwYnJxdzNWbTdvNl80QWVOaWZHX2F1UVFxTy1UQU9pMmhLdzVfTk9zSS1mWElBR0lWdDExWkNINEtNemJSZmQxcUhxWXlwN01RaHBBZGVmcHNnek1jSEZVQUVuaEx3VXFBS1VkV3hIcWpxRC1IcnNOLURVa1RsdVQxLUE?oc=5",
+    "ts": 1795207014000,
+    "summary": "Nvidia Shares Sink to 52-Week Low After Report SEC Is Probing Accounting Yahoo Finance",
     "src": "Yahoo Finance (GN)",
     "lean": "C"
    },
@@ -696,18 +696,18 @@
     "lean": "C"
    },
    {
-    "t": "Stocks could face a ‘doom loop’ if Wall Street underestimates the risk of an economic downturn, strategist warns - MarketWatch",
-    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPYm9HR1RRVG5WZ0Exd0ZzREE1b1lKRGJRX3hfeU9vZWdEY3NCdUlvaXJJejJfOVhwVmtha3dfXzY2Q1lHcFU3YVNKQWdwb3lmbUdlMnpvZ1hWa292NndOc05UWlJPU21pdXpENklnLUUwb2JOQkczNFNTM1VRTlNWTHFqSGc1b0p5TzZFdW5PZGh0RGxlYndndTI0cXEyblFXWXdHY2FkclVpQk5EdU9UbGxMSEwwVU1uanhId1NHX2RuaWQ2cVUyanFNNVpWMFk0cEpqeUw2R3U5QlZ0aloyeWt0eVBpQQ?oc=5",
-    "ts": 1795203780000,
-    "summary": "Stocks could face a ‘doom loop’ if Wall Street underestimates the risk of an economic downturn, strategist warns MarketWatch",
+    "t": "The Fed is too busy fighting inflation to rescue the stock market - MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcXlrMXRSSklDUVdOYXMwYnNBdk1PeXZpcVRwUFY4MDdfR0IzLXdZVGQzX1ZsbzViOXE0ZmdYSjVUWXB2QnY1bVdLMWRmUUx6d3NLUXZBVHl0M0Y4dkJtSnRIR0pjekFtRHJlMXd0X1pvZzZBeVhSNnRaUWJOVHczcU1RbUxQS1NEajhtSV80R0dqNWNZY3lxUGpjbjFmcXc3Z1lhSHhiV2RqNm9r?oc=5",
+    "ts": 1795204380000,
+    "summary": "The Fed is too busy fighting inflation to rescue the stock market MarketWatch",
     "src": "MarketWatch (GN)",
     "lean": "C"
    },
    {
-    "t": "Why Nvidia Stock Is Down Today - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTTIwSEsyUnFmSERReEVhMXhlZ3RKZFQ1anFxYklTWnJLR09LR0JMZ1dWNHBlMGpuRUZfMllGVUpDNDdOcGNlSUt2TnVmbFREWXFoWmUwWVRQX3Y4a1BRVWxCakdPUlR5T2h5ZjlRcjRMOUxWNU9rZGhlZlpjMUlON1RaYXJyQ0hHejJ4al9FWF9qYVlFd0Vv?oc=5",
-    "ts": 1795197302000,
-    "summary": "Why Nvidia Stock Is Down Today Yahoo Finance",
+    "t": "Nvidia drops 12%, Broadcom and AMD extend declines as the AI trade melts down - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMHB0U3N0WnlCMjZCUFZ3QlNZSEhXZnVVbUdMSElkZTJ3TkszdTFxQnlpMkpZV05ZajNXM0VJYXlDM293OEdkUWl4RHVTZXRvSG1rQnJMWVJrMEp3a00zSm9VbTF6eHByZmpwNGMxcFlEQ3ZFSDQwU0FpNHlzV2xDRndWMnVzdDUzbkdDamxKX2FZeWNBbTJBamg2SVFwamZWdEh1elZ3?oc=5",
+    "ts": 1795206079000,
+    "summary": "Nvidia drops 12%, Broadcom and AMD extend declines as the AI trade melts down Yahoo Finance",
     "src": "Yahoo Finance (GN)",
     "lean": "C"
    },
@@ -720,18 +720,18 @@
     "lean": "C"
    },
    {
-    "t": "Anthropic soared in its debut as stocks tanked. Only one other IPO has done that since 1990. - MarketWatch",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQN1hWVGg0VnRrWThGVk1ESHpBMTRFNFJqTW1CZWZYc2xaWXdMOVhlMjdacWxBdjg3YnE1OEJVTUxNSzhNLWJLZk40U2wzTGNXMGQ2ZFVrWUQ0RWtKNW9GcFl2VUFTMGR6REJIU3lKeTBxem12a3NFWnliNWxsYWZ3ajlHQkZRNV9KSnVIeHhJMm9iVFMxQ2FKWEw4dXhqY2ZuRVJmdVVSVVNFa0N5SDBZRWc4bFcxUTVCbHc0dWNTOWdoVkFPeTcyMjBqc2hNQQ?oc=5",
-    "ts": 1795177140000,
-    "summary": "Anthropic soared in its debut as stocks tanked. Only one other IPO has done that since 1990. MarketWatch",
+    "t": "Stocks could face a ‘doom loop’ if Wall Street underestimates the risk of an economic downturn, strategist warns - MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPYm9HR1RRVG5WZ0Exd0ZzREE1b1lKRGJRX3hfeU9vZWdEY3NCdUlvaXJJejJfOVhwVmtha3dfXzY2Q1lHcFU3YVNKQWdwb3lmbUdlMnpvZ1hWa292NndOc05UWlJPU21pdXpENklnLUUwb2JOQkczNFNTM1VRTlNWTHFqSGc1b0p5TzZFdW5PZGh0RGxlYndndTI0cXEyblFXWXdHY2FkclVpQk5EdU9UbGxMSEwwVU1uanhId1NHX2RuaWQ2cVUyanFNNVpWMFk0cEpqeUw2R3U5QlZ0aloyeWt0eVBpQQ?oc=5",
+    "ts": 1795203780000,
+    "summary": "Stocks could face a ‘doom loop’ if Wall Street underestimates the risk of an economic downturn, strategist warns MarketWatch",
     "src": "MarketWatch (GN)",
     "lean": "C"
    },
    {
-    "t": "Nvidia Falls Behind Alphabet, Loses $2.3 Trillion In Market Value Since October Peak - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZDZibUVMWTBIU2NHbTVKdTBWR2F2VXoxM0RTTmJTR01TMTg4a3NHOHNMRTN0cjlOOWFNaXpoUE1GV0lRdTZIOFZ6bXlqQWRvZXpVYlRCUHhvZzRhTlljTG5TNFpMWEk5T3psYXhPN2RsZkEyMXY5OW01UDJqRUxsT24yNUZmeTFYMktLUTBwV3lkb3JLLWdHNXExYkNqWWVl?oc=5",
-    "ts": 1795189883000,
-    "summary": "Nvidia Falls Behind Alphabet, Loses $2.3 Trillion In Market Value Since October Peak Yahoo Finance",
+    "t": "Nvidia Stock Plunges 12% After Reuters Reports an SEC Probe of Its Accounting. It’s Nvidia’s Worst Day Since DeepSeek and It Has Lost $2.7 Trillion Since October - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNek83Um5vdUVIV3dWb2FVZlZSemZJUmh3Zkt6cUxiYUgxVjJzS3k4Z3lRWEhFRzZ4THRWVTlvSzR6TFVPaDVLYVlIV2Q1alRwODNZNndjQnctNFNmcTJGamk1LWR2bl9oMktRWThaeURldFFJRnowaXE4Nzd1T2hUaFpDSVQ2dlZ1TEVVU3EzOXg1STRmWmRQbDZRNU8?oc=5",
+    "ts": 1795205822000,
+    "summary": "Nvidia Stock Plunges 12% After Reuters Reports an SEC Probe of Its Accounting. It’s Nvidia’s Worst Day Since DeepSeek and It Has Lost $2.7 Trillion Since October Yahoo Finance",
     "src": "Yahoo Finance (GN)",
     "lean": "C"
    },
@@ -754,44 +754,196 @@
     "lean": "R"
    },
    {
+    "t": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
+    "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&at_campaign=rss",
+    "ts": 1795245885000,
+    "summary": "Earlier this week, Trump greeted Putin ahead of a meeting in China and said the pair have a \"great relationship\".",
+    "src": "BBC",
+    "lean": "C"
+   },
+   {
+    "t": "Palisades fire: Man guilty of starting one of California's deadliest blazes - BBC",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8tZ3pYbkYxT1JZNVVQa3dOV3VZbTF0Nl9NaVJaTUJrY05RaFdIYmRpZ1pNMk5ZQTFuMU5wdEVSVTFzSS1qVHpSVmNfdmU2OHRCVjJCX0JYZ0dIODA?oc=5",
+    "ts": 1795235640000,
+    "summary": "Palisades fire: Man guilty of starting one of California's deadliest blazes BBC Jonathan Rinderknecht found guilty of sparking blaze that became deadly Palisades Fire KTLA Jury in Palisades Fire Trial Finds Man Guilty of Arson in Devastatin",
+    "src": "Google News",
+    "lean": null
+   },
+   {
+    "t": "South Florida begins recovery after widespread flooding",
+    "url": "https://www.cbsnews.com/live-updates/south-florida-flooding-live-updates-heavy-rain-broward-miami-dade/",
+    "ts": 1795228971000,
+    "summary": "Historic flooding across South Florida has left neighborhoods underwater, roads impassable and Broward schools closed as residents begin cleanup efforts and officials assess the damage.",
+    "src": "CBS News",
+    "lean": "C"
+   },
+   {
+    "t": "Red Hot Chili Peppers drummer Chad Smith to join Wu-Tang Clan for Lions' Thanksgiving halftime show",
+    "url": "https://www.foxnews.com/outkick-sports/red-hot-chili-peppers-drummer-chad-smith-join-wu-tang-clan-lions-thanksgiving-halftime-show",
+    "ts": 1795233309000,
+    "summary": "Chad Smith, Red Hot Chili Peppers drummer and Bloomfield Hills native, will fly the W with Wu-Tang Clan at halftime of the Detroit Lions Thanksgiving game.",
+    "src": "Fox News",
+    "lean": "R"
+   },
+   {
+    "t": "Cold snap continues with UK's coldest night of autumn so far",
+    "url": "https://www.bbc.co.uk/weather/articles/ckvg251xz51do?at_medium=RSS&at_campaign=rss",
+    "ts": 1795243136000,
+    "summary": "Temperatures dropped well below freezing in many areas on Friday night but how long will the chilly weather last?",
+    "src": "BBC",
+    "lean": "C"
+   },
+   {
+    "t": "Ukraine war briefing: European leaders react with anger and alarm after Russian missiles crash in Poland - The Guardian",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQV3ZsTlVPVEN2STFrWVYtZFA1eWpCd3BxdHhwU1U5Zm5JeFdTVXJmUXYyamFEZklBdGZxVE1rN3VtSDZLWDhzNGVnT294RkxVbGEwc1lVc1ViZ3Q3QVJYMG53bVNaeVNSbEVscnh1di1vNDBDQ0h1TkpGek00Y1BjeUJ2YVktZkYxcDdyVGZyalhkUkNob0FOejNCM0laNy04Mm1BUmtjR2dZa1dkdnBjRVEyZXRmdWNYODU2bnNkUnZNNndCb3N1NGpSNTEwRHR1VmN4dWs0ZDRhTDZvM3Bwak85Zw?oc=5",
+    "ts": 1795228860000,
+    "summary": "Ukraine war briefing: European leaders react with anger and alarm after Russian missiles crash in Poland The Guardian Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk BBC Poland accuses Russia of \"intentiona",
+    "src": "Google News",
+    "lean": null
+   },
+   {
+    "t": "Stocks enter correction territory, driven by deepening tech rout",
+    "url": "https://www.cbsnews.com/news/stocks-enter-correction-territory-ai-fears/",
+    "ts": 1795227900000,
+    "summary": "The tech-heavy Nasdaq tumbled more than 1,200 points, putting it on track for its second-worst day of the year.",
+    "src": "CBS News",
+    "lean": "C"
+   },
+   {
+    "t": "Nick Saban names three teams above Alabama as college football's true national championship contenders",
+    "url": "https://www.foxnews.com/outkick-sports/nick-saban-names-three-teams-above-alabama-college-footballs-true-national-championship-contenders",
+    "ts": 1795232103000,
+    "summary": "Nick Saban says Georgia, Utah and Notre Dame have \"the right stuff\" in 2026, leaving his former Alabama Crimson Tide off his elite list of three teams.",
+    "src": "Fox News",
+    "lean": "R"
+   },
+   {
+    "t": "Staff gagging clauses lifted ahead of probe into culture at data watchdog",
+    "url": "https://www.bbc.co.uk/news/articles/cwdr1xyzr5lmo?at_medium=RSS&at_campaign=rss",
+    "ts": 1795240864000,
+    "summary": "Ministers are expected to publish the details of how an independent review of the working environment at the Information Commission will be carried out next week.",
+    "src": "BBC",
+    "lean": "C"
+   },
+   {
+    "t": "California Bar investigating ex-White House press secretary Katie Zacharia - The Washington Post",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPX2VJNG1JcVhrdWw1OGhzQWhjTUtMNEZhaUFRLTNyamhHeFpmeEd3OVRKMjJwUHJ6Q2FzRkhYMnlybG9SQ2s3LTZnbVNncGJFMjY2eGNwWWFRZF84R3BPT0hVY2o4QTVqMzQ3SWhzVWt1Nmt6YUFqMWhNVWhjOGcyU0dDdkxUU1hwZjlxbVUyYTdXeEtVQ2JKSktnelctSDRuR1F5MDNMTnh4OXYyUG04Zno3VFlqMzRacTZRaUFsUk5RbTEwSEkxaA?oc=5",
+    "ts": 1795226914000,
+    "summary": "California Bar investigating ex-White House press secretary Katie Zacharia The Washington Post Fired White House press secretary Katie Zacharia under California state bar investigation The Guardian Trump Ex–Press Secretary’s Claim to Be Law",
+    "src": "Google News",
+    "lean": null
+   },
+   {
     "t": "Jonathan Rinderknecht found guilty in Palisades Fire case",
     "url": "https://www.cbsnews.com/news/jonathan-rinderknecht-found-guilty-in-palisades-fire-case/",
-    "ts": 1795220760000,
+    "ts": 1795226538000,
     "summary": "A Los Angeles County jury has found Jonathan Rinderknecht guilty of starting a blaze that erupted into the deadly and destructive Palisades Fire in 2025.",
     "src": "CBS News",
     "lean": "C"
    },
    {
-    "t": "Who will be Robert Pattinson's 'Bond girl' - and does the role need to change?",
-    "url": "https://www.bbc.co.uk/news/articles/cr4g1l7x52jno?at_medium=RSS&at_campaign=rss",
-    "ts": 1795219396000,
-    "summary": "Pattinson’s announcement as 007 has completely upped the game, and commentators say his leading lady will need a \"very strong identity\".",
-    "src": "BBC",
-    "lean": "C"
-   },
-   {
-    "t": "Mamdani proposes five-year extension to shutter notorious Rikers Island prison - The Washington Post",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYnktZFl1UHNEekZPOWtxcXlvZ2Z1MTZaVXJXM2VYUVg1NmJkT2pnZmVoYXdvSnp4UFAyZS1RSEE3N2VWX3BfcWVIZ0dJWjF2N3I0NU1YUUJ3R2NnUUR3bkd3Uy1fU2FqMFpQcTQtdkFycTlaVEZEa2JFNVNPak1vdDlqNThZeU84U253RWN0NTJLRkhKb0Vqei1reWZqQVRrTUFTLW1DLVpNZkZ1a3dVellFWHhlTldyTEpKUmt6TGJxaFU?oc=5",
-    "ts": 1795219332000,
-    "summary": "Mamdani proposes five-year extension to shutter notorious Rikers Island prison The Washington Post Mayor Mamdani proposes delaying Rikers Island closure deadline to 2032 ABC7 New York Mamdani reveals plan for closure of New York's Rikers Is",
-    "src": "Google News",
-    "lean": null
-   },
-   {
-    "t": "Charlie Sheen stunned to learn fellow actor Rob Lowe had been praying for him for years",
-    "url": "https://www.foxnews.com/media/charlie-sheen-stunned-learn-fellow-actor-rob-lowe-had-been-praying-him-years",
-    "ts": 1795220148000,
-    "summary": "Rob Lowe revealed on Charlie Sheen's \"Mostly Sheenius\" podcast that he prayed for the actor for years while struggling with his own sobriety, calling him \"my guy\" in recovery.",
+    "t": "LSU women's basketball star MiLaysia Fulwiley faces only misdemeanor charges after arrest",
+    "url": "https://www.foxnews.com/outkick-sports/lsu-womens-basketball-star-milaisia-fulwiley-faces-misdemeanor-charges-arrest",
+    "ts": 1795229407000,
+    "summary": "LSU's MiLaysia Fulwiley faces only misdemeanor fleeing and resisting charges after her arrest, with felony counts dropped and a diversion program planned.",
     "src": "Fox News",
     "lean": "R"
    },
    {
-    "t": "Trump says recent tech outages are \"all separate events\"",
-    "url": "https://www.cbsnews.com/video/trump-says-recent-tech-outages-are-all-separate-events/",
-    "ts": 1795219780000,
-    "summary": "President Trump's wide-ranging remarks Friday touched on the lingering concerns that tech outages at the FAA, NSA, banks and other companies were part of a coordinated attack. Mr. Trump denied that, saying all the incidents were unrelated. ",
+    "t": "Deal with EU not dependent on tuition fees agreement, Miliband says",
+    "url": "https://www.bbc.co.uk/news/articles/cm9w9p4geke8o?at_medium=RSS&at_campaign=rss",
+    "ts": 1795240809000,
+    "summary": "Brussels sources had previously suggested the bloc might not apply the wider deal until fees were lowered for EU students in Britain.",
+    "src": "BBC",
+    "lean": "C"
+   },
+   {
+    "t": "Officials Find Cascade of Problems With ICE Training in Trump’s Immigration Crackdown - The New York Times",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWUdDNExhdTlDaHg4MjY3bTRINm1DNUhkZm05QTFzTHVkN0xxVUFwcm1mclVEVzJDR2k4THR1aWVmTlNON3loOVl2VzZwbW9jb1hNVk5xMlpSejJlTDFUZ2M0WEstYUVyRmU4QlRsb3Nad2Y1TEl1THlQeF9Qc3V6WTU4X2R1X3NFZFN2RzhKdDBSOVdxUFQ5cGxR?oc=5",
+    "ts": 1795225420000,
+    "summary": "Officials Find Cascade of Problems With ICE Training in Trump’s Immigration Crackdown The New York Times A ‘Catastrophic failure’: Watchdog officials find cascade of problems with ICE training The Seattle Times Donald Trump’s ICE Training F",
+    "src": "Google News",
+    "lean": null
+   },
+   {
+    "t": "Detonation of unstable explosives in Iowa paused indefinitely by court",
+    "url": "https://www.cbsnews.com/news/iowa-detonation-lead-azide-paused-indefinitely-court-order/",
+    "ts": 1795224599000,
+    "summary": "The U.S. Army's plan to detonate five tons of unstable explosives containing lead azide at a munitions plant in Iowa has been put on indefinite hold by a federal court Friday.",
     "src": "CBS News",
     "lean": "C"
+   },
+   {
+    "t": "Mets offer superstar Tarik Skubal the largest pitcher contract in baseball history: report",
+    "url": "https://www.foxnews.com/outkick-sports/mets-offer-superstar-tarik-skubal-largest-pitcher-contract-baseball-history-report",
+    "ts": 1795228214000,
+    "summary": "The New York Mets have reportedly offered Tarik Skubal a nine-year deal near $400 million that would shatter Yoshinobu Yamamoto's record pitcher contract.",
+    "src": "Fox News",
+    "lean": "R"
+   },
+   {
+    "t": "Man convicted of starting Palisades fire in Los Angeles",
+    "url": "https://www.bbc.co.uk/news/articles/c64gn0gy8rj3o?at_medium=RSS&at_campaign=rss",
+    "ts": 1795235640000,
+    "summary": "The 30-year-old LA resident was convicted of arson leading to wildfires that killed 12 people and destroyed more than 6,800 buildings.",
+    "src": "BBC",
+    "lean": "C"
+   },
+   {
+    "t": "How the White House lost faith in Sean Cairncross - Politico",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTkhId2w1LTdpaEZOY0I5WXJ2U3JWNGJxRFI2V2F0cEV3bHpmQU9KMGtjVEJfbEJCdW9SeTZ2cGxPMGgwVC1MUk1lWXoyWHFJekJSd3k5Zm9jNTIydVlGS1JDbFppclY4VUtfYTI2Z09hZVljRUpkV3dKVlBuZFRaTEFJMkNjdnhiY0JCRlFCMHRieTBWalNCUHUzejNEeGYxUm1kUA?oc=5",
+    "ts": 1795225260000,
+    "summary": "How the White House lost faith in Sean Cairncross Politico Trump ousts cyber director after tech outages spark criticism Yahoo Top White House Cybersecurity Official Is Replaced The New York Times Scoop: Trump names Kirsten Davies as new na",
+    "src": "Google News",
+    "lean": null
+   },
+   {
+    "t": "Teen becomes viral chef after stepping up when his mom had cancer",
+    "url": "https://www.cbsnews.com/news/joey-charney-georgia-teen-chef-cancer/",
+    "ts": 1795224386000,
+    "summary": "In August, Jennifer Charney, a stay-at-home mother of eight, lost her 10-year battle with breast cancer. Her youngest son, Joey, stepped up to become the family's chef.",
+    "src": "CBS News",
+    "lean": "C"
+   },
+   {
+    "t": "Alabama woman pleads guilty after reportedly using smart glasses to target drug trial witnesses",
+    "url": "https://www.foxnews.com/us/alabama-woman-pleads-guilty-reportedly-using-smart-glasses-target-drug-trial-witnesses",
+    "ts": 1795227164000,
+    "summary": "Tierra Shatalia Douglas pleaded guilty to conspiracy to retaliate against a witness after targeting people who testified in a federal drug trial.",
+    "src": "Fox News",
+    "lean": "R"
+   },
+   {
+    "t": "Who will be Robert Pattinson's 'Bond girl' - and does the role need to change?",
+    "url": "https://www.bbc.co.uk/news/articles/cr4g1l7x52jno?at_medium=RSS&at_campaign=rss",
+    "ts": 1795219396000,
+    "summary": "Speculation is rife as to who will play the new 007's leading lady, with commentators saying she will need a \"very strong identity\".",
+    "src": "BBC",
+    "lean": "C"
+   },
+   {
+    "t": "Trump threatens ‘tremendous penalties’ for US tech firms that build datacenters abroad - The Guardian",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWjBqVnVQelBOMS1QWFU4R0t4dEl2UFc0Q2lndlMybUhOcUlnaURLZnNlS2JPV18wckFEWXUtTjZkS1otMURicUFVd3RVX1dEZldsaVZZME1OTzFWTzBJZWtZTDhnNUgxRTJrUFR0Q1dDNXk3OS1pa3Q3Z3VOZnlfODRCTQ?oc=5",
+    "ts": 1795219680000,
+    "summary": "Trump threatens ‘tremendous penalties’ for US tech firms that build datacenters abroad The Guardian Trump defends Putin relationship and says he’ll stop US companies from building data centers abroad CNN Freewheeling Trump Promotes Data Cen",
+    "src": "Google News",
+    "lean": null
+   },
+   {
+    "t": "Teenager cooking meals for family after mother's death now has 2 million social media followers",
+    "url": "https://www.cbsnews.com/video/teenager-cooking-meals-for-family-after-mothers-death-now-has-2-million-social-media-followers/",
+    "ts": 1795223851000,
+    "summary": "18-year-old Joey Charney's mother died of breast cancer in August, so he started cooking meals for his family and documenting his dishes on social media. Now he has over 2 million followers. Steve Hartman goes on the road.",
+    "src": "CBS News",
+    "lean": "C"
+   },
+   {
+    "t": "New drug combo shrinks tumors in most patients facing aggressive cancer type",
+    "url": "https://www.foxnews.com/health/new-drug-combo-shrinks-tumors-most-patients-aggressive-cancer-type",
+    "ts": 1795223252000,
+    "summary": "The pancreatic cancer pill daraxonrasib shrank tumors in 60.7% of patients when paired with chemotherapy, and 8.2% saw tumors vanish on scans.",
+    "src": "Fox News",
+    "lean": "R"
    },
    {
     "t": "Sales of baby sleeping bag halted by Next after new mum raises alarm",
@@ -802,28 +954,28 @@
     "lean": "C"
    },
    {
-    "t": "California man found guilty of starting deadly and devastating Pacific Palisades fire - NBC News",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMTBjbU10T0ZDdE1jVTFnbm9XYkdBbGx1NjNNU1ByOWtVOWxnMWQ4WnloY3hYTDNUTDYwT3pLQ2huWTJVUUc3YWZRZHlhVlBhTk1Zb2xNa0NIMmNILWcwX09BSmU1V09fbXBCNmp4V0xHTW9PTWYxbk53aGVjcTY0WnpvMDBGT3UyclpwNG1fVDJTUHhvLVdfb3k4aFFuTHh2b3c?oc=5",
-    "ts": 1795215060000,
-    "summary": "California man found guilty of starting deadly and devastating Pacific Palisades fire NBC News See more headlines & perspectives on Google News",
+    "t": "US Vice President Vance declines to say he would have ordered Iran strikes - Reuters",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQUp6a3JFdW5UTE50bkNkVmExSGVkZlNWMHR0YnZMaWxGQzlZaF9CNFdQYXZCVWFwYXA2QmI1eG1EUGFLY0FydzFDZ0FBNGlkVjZKMURfb0hNOWZ4a3ZEU3V1TXVwaEMzU0dxZVVxTWhxeHFOd1RwQmFmV19MYlc3LW9MVm5TOG5uTjFhVU5RSXZaZ2ZwRmZ5Y1BmdlBUMllHMlNSeEplQ2IyXzU5NE51NnRlUm1HUUU?oc=5",
+    "ts": 1795218319000,
+    "summary": "US Vice President Vance declines to say he would have ordered Iran strikes Reuters Trump Grows Frustrated With Vance Over Iran War Critique The New York Times 2028 Republican primary: Why everyone, even the GOP, is sick of JD Vance Vox Repu",
     "src": "Google News",
     "lean": null
    },
    {
-    "t": "USDA releases decades of Bigfoot files, including 1982 Forest Service investigation in Washington state",
-    "url": "https://www.foxnews.com/us/usda-releases-decades-bigfoot-files-1982-forest-service-investigation-washington-state",
-    "ts": 1795218924000,
-    "summary": "The USDA's Bigfoot/Sasquatch Records include an official 1982 Forest Service probe into footprints in Washington state's Umatilla National Forest.",
-    "src": "Fox News",
-    "lean": "R"
-   },
-   {
-    "t": "Trump insists he's \"not rushing to make any decisions on Iran\"",
-    "url": "https://www.cbsnews.com/live-updates/iran-war-trump-tehran-denies-chemical-weapons/",
-    "ts": 1795219242000,
-    "summary": "Despite rising tension, President Trump told an Israeli outlet he may not make a decision on his next move in the Iran war until 2027.",
+    "t": "Federal court indefinitely pauses military's plans for detonation of unstable explosives in Iowa",
+    "url": "https://www.cbsnews.com/video/federal-court-indefinitely-pauses-militarys-plans-for-detonation-of-unstable-explosives-in-iowa/",
+    "ts": 1795223670000,
+    "summary": "The Army's plan to detonate five tons of unstable bomb-making material containing lead azide at a munitions plant in Iowa was put on indefinite hold by a federal court Friday amid environmental and health concerns. Lana Zak reports.",
     "src": "CBS News",
     "lean": "C"
+   },
+   {
+    "t": "'Enough': Protesters decry antisemitism after Hunter College student event including Jewish group is canceled",
+    "url": "https://www.foxnews.com/media/enough-protesters-decry-antisemitism-after-hunter-college-student-event-including-jewish-group-canceled",
+    "ts": 1795223064000,
+    "summary": "Pro-Israel rally organizers at Hunter College say the cancelled Cultural Arts Night shows antisemitism at CUNY, as counter protesters chant nearby.",
+    "src": "Fox News",
+    "lean": "R"
    },
    {
     "t": "Tech stock sell-off drags markets down as Anthropic shares slide",
@@ -834,175 +986,31 @@
     "lean": "C"
    },
    {
-    "t": "Russian missiles land in Poland, as Europe held military drills nearby. NATO calls it a violation - AP News",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNXhFLWVHeVA2TTIyRTRBRklRM29NQlpLTkNSbkdUYlNWVTNLek1BNG52cDFJRjNNVGNxNW04V3RDTEJPNGtDZ1R6WXE5TVV3SDJhQkFDRVFEMXZaTF92aWhZdS1xS1A0QnR2dE9selFRNGJYclZkRmdKUlJrWjB3VGxzTFE3aVBjYWJCUXhsM0Q1Sk5qR1U3TFlIekxkUE43MUNNenk2bw?oc=5",
-    "ts": 1795212900000,
-    "summary": "Russian missiles land in Poland, as Europe held military drills nearby. NATO calls it a violation AP News Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk BBC NATO calls Russian missiles landing in Poland a ",
+    "t": "Fiona's caretakers and fans mourn the beloved hippo after her death at Cincinnati Zoo - PBS",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZm4wWDR5Q2NNcmdUSjFSbGgtdWdBZ0JxODJsdU1LVDJFRWdrZ3dqOC1XVmJZRFdyTWNoOVI3TVpvWERxSldjTnNLcHJPeEduZnIxTEkydFU1Wml0NTE5TlhXQ2xEQ0tId1pvVnlMRnNNVkRxXzJnZVZPeUlSc3dWeDZPUmg5VGFzd285NVZ0RGx0aW5zbGJUREpPNTBLamdsOEZtVDRjaDRGUkhVRHl6U0VBRWMzYTVVWkdoYg?oc=5",
+    "ts": 1795217979000,
+    "summary": "Fiona's caretakers and fans mourn the beloved hippo after her death at Cincinnati Zoo PBS Beloved Cincinnati Zoo hippo Fiona has died WVXU Fiona the Hippo Died After Eating a Hat. Some Want Justice. The New York Times Fiona’s keeper says lo",
     "src": "Google News",
     "lean": null
    },
    {
-    "t": "Zoo shares autopsy findings following Fiona the hippo’s heartbreaking death",
-    "url": "https://www.foxnews.com/us/zoo-shares-autopsy-findings-fiona-hippos-heartbreaking-death",
-    "ts": 1795218853000,
-    "summary": "Cincinnati Zoo’s director of animal health, Dr. Mike Wenninger, said a postmortem examination has revealed where the hat was lodged inside Fiona’s digestive tract.",
-    "src": "Fox News",
-    "lean": "R"
-   },
-   {
-    "t": "Mayor Mamdani announces plan to shut down Rikers Island",
-    "url": "https://www.cbsnews.com/news/zohran-mamdani-rikers-island-closing-plan-nyc/",
-    "ts": 1795219170000,
-    "summary": "New York City Mayor Zohran Mamdani unveiled his strategy to shut down Rikers Island and replace it with four smaller jails across the city.",
+    "t": "At least 7 children dead, 50,000 people treated in hospitals amid early flu season surge",
+    "url": "https://www.cbsnews.com/video/at-least-7-children-dead-50000-people-treated-in-hospitals-amid-early-flu-season-surge/",
+    "ts": 1795223557000,
+    "summary": "The CDC is warning of a likely increase in flu cases and hospitalizations across the country. Skyler Henry has more.",
     "src": "CBS News",
     "lean": "C"
-   },
-   {
-    "t": "French police officers sentenced for beating of music producer Michel Zecler",
-    "url": "https://www.bbc.co.uk/news/articles/ck9d7e9wvvweo?at_medium=RSS&at_campaign=rss",
-    "ts": 1795214229000,
-    "summary": "The court has upheld the 2020 beating of the black music producer as an aggravated circumstance of racism.",
-    "src": "BBC",
-    "lean": "C"
-   },
-   {
-    "t": "Trump threatens ban on US firms building AI data centres overseas - BBC",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1LazU5dmNQT2FtWmdoMTJVYWdnNWJHUm9OdmxOSk5DVG96VXMtdGMwelB1eWtiZzU1Zk1sNXE2NURBNS1lcTBaRXlMY2hkXzhLWnB4ZHl2aTJKelk?oc=5",
-    "ts": 1795208052000,
-    "summary": "Trump threatens ban on US firms building AI data centres overseas BBC Trump defends Putin relationship and says he’ll stop US companies from building data centers abroad CNN Trump Threatens to Bar U.S. Tech Firms From Building Data Centers ",
-    "src": "Google News",
-    "lean": null
-   },
-   {
-    "t": "Locals of Michigan city with largest Muslim population in US call El-Sayed election victory 'needed' change",
-    "url": "https://www.foxnews.com/media/locals-michigan-city-largest-muslim-population-us-call-el-sayed-election-victory-needed-change",
-    "ts": 1795218710000,
-    "summary": "Dearborn, Michigan, locals are celebrating Sen.-elect Abdul El-Sayed's historic win as the first Muslim American elected to the U.S. Senate.",
-    "src": "Fox News",
-    "lean": "R"
-   },
-   {
-    "t": "Nationwide ground stop caused drop in Americans' confidence in air travel reliability, survey finds",
-    "url": "https://www.cbsnews.com/video/nationwide-ground-stop-caused-drop-in-americans-confidence-in-air-travel-reliability-survey-finds/",
-    "ts": 1795218578000,
-    "summary": "A new survey from the U.S. Travel Association shows about a third of all leisure and business flyers say last week's nationwide ground stop made them less likely to fly over the next 12 months. Geoff Freeman, U.S. Travel Association preside",
-    "src": "CBS News",
-    "lean": "C"
-   },
-   {
-    "t": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
-    "url": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno?at_medium=RSS&at_campaign=rss",
-    "ts": 1795211827000,
-    "summary": "The Russian embassy in Denmark has denied the allegation, which has led to Russia's defence attaché being expelled.",
-    "src": "BBC",
-    "lean": "C"
-   },
-   {
-    "t": "Texas Prisoner Moaned as Drugs Flowed During Execution, Witnesses Say - The New York Times",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNE1PdVV3RnE5VjdUVF9zZDFZYmttZDBRR0oxNGNIR29aVUJ6aXRrVmRzXzk5eXdKcEppV1RNZ3lSMVZIS3RFNkw2aklwNnF2d2EwYnhUaE1jRUQxbFhzQ1BlZFFIOW5HbXNHVHgxQUFmWGtsQzVHdm80SFJtOWFYa1J3dldzNmtLMHFHNDU4U0ZqZ2VtVXc?oc=5",
-    "ts": 1795205821000,
-    "summary": "Texas Prisoner Moaned as Drugs Flowed During Execution, Witnesses Say The New York Times Texas prisoner moans in pain for minutes during unusual lethal injection, witnesses say Reuters Texas death-row inmate screams as execution takes more ",
-    "src": "Google News",
-    "lean": null
-   },
-   {
-    "t": "Texas Gov-elect Gina Hinojosa vows to rescind Abbott's H-1B visa restrictions despite admitting program abuse",
-    "url": "https://www.foxnews.com/politics/texas-gov-elect-gina-hinojosa-vows-rescind-abbotts-h1b-visa-restrictions-despite-admitting-program-abuse",
-    "ts": 1795217859000,
-    "summary": "Texas Gov.-elect Gina Hinojosa says she will rescind Greg Abbott's H-1B hiring freeze on day one, even conceding companies have abused the visa program.",
-    "src": "Fox News",
-    "lean": "R"
-   },
-   {
-    "t": "This week on \"Sunday Morning\" (Nov. 22): The Food Issue",
-    "url": "https://www.cbsnews.com/news/this-week-on-sunday-morning-nov-22-2026-the-food-issue/",
-    "ts": 1795218380000,
-    "summary": "Jane Pauley hosts our annual \"Eat, Drink & Be Merry\" holiday broadcast exploring all things epicurean! Check out our menu...",
-    "src": "CBS News",
-    "lean": "C"
-   },
-   {
-    "t": "Trump threatens ban on US firms building AI data centres overseas",
-    "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
-    "ts": 1795208052000,
-    "summary": "The US president provided little detail on the potential policy, saying others in his team were hearing about it for the first time.",
-    "src": "BBC",
-    "lean": "C"
-   },
-   {
-    "t": "WATCH: After calling Putin his friend, Trump 'can't speak to' whether Putin is a friend to America - PBS",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRXRtb2J3RmdRYzBtZHZ6dHFuY0RIdUZoWXNYMlB1NTJ1cC1weWd1WG5UUGMxN0lkTURVUjczYTNyNVo4U2hyZzJlV3lLTUg1VmtzWTRxSW5keEFpNEp5dXpWY2NyUjBldm00WjBVVzBEcWU3RVBHbmp5OGN3b3N2VDQ0RXlhMUJZYVZuQmVLTEp1WUZhTm1YVEZpQlpid2NzYmpsenhFWC1XNzdHdjllbmd6NHkzNE1jSERBckk0T3FQeGPSAcgBQVVfeXFMTlBESGNMMXJvaG0yR0h2dGNFVE1vS2QzMktjU3pBeWs1YXhqamZVandIZU5BemplWkpZRjRIblRmQUVmbEhGMmNjOEQ2ek1rMlU5ODN3WDJUS29sWFdLYU1BQnRNQW8zekdOTFRSYktiMzI0N2Z3UDU3QTZOWm1RTDVkSHdMeDVBOEdWRDBkQTdDLW1zLVB2V1p2WnZRWjZFSm8xNExXSmVYbHY0dC1KTEFDdXEzNkxfX18wRjBXTGF3YnRXOUNkNmY?oc=5",
-    "ts": 1795201785000,
-    "summary": "WATCH: After calling Putin his friend, Trump 'can't speak to' whether Putin is a friend to America PBS Trump vs. America The Atlantic Trump calling Putin ‘my friend’ at APEC summit sparks backlash NBC News Jimmy Kimmel Recaps Trump’s ‘Big D",
-    "src": "Google News",
-    "lean": null
-   },
-   {
-    "t": "'The View' co-host stunned as Hostin backs Gavin Newsom bypassing victims' families for death row commutations",
-    "url": "https://www.foxnews.com/media/the-view-co-host-stunned-hostin-backs-gavin-newsom-bypassing-victims-families-death-row-commutations",
-    "ts": 1795217780000,
-    "summary": "Sunny Hostin and Ana Navarro were split over Newsom's 548 death row commutations, and Navarro argued that Gov. Gavin Newsom should have notified the families.",
-    "src": "Fox News",
-    "lean": "R"
-   },
-   {
-    "t": "Markets plummet amid tech sell-off, Trump threatens tax on data centers built abroad",
-    "url": "https://www.cbsnews.com/video/tech-sell-off-sends-sp-500-and-dow-into-correction-territory/",
-    "ts": 1795218089000,
-    "summary": "Stocks closed out a brutal week Friday with the three major indexes falling between 1% and 5% and the Nasdaq turning negative for the year as investors pulled their money out of AI stocks. Meanwhile, at the White House, President Trump thre",
-    "src": "CBS News",
-    "lean": "C"
-   },
-   {
-    "t": "Man guilty of murdering woman he groomed on fetish site",
-    "url": "https://www.bbc.co.uk/news/articles/cmy49lekdkkzo?at_medium=RSS&at_campaign=rss",
-    "ts": 1795198676000,
-    "summary": "Dwain Hall has been found guilty of the kidnap and first-degree murder of Sonia Exelby.",
-    "src": "BBC",
-    "lean": "C"
-   },
-   {
-    "t": "Trump touts Asia deals and meeting with Xi and Putin at White House press conference - CBS News",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPN05lbnJqODFXYk1OV3NsRGkwWVEwZk9ETGdXOXB5Z25ROXdhTlRlc0V1SVB6NV9fUWo5aW5Wa0t1UG9EUE9ack4xd24tU0hSd1JUd1ZyV1ROakNNa1NhYVRKeHMxeVNJTnJIcjdFS3dxeklhLVpsMnpYX2JXWE9kUmRMeENxbll3eE5J?oc=5",
-    "ts": 1795201320000,
-    "summary": "Trump touts Asia deals and meeting with Xi and Putin at White House press conference CBS News Trump defends Putin, floats a Stephen Miller presidential run and says he’d work with Dems: News briefing takeaways CNN Trump's personalized diplo",
-    "src": "Google News",
-    "lean": null
-   },
-   {
-    "t": "FOX News Media kicks off holiday season with seventh annual All-American Christmas Tree Lighting",
-    "url": "https://www.foxnews.com/media/fox-news-media-kicks-off-holiday-season-seventh-annual-all-american-christmas-tree-lighting",
-    "ts": 1795216852000,
-    "summary": "It’s beginning to look a lot like Christmas in Midtown Manhattan after FOX News Media kicked off the holiday season with the All-American Christmas Tree Lighting Friday.",
-    "src": "Fox News",
-    "lean": "R"
-   },
-   {
-    "t": "Tech outages prompt some Americans to prepare for collapse, Washington Post report says",
-    "url": "https://www.cbsnews.com/video/tech-outages-prompt-some-americans-to-prepare-for-collapse-wapo-report-says/",
-    "ts": 1795217464000,
-    "summary": "The recent wave of tech outages has prompted some Americans to stock up on generators, cash and more. Brianna Sacks, a disaster correspondent at The Washington Post, joins \"The Takeout\" to discuss her reporting on the topic.",
-    "src": "CBS News",
-    "lean": "C"
-   },
-   {
-    "t": "UK to explore even closer ties with EU after agreeing deal, says Burnham",
-    "url": "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss",
-    "ts": 1795196988000,
-    "summary": "The UK-EU deal agreed on Friday covers British food exports, emissions trading and a youth experience scheme.",
-    "src": "BBC",
-    "lean": "C"
-   },
-   {
-    "t": "Construction of ⁠Trump’s ‌proposed ‘triumphal arch’ blocked by judge - The Guardian",
-    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1VZTJIMnpObnhFWjhZT0toZGpkNWh1Q1hlekplcmF6NFYzQWhTSVo3Z0tfTVV4NEN0YzZsdmNmSDVScDZmbFZrMnZNczNYOG5tTzFDR1llRWt2WnYwaWtiTkZ5eUhvX3k5OUpuQndHY2Y2Z3RiNFNGMnYwNVM?oc=5",
-    "ts": 1795199700000,
-    "summary": "Construction of ⁠Trump’s ‌proposed ‘triumphal arch’ blocked by judge The Guardian A second judge blocks Trump's arch, saying it's unlikely to succeed in court NPR Another judge blocks Trump’s arch construction in second blow to project The ",
-    "src": "Google News",
-    "lean": null
    }
   ],
   "staffing": [
+   {
+    "t": "From Navy SEALs to a lost hat: Lessons guiding healthcare staffing leaders - Staffing Industry Analysts",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNekMwc0djNXJtUU9CUUlPZkQyOS1MNjdYTjRka0EtUHhqWnctNDBXU3Bacno2dDFkbHotYmQ5TUJoOGxRcHhhVjVQUGpsa2VJWkZDWThsNzhEQ0lKVTRYLWNGaDRSbzQtNjRkWVQ1ZUtjTFd4WWdJc2gyRjJnYlFwQnpKMGlkRlBlVDFtc3pGMFN0c1YxQVY4Vm82cXJiMEpNZHhrb1Q0N2VLTWp0aUpaU0Vpb2psclpMYmN1RUVUNDJ5c0xuWnJzZQ?oc=5",
+    "ts": 1795210776000,
+    "summary": "From Navy SEALs to a lost hat: Lessons guiding healthcare staffing leaders Staffing Industry Analysts",
+    "src": "SIA (GN)",
+    "lean": null
+   },
    {
     "t": "Jobs snapshot shows only part of state’s employment picture - Worcester Business Journal",
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNX1V1LXpCUlNFWkFibzhZeXhRd0NmZDNMVXR1U2tqSm5rbEtrcGhVS3pEa3hzdlo0dlBmd0traG9mWEJiLVp4QVBJNndSckw1TC0tdTV5SExEdzFmU0FOSHpmVzlOSTRvdGJoaFFDYllHWnpnWENTR3UxcENTZWpKeExJbjhnaGZHNUh4c01vZU1DWWM?oc=5",
@@ -1052,10 +1060,10 @@
     "lean": null
    },
    {
-    "t": "The Employment Situation in Maine – October 2026 - Bar Harbor Story | Carrie Jones | Substack",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOY0E1OGFSX3Q2VXNmRTVpUGlzRm5DUndkMjktTmZ1SHE0ZmRzNnBPazEzTkdzeGVFR1doazJoYXFWeTRqRlJDV0tmQ1B3UEQzNzBGVUJkRHd4SFU4RktVWWI2U0o3MlJvcTlaQ1BkQXRqU0FtLU9xYUQ5QVNNT2dIRw?oc=5",
-    "ts": 1795196480000,
-    "summary": "The Employment Situation in Maine – October 2026 Bar Harbor Story | Carrie Jones | Substack",
+    "t": "Arkansas unemployment rate drops to 3.8% in October; employment at record high - KTLO",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVDRxZXA4UjdmZ0dMNmI0a1YtblotYXIwOFhEaEN3NzIwSmtnNi1RQ2FZSmh2OWlNU0FNN2JTbGcyWV9hS2NjSDJYVjRjQzE3cHNCbGFoVmVXWkdCaTQ1N0x2TGkwdE1pZTl4eFhJeE5ha3lxNnpFZXFJbEc5ZDhaYktubW1Od1VNUm5LcDFvaXc3b09ORnh2THUxWVFqTGU1Z0xNWEtmUXBNV01UOXc?oc=5",
+    "ts": 1795202624000,
+    "summary": "Arkansas unemployment rate drops to 3.8% in October; employment at record high KTLO",
     "src": "Hiring & labor (Google News)",
     "lean": null
    },
@@ -1076,10 +1084,10 @@
     "lean": null
    },
    {
-    "t": "Graphic Arts Non-Production Employment Down in October - WhatTheyThink",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcWwyLVplSVFsQkNhSUtpY05qTFBKOUFEYmphSnN1NDQtbE9KOW1rVkhROGcxamp6azBqdlBHNFZTcnN6bUI1cXZ1bjVFUEdpbHBmd213Rl9XWUUweHdGVXhPNzFnREJYRTF2UmJoR2VGRGUySWVDM0NLTmFTanpPaFlKVGx3aDNXWGx5MV9fOWFBbnFN?oc=5",
-    "ts": 1795142813000,
-    "summary": "Graphic Arts Non-Production Employment Down in October WhatTheyThink",
+    "t": "The Employment Situation in Maine – October 2026 - Bar Harbor Story | Carrie Jones | Substack",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOY0E1OGFSX3Q2VXNmRTVpUGlzRm5DUndkMjktTmZ1SHE0ZmRzNnBPazEzTkdzeGVFR1doazJoYXFWeTRqRlJDV0tmQ1B3UEQzNzBGVUJkRHd4SFU4RktVWWI2U0o3MlJvcTlaQ1BkQXRqU0FtLU9xYUQ5QVNNT2dIRw?oc=5",
+    "ts": 1795196480000,
+    "summary": "The Employment Situation in Maine – October 2026 Bar Harbor Story | Carrie Jones | Substack",
     "src": "Hiring & labor (Google News)",
     "lean": null
    },
@@ -1100,10 +1108,10 @@
     "lean": null
    },
    {
-    "t": "BLS Data: Wisconsin October Employment Numbers Released; Unemployment Ticks Up to 3.3% - Urban Milwaukee",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQczl3dHpRanhtcG93T0lhMkNQQUxxaEZLQUN0dzhlTE9waVptcG9IX0Z1M0daT2RVNnhqU1VYaldlQklHdHluMVhRYzRrX0dqT0tjSEVaMHVFTnktNlN2TmIwYXlHeVpCZlVraDU1OE1Xak83NVJnZjVIakhTcFktZEUtNHpfenVKbTNFLXg4cXczZk9pdV9rNG1WcHhVRDdRLVNVM3hhajY1dm5sUEFiQVdlOXJONnh5ODljXzJtc21wZw?oc=5",
-    "ts": 1795111260000,
-    "summary": "BLS Data: Wisconsin October Employment Numbers Released; Unemployment Ticks Up to 3.3% Urban Milwaukee",
+    "t": "'Easier to fill': More jobseekers keen on seasonal positions - Canadian HR Reporter",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQaGlRc2NqMU90dWRYVlExNHNzTkRPbERudnlvU3FRNUF2T1U4UDdSTkRfYndzODRjS0JSZ3ZRUW02NElMYzh1X3Z3YW1nTDFHczlOaFZUb3RfcjNTOHQxZ2RVNW10NldIZW56bWNwNFI5VXZLVXpfc0xIWXVib25OajBmZ2FZRzZDLS1vQ3FuSEVHNnJNbXp5T2ItNDJmRTZOck5yOG5oQkFiMkd4b2E1M3dSR2ZfN2FsRGxCdl9QVjFBMDliMHg4?oc=5",
+    "ts": 1795189530000,
+    "summary": "'Easier to fill': More jobseekers keen on seasonal positions Canadian HR Reporter",
     "src": "Hiring & labor (Google News)",
     "lean": null
    },
@@ -1116,18 +1124,18 @@
     "lean": null
    },
    {
-    "t": "Mercor lands $750M funding round, valuing staffing platform at $20B - Staffing Industry Analysts",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPRTZLX3Z4c3JkblNZVzdlalFBQ1lyU1AwMVJNc0tmTDQtRWxHMEltaUhaSU5CTkp1SkdvN0ZqWnpvRFVEd0pVSE5VUVpqaU5EZWJqRGRoLXBaaUh6M2p1djNsRUNPckUzZzN5dTMzREY0VFVEWFU2b2ZCMUZzcFVWWHRBY3hHVmlMOTloMnlvYnhmeG14ZkttRGRPM2I3X1pYcVB5XzNCc2VMMTBEUEhyM0w3RDVBMkl4U09kLQ?oc=5",
-    "ts": 1794630335000,
-    "summary": "Mercor lands $750M funding round, valuing staffing platform at $20B Staffing Industry Analysts",
+    "t": "Circle8 granted second extension to firm up SThree takeover bid - Staffing Industry Analysts",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWGEteXJEZzBOS1NNNDJGc1R3RWtwTUJaYXlWNV9nc3JuZ2swOEVfcEs2MjZSWTNlRE85eVpYTFlndVJaTkgydkNkRkZGS2pWdU01MmVLd0pZNEJURzRXU1RHYU40dGRkdlJxMFhRS2RqZV9VMFFfalBmbFpQM2d1QTR0cnJHQVMtaUJqdmd2dy1ZZlFrbmNaa3o5UkhXaDZJRUZ0RExwS1ZXQlNHRll6NTh2TWp3dVc5ZTc4?oc=5",
+    "ts": 1792670275000,
+    "summary": "Circle8 granted second extension to firm up SThree takeover bid Staffing Industry Analysts",
     "src": "SIA (GN)",
     "lean": null
    },
    {
-    "t": "CBIA Foundation Response to October 2026 Employment Report - CBIA",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPanN1aUVfR3BEU21jZXV0ZGdMYVM5Q1UycHZoa2g5cDA2MlNrSHZ5dkpRNFBGV1N4YlhjS0M1LVlkS0lQc2xTcE8ta24xMTVqSm9kZlFScUpmSVVZY2M0RnNTVlJpVHBjWFlQMFJxODlOcWFFUGdxZXRKaEtCaDRMMVJiUFlxRTdaM2c?oc=5",
-    "ts": 1795110313000,
-    "summary": "CBIA Foundation Response to October 2026 Employment Report CBIA",
+    "t": "Graphic Arts Non-Production Employment Down in October - WhatTheyThink",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcWwyLVplSVFsQkNhSUtpY05qTFBKOUFEYmphSnN1NDQtbE9KOW1rVkhROGcxamp6azBqdlBHNFZTcnN6bUI1cXZ1bjVFUEdpbHBmd213Rl9XWUUweHdGVXhPNzFnREJYRTF2UmJoR2VGRGUySWVDM0NLTmFTanpPaFlKVGx3aDNXWGx5MV9fOWFBbnFN?oc=5",
+    "ts": 1795142813000,
+    "summary": "Graphic Arts Non-Production Employment Down in October WhatTheyThink",
     "src": "Hiring & labor (Google News)",
     "lean": null
    },
@@ -1140,18 +1148,18 @@
     "lean": null
    },
    {
-    "t": "Circle8 granted second extension to firm up SThree takeover bid - Staffing Industry Analysts",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWGEteXJEZzBOS1NNNDJGc1R3RWtwTUJaYXlWNV9nc3JuZ2swOEVfcEs2MjZSWTNlRE85eVpYTFlndVJaTkgydkNkRkZGS2pWdU01MmVLd0pZNEJURzRXU1RHYU40dGRkdlJxMFhRS2RqZV9VMFFfalBmbFpQM2d1QTR0cnJHQVMtaUJqdmd2dy1ZZlFrbmNaa3o5UkhXaDZJRUZ0RExwS1ZXQlNHRll6NTh2TWp3dVc5ZTc4?oc=5",
-    "ts": 1792670275000,
-    "summary": "Circle8 granted second extension to firm up SThree takeover bid Staffing Industry Analysts",
+    "t": "USCIS to debut vetting center for additional review - Staffing Industry Analysts",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOU1R1VUF0VWw3b1R5Vk9rbG9KLXprelY4RDRBdXhVMTZPUlJNU1Q2Z0pSekRGenJiQ1R4WS1XWnRSdzVyZnJPT2Q2clFuVlhxa1VLZVd0bW45OGZ1OWRfQjhOTVlkTm9LZTNsU1pqaV9uWEFyRklmNGxYWGVpODZ4S1BTanI5WVZFUkM1TzRzcTVjdnZQQk1nd0YtZUwwd29KejV0bTRuemdRNG8?oc=5",
+    "ts": 1765214968000,
+    "summary": "USCIS to debut vetting center for additional review Staffing Industry Analysts",
     "src": "SIA (GN)",
     "lean": null
    },
    {
-    "t": "DIVERGENCE: National Employment Slips, Alberta Gains – ATB Economics - EnergyNow",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcWJFSUFWejJmV1l2T1lua1JPcXhZUUt4TEdCV2R5NXh1MWdMeEVoaGoxYUNpb0p6N1BNQjJKY3cyM1ZKN2tnMlROVklSMmt4T1N3OTBoQ2UxWVlaN1hwQlAwcFlBWlNreVcwcHhSZy1FT0hCZVFFRF93d1Nsa1BfSHM4S3l5UnV1b1otSTUyREE2T1ZVS0c1YW5R?oc=5",
-    "ts": 1795109448000,
-    "summary": "DIVERGENCE: National Employment Slips, Alberta Gains – ATB Economics EnergyNow",
+    "t": "Job ads in Australia fell 0.8% in October as applications per ad hit record - Staffing Industry Analysts",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPaHNWYkRJYjU5S2pHUGF1dWhJU19WSUdSTFo1Z3pXR3Atck9NbXA3RU5NcExMcG9VNHZ5bFlORTJoRVVHaFFwSVJJck5zVUFlanZMVUtFamVaRno2U0Y5TjBsTG42b2ZnWGlmaXp1YXY5OWFSSjBJRVZlaUtORWhlUTVueHBKU2dacHZsVmpDM0h1dUJtYVN1SXcyYjVCcG45SXVkTmNpb3FUOGdlTnBiSnVQcTNkM3RDT1haaC1vOEpGSmphTVE?oc=5",
+    "ts": 1795129145000,
+    "summary": "Job ads in Australia fell 0.8% in October as applications per ad hit record Staffing Industry Analysts",
     "src": "Hiring & labor (Google News)",
     "lean": null
    },
@@ -1164,18 +1172,18 @@
     "lean": null
    },
    {
-    "t": "USCIS to debut vetting center for additional review - Staffing Industry Analysts",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOU1R1VUF0VWw3b1R5Vk9rbG9KLXprelY4RDRBdXhVMTZPUlJNU1Q2Z0pSekRGenJiQ1R4WS1XWnRSdzVyZnJPT2Q2clFuVlhxa1VLZVd0bW45OGZ1OWRfQjhOTVlkTm9LZTNsU1pqaV9uWEFyRklmNGxYWGVpODZ4S1BTanI5WVZFUkM1TzRzcTVjdnZQQk1nd0YtZUwwd29KejV0bTRuemdRNG8?oc=5",
-    "ts": 1765214968000,
-    "summary": "USCIS to debut vetting center for additional review Staffing Industry Analysts",
+    "t": "Recruiters lose £17k annually to admin tasks, study finds - Staffing Industry Analysts",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRmo5UHZjVTV6M3c0eDZ6dnNUZDZoTkZzN3J0dzljenZYUmpZZFlsMmJldUJ6S2dkbERDN1FBTHN4czNKeHBhLWZkQlVta1huUmQ5RG1CejA2N1NJS0ZOUlRhSTMzb3FwVlRBaXlwd1RDU0xlZFpxaVJBYVl0NmpJMmcxcEo5RTNLWnZZanhsZ0hHQllRakxIVlpsTkRuVWVteFJyRW9fMTNMaFBlWEtfRVJOZw?oc=5",
+    "ts": 1755604896000,
+    "summary": "Recruiters lose £17k annually to admin tasks, study finds Staffing Industry Analysts",
     "src": "SIA (GN)",
     "lean": null
    },
    {
-    "t": "US weekly jobless claims edge up, but labor market remains resilient - Reuters",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUjdpV0lCY3lUWlhjZzVkdTNNa1hrazREdFRCMjFSRlpzYmpXNlpYeXdOeXJyZk44NGQwT0FuN1cxdWRyUWtLenNCTGNDSVM0NERhNW5PemtfbTI1UkFtcDdvUklKdjZZM2c4NTZlUVBlYVF5SVBubVFnbkhueHNTWDhLd1c4MVJLM2g1ekQ3bHo?oc=5",
-    "ts": 1795108017000,
-    "summary": "US weekly jobless claims edge up, but labor market remains resilient Reuters",
+    "t": "BLS Data: Wisconsin October Employment Numbers Released; Unemployment Ticks Up to 3.3% - Urban Milwaukee",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQczl3dHpRanhtcG93T0lhMkNQQUxxaEZLQUN0dzhlTE9waVptcG9IX0Z1M0daT2RVNnhqU1VYaldlQklHdHluMVhRYzRrX0dqT0tjSEVaMHVFTnktNlN2TmIwYXlHeVpCZlVraDU1OE1Xak83NVJnZjVIakhTcFktZEUtNHpfenVKbTNFLXg4cXczZk9pdV9rNG1WcHhVRDdRLVNVM3hhajY1dm5sUEFiQVdlOXJONnh5ODljXzJtc21wZw?oc=5",
+    "ts": 1795111260000,
+    "summary": "BLS Data: Wisconsin October Employment Numbers Released; Unemployment Ticks Up to 3.3% Urban Milwaukee",
     "src": "Hiring & labor (Google News)",
     "lean": null
    },
@@ -1188,18 +1196,18 @@
     "lean": null
    },
    {
-    "t": "Recruiters lose £17k annually to admin tasks, study finds - Staffing Industry Analysts",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRmo5UHZjVTV6M3c0eDZ6dnNUZDZoTkZzN3J0dzljenZYUmpZZFlsMmJldUJ6S2dkbERDN1FBTHN4czNKeHBhLWZkQlVta1huUmQ5RG1CejA2N1NJS0ZOUlRhSTMzb3FwVlRBaXlwd1RDU0xlZFpxaVJBYVl0NmpJMmcxcEo5RTNLWnZZanhsZ0hHQllRakxIVlpsTkRuVWVteFJyRW9fMTNMaFBlWEtfRVJOZw?oc=5",
-    "ts": 1755604896000,
-    "summary": "Recruiters lose £17k annually to admin tasks, study finds Staffing Industry Analysts",
+    "t": "US businesses take 35 days to fill job roles, study finds - Staffing Industry Analysts",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd0d0amJzaGpUQkp6VE40dUJSanFIX2NnMjNQNU5MZHY3NVh2dXN5VVUybmtQRzVONHozMk1DMmR6VU4tdDI1T3V4Q2JZT1JxUlJaamN5M0dsX0Z4ZFlPTXJQTXp5RXU1eFdQemJ0QkxoeF85ZEpPY3hIaEhRWTh0aTVUNm1xdG9sWXZRZFY0VzZPZjluN3hGQW1uNmJzZ0JCLWxGRjV4dHZ3QV93c1ZyaF9R?oc=5",
+    "ts": 1742570261000,
+    "summary": "US businesses take 35 days to fill job roles, study finds Staffing Industry Analysts",
     "src": "SIA (GN)",
     "lean": null
    },
    {
-    "t": "Georgia employment hits record high for 10th straight month, new report finds - 95.5 WSB",
-    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPVFNXTEFidS1PUU9saFFpNUZsak10T2pqaWJ4VGtaMEtKQWItNG14UUdldVJ2b2RmckpCNy1SaG1nRWdINGpnME94T1VHc2pOeG9XbU9FT0xFNV9PU2ZoZC0tbnFleVczQ3kwQWl2aEEyMzB6Q0NFQ2pCT2Zpb0JwRzhYSWxtdzJ0T0lJSzZ3bGVqQnR4UDJYZHFIcWdZVGVYVXFLc1FTSGo5TWVlVy1FOWZEQ2R4amhCYjIwa2M2T2FIRlFLN0x0bHBEMUk3TTdQUEHSAeYBQVVfeXFMTzhGM1NENy1vZlh6WVdKSnl3d2NxLVkxV1lQM1lGeW5panZMcTZhcFFTXzlUaUFWcEtpQzFDMmJSZ29rc2hVUkFuVUNHSFAwRXF3amw1WXllSENqQS1uaTRsM1NlamltMnRCbTBPbm04R0xlSUJ6N0plMnpMUTFpdF9uMHYxVWJxVFRKcUVDV0lyd0FMZkVPdXNEbk13Z1h4cUxlS0toUWdrNGVadkVZN3ozdEpJT2lualZXNzVwOExNS3Y4a2Q1OGFxUmxFMWs1bVBCS1JHNHc3R1NTUmFVLUhpYVMwMlE?oc=5",
-    "ts": 1795102867000,
-    "summary": "Georgia employment hits record high for 10th straight month, new report finds 95.5 WSB",
+    "t": "CBIA Foundation Response to October 2026 Employment Report - CBIA",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPanN1aUVfR3BEU21jZXV0ZGdMYVM5Q1UycHZoa2g5cDA2MlNrSHZ5dkpRNFBGV1N4YlhjS0M1LVlkS0lQc2xTcE8ta24xMTVqSm9kZlFScUpmSVVZY2M0RnNTVlJpVHBjWFlQMFJxODlOcWFFUGdxZXRKaEtCaDRMMVJiUFlxRTdaM2c?oc=5",
+    "ts": 1795110313000,
+    "summary": "CBIA Foundation Response to October 2026 Employment Report CBIA",
     "src": "Hiring & labor (Google News)",
     "lean": null
    },
@@ -1212,52 +1220,52 @@
     "lean": null
    },
    {
-    "t": "US businesses take 35 days to fill job roles, study finds - Staffing Industry Analysts",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd0d0amJzaGpUQkp6VE40dUJSanFIX2NnMjNQNU5MZHY3NVh2dXN5VVUybmtQRzVONHozMk1DMmR6VU4tdDI1T3V4Q2JZT1JxUlJaamN5M0dsX0Z4ZFlPTXJQTXp5RXU1eFdQemJ0QkxoeF85ZEpPY3hIaEhRWTh0aTVUNm1xdG9sWXZRZFY0VzZPZjluN3hGQW1uNmJzZ0JCLWxGRjV4dHZ3QV93c1ZyaF9R?oc=5",
-    "ts": 1742570261000,
-    "summary": "US businesses take 35 days to fill job roles, study finds Staffing Industry Analysts",
-    "src": "SIA (GN)",
-    "lean": null
-   },
-   {
-    "t": "Why Florida economy, employment, housing outlook suddenly looks brighter - Daytona Beach News-Journal",
-    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNS2pXVVJFVVlJV0I1a2F0dl9FVDV0cjlPc0ZvQ2dzUWxnbkk0elFjc244WmdUMUhHdmRuX2h5TC11ZWo5b2tnMWVxQnduYmxrMlBTQjAxUVp6UzhFc0w4R3Vza0FrQlNUdzR3elZicmt2YU5GaHZWSU0tTThlbjdrSlNrM2NKT2xhb3hnYkZIZW5JVGNzNEo0ZDMxd0ZzUEJGSVJETFlMbG9lNFZxb3Nyb2hjaVZfLXlQTDRCT1R5TEw3SzlKeFNjUU5CaGJrR2xTQlFWNXRB?oc=5",
-    "ts": 1795082580000,
-    "summary": "Why Florida economy, employment, housing outlook suddenly looks brighter Daytona Beach News-Journal",
-    "src": "Hiring & labor (Google News)",
-    "lean": null
-   },
-   {
-    "t": "SIA | Bullhorn Staffing Indicator - November 17, 2026 - Staffing Industry Analysts",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNGh4NmRadnNvZEFsbmZ5cmNURGpCSE43QV8zQlVRc3dhMXB6TFVWZjZNWUpOcjBrTEFOdldHdGJYVU9EZzAyZGVVLTNsYks4LXlJXzlQQXNqZkgwVjY0MkM0dm9PZ243TVoxYXp5QktiLWNnWktkYzBGVzVXanpPb2ZUckZheDdiTHNuMW9OMl9wcUxoUG4wX0ZPdG00TFVHMEZlMllxVE5fbEhtVTVuaV9nZUtyRHc?oc=5",
-    "ts": 1794983750000,
-    "summary": "SIA | Bullhorn Staffing Indicator - November 17, 2026 Staffing Industry Analysts",
-    "src": "Staffing Industry (Google News)",
-    "lean": null
-   },
-   {
     "t": "Jury finds bias in Cognizant’s treatment of non-Indian workers - Staffing Industry Analysts",
     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTS1pbUpsRU5vS19uSklFaXAzWjNtd1NJYTFGekVNV2dBRnloSjE0MlZkaHNBQjhiV25VaXRRZE5ZNnJKcHB6M3ZGNmlfTHoxeXAtdkc5MnJkcDVuUVdTLTVyV2s1djQ1V3h1OTY3VkJMejk4Q05ybE14OTdxUXpqVGlkRHQ3N0pzcDNYRmNZWng3THFqTGpvRno0b200S1I5WEhmV2dkWmF0MnFKT2MxSDUzd2ZIWlR6?oc=5",
     "ts": 1728404514000,
     "summary": "Jury finds bias in Cognizant’s treatment of non-Indian workers Staffing Industry Analysts",
     "src": "SIA (GN)",
     "lean": null
+   },
+   {
+    "t": "US weekly jobless claims edge up, but labor market remains resilient - Reuters",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUjdpV0lCY3lUWlhjZzVkdTNNa1hrazREdFRCMjFSRlpzYmpXNlpYeXdOeXJyZk44NGQwT0FuN1cxdWRyUWtLenNCTGNDSVM0NERhNW5PemtfbTI1UkFtcDdvUklKdjZZM2c4NTZlUVBlYVF5SVBubVFnbkhueHNTWDhLd1c4MVJLM2g1ekQ3bHo?oc=5",
+    "ts": 1795108017000,
+    "summary": "US weekly jobless claims edge up, but labor market remains resilient Reuters",
+    "src": "Hiring & labor (Google News)",
+    "lean": null
+   },
+   {
+    "t": "Global Power 150 Women in Staffing - Staffing Industry Analysts",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOeWZqdWZrVVZHOWZralhYRVczVVM4bWp6T2k1cUFydnNIWVBkcXNCZEtyc2tPcEhDdlBJNTl6NVA5TXdiWnp6dlZobUFqYUlCNEZTOHVjQ2pxNjl5STZtQ1BLekhmaEJ5OFVIY3BHMUtIakZSbG9EZ3pkS2pBdlZFMGNzRUlReFpQX0taN19XMUg?oc=5",
+    "ts": 1719403448000,
+    "summary": "Global Power 150 Women in Staffing Staffing Industry Analysts",
+    "src": "SIA (GN)",
+    "lean": null
+   },
+   {
+    "t": "Georgia employment hits record high for 10th straight month, new report finds - 95.5 WSB",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPVFNXTEFidS1PUU9saFFpNUZsak10T2pqaWJ4VGtaMEtKQWItNG14UUdldVJ2b2RmckpCNy1SaG1nRWdINGpnME94T1VHc2pOeG9XbU9FT0xFNV9PU2ZoZC0tbnFleVczQ3kwQWl2aEEyMzB6Q0NFQ2pCT2Zpb0JwRzhYSWxtdzJ0T0lJSzZ3bGVqQnR4UDJYZHFIcWdZVGVYVXFLc1FTSGo5TWVlVy1FOWZEQ2R4amhCYjIwa2M2T2FIRlFLN0x0bHBEMUk3TTdQUEHSAeYBQVVfeXFMTzhGM1NENy1vZlh6WVdKSnl3d2NxLVkxV1lQM1lGeW5panZMcTZhcFFTXzlUaUFWcEtpQzFDMmJSZ29rc2hVUkFuVUNHSFAwRXF3amw1WXllSENqQS1uaTRsM1NlamltMnRCbTBPbm04R0xlSUJ6N0plMnpMUTFpdF9uMHYxVWJxVFRKcUVDV0lyd0FMZkVPdXNEbk13Z1h4cUxlS0toUWdrNGVadkVZN3ozdEpJT2lualZXNzVwOExNS3Y4a2Q1OGFxUmxFMWs1bVBCS1JHNHc3R1NTUmFVLUhpYVMwMlE?oc=5",
+    "ts": 1795102867000,
+    "summary": "Georgia employment hits record high for 10th straight month, new report finds 95.5 WSB",
+    "src": "Hiring & labor (Google News)",
+    "lean": null
    }
   ],
   "boston": [
    {
-    "t": "Massachusetts Minutewomen at Boston College Eagles - WNCAAB Game Summary - Nov 20, 2026 - USA Today",
-    "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPLTVVOS01c1RnTDVILWk3Z3FWX1UwRTlJaUotMVd5SEx0YXZMQlg0NEt2bU9KYVl5OS1TWDV3dmJvcDlhYktjbkRUdElzWlZGX1hlajJoM0ZidWFBY2QyT3NIRHZ6aVEyWEJjTTZsRXJQcWlqdkdIQ1VZb19EbzUzc01feTRZWURMWVJqUEgxQlRzdEJ3cm9XVVdzdV82RmlTTHhwT2hjRmc4bnBWNm9heFdlQTFhZXg4WXNVNGdYQU9yNGVvQUkzMEhSQmhUT1NhOWJkZmhyTi1TSU1WMlZhdjduYXZWVjFaMWFONUVJSkpJa0lXNmc?oc=5",
-    "ts": 1795220204000,
-    "summary": "Massachusetts Minutewomen at Boston College Eagles - WNCAAB Game Summary - Nov 20, 2026 USA Today",
+    "t": "A special Boston fundraiser is helping support women as they work to get back on their feet. - Facebook",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNVE9QMlplcVV3cEFQS1hjeS1Icl9kNWFlR2o2WE1KRDBTRXZTbWxyaW5oNHJLclRRUDFqdkJPaFpYOEJzWTBMYm9VcURSeVE5OEdhc1doVDB4U2EtbnZFYk5sRU1jUExobEJ5bXVKVjlKalMtRDBMNW5ybHRMMzVLRV9KUnVVa2pNajBac2ZQLVd3Y1I1NlhSd0dpQzJyLW9paHp4Uk9nR09Idk1hNEIyS0N3M0lNVkNMZnllVlpEZXQ0VUg4d2tJVmo4SWg0SHRZSVhkQWN5VGVTeU0?oc=5",
+    "ts": 1795236131000,
+    "summary": "A special Boston fundraiser is helping support women as they work to get back on their feet. Facebook",
     "src": "Boston (Google News)",
     "lean": null
    },
    {
-    "t": "The ART makes a big impression with a massive mural on its new theater in Allston - The Boston Globe",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZTk4YXgwRTJiX25MVEJadURYODkyalJ0YjdENWUwbWxleTRsNDZ5Mk81UlNrZ3k5eUxPVmpyQlF0TkpNWWY2czJDTkc2X1RaNGo0eS1rd0c3dkRUS2NVWG5EOWVFd2pqMURiWXN3d2ZQOENkUGRTTldIUDBQRjl1MnpPRFJUckRnUGdpcGFiVkZvQQ?oc=5",
-    "ts": 1795209178000,
-    "summary": "The ART makes a big impression with a massive mural on its new theater in Allston The Boston Globe",
+    "t": "WBZ-TV on-air staff take voluntary buyouts as part of cuts at parent Skydance - The Boston Globe",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9uS0JId3FlMUgtNzFOZmNsSFZRTlVNR2FKY0tRalRoNnZ3RkMyUG1ObTFHcWI5U0ZjWHdzVUxabXdZZUd2a1BsOWtZQlVSaDVZUktSQUNQNnJxalBZRUNhUENBRjNzT1hTeDlUMmN6bjVkRXRtdUlNNg?oc=5",
+    "ts": 1795212521000,
+    "summary": "WBZ-TV on-air staff take voluntary buyouts as part of cuts at parent Skydance The Boston Globe",
     "src": "Boston Globe",
     "lean": "L"
    },
@@ -1270,18 +1278,18 @@
     "lean": "R"
    },
    {
-    "t": "Families of homicide victims gathered at the Massachusetts State House on Friday to share their stories and push for policies to support those grieving the loss of a loved one. - Facebook",
-    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQYnZnZVFFeXJqZWdRZ3N5aVA4Q3g1TjFucmcyNHZHZXRMeExiZ3dlOTlLNFRKNy1tR29pTjlIUFpDdm1uZm9Zam1uM1huZHkyVndDZUxPN182NVJUaHBWbmN3eHpvNXk0Szl0cHpTMzJicmNGcHdrWktuTVhsTHVlWjdETzEzQ3RqemNuNFZBZElLc2s2b1VaenpFQUlNU0ZqSmNlcnlzellMOGYxOTVZS0czYTMzNVhzNERPY3VPOHhhNk1TZ2pfc0RWX2FsTkxFblFqVWkxem90QQ?oc=5",
-    "ts": 1795218597000,
-    "summary": "Families of homicide victims gathered at the Massachusetts State House on Friday to share their stories and push for policies to support those grieving the loss of a loved one. Facebook",
+    "t": "Mavericks Could be Without Key Contributor Against Clippers - Yahoo Sports",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOaG1MT29YNnNjN3ZzVEtpZFF5ZFQyaVhyYUdCNWtYUmhrM1RKWWgwcGtwRnh5MnNra3BTX1R2WF9yY0xIRkRaTjMtYk8xeW8tUXY4cDhoVnhXcFJVT2xDZk45LVRHd1lKMzBKRjRTdy0yeVFlRU9GV2tOZVY0V0NfV3FIeEN5YUc5cUxKVnRJVkF1QQ?oc=5",
+    "ts": 1795235340000,
+    "summary": "Mavericks Could be Without Key Contributor Against Clippers Yahoo Sports",
     "src": "Boston (Google News)",
     "lean": null
    },
    {
-    "t": "The Patriots haven’t handled adversity well this year. It starts with Mike Vrabel. - The Boston Globe",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBWRGh2U29XUWx3dFpsVVFpVGVKLWRRc2ZMMnhkbEVBTEFKRkJyTFpIQjFGOU9FSkwxR0lYVUxpdTJMSkhRdmpNaWFWOFdhSzJHOEo3ZWFoeHVDUWhqNDE4QUFObVRYREpCdW02eXBheE1JWW1KQlE?oc=5",
-    "ts": 1795188946000,
-    "summary": "The Patriots haven’t handled adversity well this year. It starts with Mike Vrabel. The Boston Globe",
+    "t": "Four teachers hurt when student experiences mental health crisis at Medway school, police say - The Boston Globe",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOd3lWWFZ5S3p3eTZ1QUZYa1ZkUVJqRmJGNHJZbnRqMGlIbTBvZWRtZWZSbkRkVEtHNnhNbXFWOUlZSjBaMGxON2lLcVRnbkVoSmlKXzJycVVlanV6ZTdjbnUta1RHYUVtZTR2bk9iNHVkWjFDS3ZfczcxM1BWelNzWncxQi13cTF0VW45SHRhNVZ3WVJLS3VFRWVYS2Zldw?oc=5",
+    "ts": 1795210560000,
+    "summary": "Four teachers hurt when student experiences mental health crisis at Medway school, police say The Boston Globe",
     "src": "Boston Globe",
     "lean": "L"
    },
@@ -1294,18 +1302,42 @@
     "lean": "R"
    },
    {
-    "t": "Haverhill, Massachusetts water emergency might force city into drawing from Merrimack River - CBS News",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOb0NNazlKbF93d0xUUnFMX2ZBZDM1V09IdUdyZFc3Q2lZRUpZY1BsM3Y4TW94VXU1c2NER0lydmNRRF81QzJESG11YjdMS2lmT1I2TVRONXBjd3hMTmxFeEtHMkJNMlgyalJzY0g5aTZESkhKcXJTanJBT20xNzhxWVMyTHlyckZE?oc=5",
-    "ts": 1795214964000,
-    "summary": "Haverhill, Massachusetts water emergency might force city into drawing from Merrimack River CBS News",
+    "t": "Bus with students on board catches fire on Mass Pike in Boston - CBS News",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbVlVYTlrVzY1RU52SWxXUjFCOHV5el9Kc1dkX1dzTVBkdFR6dk9NR09kS1NKU3o3Q2M1VEZoQlpjc2pQeHBYVElGMDVERzAyS2hWWXUxcXFfRVd1R3FMRjBqcy1JTTlRUllxNzJ1MXRaZUxSUjVvYVN1VE1NalFYY1V1UEVUeVZGTk5sMXRXd1JOWFJteU1YMFNuSHhCWnNVZVE?oc=5",
+    "ts": 1795234560000,
+    "summary": "Bus with students on board catches fire on Mass Pike in Boston CBS News",
     "src": "Boston (Google News)",
     "lean": null
    },
    {
-    "t": "Patriots quarterback Drake Maye has fractured fibula, may miss the rest of the season - The Boston Globe",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBKSjUxNWVWeHRrYVQweGtZYWVLQ3pXdlIxYmlSc3Z0dDNKS0M3LU5BbmJZY3ZzWGwyaEZGcm1lOGMwVmw3TEd3TmRIdFQ3ZloxWkFxbkJrNDdEa3ZaV0llR2RSVjMyeV9yekNFNGhYWGdXUUg2SzdueGJBNTFZZw?oc=5",
-    "ts": 1795186980000,
-    "summary": "Patriots quarterback Drake Maye has fractured fibula, may miss the rest of the season The Boston Globe",
+    "t": "The ART makes a big impression with a massive mural on its new theater in Allston - The Boston Globe",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZTk4YXgwRTJiX25MVEJadURYODkyalJ0YjdENWUwbWxleTRsNDZ5Mk81UlNrZ3k5eUxPVmpyQlF0TkpNWWY2czJDTkc2X1RaNGo0eS1rd0c3dkRUS2NVWG5EOWVFd2pqMURiWXN3d2ZQOENkUGRTTldIUDBQRjl1MnpPRFJUckRnUGdpcGFiVkZvQQ?oc=5",
+    "ts": 1795209178000,
+    "summary": "The ART makes a big impression with a massive mural on its new theater in Allston The Boston Globe",
+    "src": "Boston Globe",
+    "lean": "L"
+   },
+   {
+    "t": "Many WBZ-TV on-air staffers accept buyouts, as CBS Boston station takes ‘significant hit’ - Boston Herald",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNN2lTamFpQ3h6dEpuOW9rUlZJQlJkZWYxTldTUm1xQ0RPd0NqWFF5Nl9NSi15d1AyRVhkR2Z0d3R0NFg2azVuMDhVSUlWcXlNMnVZV0prb2VFWUlLWHVhTVFydHJjRzNBUzRDeF9xU3Y0b3E5cXJ4ZThjX0JyU0Y5T3MwNmdwWklIMWRLN1ZjQ3I2c3FWTDNMYnFKZnV0V1laa25TXzZTUnlxOVpQWlE3R1d6SmtDY1ZoMzFHd2hGazFZbUt6M3c?oc=5",
+    "ts": 1795198773000,
+    "summary": "Many WBZ-TV on-air staffers accept buyouts, as CBS Boston station takes ‘significant hit’ Boston Herald",
+    "src": "Boston Herald",
+    "lean": "R"
+   },
+   {
+    "t": "Boston College fends off UMass comeback in 72-65 battle - Massachusetts Daily Collegian",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUVladmRGY1hGUE1DNkFYVEM3SDlicE5OVUVpT0M2b3lpY05RQVJHMnhKOU0xVWJoRGRlcWNCUXpMMDl1YURKNU1oaENrY0VGdXVQZVgwZjFEN0VyUnVMRTFyX3lpQ3dMNWpaVDNPSVhzTExyQ1JxdkdiZllBdVNZQV81UDdvU1I4SEl0YjltbExLbVQxOHc?oc=5",
+    "ts": 1795234203000,
+    "summary": "Boston College fends off UMass comeback in 72-65 battle Massachusetts Daily Collegian",
+    "src": "Boston (Google News)",
+    "lean": null
+   },
+   {
+    "t": "Red Sox trade Johan Oviedo to Diamondbacks for minor league reliever - The Boston Globe",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQXAzUjVNYnpzM1hNTkhuZ0pUSm8xREIybnJWdXVubGdVQTVMdFZjbWlqbXNadk15UzVtc24wTVFIaWxKSGVzcWc5SkhhMDhSSDd6OTRoTjBPWWdNV1p0MkFWRnpSTG80N3BiMVEtcFk1bnY0R1RYZFltTWM2Mm5qWWJFMjJjT0pudXkyN19sZ05GRHdIM1E?oc=5",
+    "ts": 1795204260000,
+    "summary": "Red Sox trade Johan Oviedo to Diamondbacks for minor league reliever The Boston Globe",
     "src": "Boston Globe",
     "lean": "L"
    },
@@ -1318,18 +1350,18 @@
     "lean": "R"
    },
    {
-    "t": "Voter turnout for 2026 elections in Massachusetts falls just short of midterm record - CBS News",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUGRMMmJIZWF1M3M5VEVzSHRoaVQ1LXhjLUlxZGZZdnhYd0xienNyRUFZMFVzblg5RXRrbnh2UmtuRXFld1hwaDRkbnNzbFFqRmdTWlIyd3FzZ1NEQTlnMERLRm16ZlU3OWo2cUZZS25wbUpSaUpLbURxMl9ybU9RclZEQTRQcU9vRFZFZmhQODZfa3FrY1FjMEZmLXFMYXljcC1Ya0dYaF9mVEhHVE5vSjYzNVBuRUNvUEcxTGQ0VQ?oc=5",
-    "ts": 1795213200000,
-    "summary": "Voter turnout for 2026 elections in Massachusetts falls just short of midterm record CBS News",
+    "t": "Yahmani McKayle records 1,000th career point against Boston College - Massachusetts Daily Collegian",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdGZ1Tk1CdjloYXIzWGJYUmFGQWtqd3ZaazVua0JHNERhOHgxY1NUbTRFWF9OV2R4ZHZLSFR4Wlp3VW5oS3RuOTNYMjFNaC1oeE13RFhZS0s4QnVIcDRkR1JEMHIzZWdnemsyd1RxMTQxdWo1OVItbnNwUms0R1pGWlBLZzZFRW9mMEliY0tveUdLNjkyNHNQbm44bm1DY1FkZHYwWA?oc=5",
+    "ts": 1795233133000,
+    "summary": "Yahmani McKayle records 1,000th career point against Boston College Massachusetts Daily Collegian",
     "src": "Boston (Google News)",
     "lean": null
    },
    {
-    "t": "Four teachers hurt when student experiences mental health crisis at Medway school, police say - The Boston Globe",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOd3lWWFZ5S3p3eTZ1QUZYa1ZkUVJqRmJGNHJZbnRqMGlIbTBvZWRtZWZSbkRkVEtHNnhNbXFWOUlZSjBaMGxON2lLcVRnbkVoSmlKXzJycVVlanV6ZTdjbnUta1RHYUVtZTR2bk9iNHVkWjFDS3ZfczcxM1BWelNzWncxQi13cTF0VW45SHRhNVZ3WVJLS3VFRWVYS2Zldw?oc=5",
-    "ts": 1795182180000,
-    "summary": "Four teachers hurt when student experiences mental health crisis at Medway school, police say The Boston Globe",
+    "t": "What would a Bostonian version of ‘Grand Theft Auto’ look like? - The Boston Globe",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcG5QV09vcHRkekR4eGNhTTZlYWQwd3ZLb0RLUnZFVUxselRZWF9TeGJRQnVFRGJTemd4dEh4dzFtTmt2R2N2N1JnRFNXd2hjNWZZSHh6UFRfbllfRUxONXlZZmRKenhvLUoteFpER09NN1Y3STVKeHdyOFU1WDhUMw?oc=5",
+    "ts": 1795203384000,
+    "summary": "What would a Bostonian version of ‘Grand Theft Auto’ look like? The Boston Globe",
     "src": "Boston Globe",
     "lean": "L"
    },
@@ -1342,18 +1374,18 @@
     "lean": "R"
    },
    {
-    "t": "Boston Celtics Daily Links 11/20/26 - Yahoo Sports",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQc19RdnRjWE5MWGJRZFJCNXNHdldGUkk2U0FaZTRCN1hZOFU1VnIybzh2V1FxR2U3SGRmTE1LWms2d2ZfcXBjNkRvV1JhNzRLR1lmUW9UeWo1Sml1Rm9NVWZsZWY2cUtGc3M2WEN1dUc3alBGb2pubXVEa01yQUdNQnRkeVg?oc=5",
-    "ts": 1795209763000,
-    "summary": "Boston Celtics Daily Links 11/20/26 Yahoo Sports",
+    "t": "Bus catches fire on Mass. Pike off-ramp in Allston, police say - NBC Boston",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQ1JLenJ4ZkpKQ3NzczZ0V0NleEdWNmNSTEtRUWdwT21zdTdNYkxkbGNTX0tNc2dFOW9GVlJYZ0FkN1YyWGlWTEc4bDNzMHoyVnd2SEJKbVZFb01RVTQzbDhJb3VzbEFCQ2poVHBSNWJ1Nk5QUlhydEpYVHhHVGMweDlpRWFTZkNwZEF5ZzlJRTJWWGpBTzg2TUU5YWtoVEVvX2dzb0l3VzNWQdIBsgFBVV95cUxQMjVVSXJFRm14N21OQnk0a2trbEktQlZEdkVvQm84R2JZUTNBZ0J5ajVmeUJzNExCOXFYaHlzdFNZOUFBaE43OGd5dElCZmY5RUpaYTRuNkdrRGZLYm9xQlhaSEJwNVh4bjdKcTc4RG1UblNNdFRMbEtLcnI2b1NmX2sxWjR1Q2pNX2RhSTlxN3Y4WDlyaDdTVV9yNUlyVDVpX0cybHA0cU9DR2prS21vdEJB?oc=5",
+    "ts": 1795229366000,
+    "summary": "Bus catches fire on Mass. Pike off-ramp in Allston, police say NBC Boston",
     "src": "Boston (Google News)",
     "lean": null
    },
    {
-    "t": "WBZ-TV on-air staff take voluntary buyouts as part of cuts at parent Skydance - The Boston Globe",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9uS0JId3FlMUgtNzFOZmNsSFZRTlVNR2FKY0tRalRoNnZ3RkMyUG1ObTFHcWI5U0ZjWHdzVUxabXdZZUd2a1BsOWtZQlVSaDVZUktSQUNQNnJxalBZRUNhUENBRjNzT1hTeDlUMmN6bjVkRXRtdUlNNg?oc=5",
-    "ts": 1795174560000,
-    "summary": "WBZ-TV on-air staff take voluntary buyouts as part of cuts at parent Skydance The Boston Globe",
+    "t": "Patriots quarterback Drake Maye has fractured fibula, may miss the rest of the season - The Boston Globe",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBKSjUxNWVWeHRrYVQweGtZYWVLQ3pXdlIxYmlSc3Z0dDNKS0M3LU5BbmJZY3ZzWGwyaEZGcm1lOGMwVmw3TEd3TmRIdFQ3ZloxWkFxbkJrNDdEa3ZaV0llR2RSVjMyeV9yekNFNGhYWGdXUUg2SzdueGJBNTFZZw?oc=5",
+    "ts": 1795186980000,
+    "summary": "Patriots quarterback Drake Maye has fractured fibula, may miss the rest of the season The Boston Globe",
     "src": "Boston Globe",
     "lean": "L"
    },
@@ -1366,122 +1398,98 @@
     "lean": "R"
    },
    {
-    "t": "Should 18-year-olds be tried as juveniles? Some Mass. senators say yes. - Boston.com",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUnhxZXV2MklQeGp0a0l6UkFGZDlLLXRfTU5jQlBVSDNoRjFlMEdGdVVlbW1naVFhb1lLY2FmS3BmLWcxWk9RWWlEZDRlN3o4eXBtUFdGYl8zQUk1MEM5a0FQYUgtVVR6OEZYTzlKbW01WE5oR3JaNUFBTG5IY1Z6bHJoSnFvLVdRdkl0SHhwMGJfZHZyQXpUaUY3elgwSVpzeldvMg?oc=5",
-    "ts": 1795209720000,
-    "summary": "Should 18-year-olds be tried as juveniles? Some Mass. senators say yes. Boston.com",
+    "t": "Massachusetts Swimming & Diving Complete Day One At Terrier Invite - University of Massachusetts Athletics",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVFJRWGdTdGYtMUtKT1p4eG16LThTazRYQmhWR2FsUFFrejlhTFRBWWxHcUxfZzRrQU5fLTREUHlhSjNsN2RndXBwa0NEcnFadDVYRDFWTzFZMVFXckR3NS1wYzF5My0yQ0JWVHFTN2F6amhVMkRBLUFtcGFybnY2THVkYVJiVnA2eGxuUkZoQjFJb004S3N5RU9DUzF0cjBLcXlEdzV5Qk1fc1ZzaGVaa25Hd1pFc1g3MzZXMmx2bzZsY28yd0xWMHMxRGw?oc=5",
+    "ts": 1795228621000,
+    "summary": "Massachusetts Swimming & Diving Complete Day One At Terrier Invite University of Massachusetts Athletics",
     "src": "Boston (Google News)",
     "lean": null
    },
    {
-    "t": "Blind date: ‘He spends every Sunday tailgating at the Patriots’ - The Boston Globe",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSk5kSXBIbmU4bjUxMjlfUmVNdTlra25tVjhJbUpDQXc1cmFyQlh5bkVlNDJCVEFGOTAycG5NdVBRZ3YwVzd3WHB6SlJlMXVHMHp4U2t5bTZWMTZ4bVRmMlNRc1dHSkQxZVd1SGQzdFBjN3NmejlxeURpNFJIaUVSWg?oc=5",
-    "ts": 1795172388000,
-    "summary": "Blind date: ‘He spends every Sunday tailgating at the Patriots’ The Boston Globe",
+    "t": "US stocks open lower as tech sell-off continues and Anthropic falls 9 percent - The Boston Globe",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZEpQT3dzd2ZwNFpSOGp4ejdsNlBfd21rUXZzNXdXMXlYc1pqNXV0MUJzMlphZGJOQzhZbEIyczhrMmM1WkpQSjc4czFmRTdSSUs2ZzBydFI1cWREcEdLbEkxVkJpOWdYVTh3cnNwLWY2UV9DRFlHOEVGWkxtRlZ1NjczVHhiNkh0WTExWUxRVkk?oc=5",
+    "ts": 1795186881000,
+    "summary": "US stocks open lower as tech sell-off continues and Anthropic falls 9 percent The Boston Globe",
     "src": "Boston Globe",
     "lean": "L"
    },
    {
-    "t": "Callahan: What I got wrong about the 2026 Patriots - Boston Herald",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVUJJbWdqQVcwa1RLZFF2VHVUa0JYYmpUSjZ0Sm16Q1UyNDhQQjRBWERRX0YtbjNhclBDci11UGYtZnBqYkFvVHRSQnRUOVpnbFBuMUl5dUNxTm5ldWVZcUhxU2Z6R2hpZnl5V1pqellzSWRBaTV5Y2tEZ3c1dTNoRno0MFIzXzNOalY1bWNQTm5LeDF2?oc=5",
-    "ts": 1795152474000,
-    "summary": "Callahan: What I got wrong about the 2026 Patriots Boston Herald",
+    "t": "Boston Herald | Archive - Boston Herald",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9INEh5d21fOUxsXzgta0V6am94TDBpS2JBMmwyOUJSb3BzWE5FZnZOT2wydTdLRHdDZUtPSjEyTTNNWkE0eERYaVJKSDVrYzduRTN1OURGa3N1TEdPbGthNWNn?oc=5",
+    "ts": 1784001785000,
+    "summary": "Boston Herald | Archive Boston Herald",
     "src": "Boston Herald",
     "lean": "R"
    },
    {
-    "t": "Bruins provide latest on James Hagens - 98.5 The Sports Hub",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBLVFhqMklycWtVUUhXNjJ2TzZtVW9KUTlUa3NMeThmU1BFamFMUURKYTdiN0Q1NmlKRFdxQzNJU0ZoYzBhSkVlM05ZX3BBVDFBeUh2a0ZFZUZBb3hEQjd1anZFMk9jemxOZEFxdld1SVp2V09wZGp3ckx1REJzZw?oc=5",
-    "ts": 1795208353000,
-    "summary": "Bruins provide latest on James Hagens 98.5 The Sports Hub",
+    "t": "Recap: Boston College shuts out Maine, 4-0 - Yahoo Sports",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUGZvRWFvdmV2YmphVzZXTGdhSjJ1dHBmMDNjcmpIeFVFN1U0alJ6X0J6N0YwMnZwZ2tDRTZHVGU4NmQ4QWcyU3BsdlZWSl9nN2N1MzNVSUhJdGJoMEM5WW5NTENHN3BOcWllYTlxMUZCbWh5aVU1NnE3Y2xxM0VQVTA4WHo2Nk1j?oc=5",
+    "ts": 1795227960000,
+    "summary": "Recap: Boston College shuts out Maine, 4-0 Yahoo Sports",
     "src": "Boston (Google News)",
     "lean": null
    },
    {
-    "t": "The MIAA football semifinals are here. See the schedule, preview all 16 games, and check out our predictions. - The Boston Globe",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQLS1lMUhtTDVfd2dzc1FIUG5OVnpHM2FHcXBVbjlKZjY4V1lzdXFmeElNVWxLSnZXb1UxREtvUFZmVGNZNEF3ZEV2V1B6YXZ3RndlVkNnMVVyMW1UOVBVMVFyV3VoeFRuVEVFYjAxWnV5WlVKcWlnbVA4STNaTmdqTmwwNTZSUHZTaUdmVDZ3?oc=5",
-    "ts": 1795161705000,
-    "summary": "The MIAA football semifinals are here. See the schedule, preview all 16 games, and check out our predictions. The Boston Globe",
+    "t": "Trump’s sons, Vance, Miller: Here’s who Democrats are targeting in their promised investigations - The Boston Globe",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNN3B3X0tub0V4eEQyOFh4WW1zUC1WeHByV3U2MWVHaWFDb1l0dXBuUUx4aEMxalNhZ2xjVDJNLTRtc09GMzBWWmJHUlpxaUt0blF1Yk5GYzNVeDBCSnVPei13aDBIc28wMzloRGlYM2lsR2pnd3ExRWZKSHk0U1dpR0cyYVdqdGh3T19mN0xMQms3S1FaMk9sbHY3UlZRRlVackwyRA?oc=5",
+    "ts": 1795184640000,
+    "summary": "Trump’s sons, Vance, Miller: Here’s who Democrats are targeting in their promised investigations The Boston Globe",
     "src": "Boston Globe",
     "lean": "L"
    },
    {
-    "t": "‘Turtleboy’ remains out on bail, trial date postponed - Boston Herald",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVDAxeVd3THY0UFJKb1FIajVLdVJENnBRdlNDUW43T25tcVd3OUhpVkVJbEw5RjYzQThLeDRmRjc3TjhqaUdJdmlYaVNPZkt1dHVTVW9POWJSSGpfUzBMMjVvc3JFTVhXZDFzTkVtLUplNVJ0Ti1hWDVxYS1Qa0p6QnFrQVNlNUZ1N2JGb3BYVnlEOElPNHc?oc=5",
-    "ts": 1795148698000,
-    "summary": "‘Turtleboy’ remains out on bail, trial date postponed Boston Herald",
+    "t": "Contests - Boston Herald",
+    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBpUDZ1VEFNc1dNeE4xTWxjTmlhNTI0ZGswc1c5dHVkMHRuU1hKQzZRS3prLXF0UFVFbHNWSHhTX25DdUM1NXpDMTZWWDdJdw?oc=5",
+    "ts": 1543922927000,
+    "summary": "Contests Boston Herald",
     "src": "Boston Herald",
     "lean": "R"
    },
    {
-    "t": "Magic Chase 10th Straight Win Over Brooklyn Without Paolo Banchero: Magic at Nets Preview - Yahoo Sports",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQd1RnVmk5RUNpZm9JeGxvYXE5bzBzUElVLThzdVpWNkxwb3VlVTdBQUlVM1pLU2NvSUFKLWprejFLZDFSTzZCTFZkekdraGpGNXN5em51d2dTdERnZzhjU3RabmlIQzZPN0xEejgwM042WFdJSVBkWUxiajlqdjFTbnQ5clk?oc=5",
-    "ts": 1795207663000,
-    "summary": "Magic Chase 10th Straight Win Over Brooklyn Without Paolo Banchero: Magic at Nets Preview Yahoo Sports",
+    "t": "Bus catches fire on Mass. Pike ramp in Brighton - WHDH",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1yMHZpemhrbWxEaFBTZ3JEVGNfUEF1M0ZMMFJ5LWJaX3pkdEJqRWhwa2JQcnpuRVNuR0JhOGZSNUNvWVotcFdWajNiZzlKMHpRNHJydWdEUS1BLVd0RlNWSDNEZ015QURRSm05a0QxQnRyRHpyWW5Ecg?oc=5",
+    "ts": 1795227647000,
+    "summary": "Bus catches fire on Mass. Pike ramp in Brighton WHDH",
     "src": "Boston (Google News)",
     "lean": null
    },
    {
-    "t": "In letters to officials, MGB primary care doctors say system is closing practices, bleeding physicians - The Boston Globe",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMldVRkpVSU9VZjNzRmZhRHNxcW8xajJobkhtWWlhUUtCWEdZcFh3Q2x5UmJIV2hGR0tyYUJKZEk5MzFZcHhRalZYTGVGdDFBSVRMX2F5bzJ0MF9fVDRUemkwUHZrWnY4MGZqVTNmMGxCVWI0THNVckJzRkFPYUdYQ0RGR1lveG5QclE?oc=5",
-    "ts": 1795153860000,
-    "summary": "In letters to officials, MGB primary care doctors say system is closing practices, bleeding physicians The Boston Globe",
+    "t": "Amid tech conspiracy theories, some are prepping for doomsday. Here are the real problems. - The Boston Globe",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeG8xSzR2OW4yREN4YWMxcjFwZnUwMmRNY1VZLTVxWE1zYjR5blpzYmM0eHNYQmpDTWlkczZ1TFl2ODQ4X0puSDBLS0RjVVhuanh4QWMxZFVMQ3liNFlGVDU0a2xWOXVNS2RMa0toREVidjQ0LV9pZkhhZXFaMXZob245X3U?oc=5",
+    "ts": 1795176557000,
+    "summary": "Amid tech conspiracy theories, some are prepping for doomsday. Here are the real problems. The Boston Globe",
     "src": "Boston Globe",
     "lean": "L"
    },
    {
-    "t": "SJC to hear Lindsay Clancy double jeopardy argument in January - Boston Herald",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdWRSMGljdTA1RHZUV2t6QjV2dGdtQWRDUkhYdTdqRU5WRlRpWEhTOU9qQUpaNkUwMXdQVUtHc1ljY0FTalgzdTZzcEFCLTBsV2FWak02TkU4ZVo3aHFEcHd6aFhpRG83M1RfRVg0VWtqZnVZTkFvR0MtRVNBNWhGQUEtcnh1QU5OQlNBWWtTN1poS05ZVkExVHBnMXE3ZVp2OGtuZk9R?oc=5",
-    "ts": 1795141640000,
-    "summary": "SJC to hear Lindsay Clancy double jeopardy argument in January Boston Herald",
+    "t": "Fun and Games - Boston Herald",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAzUUxva3hTQ2dFQUROcXlycGEwWVJaMTViM1kwcjQ5UmViS3RLRGZzRG9hdTdVTW1lVXZnbmpnLWQzeE5fYkJXZ0V5QWdhemktWTF0Z29n?oc=5",
+    "ts": 1543922460000,
+    "summary": "Fun and Games Boston Herald",
     "src": "Boston Herald",
     "lean": "R"
    },
    {
-    "t": "Massachusetts keeps losing residents. Here’s where they’re going. - Boston.com",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPN1o1NFhqNmt1eEtvazRGS055c3dCcU9BWFoyaUVqdGZiajREUWVfcGhBZUVBMTNWLW1DenFQU0tQc05Eemh3WUR1RjAxMDhFVVhsYW8xQlB6d2RTcXQ4Qm1DMGd2aGlTU3pFWi1YRDYzX3R2ZTBoSU9hcF9kZ0JEUklNbjZ4S2xEeVEwcGdXZmduUmh5a19MamhqZnd6VUxwYndTa0o5SVVGUE05SXdscGxn?oc=5",
-    "ts": 1795200120000,
-    "summary": "Massachusetts keeps losing residents. Here’s where they’re going. Boston.com",
-    "src": "Boston (Google News)",
-    "lean": null
-   },
-   {
-    "t": "Inside a geodesic dome fixer-upper in North Attleboro for $350k - The Boston Globe",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSTJaOW5va05fMmF1bWZWVk0zcnRXaHQ5V1FFUklGSkhGTW56QUxuT1BwQ0NUbThlUFZPZTNhUndEYnl4SlozRElRZFVkdVlEalJrUnB1c0J0cW9VZ0hoT2NVcWpzVmNxWEVZUGRaT2tKb29YYlRVdGRlM2xUNWFndG9sZ2I2Y3JMaXlDQ2NSV3hqUDk2?oc=5",
-    "ts": 1795152600000,
-    "summary": "Inside a geodesic dome fixer-upper in North Attleboro for $350k The Boston Globe",
-    "src": "Boston Globe",
-    "lean": "L"
-   },
-   {
-    "t": "Discrimination charge filed against Mass. Teachers Association over alleged anti-Semitic harassment - Boston Herald",
-    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNQk55R3Y5T2RLbDR0SjdDM0tPNnBzMDh3bUY0ZkREZlRvWS1FZjEwZ0lENGtmSXZPLVJxTW50UWpzYnF1WUtOcDRtc1EyTzZjQ0o1Y0N6NGExTTlHb1lVTExpOWplRHFQVFRlRmU2LTM4ZWRpTS13Ym5CQjFMbkVOQm12andzS2hsRlZ4S3lYU1pNVjdockN0bTVZU2VQLXhBbHFrNjVsQUZDSjVNTS1fMk4zekh1TUFxNlVfbTBuVERnTGtxbklmWnJWOTVON3VoZ3BLT25B?oc=5",
-    "ts": 1795141640000,
-    "summary": "Discrimination charge filed against Mass. Teachers Association over alleged anti-Semitic harassment Boston Herald",
-    "src": "Boston Herald",
-    "lean": "R"
-   },
-   {
-    "t": "Shooting near Harvard University leaves 2 with life-threatening injuries, suspect ID'd - ABC News - Breaking News, Latest News and Videos",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNc25kM1c3U3pKREtJX3pJSHJtaWVfY1hCaXlZY1lyS3RuZHY0UjJoU3hFcFhRMTBtQWV2dHl3RV9YNGpLckVlMlpPNXVQSGxjbzJaYlJ1X0hvYzVDYVZ4bGM2WEN6M1E1NjZna25SRlpBbW02aXpoN1RXODJuNGNiVV9zVzNLWkFaVFFUMkxoRUt3bWlCUlpR0gGcAUFVX3lxTE1LeVg2Z0RjcUpIdERwMDV0V0xKekljYkx6Sk9STXU4c3JOU0lfVUNtSU1kUTFNY3J3VmdxWmZlR3FpYzJaTU1BaVpIYkhYM29qTlhpV2I5bG1MRW9pbkxkZW50VlB0QzhTY0dpbFJyQW11cUstM2R1aHkxRi1fVnVBVU5ReVN5YW4wbFFsYlUtT1B0R0xHUDYwanlnbQ?oc=5",
-    "ts": 1795195402000,
-    "summary": "Shooting near Harvard University leaves 2 with life-threatening injuries, suspect ID'd ABC News - Breaking News, Latest News and Videos",
+    "t": "McKayle Scores 1,000 Career Point As Minutewomen Fall To Boston College, 72-65 - University of Massachusetts Athletics",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNckJtRy1pa0wtUHR6cHNZSkk0Yjhqd0g3Y3dIUTVMOW11bVF1d2Q4VnlYZE4xYU5BaFQ3c0psNXNNVWh5WHRNbG9kaU5KN3k3dDZEeEZ1QUZfcGQ2ZnFXdFltY2VLTEE4ZjlSNE9BYTdvWmVsU0JCQksyb3NqUTBKNm0tMnJ6NmpaS2ZfRGxTUUQtUnV6ZTVLY2g5VVdZeW9GamhLT1Zld1gtSks2ZXdNdWZlVURQYTUtajgwU1h2aWxnZ2FWVS1qNXFielJlUndIX2F6LQ?oc=5",
+    "ts": 1795226353000,
+    "summary": "McKayle Scores 1,000 Career Point As Minutewomen Fall To Boston College, 72-65 University of Massachusetts Athletics",
     "src": "Boston (Google News)",
     "lean": null
    },
    {
     "t": "What’s really up with the Patriots? And some other questions we need answers for. - The Boston Globe",
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5QOE5uRnhTZW9sRHg0cTBobjZEdHNIVzlJVnFwby04Z2ZPVDJSQlpZb3pnT3JxcGZMWEpuSThHSllUa0ZBQ1R0MDlzbmxNSGc1TkVWVkZMa1JadTI1YW9XNWtJNGplU190aVJvUU1fVVkyUndjOVE?oc=5",
-    "ts": 1795150800000,
+    "ts": 1795174273000,
     "summary": "What’s really up with the Patriots? And some other questions we need answers for. The Boston Globe",
     "src": "Boston Globe",
     "lean": "L"
    },
    {
-    "t": "WBZ-TV CBS Boston employees offered buyouts, as Skydance combines Paramount and Warner Bros. - Boston Herald",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPeUhUaHUyMXVMc1REMGc1dXJ4SENXYXQ1OFY4eWJhSFNaQjRIT3JaTWFCZ2JTTGFkeDQ4S2R3SkIzUnhNeWZUZE9SZDJ0ZFhfQ2ZHY3BrbXYxSW93SUpvSlB3QV83R1FUTTR4bHdLcFNMek16OWJGZ01fempaazVwLTU0NU9ONldvZmhqc3hBTk1CU0x5ZEhNQ0gxamkxcFdqeXN3TWdoSnp0RTlsT1FjYmgxWDZJc3NaaFV5M2VSU1BOTl9KZXFkcHFWYw?oc=5",
-    "ts": 1795138011000,
-    "summary": "WBZ-TV CBS Boston employees offered buyouts, as Skydance combines Paramount and Warner Bros. Boston Herald",
+    "t": "How to contact us - Boston Herald",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE84c1E5LU1vX01xSEhMLXFvYmFUcDQzcjVwVFhaME0xamV4RTRxZ0IzT2RHdS1iTmV5VUxGeHJOeFZPZjYzZUZDOUFlWG1wd0E5NHc?oc=5",
+    "ts": 1543922456000,
+    "summary": "How to contact us Boston Herald",
     "src": "Boston Herald",
     "lean": "R"
    }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T18:49:34.971Z",
+ "updated": "2026-11-21T00:28:24.672Z",
  "leagues": {
   "nba": {
    "key": "nba",
@@ -295,8 +295,8 @@
      "id": "401909305",
      "date": "2026-11-21T00:00Z",
      "name": "CHA @ ATL",
-     "state": "pre",
-     "detail": "11/20 - 7:00 PM EST",
+     "state": "in",
+     "detail": "4:14 - 1st",
      "done": false,
      "teams": [
       {
@@ -304,7 +304,7 @@
        "abbr": "ATL",
        "name": "Atlanta Hawks",
        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png",
-       "score": "0",
+       "score": "14",
        "winner": false,
        "record": "9-6"
       },
@@ -313,7 +313,7 @@
        "abbr": "CHA",
        "name": "Charlotte Hornets",
        "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png",
-       "score": "0",
+       "score": "21",
        "winner": false,
        "record": "4-10"
       }

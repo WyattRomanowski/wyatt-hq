@@ -1,13 +1,45 @@
 {
- "updated": "2026-11-22T21:30:15.669Z",
+ "updated": "2026-11-23T01:57:52.094Z",
  "errors": [],
  "sections": {
   "politics": [
    {
-    "t": "El-Sayed would pass Medicare for All as ‘TrumpCare’: ‘I don’t really care what it’s called",
-    "url": "https://thehill.com/homenews/senate/6235945-abdul-el-sayed-trumpcare-medicare-all/",
-    "ts": 1795382680000,
-    "summary": "Sen.-elect Abdul El-Sayed (D-Mich.) on Sunday said he would pass a single-payer healthcare bill, commonly referred to as Medicare for All, with the name “TrumpCare,” adding that he does not “really care what it’s called.” NBC News’s “Meet t",
+    "t": "ICE officers arrest 2 passengers boarding flight in Seattle",
+    "url": "https://www.cbsnews.com/news/ice-arrest-alaska-airlines-flight-seattle/",
+    "ts": 1795398935000,
+    "summary": "Masked immigration officers arrested two passengers on a crowded airport jet bridge in Seattle as people were boarding Saturday",
+    "src": "CBS News",
+    "lean": "C"
+   },
+   {
+    "t": "Trump hosts third crypto gala for meme coin amid conflict of interest outcry",
+    "url": "https://www.theguardian.com/us-news/2026/nov/22/trump-cryptocurrency-gala-meme-coin",
+    "ts": 1795393891000,
+    "summary": "Virginia dinner comes as Democrats accuse president of improperly profiting from his cryptocurrency ventures Donald Trump is scheduled to headline his third cryptocurrency gala on ⁠Sunday night at his ​country club in Virginia, rewarding to",
+    "src": "The Guardian US",
+    "lean": "L"
+   },
+   {
+    "t": "Jeffries previews Democrats’ five opening moves",
+    "url": "https://www.washingtonexaminer.com/news/house/4811757/jeffries-previews-democrats-opening-moves/",
+    "ts": 1795393309000,
+    "summary": "Rep. Hakeem Jeffries (D-NY) outlined five key legislative priorities for Democrats as they prepare to take control of Congress in January. “We’re going to work incredibly hard to deliver on our promises to the American people around afforda",
+    "src": "Washington Examiner",
+    "lean": "R"
+   },
+   {
+    "t": "Xavier Becerra eyes unlikely California-Texas partnership while riding blue-wave high",
+    "url": "https://nypost.com/2026/11/22/us-news/xavier-becerra-eyes-partnership-with-texas-after-democrats-midterm-victories/",
+    "ts": 1795391257000,
+    "summary": "California’s governor-elect says years of clashes between the states could give way to cooperation after Texas turned blue, calling the potential alliance a “massive one-two punch.”",
+    "src": "NY Post",
+    "lean": "R"
+   },
+   {
+    "t": "Mamdani releases 84,000 more 9/11 records",
+    "url": "https://thehill.com/homenews/state-watch/6236426-zohran-mamdani-releases-new-911-records/",
+    "ts": 1795390427000,
+    "summary": "New York City Mayor Zohran Mamdani (D) released 84,000 more records pertaining to the Sept. 11, 2001, attacks following a previous release that showed city leaders lied about air quality. “After the horrific terror attacks of September 11th",
     "src": "The Hill",
     "lean": "C"
    },
@@ -20,43 +52,11 @@
     "lean": "C"
    },
    {
-    "t": "Ossoff's broad and decisive Senate win fuels 2028 speculation",
-    "url": "https://www.cbsnews.com/news/jon-ossoff-2028-presidential-speculation-after-georgia-win/",
-    "ts": 1795381572000,
-    "summary": "Democratic Sen. Jon Ossoff's commanding victory in Georgia relied on a broad coalition, and this is fueling 2028 presidential interest in him, even though he says he'll be in the Senate for the next six years.",
-    "src": "CBS News",
-    "lean": "C"
-   },
-   {
-    "t": "Army plans to detonate several tons of unstable explosives at Iowa munitions plant by Tuesday",
-    "url": "https://www.washingtonexaminer.com/policy/energy-and-environment/4811661/army-plans-detonate-unstable-explosives-iowa-munitions-plant/",
-    "ts": 1795381018000,
-    "summary": "The U.S. Army plans to move forward with detonating tons of unstable lead azide sitting in an Iowa munitions plant despite a federal court order temporarily blocking the detonation. The Iowa Army Ammunition Plant in Middletown, Iowa, contai",
-    "src": "Washington Examiner",
-    "lean": "R"
-   },
-   {
-    "t": "US intelligence chief says he trusts Trump’s description of Putin as ‘my friend’",
-    "url": "https://www.theguardian.com/us-news/2026/nov/22/intelligence-chief-jay-clayton-trump-putin-my-friend",
-    "ts": 1795380933000,
-    "summary": "Jay Clayton was pressed on Trump’s characterization of Putin during media appearances on Sunday Jay Clayton, the US director of national intelligence, said he trusts Donald Trump “completely” after the US president called Vladimir Putin “a ",
-    "src": "The Guardian US",
-    "lean": "L"
-   },
-   {
     "t": "Democrats clinch historic House majority as Chuck Hubbard defeats longtime GOP Rep. Virginia Foxx",
     "url": "https://www.foxnews.com/politics/democrats-clinch-historic-house-majority-chuck-hubbard-defeats-longtime-gop-rep-virginia-foxx",
     "ts": 1795379647000,
     "summary": "Democrats secured their largest House majority since 1992, setting up clashes with Trump over investigations, health care and Republican policies.",
     "src": "Fox News",
-    "lean": "R"
-   },
-   {
-    "t": "Trump gives suprising boost to El-Sayed’s health-care pitch",
-    "url": "https://nypost.com/2026/11/22/us-news/trump-gives-suprising-boost-to-el-sayeds-health-care-pitch/",
-    "ts": 1795375087000,
-    "summary": "President Trump has given a surprising boost to far-left Democratic Sen.-elect Abdul El-Sayed’s pitch for universal health care.",
-    "src": "NY Post",
     "lean": "R"
    },
    {
@@ -68,10 +68,10 @@
     "lean": "C"
    },
    {
-    "t": "Trump Orders Federal Contractors To Check With White House Before Responding To Congress",
-    "url": "https://www.huffpost.com/entry/trump-orders-federal-contractors-to-check-with-white-house-before-responding-to-congress_n_6b023069e4b0213d8627f185",
-    "ts": 1795305808000,
-    "summary": "Rep. Robert Garcia said Saturday it was part of the Trump administration’s “blatant attack on Congress’ constitutional right to conduct oversight.”",
+    "t": "Trump’s Social Media Post Fuels Questions About Potential Medicare-For-All Support",
+    "url": "https://www.huffpost.com/entry/donald-trump-abdul-el-sayed-trump-care-post_n_6b022ce5e4b0db04454ad737",
+    "ts": 1795316744000,
+    "summary": "Could “TrumpCare” become a reality?",
     "src": "HuffPost",
     "lean": "L"
    },
@@ -84,10 +84,42 @@
     "lean": "C"
    },
    {
-    "t": "Democratic Rep says next Congress will focus on using AI to improve healthcare, jobs and agriculture",
-    "url": "https://thehill.com/the-120/6236244-democrats-ai-policy-focus/",
-    "ts": 1795380750000,
-    "summary": "Rep. Brad Schneider (D-Ill.) said the next Congress will be focusing on using AI to improve healthcare, jobs and agriculture. “We can make sure that we do have people overseeing and protecting American interests, American citizens from the ",
+    "t": "Trump says he wants \"permanent\" deal with Iran",
+    "url": "https://www.cbsnews.com/live-updates/iran-war-trump-tehran-denies-chemical-weapons/",
+    "ts": 1795386557000,
+    "summary": "Despite rising tension, President Trump told an Israeli outlet he may not make a decision on his next move in the Iran war until 2027.",
+    "src": "CBS News",
+    "lean": "C"
+   },
+   {
+    "t": "Abdul El-Sayed doubles down on ‘TrumpCare’ health plan, urging president to ‘get it done’",
+    "url": "https://www.theguardian.com/us-news/2026/nov/22/abdul-el-sayed-trump-care-health-proposal-name",
+    "ts": 1795384877000,
+    "summary": "Democratic senator-elect reiterates suggestion to rename Medicare for All after Trump if president allows bill to pass Michigan US senator-elect Abdul El-Sayed on Sunday doubled down on naming healthcare reform legislation after Donald Trum",
+    "src": "The Guardian US",
+    "lean": "L"
+   },
+   {
+    "t": "Trump: Will be ‘very hard’ to work with Schumer if elected majority leader",
+    "url": "https://www.washingtonexaminer.com/news/white-house/4811713/trump-very-hard-work-with-schumer-majority-leader/",
+    "ts": 1795387223000,
+    "summary": "President Donald Trump said it would be difficult to work with Senate Minority Leader Chuck Schumer (D-NY) should he win his bid for the majority leadership position against challenger Chris Van Hollen (D-MD), somewhat contradicting comment",
+    "src": "Washington Examiner",
+    "lean": "R"
+   },
+   {
+    "t": "Hochul already kicking off fundraising for potential third term in 2030, days after re-election: ‘Ridiculous’",
+    "url": "https://nypost.com/2026/11/22/us-news/hochul-already-kicking-off-fundraising-for-potential-third-term-in-2030/",
+    "ts": 1795390121000,
+    "summary": "\"Hochul's real superpower is that you can't embarrass her.\"",
+    "src": "NY Post",
+    "lean": "R"
+   },
+   {
+    "t": "Russian ship docked in Libya hit in suspected drone attack",
+    "url": "https://thehill.com/policy/international/6236346-russian-ship-docked-in-libya-hit-in-suspected-drone-attack/",
+    "ts": 1795385032000,
+    "summary": "A Russian ship docked at a naval base in Benghazi was severely damaged in a suspected Ukrainian drone attack Sunday, according to Libyan officials. The Merkury, a Russian navy corvette, was struck by two sea drones while docked in the easte",
     "src": "The Hill",
     "lean": "C"
    },
@@ -100,43 +132,11 @@
     "lean": "C"
    },
    {
-    "t": "Democrat Chuck Hubbard defeats Rep. Virginia Foxx in House race",
-    "url": "https://www.cbsnews.com/news/democrat-chuck-hubbard-defeats-gop-rep-virginia-foxx-north-carolina/",
-    "ts": 1795377819000,
-    "summary": "Chuck Hubbard defeated Rep. Virginia Foxx, CBS News projects, adding to Democrats' sizable majority in the House next year.",
-    "src": "CBS News",
-    "lean": "C"
-   },
-   {
-    "t": "Sen. Kennedy calls Nvidia’s Huang scandal ‘the most expensive sex since Helen of Troy’",
-    "url": "https://www.washingtonexaminer.com/policy/defense/4811699/sen-kennedy-nvidia-scandal-cabinet-china/",
-    "ts": 1795377921000,
-    "summary": "The alleged affair involving Nvidia CEO Jensen Huang has become more than a sex scandal in Sen. John Kennedy’s (R-LA) eyes. The Louisiana senator called it “the most expensive sex since Helen of Troy” as he questioned whether China gained a",
-    "src": "Washington Examiner",
-    "lean": "R"
-   },
-   {
-    "t": "Jensen Huang’s reported affair was ‘most expensive sex since Helen of Troy’, US senator says",
-    "url": "https://www.theguardian.com/us-news/2026/nov/22/jensen-huang-nvidia-john-kennedy",
-    "ts": 1795379016000,
-    "summary": "John Kennedy looks to Trump leaders as he asks how China evidently bypassed export controls for Nvidia’s top AI chips Invoking Greek mythology, US senator John Kennedy has characterized former Nvidia chief executive officer Jensen Huang ’s ",
-    "src": "The Guardian US",
-    "lean": "L"
-   },
-   {
     "t": "Trump warns of new strikes against Iran after new year, calls negotiators ‘professional tap dancers’",
     "url": "https://www.foxnews.com/politics/trump-warns-new-strikes-against-iran-after-new-year-calls-negotiators-professional-tap-dancers",
     "ts": 1795369955000,
     "summary": "President Donald Trump calls Iran's negotiators \"professional tap dancers\" and dismisses talks with Tehran as meaningless while the naval blockade holds.",
     "src": "Fox News",
-    "lean": "R"
-   },
-   {
-    "t": "Major California school district gives state officials the middle finger with bans on trans students",
-    "url": "https://nypost.com/2026/11/22/us-news/chino-valley-unified-school-district-changes-transgender-policy/",
-    "ts": 1795370844000,
-    "summary": "Sonja Shaw's Chino Valley school board defies AG Bonta with sweeping transgender student policy.",
-    "src": "NY Post",
     "lean": "R"
    },
    {
@@ -148,10 +148,10 @@
     "lean": "C"
    },
    {
-    "t": "Trump Says He’ll Work With Incoming Democratic Congress To Cap Credit Card Interest Rates",
-    "url": "https://www.huffpost.com/entry/trump-says-work-incoming-democratic-congress-cap-credit-card-interest-rates_n_6b02106be4b0213d8627f005",
-    "ts": 1795297953000,
-    "summary": "“I would do it. These credit card companies have made a lot,” Trump told Fox News Channel’s “Saturday in America.”",
+    "t": "Trump Orders Federal Contractors To Check With White House Before Responding To Congress",
+    "url": "https://www.huffpost.com/entry/trump-orders-federal-contractors-to-check-with-white-house-before-responding-to-congress_n_6b023069e4b0213d8627f185",
+    "ts": 1795305808000,
+    "summary": "Rep. Robert Garcia said Saturday it was part of the Trump administration’s “blatant attack on Congress’ constitutional right to conduct oversight.”",
     "src": "HuffPost",
     "lean": "L"
    },
@@ -164,10 +164,42 @@
     "lean": "C"
    },
    {
-    "t": "Flanagan says wins made by her, Mary Peltola ‘makes our capitol look a little bit more like America’",
-    "url": "https://thehill.com/homenews/senate/6235791-peggy-flanagan-says-wins-made-by-her-mary-peltola-makes-our-capitol-look-a-little-bit-more-like-america/",
-    "ts": 1795379255000,
-    "summary": "Sen.-elect Peggy Flanagan (D-Minn.) on Sunday said the victories won by her and Sen.-elect Mary Peltola (D-Alaska) as the first Native American women to be in the U.S. Senate “makes our capitol look a little bit more like America.” Flanagan",
+    "t": "Democrats reach historic House majority not seen since 1992",
+    "url": "https://www.cbsnews.com/news/democrats-historic-house-majority-since-1992/",
+    "ts": 1795385612000,
+    "summary": "\"House Democrats have just secured the largest majority any party in Congress has held this century. BOOM,\" Democratic leader Hakeem Jeffries of New York said Sunday.",
+    "src": "CBS News",
+    "lean": "C"
+   },
+   {
+    "t": "US intelligence chief says he trusts Trump’s description of Putin as ‘my friend’",
+    "url": "https://www.theguardian.com/us-news/2026/nov/22/intelligence-chief-jay-clayton-trump-putin-my-friend",
+    "ts": 1795380933000,
+    "summary": "Jay Clayton was pressed on Trump’s characterization of Putin during media appearances on Sunday Jay Clayton, the US director of national intelligence, said he trusts Donald Trump “completely” after the US president called Vladimir Putin “a ",
+    "src": "The Guardian US",
+    "lean": "L"
+   },
+   {
+    "t": "Bessent downplays outage fears: ‘Banks are the most resilient companies in the U.S. economy’",
+    "url": "https://www.washingtonexaminer.com/policy/defense/4811742/bessent-downplays-outage-fears-banks-resilient-economy/",
+    "ts": 1795384075000,
+    "summary": "Treasury Secretary Scott Bessent downplayed the severity of the nationwide outages, particularly as Americans worry about their bank’s security. “The banks have been at the forefront of cybersecurity for decades,” Bessent said Sunday on CBS",
+    "src": "Washington Examiner",
+    "lean": "R"
+   },
+   {
+    "t": "In deep-red Mississippi, ‘millennial cringe’ pays off for Democrat, senator-elect Scott Colom",
+    "url": "https://nypost.com/2026/11/22/us-news/in-deep-red-mississippi-millennial-cringe-pays-off-for-democrat-senator-elect-scott-colom/",
+    "ts": 1795388216000,
+    "summary": "Democrats swept the 2026 midterms by ditching political cynicism and traditional attack ads for corny, Obama-era optimism -- and nobody embodied the cringe quite like Scott Colom, who upended a 44-year-long streak of Republican incumbency.",
+    "src": "NY Post",
+    "lean": "R"
+   },
+   {
+    "t": "This Week on The Hill: Lawmakers break for Thanksgiving as year-end agenda looms",
+    "url": "https://thehill.com/premium/6234918-congress-lame-duck-agenda-thanksgiving-deadlines/",
+    "ts": 1795384800000,
+    "summary": "Lawmakers are home for Thanksgiving, but they will have little time to enjoy the break before returning to a packed legislative agenda. With Democrats set to take control of both chambers in January, Republicans have just a few weeks left t",
     "src": "The Hill",
     "lean": "C"
    },
@@ -180,43 +212,11 @@
     "lean": "C"
    },
    {
-    "t": "Full transcript of \"Face the Nation with Margaret Brennan,\" Nov. 22, 2026",
-    "url": "https://www.cbsnews.com/news/full-transcript-of-face-the-nation-with-margaret-brennan-nov-22-2026/",
-    "ts": 1795375942000,
-    "summary": "On this \"Face the Nation with Margaret Brennan\" broadcast, Treasury Secretary Scott Bessent and House Minority Leader Hakeem Jeffries join Margaret Brennan.",
-    "src": "CBS News",
-    "lean": "C"
-   },
-   {
-    "t": "Democrats clinch 258 House seats to mark largest majority in over three decades",
-    "url": "https://www.washingtonexaminer.com/news/house/4811677/democrats-258-house-seats-largest-majority-three-decades/",
-    "ts": 1795374211000,
-    "summary": "Democrats have secured at least 258 seats in the House of Representatives in the 2026 midterm elections, giving the party the largest majority of the 21st century. Democrat Chuck Hubbard defeated incumbent Rep. Virginia Foxx (R-NC) on Sunda",
-    "src": "Washington Examiner",
-    "lean": "R"
-   },
-   {
-    "t": "Democrats capture at least 258 House seats in largest sweep since 1992",
-    "url": "https://www.theguardian.com/us-news/2026/nov/22/house-democrats-historic-sweep",
-    "ts": 1795375076000,
-    "summary": "Milestone reached Sunday, after Democrat Chuck Hubbard defeated Republican Virginia Foxx in North Carolina House Democrats have secured their best general election result in decades, winning at least 258 seats in a midterm election sweep un",
-    "src": "The Guardian US",
-    "lean": "L"
-   },
-   {
     "t": "Trump says it would be 'hard' to work with Chuck Schumer: 'He will fail again'",
     "url": "https://www.foxnews.com/politics/trump-says-hard-work-chuck-schumer-fail-again",
     "ts": 1795367937000,
     "summary": "President Donald Trump says it will be \"hard\" to work with Chuck Schumer as Senate majority leader, claiming the Democratic leader will \"fail again.\"",
     "src": "Fox News",
-    "lean": "R"
-   },
-   {
-    "t": "Former NYC mayor Bill de Blasio warns Dems not to ‘get lost’ in endless investigations of Trump admin",
-    "url": "https://nypost.com/2026/11/22/us-news/de-blasio-dems-should-focus-on-fighting-costs-not-partisan-probes/",
-    "ts": 1795370297000,
-    "summary": "Former Mayor Bill de Blasio urged fellow Democrats in Congress to focus \"non stop\" on addressing Americans' cost-of-living woes and not get bogged down in partisan probes of the Trump administration.",
-    "src": "NY Post",
     "lean": "R"
    },
    {
@@ -228,10 +228,10 @@
     "lean": "C"
    },
    {
-    "t": "Trump Reacts To Apparent FBI Hack: 'Maybe We'll Learn Things'",
-    "url": "https://www.huffpost.com/entry/trump-fbi-hack-reaction_n_6b01df93e4b0213d8627ee16",
-    "ts": 1795287404000,
-    "summary": "“Maybe we’ll learn things that we would have never learned otherwise,” President Donald Trump said after hearing about an apparent hack of a database maintained by the FBI.",
+    "t": "Trump Says He’ll Work With Incoming Democratic Congress To Cap Credit Card Interest Rates",
+    "url": "https://www.huffpost.com/entry/trump-says-work-incoming-democratic-congress-cap-credit-card-interest-rates_n_6b02106be4b0213d8627f005",
+    "ts": 1795297953000,
+    "summary": "“I would do it. These credit card companies have made a lot,” Trump told Fox News Channel’s “Saturday in America.”",
     "src": "HuffPost",
     "lean": "L"
    },
@@ -246,20 +246,28 @@
   ],
   "business": [
    {
-    "t": "Social Security should be shut down, this Republican senator says",
-    "url": "https://www.marketwatch.com/story/social-security-should-be-shut-down-this-republican-senator-says-8f7fef81?mod=mw_rss_topstories",
-    "ts": 1795379160000,
-    "summary": "The program’s trust funds are forecast to run out of money in the next six years.",
+    "t": "Here's what happened when a coffee-shop founder experimented with a pay-what-you-want model",
+    "url": "https://www.businessinsider.com/poorboy-coffee-pop-up-series-pay-it-forward-2026-11",
+    "ts": 1795387801000,
+    "summary": "Poorboy Coffee founder Brandon Sardi launched \"Who Gives a Hand,\" a new pay-what-you-want pop-up series.",
+    "src": "Business Insider",
+    "lean": "L"
+   },
+   {
+    "t": "Corporate America hunts for ‘generational’ growth in AI, trading cards and the L.A. airport",
+    "url": "https://www.marketwatch.com/story/corporate-america-hunts-for-generational-growth-in-ai-trading-cards-and-the-l-a-airport-3072eb1a?mod=mw_rss_topstories",
+    "ts": 1795384260000,
+    "summary": "There’s been no shortage of trends deemed once-in-a-generation by executives on earnings calls.",
     "src": "MarketWatch",
     "lean": "C"
    },
    {
-    "t": "I gave up my retirement expectations to care for my parents. The relatable viral SNL skit validates that it's sisters who shoulder the responsibility of caregiving.",
-    "url": "https://www.businessinsider.com/daughter-quit-career-care-aging-parents-brother-texas-2026-11",
-    "ts": 1795377792000,
-    "summary": "Michelle Gooden moved her parents 1,200 miles from Austin to Virginia so she could care for them. Her brother stayed in their home state of Texas .",
-    "src": "Business Insider",
-    "lean": "L"
+    "t": "JJ McCarthy surprises fans at Disney Store Times Square, highlights expanded Disney | Champion NFL Collection",
+    "url": "https://www.foxbusiness.com/sports/jj-mccarthy-surprises-fans-disney-store-times-square-highlight-expanded-disney-champion-nfl-collection",
+    "ts": 1795383206000,
+    "summary": "J.J. McCarthy surprised fans at the Disney Store Times Square, naming the Giants teammate who embodies Wreck-It Ralph and which iconic films he'll be showing his son.",
+    "src": "Fox Business",
+    "lean": "R"
    },
    {
     "t": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
@@ -267,6 +275,22 @@
     "ts": 1795373705000,
     "summary": "Foundation is pursuing an emergency bridge loan and has been in talks with VC firms as it waits for a $150 million investment from South Korea's Base Group.",
     "src": "CNBC",
+    "lean": "C"
+   },
+   {
+    "t": "Meet the 116 women competing to be Miss Universe 2026",
+    "url": "https://www.businessinsider.com/miss-universe-pageant-contestants-photos-2026-11",
+    "ts": 1795386210000,
+    "summary": "The 75th Miss Universe pageant will take place in Puerto Rico on November 24. This year, 116 women from around the world will compete for the crown.",
+    "src": "Business Insider",
+    "lean": "L"
+   },
+   {
+    "t": "Ron Johnson’s Social Security gaffe buried important news",
+    "url": "https://www.marketwatch.com/story/ron-johnsons-social-security-gaffe-buried-important-news-b96e0ce8?mod=mw_rss_topstories",
+    "ts": 1795382880000,
+    "summary": "The Wisconsin Republican’s remarks overshadowed what might have been a useful Senate committee hearing about fixing Social Security.",
+    "src": "MarketWatch",
     "lean": "C"
    },
    {
@@ -278,27 +302,27 @@
     "lean": "R"
    },
    {
-    "t": "Medicare beneficiaries could skip the nursing home for cheaper care at home under new bill",
-    "url": "https://www.marketwatch.com/story/medicare-beneficiaries-could-skip-the-nursing-home-for-cheaper-care-at-home-under-new-bill-e289c8d0?mod=mw_rss_topstories",
-    "ts": 1795375440000,
-    "summary": "The plan would free up hospital and nursing-home beds — and lower costs.",
-    "src": "MarketWatch",
-    "lean": "C"
-   },
-   {
-    "t": "I grew up in New Zealand. There are 10 things I wish tourists knew before they visited.",
-    "url": "https://www.businessinsider.com/tips-going-to-new-zealand-local-things-to-know-recommendations-2026-11",
-    "ts": 1795375321000,
-    "summary": "I was born and raised in New Zealand, and I've seen tourists and first-time visitors make planning and spending mistakes on trips to my home country.",
-    "src": "Business Insider",
-    "lean": "L"
-   },
-   {
     "t": "Pizza chains are under pressure. GLP-1 use is only one part of the problem",
     "url": "https://www.cnbc.com/2026/11/22/pizza-chains-sales-glp-1-demand.html",
     "ts": 1795352401000,
     "summary": "Domino's, Papa Johns and Pizza Hut face weaker demand, more delivery competition and changing eating habits, including GLP-1 use.",
     "src": "CNBC",
+    "lean": "C"
+   },
+   {
+    "t": "I gave up my retirement expectations to care for my parents. The relatable viral SNL skit validates that it's sisters who shoulder the responsibility of caregiving.",
+    "url": "https://www.businessinsider.com/daughter-quit-career-care-aging-parents-brother-texas-2026-11",
+    "ts": 1795377792000,
+    "summary": "Michelle Gooden moved her parents 1,200 miles from Austin to Virginia so she could care for them. Her brother stayed in their home state of Texas .",
+    "src": "Business Insider",
+    "lean": "L"
+   },
+   {
+    "t": "Social Security should be shut down, this Republican senator says",
+    "url": "https://www.marketwatch.com/story/social-security-should-be-shut-down-this-republican-senator-says-8f7fef81?mod=mw_rss_topstories",
+    "ts": 1795379160000,
+    "summary": "The program’s trust funds are forecast to run out of money in the next six years.",
+    "src": "MarketWatch",
     "lean": "C"
    },
    {
@@ -310,27 +334,27 @@
     "lean": "R"
    },
    {
-    "t": "These little-known investments could be among the best bargains in a crash",
-    "url": "https://www.marketwatch.com/story/these-little-known-investments-could-be-among-the-best-bargains-in-a-crash-78a379b4?mod=mw_rss_topstories",
-    "ts": 1795371780000,
-    "summary": "If this stock market turmoil turns into a full-blown crash, look for low-risk investment bargains among closed-end funds.",
-    "src": "MarketWatch",
-    "lean": "C"
-   },
-   {
-    "t": "Over 1,000 Delta flights delayed nationwide after issue with automated system",
-    "url": "https://www.businessinsider.com/delta-flight-delays-automated-system-issue-tech-2026-11",
-    "ts": 1795372862000,
-    "summary": "The FAA said the delays are not related to its communications systems, which went down last week.",
-    "src": "Business Insider",
-    "lean": "L"
-   },
-   {
     "t": "International first class is over for U.S. airlines. Enter the mega business-class cabin",
     "url": "https://www.cnbc.com/2026/11/21/us-airlines-first-class-business-class.html",
     "ts": 1795262401000,
     "summary": "Airlines are opting to build giant business-class cabins with ever-more luxurious suites.",
     "src": "CNBC",
+    "lean": "C"
+   },
+   {
+    "t": "I grew up in New Zealand. There are 10 things I wish tourists knew before they visited.",
+    "url": "https://www.businessinsider.com/tips-going-to-new-zealand-local-things-to-know-recommendations-2026-11",
+    "ts": 1795375321000,
+    "summary": "I was born and raised in New Zealand, and I've seen tourists and first-time visitors make planning and spending mistakes on trips to my home country.",
+    "src": "Business Insider",
+    "lean": "L"
+   },
+   {
+    "t": "Medicare beneficiaries could skip the nursing home for cheaper care at home under new bill",
+    "url": "https://www.marketwatch.com/story/medicare-beneficiaries-could-skip-the-nursing-home-for-cheaper-care-at-home-under-new-bill-e289c8d0?mod=mw_rss_topstories",
+    "ts": 1795375440000,
+    "summary": "The plan would free up hospital and nursing-home beds — and lower costs.",
+    "src": "MarketWatch",
     "lean": "C"
    },
    {
@@ -342,27 +366,27 @@
     "lean": "R"
    },
    {
-    "t": "Private equity has been buying up hospice centers — with striking consequences",
-    "url": "https://www.marketwatch.com/story/private-equity-has-been-buying-up-hospice-centers-with-striking-consequences-63642545?mod=mw_rss_topstories",
-    "ts": 1795368120000,
-    "summary": "Medicare costs are higher and patients stay longer at hospice providers owned by private-equity firms, new research has found.",
-    "src": "MarketWatch",
-    "lean": "C"
-   },
-   {
-    "t": "Elon Musk warns data center delays could leave AI companies short on cash: 'Going to be nuts'",
-    "url": "https://www.businessinsider.com/elon-musk-warning-ai-compute-data-centers-cash-spacex-tesla-2026-11",
-    "ts": 1795369796000,
-    "summary": "Elon Musk's warning of a \"cash shortage\" comes on the heels of an intense market sell-off in AI and tech.",
-    "src": "Business Insider",
-    "lean": "L"
-   },
-   {
     "t": "Gap names new Athleta CEO, says Old Navy turnaround is seeing signs of progress",
     "url": "https://www.cnbc.com/2026/11/19/gap-gap-q3-2026-earnings.html",
     "ts": 1795208688000,
     "summary": "Gap on Thursday announced Ashley Kechter as the new CEO of Athleta. The retailer also reported mixed fiscal third-quarter earnings.",
     "src": "CNBC",
+    "lean": "C"
+   },
+   {
+    "t": "Over 1,000 Delta flights delayed nationwide after issue with automated system",
+    "url": "https://www.businessinsider.com/delta-flight-delays-automated-system-issue-tech-2026-11",
+    "ts": 1795372862000,
+    "summary": "The FAA said the delays are not related to its communications systems, which went down last week.",
+    "src": "Business Insider",
+    "lean": "L"
+   },
+   {
+    "t": "These little-known investments could be among the best bargains in a crash",
+    "url": "https://www.marketwatch.com/story/these-little-known-investments-could-be-among-the-best-bargains-in-a-crash-78a379b4?mod=mw_rss_topstories",
+    "ts": 1795371780000,
+    "summary": "If this stock market turmoil turns into a full-blown crash, look for low-risk investment bargains among closed-end funds.",
+    "src": "MarketWatch",
     "lean": "C"
    },
    {
@@ -374,27 +398,27 @@
     "lean": "R"
    },
    {
-    "t": "‘Nvidia’s turmoil has me spooked’: Is it time to sell my stocks and buy real estate?",
-    "url": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
-    "ts": 1795366800000,
-    "summary": "If you are tempted to ditch stocks for property or CDs, take a deep breath before making any sudden moves.",
-    "src": "MarketWatch",
-    "lean": "C"
-   },
-   {
-    "t": "I tried onion rings from Burger King, Dairy Queen, and Sonic. One chain was the clear winner.",
-    "url": "https://www.businessinsider.com/best-onion-rings-fast-food-chain-comparison-winner-2026-11",
-    "ts": 1795364281000,
-    "summary": "I tried onion rings at Burger King, Dairy Queen, and Sonic to find my favorite and see which fast-food chain's side has the best flavor and value.",
-    "src": "Business Insider",
-    "lean": "L"
-   },
-   {
     "t": "Ex-GM CEO on Mary Barra succession planning: 'It's going to be tough'",
     "url": "https://www.cnbc.com/2026/11/20/gm-ceo-succession-mary-barra-dan-akerson.html",
     "ts": 1795189827000,
     "summary": "Former GM CEO Dan Akerson says whoever replaces Mary Barra will have a difficult task because they'll inherit rapid change in technology and the auto industry.",
     "src": "CNBC",
+    "lean": "C"
+   },
+   {
+    "t": "Elon Musk warns data center delays could leave AI companies short on cash: 'Going to be nuts'",
+    "url": "https://www.businessinsider.com/elon-musk-warning-ai-compute-data-centers-cash-spacex-tesla-2026-11",
+    "ts": 1795369796000,
+    "summary": "Elon Musk's warning of a \"cash shortage\" comes on the heels of an intense market sell-off in AI and tech.",
+    "src": "Business Insider",
+    "lean": "L"
+   },
+   {
+    "t": "Private equity has been buying up hospice centers — with striking consequences",
+    "url": "https://www.marketwatch.com/story/private-equity-has-been-buying-up-hospice-centers-with-striking-consequences-63642545?mod=mw_rss_topstories",
+    "ts": 1795368120000,
+    "summary": "Medicare costs are higher and patients stay longer at hospice providers owned by private-equity firms, new research has found.",
+    "src": "MarketWatch",
     "lean": "C"
    },
    {
@@ -406,27 +430,27 @@
     "lean": "R"
    },
    {
-    "t": "I’m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?",
-    "url": "https://www.marketwatch.com/story/were-in-our-50s-and-terrified-of-a-market-crash-should-we-put-400-000-of-our-1-million-retirement-savings-into-an-annuity-1943f240?mod=mw_rss_topstories",
-    "ts": 1795365120000,
-    "summary": "“We have a house worth $450,000. Our combined annual income is $125,000.”",
-    "src": "MarketWatch",
-    "lean": "C"
-   },
-   {
-    "t": "I've traveled to over 100 countries. I'd recommend these 5 destinations for a festive holiday trip.",
-    "url": "https://www.businessinsider.com/best-cities-to-visit-for-holidays-christmas-winter-travel-2026-11",
-    "ts": 1795363741000,
-    "summary": "After visiting over 100 countries, I have a few favorite places for holiday travel. I love visiting Lake Placid and Bolzano, Italy, for Christmas.",
-    "src": "Business Insider",
-    "lean": "L"
-   },
-   {
     "t": "Rejecting cheap fabrics, higher prices: Why shoppers are asking for better clothes",
     "url": "https://www.cnbc.com/2026/11/20/clothing-prices-polyester-cotton-quality.html",
     "ts": 1795176002000,
     "summary": "Retailers are charging higher prices for clothing made with cheaper materials. Shoppers are taking notice and experts say it could shift how they spend.",
     "src": "CNBC",
+    "lean": "C"
+   },
+   {
+    "t": "I tried onion rings from Burger King, Dairy Queen, and Sonic. One chain was the clear winner.",
+    "url": "https://www.businessinsider.com/best-onion-rings-fast-food-chain-comparison-winner-2026-11",
+    "ts": 1795364281000,
+    "summary": "I tried onion rings at Burger King, Dairy Queen, and Sonic to find my favorite and see which fast-food chain's side has the best flavor and value.",
+    "src": "Business Insider",
+    "lean": "L"
+   },
+   {
+    "t": "‘Nvidia’s turmoil has me spooked’: Is it time to sell my stocks and buy real estate?",
+    "url": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
+    "ts": 1795366800000,
+    "summary": "If you are tempted to ditch stocks for property or CDs, take a deep breath before making any sudden moves.",
+    "src": "MarketWatch",
     "lean": "C"
    },
    {
@@ -438,27 +462,27 @@
     "lean": "R"
    },
    {
-    "t": "‘I felt so seen’: Why families across America are laughing — and crying — over SNL’s ‘Sister’ sketch",
-    "url": "https://www.marketwatch.com/story/so-sad-and-so-true-has-your-family-talked-about-snls-sister-sketch-yet-19bf9d67?mod=mw_rss_topstories",
-    "ts": 1795364280000,
-    "summary": "The late-night comedy sketch does the impossible by making female caregivers feel seen.",
-    "src": "MarketWatch",
-    "lean": "C"
-   },
-   {
-    "t": "A couple in their 50s spent $1 million building their forever home. It has a gym, pool, and aging-in-place features.",
-    "url": "https://www.businessinsider.com/couple-50s-built-million-dollar-home-aging-in-place-2026-11",
-    "ts": 1795363561000,
-    "summary": "A couple in their 50s built a $1 million forever home with wide doorways, an accessible shower, and a first-floor suite so they can age in place.",
-    "src": "Business Insider",
-    "lean": "L"
-   },
-   {
     "t": "A24 is having a great year at the box office. That could give HBO Max a streaming edge",
     "url": "https://www.cnbc.com/2026/11/20/a24-box-office-hbo-max.html",
     "ts": 1795176002000,
     "summary": "A24 films \"Backrooms,\" \"The Drama\" and the Elizabeth Holmes documentary, \"You Can See Everything,\" are fueling a banner year at the box office.",
     "src": "CNBC",
+    "lean": "C"
+   },
+   {
+    "t": "I've traveled to over 100 countries. I'd recommend these 5 destinations for a festive holiday trip.",
+    "url": "https://www.businessinsider.com/best-cities-to-visit-for-holidays-christmas-winter-travel-2026-11",
+    "ts": 1795363741000,
+    "summary": "After visiting over 100 countries, I have a few favorite places for holiday travel. I love visiting Lake Placid and Bolzano, Italy, for Christmas.",
+    "src": "Business Insider",
+    "lean": "L"
+   },
+   {
+    "t": "I’m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?",
+    "url": "https://www.marketwatch.com/story/were-in-our-50s-and-terrified-of-a-market-crash-should-we-put-400-000-of-our-1-million-retirement-savings-into-an-annuity-1943f240?mod=mw_rss_topstories",
+    "ts": 1795365120000,
+    "summary": "“We have a house worth $450,000. Our combined annual income is $125,000.”",
+    "src": "MarketWatch",
     "lean": "C"
    },
    {
@@ -470,53 +494,29 @@
     "lean": "R"
    },
    {
-    "t": "‘Never too late to start’: Practical investing advice from some of the top women in finance",
-    "url": "https://www.marketwatch.com/story/never-too-late-to-start-practical-investing-advice-from-some-of-the-top-women-in-finance-e01f0755?mod=mw_rss_topstories",
-    "ts": 1795364100000,
-    "summary": "There are plenty of rich and influential women in the U.S. Their time may be coming.",
-    "src": "MarketWatch",
-    "lean": "C"
-   },
-   {
-    "t": "I bought my first rental property at 23. Now I own 12 homes and make enough money to quit my day job.",
-    "url": "https://www.businessinsider.com/bought-12-rental-properties-make-money-to-quit-day-job-2026-11",
-    "ts": 1795360921000,
-    "summary": "A real estate investor bought his first property at 23 and expanded to 12. He was able to quit his day job and now lives off passive income.",
-    "src": "Business Insider",
-    "lean": "L"
-   },
-   {
     "t": "Walmart hikes outlook as CEO tells CNBC retailer aims to keep prices low despite soaring fuel costs",
     "url": "https://www.cnbc.com/2026/11/19/walmart-wmt-q3-2026-earnings.html",
     "ts": 1795118310000,
     "summary": "Walmart said it saw strength with store-fulfilled pickup and delivery in its fiscal third quarter.",
     "src": "CNBC",
     "lean": "C"
-   },
-   {
-    "t": "Grand Theft Auto VI shatters entertainment records with staggering $3.79B debut",
-    "url": "https://www.foxbusiness.com/entertainment/grand-theft-auto-vi-shatters-entertainment-records-staggering-3-79b-debut",
-    "ts": 1795248421000,
-    "summary": "Rockstar Games says \"Grand Theft Auto VI\" hit $3.79 billion in first-day sales, topping a $2.94 billion worldwide box office run for \"Avengers: Endgame.\"",
-    "src": "Fox Business",
-    "lean": "R"
    }
   ],
   "finance": [
+   {
+    "t": "US futures bounce while Asia markets brace for AI wipeout - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUV8xQS1Xa09sWUwzZlR6YzZyQTBlRk1jRWJNNWFROHY1ZDdicFNhLXkwRWIyV3YtM2NJSXRJY05mTHhyU3JHTFRndEdmQlZEYXJlMVJzMmhmTGdXOFAzZERRdmduRjZXSmpBLWVWQjBxUWNIVDdHZ0M0VXdja3EyZ2xzWGhSVXc0d0VIczl5Y2UyMDlzTzdBbw?oc=5",
+    "ts": 1795391059000,
+    "summary": "US futures bounce while Asia markets brace for AI wipeout Yahoo Finance",
+    "src": "Yahoo Finance (GN)",
+    "lean": "C"
+   },
    {
     "t": "Social Security should be shut down, this Republican senator says - MarketWatch",
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdXlGYi16MVpoaFQwMWMzWENENGRYZF9Ya3JEcjYzQlk2ajlOc29zRURWYXlnd0laQWZTMWM1Zm1ubENBa3haS2RMTUNZUHZ0VGYzUS13TjNzMG9HYWpoUVZfdTM3X2t4NmhyU3dub2lDUFhOU3ZCYXpfWnFRczRwZVpXcW1odnNqSFZkV05oWGhZYjRTX3lhVmVhQ2dhRk52RjN6WlBUd21ieWM?oc=5",
     "ts": 1795379160000,
     "summary": "Social Security should be shut down, this Republican senator says MarketWatch",
     "src": "MarketWatch (GN)",
-    "lean": "C"
-   },
-   {
-    "t": "Stocks are 'on fire sale' as Anthropic IPO fails to calm AI trade jitters - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZjc4cHQ0TnRGd25uNTM5MUw5Zk5WUUdIV09nY3ltNDNBR2pvemJNRl9TOTZnR2lNay1CdTl1RHhPZEhtVmdTWE1qdS1SZVVmWURldUhJTTgxTktCX0xsMTdPNGpKS0JkYV9fUXpaY0NqLWlBa0tlVElTSmpnV1NzVGZ3Z0RSWW9XTFkwVm9YdW5WOWNRQU92MzUyekxmNjZWUnkyZ1VNdl9FMy13eTN5SFhIVG14TG5DZHZyYVR2VUxwOHkzeWRz?oc=5",
-    "ts": 1795374051000,
-    "summary": "Stocks are 'on fire sale' as Anthropic IPO fails to calm AI trade jitters Yahoo Finance",
-    "src": "Yahoo Finance (GN)",
     "lean": "C"
    },
    {
@@ -528,19 +528,19 @@
     "lean": "C"
    },
    {
+    "t": "Jeff Bezos sends a strong signal to Nvidia stock investors as CEO search heats up - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOY2dTT3JSX092Y2dXMG1GLW5hS1lCNHNYTWVGTUFvbjRwY2RpWVNaUmZhcGt0Y0hFVkM0TW5xblUxZVQzRkctdmdXSEdGRVpoRW9WOWlJREtQY0RuMTlSRHZsdXJsT0hhSFBPbkFYR3VEYTVmcVJ0akw5SXpTVEVqZGFucDhfc0ZoZnVJazFEdUpxZjYwUzRZaC1scw?oc=5",
+    "ts": 1795381620000,
+    "summary": "Jeff Bezos sends a strong signal to Nvidia stock investors as CEO search heats up Yahoo Finance",
+    "src": "Yahoo Finance (GN)",
+    "lean": "C"
+   },
+   {
     "t": "‘Nvidia’s turmoil has me spooked’: Is it time to sell my stocks and buy real estate? - MarketWatch",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNX0toMGVmM0R0bkh1eXExSVJoR2VvUF9QS2dtWEVZaXVndExOSFRpZ2Fka2NwVU8tRTYxY09uWTJYTHl4WWZ4eThvSFpydVkzMm1KN0lUYVZFUWVVRUJucGhVcWdHTHVlUmpFdWhzYWNuTzhJYlJod1FxRWxiZHo0dFZIa21vUnhtaTNQU3RUY0pfSHZhSDIxRVA1TWhFejdkbVNVMklsZWk0TFROSFJQTk02RFFyQQ?oc=5",
     "ts": 1795366800000,
     "summary": "‘Nvidia’s turmoil has me spooked’: Is it time to sell my stocks and buy real estate? MarketWatch",
     "src": "MarketWatch (GN)",
-    "lean": "C"
-   },
-   {
-    "t": "5 Best American Stocks to Buy for 2027 - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTk5OdHFHTDdZOTl3NzU1THhCQ19ZRWxqcmxqQk1OOHlPWVlELTEtTXRXZkNSNERrMi03N0sxVWQxanlCQkZ5ZGhTR1hneUpGTkJTdExKcFhTWkdFaXphSDJIUkVGaHR6TEdIZlFIbEJkZ3VFMlB1WXJyZktFVGkyMEc0QjVOYXdzU3dlRzZ2Yzg2Tk83LXc?oc=5",
-    "ts": 1795357293000,
-    "summary": "5 Best American Stocks to Buy for 2027 Yahoo Finance",
-    "src": "Yahoo Finance (GN)",
     "lean": "C"
    },
    {
@@ -552,19 +552,19 @@
     "lean": "C"
    },
    {
+    "t": "Stocks are 'on fire sale' as Anthropic IPO fails to calm AI trade jitters - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZjc4cHQ0TnRGd25uNTM5MUw5Zk5WUUdIV09nY3ltNDNBR2pvemJNRl9TOTZnR2lNay1CdTl1RHhPZEhtVmdTWE1qdS1SZVVmWURldUhJTTgxTktCX0xsMTdPNGpKS0JkYV9fUXpaY0NqLWlBa0tlVElTSmpnV1NzVGZ3Z0RSWW9XTFkwVm9YdW5WOWNRQU92MzUyekxmNjZWUnkyZ1VNdl9FMy13eTN5SFhIVG14TG5DZHZyYVR2VUxwOHkzeWRz?oc=5",
+    "ts": 1795374051000,
+    "summary": "Stocks are 'on fire sale' as Anthropic IPO fails to calm AI trade jitters Yahoo Finance",
+    "src": "Yahoo Finance (GN)",
+    "lean": "C"
+   },
+   {
     "t": "I’m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity? - MarketWatch",
     "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQVGhIcDJEM3EtdjhleHRnallld3ZRN1lLYjBGaUZ6emgyQzYybGwzeXlmZVRjc09BQk9jM2N3dFM0azNUSU5rOWRaTnJaMXBVX25JUnBxZUJqZnFkRGxyc29OMFY4RE5CNlpLMEN5ci14V0U5akhFTzQ1T3NxWllsVkszcE1WWFk3RVVhYXZ2LVVOaEVQbV80d2hBZ2dITlB0ODM5VUpZOVR4M2hyS2RuTXc4aE81d3JCSmhaNjBtTFJjbDdvQWFsRkVxS2Zka1pMWkkxZ3pRaTF6dXNhZE5QSzdPeVRmTFBaekNkRENLQzdkYWN4VlFv?oc=5",
     "ts": 1795365120000,
     "summary": "I’m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity? MarketWatch",
     "src": "MarketWatch (GN)",
-    "lean": "C"
-   },
-   {
-    "t": "GPU prices are rising for Nvidia's older chips even as the stock keeps going down: Chart of the Day - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPbmNXRjNhZUdxb2NzZG03T1VJOFdieU1vTWwwNllJRGV3N0h5ei1ZRldwTk5TNmFFSzNFblhCdnVhcFowOXlNZm54a29aeTJEOFJhUU03Z0ZTUU5Hc0doOF8xOE0tcDhlQjBIQ0o5R3p6dFo3eEdwQVFJQUU3bktTSUFDUzl6R2N6a096SGdOejhGdmhFQkRFZS1YMnpNUHpiSDdYU3VNdWloR3g0WFNtM2h0RmxjMUFwU0JUX0ZLa01IdEJZelBUMWdmbEpYVWJLR3ZzdWYwcExNWjJWVjZqNjdNeG9iTjBMcUE?oc=5",
-    "ts": 1795351041000,
-    "summary": "GPU prices are rising for Nvidia's older chips even as the stock keeps going down: Chart of the Day Yahoo Finance",
-    "src": "Yahoo Finance (GN)",
     "lean": "C"
    },
    {
@@ -576,19 +576,19 @@
     "lean": "C"
    },
    {
+    "t": "Billionaire Ray Dalio’s Bridgewater Keeps 16% of Its $23 Billion Stock Portfolio in S&P 500 Index Funds, Even After Cutting Them - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMktjQ2Nya1owcU93WEJpSWRPQU1hNE55QXNNSWMwakJSZHBZYzFFekNpWnktWjhTNU1LcVhTWUYtd2tNT0tGLXItNGNqUjFNZkpUOXdVV1E2MU92ZS1ScllfWG1QZDJuRW5rSXBRcnpIaG9yd0NMdXRmbEp4RTFrcF93SmVmZktXOW43VFY2b3ZZOWUyOHpaeUUybGg4MkktMmVkTTJ0Zw?oc=5",
+    "ts": 1795372995000,
+    "summary": "Billionaire Ray Dalio’s Bridgewater Keeps 16% of Its $23 Billion Stock Portfolio in S&P 500 Index Funds, Even After Cutting Them Yahoo Finance",
+    "src": "Yahoo Finance (GN)",
+    "lean": "C"
+   },
+   {
     "t": "Opinion: America is definitely rich enough to fix Social Security and Medicare. Here’s how. - MarketWatch",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZ3BwaVM2Qzl6VGVhRHZ3aTFHX2x4UXF6VDJSYTQzOW94b3A3bmhRbGowLXRvOFJyNHFqdEVkN1VKckV5U2drUGNDVnRaekdaeFZnV3ZLR0hXVlNPUjRpLVZ6dHk0eVV5eHZCNDdkZTBKSDVubnFBdlg0ODVkc2hJMjVvcWFIQVI0cHRQcU9ISjhtNVlpeXByTHM3WHlsb1dibkhadkp6NFZDOE0yWWU0QVJTaUxGcE5yeFVybUdicw?oc=5",
     "ts": 1795363440000,
     "summary": "Opinion: America is definitely rich enough to fix Social Security and Medicare. Here’s how. MarketWatch",
     "src": "MarketWatch (GN)",
-    "lean": "C"
-   },
-   {
-    "t": "‘Inflation affects all of us’: Kevin O'Leary went shopping for Walmart paper towel bargains. How are you fighting back? - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWlZ4MTNGWDZwYVh0ODZ4UFEyRGhtVk01ZlNnczNTRzRDWjByMWVnOXVLY2V5ck9uQkxhbFk1c0J6RzVUalRPSFNzbjdXZGxGSndsa2tCXzJYM1RWMi1POGZETDlLZU9mU1N3UEljb1ZSUUI0UC1NUDNlY0JFX1hCclB1c1p4c1NKM0xoc0pjZ0w5TFFjVkE?oc=5",
-    "ts": 1795350000000,
-    "summary": "‘Inflation affects all of us’: Kevin O'Leary went shopping for Walmart paper towel bargains. How are you fighting back? Yahoo Finance",
-    "src": "Yahoo Finance (GN)",
     "lean": "C"
    },
    {
@@ -600,19 +600,19 @@
     "lean": "C"
    },
    {
+    "t": "GPU prices are rising for Nvidia's older chips even as the stock keeps going down: Chart of the Day - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPbmNXRjNhZUdxb2NzZG03T1VJOFdieU1vTWwwNllJRGV3N0h5ei1ZRldwTk5TNmFFSzNFblhCdnVhcFowOXlNZm54a29aeTJEOFJhUU03Z0ZTUU5Hc0doOF8xOE0tcDhlQjBIQ0o5R3p6dFo3eEdwQVFJQUU3bktTSUFDUzl6R2N6a096SGdOejhGdmhFQkRFZS1YMnpNUHpiSDdYU3VNdWloR3g0WFNtM2h0RmxjMUFwU0JUX0ZLa01IdEJZelBUMWdmbEpYVWJLR3ZzdWYwcExNWjJWVjZqNjdNeG9iTjBMcUE?oc=5",
+    "ts": 1795351041000,
+    "summary": "GPU prices are rising for Nvidia's older chips even as the stock keeps going down: Chart of the Day Yahoo Finance",
+    "src": "Yahoo Finance (GN)",
+    "lean": "C"
+   },
+   {
     "t": "Stocks are in a correction heading into the Thanksgiving holiday. What to brace for next. - MarketWatch",
     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVGVrUGZZdjBaLV9fMGJWdVBnYXlPYV9XS1FDS3VhMWh1alJjaUswR0Y2eGNCSmtoSHhyRTdUY3k4bVR2d2VlMEU0cXh1RTVOTl9wUkhMbktnOUl4XzkwdTVGYkF2a1drbkNXRDZ5aDlpZ1ZHdnF5VDU1QmM5Ym9HeFRDNDl1b2ctWkRYMFZGcmNETVZzZUpYQjlTU2hFaUtHYlo5ZHF6Qm9ZbEJzMnJCZWZ3Qjkwazk3YXJucXZzZi0xMDVFWjMyNjlR?oc=5",
     "ts": 1795356000000,
     "summary": "Stocks are in a correction heading into the Thanksgiving holiday. What to brace for next. MarketWatch",
     "src": "MarketWatch (GN)",
-    "lean": "C"
-   },
-   {
-    "t": "South Korea prepares stock market stabilization fund after Kospi plunges 5.2% - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSnlxc1htNmR1RUVERUFrWk8xV09YNUQwb3FJaG82enVkWkFOZDBYNVdaVThIVUZicS1BTHY0bFRRbTF4aWN0cVh2UEZrQkp4cWdrTlRBY09FMmp3ekltYVMzcWpYRWlIX3BmQVpmbi1oRUd0VzNyNWQxcDBzRS0xRlpvNHFnU1RzajJTd2ZuZV9QYlI1VU5qbEZ3LTgxUms?oc=5",
-    "ts": 1795346662000,
-    "summary": "South Korea prepares stock market stabilization fund after Kospi plunges 5.2% Yahoo Finance",
-    "src": "Yahoo Finance (GN)",
     "lean": "C"
    },
    {
@@ -624,19 +624,19 @@
     "lean": "C"
    },
    {
+    "t": "‘Inflation affects all of us’: Kevin O'Leary went shopping for Walmart paper towel bargains. How are you fighting back? - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWlZ4MTNGWDZwYVh0ODZ4UFEyRGhtVk01ZlNnczNTRzRDWjByMWVnOXVLY2V5ck9uQkxhbFk1c0J6RzVUalRPSFNzbjdXZGxGSndsa2tCXzJYM1RWMi1POGZETDlLZU9mU1N3UEljb1ZSUUI0UC1NUDNlY0JFX1hCclB1c1p4c1NKM0xoc0pjZ0w5TFFjVkE?oc=5",
+    "ts": 1795350000000,
+    "summary": "‘Inflation affects all of us’: Kevin O'Leary went shopping for Walmart paper towel bargains. How are you fighting back? Yahoo Finance",
+    "src": "Yahoo Finance (GN)",
+    "lean": "C"
+   },
+   {
     "t": "Can stocks bounce back after a brutal week? This timing model says history is on the market’s side. - MarketWatch",
     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNeHpVa0lFaVhUcDAyOTBuYzFYX1ZhMUxtRC1qZXluZ1hMODFBRkVKMU13azd2Q0w3MklGWVFvT2RHbnMwNmZ0aDRlQm5pQ0JVMUtjaGRUd1Z2Vk8zNk01MUdTWFRhclhZMjc1c2RIcDV0TlpmWXBRR0FQQ2tvS0hTY0E5ZGlRSHo2LURvRzVhZ2YxSUwtdGVNZUhkS0ZOaVJSSFdUNUZIa1lsZjNMSzUzWnRPMTJTendZM3VKUVVBX0ROVGxKYXpfeHpxanI4dm5HZTlidzl3?oc=5",
     "ts": 1795350600000,
     "summary": "Can stocks bounce back after a brutal week? This timing model says history is on the market’s side. MarketWatch",
     "src": "MarketWatch (GN)",
-    "lean": "C"
-   },
-   {
-    "t": "SpaceX Orders “100 GW/Year” of Solar Equipment. Musk’s Math Puts That at $1 Trillion a Year - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWlJaWU1XajZjQVpKTGI0NjlPWTJ6VE1HTUM5dTdUZGJ1aHFMYWE2ZkVhNkFESDNxTmRFM2ZmMWJ3WVMza2JPbDlHMS1ZcjJ3YjEtbUlDQ3NBVjg1RHlydVZHRUx4SEx5SEkwcldXbzZ6SUtuOWtzTTI5ZHdsQlFGWmNIc3djd2Y3NWZJ?oc=5",
-    "ts": 1795345947000,
-    "summary": "SpaceX Orders “100 GW/Year” of Solar Equipment. Musk’s Math Puts That at $1 Trillion a Year Yahoo Finance",
-    "src": "Yahoo Finance (GN)",
     "lean": "C"
    },
    {
@@ -648,19 +648,19 @@
     "lean": "C"
    },
    {
-    "t": "My husband is happily retired at 64 and thinks I should keep working. Is he being fair? - MarketWatch",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbkpMMDRJajQ2MF9sQVJzQ2ZuTjVRNFJ3SXBseFBpaW12SnUydHd5LXdRNHZvbldPQTNhcmNlWnlpM2F4dmhYSFFST3hfd3M3YXRLQVVLSk4xM2s2dzQ5Qmdfc21WeDJtdjlHSlhOTi1ueGEyWS1YSU9BNXRpcjNjeUxTc0JmVkxBZzFoM3ExbHV1VWNiaEpyMWZsRWw1UFJTRW5scDctblVVaDZZb1JJdDN0eVhHbkY0VmtGLWsxRmpRZ0FDWXVr?oc=5",
-    "ts": 1795310100000,
-    "summary": "My husband is happily retired at 64 and thinks I should keep working. Is he being fair? MarketWatch",
-    "src": "MarketWatch (GN)",
+    "t": "‘It’s greed’: Zohran Mamdani blasts Amazon over new $5 fee hike in NYC. Is your next order about to get pricier? - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQam5tX3p6SEhjX0xlWlJBSUs0VXRuTFZ5OXkxVzlRYUFSdXNXU3BrQzRGOWpTUXVjbHh6NWNiSkt4RlktM2lteGpxTWNoVm5DNXdoYmh5YkJfckRJWVBkcDBhWGhfenpkVDhMRWJrYmRmUWYzRlZGMC15c2Y5VDNXZ0xvMkxjX3Z5T1hCeDNuVjZrNEZzcnQwUkxiSEhqN3BF?oc=5",
+    "ts": 1795349400000,
+    "summary": "‘It’s greed’: Zohran Mamdani blasts Amazon over new $5 fee hike in NYC. Is your next order about to get pricier? Yahoo Finance",
+    "src": "Yahoo Finance (GN)",
     "lean": "C"
    },
    {
-    "t": "A battered stock market looks for the bottom: What to watch this week - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOcU03UEttMkt2VHk0czNiZGxHNnB0MTR6Z2lvN01WUEF4VXZaejRWdV9IZ1d1b2YxUTc5bG9NUXVscVV4RjZ1TmdEdGtzWDdlb0JsQzhIWUozSHhGVFNSYW55aWpaalN4V1NlU21GWUpjYURFVU9YajkwZ3ltNXhvM2kwRW51T2RtYzVtajM4M3RvRmYwLUNQU1RHN0hjYmlsR3JGdTQ2WVNoMThMNTNwZmI0VlB5NXhaYzZoLWxralZSSGM?oc=5",
-    "ts": 1795341600000,
-    "summary": "A battered stock market looks for the bottom: What to watch this week Yahoo Finance",
-    "src": "Yahoo Finance (GN)",
+    "t": "ANT Stock Price | Anthropic PBC Cl A Stock Quote (U.S.: Nasdaq) - MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1DdUZDbjJkanJEM3VxS1l1eVJMYlNHZDMydDdOTUJRSG5OU3JYYnNpbHhPdElvalJoMFhYazFHeDU5RVhjNU16RjZhS3o0bWJvTE5ETWVCTDB3YjA?oc=5",
+    "ts": 1508411420000,
+    "summary": "ANT Stock Price | Anthropic PBC Cl A Stock Quote (U.S.: Nasdaq) MarketWatch",
+    "src": "MarketWatch (GN)",
     "lean": "C"
    },
    {
@@ -672,19 +672,19 @@
     "lean": "C"
    },
    {
-    "t": "GC00 | Gold Continuous Contract Overview - MarketWatch",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBodjBUNHNlMnBNcTlTTG5TeFFPcWhoN3YxNWEzZFduNWZlYWkyZklxY3dVemhQWkdNN1ZLbVRZVHRmSTFOVXhuT2pVQk5JM2d3bXM0aWgxZFg0OGZuclE?oc=5",
-    "ts": 1556002075000,
-    "summary": "GC00 | Gold Continuous Contract Overview MarketWatch",
-    "src": "MarketWatch (GN)",
+    "t": "South Korea prepares stock market stabilization fund after Kospi plunges 5.2% - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSnlxc1htNmR1RUVERUFrWk8xV09YNUQwb3FJaG82enVkWkFOZDBYNVdaVThIVUZicS1BTHY0bFRRbTF4aWN0cVh2UEZrQkp4cWdrTlRBY09FMmp3ekltYVMzcWpYRWlIX3BmQVpmbi1oRUd0VzNyNWQxcDBzRS0xRlpvNHFnU1RzajJTd2ZuZV9QYlI1VU5qbEZ3LTgxUms?oc=5",
+    "ts": 1795346662000,
+    "summary": "South Korea prepares stock market stabilization fund after Kospi plunges 5.2% Yahoo Finance",
+    "src": "Yahoo Finance (GN)",
     "lean": "C"
    },
    {
-    "t": "Chamath Palihapitiya Praises Jensen Huang As ‘Biblically Good,’ But Warns Bringing Him Back At Nvidia Could Put ‘Everybody’ At Risk - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNV3VQR2hqMFJuUXBjZ2kxN2plRF80VUZnYTl0Vk5CM3EwZDM0aWhzWkJBeDZFLXpJX1R1NEhWOHBDekREUWtEelBfeUNZUUUzVlQ1WnFvSEhnVG9kVHZEWVhuMGwxVjBKQXFCaEhmV0tNRG9ncngyNnhGVUtXbjVKeHJqZGR6R1owQnVidGVaZm1kbjh4Z21sbmV0VVNJT1J3SU1lOEttTmItUQ?oc=5",
-    "ts": 1795330320000,
-    "summary": "Chamath Palihapitiya Praises Jensen Huang As ‘Biblically Good,’ But Warns Bringing Him Back At Nvidia Could Put ‘Everybody’ At Risk Yahoo Finance",
-    "src": "Yahoo Finance (GN)",
+    "t": "MSTR Stock Price | Strategy Inc. Stock Quote (U.S.: Nasdaq) - MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1FTW9XRDA1NE9BTUxQR1VKNDBwV0ZocHUwVG53Ynpjdzh3Q2NGVS0yZEFWck53TnJDbTZHaGJmSkl3QkFrVW5wUUlvVF9EVGp0d0pYRGE3VEhxZG1D?oc=5",
+    "ts": 1485337512000,
+    "summary": "MSTR Stock Price | Strategy Inc. Stock Quote (U.S.: Nasdaq) MarketWatch",
+    "src": "MarketWatch (GN)",
     "lean": "C"
    },
    {
@@ -696,27 +696,11 @@
     "lean": "C"
    },
    {
-    "t": "VSEC Stock Price | VSE Corp. Stock Quote (U.S.: Nasdaq) - MarketWatch",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1LTDVvUFk3dGhid0hKSXRzS1ZCbVNZNTViMng0c2JtcTRRMElKQjlxbVNJN3J3b1k4MGVwdF81MnNZYTV6b3l3ODFVZ1I1SzYtQzNHZC1XRDVENDE2?oc=5",
-    "ts": 1506034802000,
-    "summary": "VSEC Stock Price | VSE Corp. Stock Quote (U.S.: Nasdaq) MarketWatch",
-    "src": "MarketWatch (GN)",
-    "lean": "C"
-   },
-   {
-    "t": "3 Top AI Stocks With At Least 14% ROE - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRm1tNjdMbVBqVzRFN3FqVUo0WG1zT3JQZjVfOXhMdjZzekg1UndFbDJaWk1Vb3J3QUpkb0RhWnpsUXJBU1VWZ0pRUG5haGF1THJ4SVFoYnRBVjhqNVhURTg4LVVaZy1Va0ZQaUw2eVFaVHQ4R3pxU2NvSGZnaTB0YWJGdmFHVmNSYUZxWVFR?oc=5",
-    "ts": 1795317120000,
-    "summary": "3 Top AI Stocks With At Least 14% ROE Yahoo Finance",
+    "t": "SpaceX Orders “100 GW/Year” of Solar Equipment. Musk’s Math Puts That at $1 Trillion a Year - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWlJaWU1XajZjQVpKTGI0NjlPWTJ6VE1HTUM5dTdUZGJ1aHFMYWE2ZkVhNkFESDNxTmRFM2ZmMWJ3WVMza2JPbDlHMS1ZcjJ3YjEtbUlDQ3NBVjg1RHlydVZHRUx4SEx5SEkwcldXbzZ6SUtuOWtzTTI5ZHdsQlFGWmNIc3djd2Y3NWZJ?oc=5",
+    "ts": 1795345947000,
+    "summary": "SpaceX Orders “100 GW/Year” of Solar Equipment. Musk’s Math Puts That at $1 Trillion a Year Yahoo Finance",
     "src": "Yahoo Finance (GN)",
-    "lean": "C"
-   },
-   {
-    "t": "AI risks are the biggest threat to the financial system, Fed survey finds",
-    "url": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html",
-    "ts": 1794604710000,
-    "summary": "The report comes with Wall Street on edge over high-flying AI hyperscalers, while communities are on alert for the rapid spread of data centers.",
-    "src": "CNBC Markets",
     "lean": "C"
    },
    {
@@ -728,11 +712,27 @@
     "lean": "C"
    },
    {
-    "t": "3 Stocks I'm Ready to Buy if the Market Crashes - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNEZMRnZJRzBGUGRqQ3lhYVdRSy1DMmVoYUhBX0JIRENxTDdjSU5ob1l6SXJQMEVhbHI5TjNzbm5tTF9TVkRHaG1RODd6SnVkQWRTQnNsek5CeFZwa292cHJSSHl2UmsxdlFOV253LTRHanFiRU96bHp1aXlyR3Zfc1N6UFNWNVpCQjQ3RUZKUQ?oc=5",
-    "ts": 1795312380000,
-    "summary": "3 Stocks I'm Ready to Buy if the Market Crashes Yahoo Finance",
+    "t": "AI risks are the biggest threat to the financial system, Fed survey finds",
+    "url": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html",
+    "ts": 1794604710000,
+    "summary": "The report comes with Wall Street on edge over high-flying AI hyperscalers, while communities are on alert for the rapid spread of data centers.",
+    "src": "CNBC Markets",
+    "lean": "C"
+   },
+   {
+    "t": "A battered stock market looks for the bottom: What to watch this week - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOcU03UEttMkt2VHk0czNiZGxHNnB0MTR6Z2lvN01WUEF4VXZaejRWdV9IZ1d1b2YxUTc5bG9NUXVscVV4RjZ1TmdEdGtzWDdlb0JsQzhIWUozSHhGVFNSYW55aWpaalN4V1NlU21GWUpjYURFVU9YajkwZ3ltNXhvM2kwRW51T2RtYzVtajM4M3RvRmYwLUNQU1RHN0hjYmlsR3JGdTQ2WVNoMThMNTNwZmI0VlB5NXhaYzZoLWxralZSSGM?oc=5",
+    "ts": 1795341600000,
+    "summary": "A battered stock market looks for the bottom: What to watch this week Yahoo Finance",
     "src": "Yahoo Finance (GN)",
+    "lean": "C"
+   },
+   {
+    "t": "SPGI Stock Price | S&P Global Inc. Stock Quote (U.S.: NYSE) - MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9QcnVwaHpYMW9vT1pOVFhJM0NvZ0hxQWI3a2pkNHVaTXhlbFFiTVk1ZE9ndm5xWF9OMndWVWFKRmt1VHhDY2V3RWR3VGdubDBVTi1PUERXWno3VkVO?oc=5",
+    "ts": 1481705731000,
+    "summary": "SPGI Stock Price | S&P Global Inc. Stock Quote (U.S.: NYSE) MarketWatch",
+    "src": "MarketWatch (GN)",
     "lean": "C"
    },
    {
@@ -754,6 +754,238 @@
     "lean": "R"
    },
    {
+    "t": "ICE officers arrest 2 passengers boarding flight in Seattle",
+    "url": "https://www.cbsnews.com/news/ice-arrest-alaska-airlines-flight-seattle/",
+    "ts": 1795398935000,
+    "summary": "Masked immigration officers arrested two passengers on a crowded airport jet bridge in Seattle as people were boarding Saturday",
+    "src": "CBS News",
+    "lean": "C"
+   },
+   {
+    "t": "Democrats win largest House majority since 1992 after flipping North Carolina seat",
+    "url": "https://www.bbc.co.uk/news/articles/c6vg29g7dlyno?at_medium=RSS&at_campaign=rss",
+    "ts": 1795397023000,
+    "summary": "Democrats have now won at least 258 seats in the midterms compared to Republicans, who hold at least 173 seats.",
+    "src": "BBC",
+    "lean": "C"
+   },
+   {
+    "t": "Democrat Chuck Hubbard defeats GOP incumbent in North Carolina House race - The Washington Post",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdHJEVkpMY1lCY0t4amFNXzZkM2VlbzA2YU05NjlNdFBILVdFSUJESmhKcnRlUFdXMUxLLWxGMFJJQ1RGamhzNjBkOFd4cTNuamQxLW5ZZ2JWb2hnS2Q2VmVEMWVoTUw0SEtxUG1GRGV5TUlWaXVOM01OenVtNVF3dFJiT2s4UWZlTHkzZlJzYjBPTXota1FZakkzQWxwNXFUNS13UXBBNmtUSHRidTdwbHJKbllRZUdiMXpSa0VscE95Q2k4VTNj?oc=5",
+    "ts": 1795387570000,
+    "summary": "Democrat Chuck Hubbard defeats GOP incumbent in North Carolina House race The Washington Post Democrats Clinch 258 House Seats, an Election-Year Record This Century The New York Times Chuck Hubbard defeats Rep. Virginia Foxx after a recount",
+    "src": "Google News",
+    "lean": null
+   },
+   {
+    "t": "Purdue professor, 2 daughters killed in apparent murder-suicide after daughter’s terrifying 911 call",
+    "url": "https://www.foxnews.com/us/purdue-professor-2-daughters-killed-apparent-murder-suicide-daughter-terrifying-911-call",
+    "ts": 1795397953000,
+    "summary": "Purdue University professor Julie Tkach and her two teenage daughters died in an apparent murder-suicide in West Lafayette, Indiana, authorities say.",
+    "src": "Fox News",
+    "lean": "R"
+   },
+   {
+    "t": "Army plans to carry out detonation at Iowa plant despite indefinite pause",
+    "url": "https://www.cbsnews.com/news/us-army-iowa-plant-detonation-court-records/",
+    "ts": 1795398700000,
+    "summary": "The Department of the Army said it plans to use an emergency munitions and explosives exclusion to the Environmental Protection Agency's permit.",
+    "src": "CBS News",
+    "lean": "C"
+   },
+   {
+    "t": "Energy bills will soar - here's how you can ease the pain",
+    "url": "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss",
+    "ts": 1795395907000,
+    "summary": "Household energy bills are about to increase but there are ways to keep a lid on your expenditure.",
+    "src": "BBC",
+    "lean": "C"
+   },
+   {
+    "t": "Russian vessel hit by suspected Ukrainian drone at Libya’s Benghazi port - Al Jazeera",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZzU3ZEZYME5lS0ROc3NoTHNrNlpjVlUyd2xjVnRLREpzSWlZWXMyS1E3OTJMZmxZNHZJV1BpbGM1U045c3JTc2p2dlFTYTNTSU9qdnVZamZZN29zR0JBY3ZpYjZ0Z1FpVXc2cDViTFZRMHNwejhPcTBrUHVqdFhZZG5XTTFSYi1Yc3AxaVlLc09VcTdyVzdFaNIBngFBVV95cUxNZlFIcHE3SVRDUFdGeE9CTEgtM3I3T2o3OTBUZWlQaU5IbWhXNVY4NjVqQ2s2eEJLVTRlUXFXakFWdkc0T3ViME1EMUt5US1zejJPSkthWjVaejRkTExNOGJ3LURHWDB3dndjeDBBM0hyRWt6d05ESnE0Ul9BbzlzSXZLSS1MZHM2RUJ4ZjJaMVFZSmlWS3ZSMEgtR2RJdw?oc=5",
+    "ts": 1795385673000,
+    "summary": "Russian vessel hit by suspected Ukrainian drone at Libya’s Benghazi port Al Jazeera Two Russian Ships Attacked Far From Ukraine WSJ Russian warship sinks in Benghazi after suspected Ukrainian drone attack The Guardian Russian Warship Explos",
+    "src": "Google News",
+    "lean": null
+   },
+   {
+    "t": "Russian warship sinks off Libya as suspected Ukrainian strikes take war beyond Black Sea",
+    "url": "https://www.foxnews.com/world/russian-warship-sinks-libya-suspected-ukrainian-strikes-take-war-beyond-black-sea",
+    "ts": 1795397456000,
+    "summary": "The Russian corvette Merkury capsized at Benghazi Naval Base after suspected Ukrainian sea drones struck, injuring ten people, Libyan officials say.",
+    "src": "Fox News",
+    "lean": "R"
+   },
+   {
+    "t": "Delta Air Lines hit with delays after baggage network system issue",
+    "url": "https://www.cbsnews.com/news/delta-air-lines-nationwide-delays-amid-baggage-network-system-issue/",
+    "ts": 1795398657000,
+    "summary": "The Delta Air Lines delays are most impacting flights in and out of Hartsfield-Jackson Atlanta International Airport in Georgia.",
+    "src": "CBS News",
+    "lean": "C"
+   },
+   {
+    "t": "COP31 fails to reach major climate deal as talks expose deep divisions",
+    "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss",
+    "ts": 1795395035000,
+    "summary": "Hopes for an agreement on tackling climate change collapsed after a row about mentioning fossil fuels",
+    "src": "BBC",
+    "lean": "C"
+   },
+   {
+    "t": "El-Sayed would pass Medicare for All as ‘TrumpCare’: ‘I don’t really care what it’s called’ - The Hill",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNkRubURlSzhsVzltaUl2U3MxZTgzX254RXRzX18wN0dVRzAxUkQyOWw5czk3RDVRY2d6N09UcktkZlFRSzhOLTRZR1k2TDVGM2dJSzJBT3BfLUtvMnZVVVc3ejlzYVI0T0VyaUxpSHIxN08taTIyWXI4RGE1V2otYTJ6WXZuSmRoYmfSAY8BQVVfeXFMTmZmRWZvQ2RFWlZNRmxpdFdVZVFwQkltaloxZWlkUGh4QzdZbGJtY3p2SUhIekZXMG5Pcm9YZ2dSR0xJV1ZHekJGMmp4UlFwMUpKZm5pcDlFTnd2TmRkX1J6amxwb2FISlZGcVlQcnhpZjRidnk4QXJnMGk5bUl4NkJYWlRfVWFyTTZkRTY0S28?oc=5",
+    "ts": 1795382640000,
+    "summary": "El-Sayed would pass Medicare for All as ‘TrumpCare’: ‘I don’t really care what it’s called’ The Hill With ‘TrumpCare,’ a Progressive Democrat Plays to the President’s Ego The New York Times El-Sayed is open to keeping private insurance unde",
+    "src": "Google News",
+    "lean": null
+   },
+   {
+    "t": "Mark Ruffalo doubles down on call to oust Schumer over 'entrenched religious beliefs and loyalties'",
+    "url": "https://www.foxnews.com/media/mark-ruffalo-doubles-down-call-oust-schumer-over-entrenched-religious-beliefs-loyalties",
+    "ts": 1795393834000,
+    "summary": "Actor Mark Ruffalo said Sen. Chuck Schumer, D-N.Y., is too beholden to \"entrenched religious beliefs\" to lead, sparking bipartisan backlash from critics.",
+    "src": "Fox News",
+    "lean": "R"
+   },
+   {
+    "t": "Army moves forward with plans to detonate 5 tons of toxic materials in Iowa",
+    "url": "https://www.cbsnews.com/video/army-moves-forward-plans-detonate-5-tons-toxic-materials-iowa/",
+    "ts": 1795398574000,
+    "summary": "The Army warned that freezing temperatures could risk an accidental toxic explosion at a munitions plant in Middletown, Iowa. The Trump administration declared an emergency and is moving ahead with a plan to blow up the unstable explosives ",
+    "src": "CBS News",
+    "lean": "C"
+   },
+   {
+    "t": "Can AI spot breast cancer earlier? NHS launches world's largest trial to find out",
+    "url": "https://www.bbc.co.uk/news/articles/cmpdwnw3nvzjo?at_medium=RSS&at_campaign=rss",
+    "ts": 1795394962000,
+    "summary": "Researchers will test the technology in breast cancer screening which could ease pressure on the NHS.",
+    "src": "BBC",
+    "lean": "C"
+   },
+   {
+    "t": "U.S. Army plans to invoke emergency provisions to detonate bomb-making chemicals in Iowa - PBS",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcE04UmszekRHMXFQUW1pVVNwRjVMeDJIa216NGlNdGpMUGVaak1xRUhmS1FrQ2hOQkw0VkgzX2NSRVNTWXF5MmxjMlhpRmwtZS1lY0hIQ3BXRmhBRk1YbnNBY3ROZnRJLUVtMDNTd1VxaWhmMjRlNkZubElBbkZHMUdKUmxaYkk5bUtVUGdRcFNhU1hBY3dMRDFFVTlUMFJ3UF9CZUVWb3lsNFg4N3pCZU1MZnp4bjNLUGVKNGpkVXk?oc=5",
+    "ts": 1795378726000,
+    "summary": "U.S. Army plans to invoke emergency provisions to detonate bomb-making chemicals in Iowa PBS Noon Sunday deadline set in Iowa Army blast challenge; Fort Madison says detonation could come Monday or Tuesday WQAD US army to blow up bomb-makin",
+    "src": "Google News",
+    "lean": null
+   },
+   {
+    "t": "Urgent warning issued to cruise passengers about strict new law in Mexico",
+    "url": "https://www.foxnews.com/travel/urgent-warning-issued-cruise-passengers-about-strict-new-law-mexico",
+    "ts": 1795392420000,
+    "summary": "Cruise passengers visiting Mexico with minors need passports, birth certificates and notarized letters under a new law. The government passed the measure to combat child trafficking.",
+    "src": "Fox News",
+    "lean": "R"
+   },
+   {
+    "t": "Delta Air Lines says it's resolved network issue, but severe weather could cause more delays",
+    "url": "https://www.cbsnews.com/video/ddelta-air-lines-says-resolved-network-issue-severe-weather-delays/",
+    "ts": 1795398545000,
+    "summary": "Delta Air Lines said it resolved an automation outage that disrupted half of all flights, but the weather is creating another speed bump for the Thanksgiving travel rush. Shanelle Kaul reports and Andrew Kozak has the forecast.",
+    "src": "CBS News",
+    "lean": "C"
+   },
+   {
+    "t": "Will it snow this week? Mild Atlantic air collides with cold air across the UK",
+    "url": "https://www.bbc.co.uk/weather/articles/c5dj1l21w9pmo?at_medium=RSS&at_campaign=rss",
+    "ts": 1795394436000,
+    "summary": "A battle ground is becoming established across the UK, milder air across the southwest and cold arctic air elsewhere",
+    "src": "BBC",
+    "lean": "C"
+   },
+   {
+    "t": "Thanksgiving travel forecast 2026: storms on both coasts - The Weather Channel",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMVZHV1ltWXRUMFBvVGo0bF9YWWZhSWJFQzNQYTFDRzl5Z1ltZmg2elhPVUZPdjVTUFZyTEY5cHFMcmlTa3pEZDBRblZYNjJFbU9zb2NWc01qb0ZPVkRSdWNXT01jUzZYdUhxQkRodDZxeGlwY0cyclpiZkxsWE1senpuUEZORXFBZ0RQSlVEcmZUcVpwR040SF9zMHB2YjA?oc=5",
+    "ts": 1795377780000,
+    "summary": "Thanksgiving travel forecast 2026: storms on both coasts The Weather Channel Seattle forecast: Thanksgiving week serves up storms, coastal flooding The Seattle Times Storms expected on both coasts threaten Thanksgiving travel NPR Relentless",
+    "src": "Google News",
+    "lean": null
+   },
+   {
+    "t": "'Yes, Dear' star Anthony Clark's cause of death revealed: report",
+    "url": "https://www.foxnews.com/entertainment/yes-dear-star-anthony-clarks-cause-death-revealed-report",
+    "ts": 1795391746000,
+    "summary": "Anthony Clark's cause of death was septic shock, with influenza A and chronic alcoholism as underlying conditions and acute kidney failure a factor.",
+    "src": "Fox News",
+    "lean": "R"
+   },
+   {
+    "t": "Riding wild animals and selling crafts at a prison rodeo",
+    "url": "https://www.cbsnews.com/news/inmates-turned-cowboys-at-angola-prison-rodeo-60-minutes/",
+    "ts": 1795395589000,
+    "summary": "Louisiana State Penitentiary hosts a rodeo where incarcerated men risk being stepped on, gored and flipped upside down. But for these volunteer, self-taught cowboys, it's all worth it.",
+    "src": "CBS News",
+    "lean": "C"
+   },
+   {
+    "t": "Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say",
+    "url": "https://www.bbc.co.uk/news/articles/cqdr15l32d3go?at_medium=RSS&at_campaign=rss",
+    "ts": 1795391625000,
+    "summary": "Six people are dead in the attack, with rescue efforts ongoing to find those still missing from the residential building.",
+    "src": "BBC",
+    "lean": "C"
+   },
+   {
+    "t": "‘Horrific’ and ‘chilling’: Officials condemn ICE arrests at Seattle airport - Al Jazeera",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSWR6SjhFdDFjUnhYNHNOUTc1X2xFNDJJQngxNHNQYkd0T1JObUtQRFBxNHA5QTNVY2w0OUY5V2xwSm5ZTmVaU0hsUHJTT1dsQS1hWGN1S1RIRUtnTXU5LXNINjJKX2gxN3ZQZmZ4dHYxTUtBbk5ob2wzWmNub0RsTG16YU5tYUZ1NlhyMFNkeEtMT1BhSEpiZ2lCZ05aWXVnak92RGxHUWtpVHNqcS1xZ3BR0gG3AUFVX3lxTFAwNUJ4d0hNWGZHX1hVZmZnUXQ0LTNGZjFId2FpZ2lnc0Zqa3B1RUVkQjhQTDM1WV9JTUUybDFISTZHZ1IweVRnbzAxQzNkRWhlYmFFMGpENVh0b21ESld4MHFyTmVpVXdNTms3Rnpzak1rcGNsZWEzZDhsUk9lMjVVUHk2MDhjM0Y5cjdBcmNzYXQwR2tickV3SW9RaFhQS3lZQTlSTnBuMHJvTG5ETmxDRUtJX2wxaw?oc=5",
+    "ts": 1795374820000,
+    "summary": "‘Horrific’ and ‘chilling’: Officials condemn ICE arrests at Seattle airport Al Jazeera 'They're traumatized': Attorney for family detained at SEA denies ICE claims of assault KING5.com Two arrested at Sea-Tac airport spark debate over feder",
+    "src": "Google News",
+    "lean": null
+   },
+   {
+    "t": "Chiefs and Bills take care of business ahead of the NFL’s biggest regular-season game",
+    "url": "https://www.foxnews.com/outkick-sports/chiefs-bills-take-care-business-ahead-nfl-biggest-regular-season-game",
+    "ts": 1795391168000,
+    "summary": "The Kansas City Chiefs beat Arizona 34-7 and the Buffalo Bills handled Miami 26-9 to set up a Thanksgiving showdown in the race for the AFC’s No. 1 seed.",
+    "src": "Fox News",
+    "lean": "R"
+   },
+   {
+    "t": "60 Minutes Transcript: ​​A rodeo inside a maximum security prison",
+    "url": "https://www.cbsnews.com/news/visiting-a-rodeo-inside-largest-maximum-security-prison-in-us-60-minutes-transcript/",
+    "ts": 1795395586000,
+    "summary": "Louisiana State Penitentiary, once known as \"the bloodiest prison in America,\" hosts a rodeo. Inmates turned self-taught cowboys leap onto wild animals for a chance to chase a feeling of freedom.",
+    "src": "CBS News",
+    "lean": "C"
+   },
+   {
+    "t": "Burnham to tell MPs 'landmark' EU deal could make next decade 'much better'",
+    "url": "https://www.bbc.co.uk/news/articles/cmde1dy82lepo?at_medium=RSS&at_campaign=rss",
+    "ts": 1795387750000,
+    "summary": "The prime minister will tell MPs the deal agreed on Friday is a \"choice between a broken status quo or change\".",
+    "src": "BBC",
+    "lean": "C"
+   },
+   {
+    "t": "American bishops plan for ‘groundswell’ of political action for AI regulation - Politico",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPM0daNjJ4MTZuYzRVRVdvbjBCeThWSkJ5VlotenFObGMxU0RzUlZFeDMzNHVRWGRRVUw1YW1JZW1FcUlkVFhERHNKSWtTcUQxZk1lbkllMjJzSFJzeWVFamlSQWc5MG9nMjhsVnQySDB0WE1jOHhfZDZYVndkYjk0cmR5dGctVjJZdVN6aUxzcTJZQQ?oc=5",
+    "ts": 1795374000000,
+    "summary": "American bishops plan for ‘groundswell’ of political action for AI regulation Politico Few signs of life at bishops' conference National Catholic Reporter US bishops revamp their investment guidelines to address AI, private prisons, crypto ",
+    "src": "Google News",
+    "lean": null
+   },
+   {
+    "t": "Trump says Iran unleashed missile, drone surge after midterms",
+    "url": "https://www.foxnews.com/world/trump-says-iran-unleashed-missile-drone-surge-after-midterms",
+    "ts": 1795390386000,
+    "summary": "President Donald Trump says Iran launched more missiles and drones over the past week than at any point in over a year, and all were knocked down with no damage.",
+    "src": "Fox News",
+    "lean": "R"
+   },
+   {
+    "t": "This online community of young people is idolizing mass shooters",
+    "url": "https://www.cbsnews.com/news/tcc-violent-online-subculture-60-minutes/",
+    "ts": 1795395584000,
+    "summary": "60 Minutes goes inside a growing, online community of young people who idolize, romanticize and sometimes even seek to emulate mass shooters.",
+    "src": "CBS News",
+    "lean": "C"
+   },
+   {
     "t": "Miley Cyrus marries Maxx Morando in California ceremony",
     "url": "https://www.bbc.co.uk/news/articles/cq8e0p87l89lo?at_medium=RSS&at_campaign=rss",
     "ts": 1795382560000,
@@ -762,260 +994,28 @@
     "lean": "C"
    },
    {
-    "t": "Ossoff's broad and decisive Senate win fuels 2028 speculation",
-    "url": "https://www.cbsnews.com/news/jon-ossoff-2028-presidential-speculation-after-georgia-win/",
-    "ts": 1795381572000,
-    "summary": "Democratic Sen. Jon Ossoff's commanding victory in Georgia relied on a broad coalition, and this is fueling 2028 presidential interest in him, even though he says he'll be in the Senate for the next six years.",
-    "src": "CBS News",
-    "lean": "C"
-   },
-   {
-    "t": "Trump reposts El-Sayed’s ‘TrumpCare’ pitch for universal health care - The Washington Post",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeXQ2N0kxSWllQ1FHMUl3Sl9kS0hjRnN0cVk5aTVSRTZfWG83MFhyMUJHLTZ6YTNIVGVpWjREVGhMSW5mWVVRMjJsR0djRWZTUXMxbXRJNXUwVGJyTlZRVGZkUU9HV0ppWDhDQXBWZl9yRDJLSTNvQ1h4TGRPbTRhcGRYWlZsaVRMQ19feFprSGprdmZrZm1UdlJB?oc=5",
-    "ts": 1795380526000,
-    "summary": "Trump reposts El-Sayed’s ‘TrumpCare’ pitch for universal health care The Washington Post El-Sayed is open to keeping private insurance under Medicare for All Politico White House blasts 'Trumpcare for All' pitch from far-left El-Sayed who c",
-    "src": "Google News",
-    "lean": null
-   },
-   {
-    "t": "TCU fires Sonny Dykes after giving him a spring extension, and fans' reactions say it all",
-    "url": "https://www.foxnews.com/outkick-sports/tcu-fires-sonny-dykes-spring-extension-fans-reactions-say-it-all",
-    "ts": 1795381868000,
-    "summary": "TCU football fired head coach Sonny Dykes after a 38-17 loss to the Utah Utes, with AD Mike Buddie citing a slide from the Horned Frogs' Fiesta Bowl peak.",
-    "src": "Fox News",
-    "lean": "R"
-   },
-   {
-    "t": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
-    "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
-    "ts": 1795379289000,
-    "summary": "Libya's eastern government says the ship had stopped for fuel and supplies on its way back to Russia.",
-    "src": "BBC",
-    "lean": "C"
-   },
-   {
-    "t": "Army plans to carry out detonation at Iowa plant despite indefinite pause",
-    "url": "https://www.cbsnews.com/news/us-army-iowa-plant-detonation-court-records/",
-    "ts": 1795381382000,
-    "summary": "The Department of the Army said it plans to use an emergency munitions and explosives exclusion to the Environmental Protection Agency's permit.",
-    "src": "CBS News",
-    "lean": "C"
-   },
-   {
-    "t": "Democrats win largest House majority since 1992 after flipping North Carolina seat - BBC",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1jOG9ydHBscFFlNlFfSUZyMEU5MS1hZU03c1pEU1l3YWJkOEFlZHFyZE1zdWsxM0F6YUpPaWhSR1JVdzA2NVZiTTYzQi0ycnRLTm9mVlE3eXBYT3c?oc=5",
-    "ts": 1795379184000,
-    "summary": "Democrats win largest House majority since 1992 after flipping North Carolina seat BBC Democrats Clinch 258 House Seats, an Election-Year Record This Century The New York Times House Democrats will start next Congress with largest majority ",
-    "src": "Google News",
-    "lean": null
-   },
-   {
-    "t": "Landry Kiffin was not dressed for the golf ball rain that fell during Lane's return to Knoxville",
-    "url": "https://www.foxnews.com/outkick-sports/landry-kiffin-not-dressed-golf-ball-rain-lane-return-knoxville",
-    "ts": 1795381345000,
-    "summary": "Landry Kiffin says she \"wasn't dressed for it to rain golf balls\" as Tennessee fans threw mustard and golf balls at Neyland Stadium during LSU's loss.",
-    "src": "Fox News",
-    "lean": "R"
-   },
-   {
-    "t": "What's next after no deal at COP31 climate talks?",
-    "url": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo?at_medium=RSS&at_campaign=rss",
-    "ts": 1795373844000,
-    "summary": "The talks have been the longest-running in the summit's history, with negotiations breaking down two days after they had been due to end.",
-    "src": "BBC",
-    "lean": "C"
-   },
-   {
-    "t": "Delta Air Lines hit with delays after baggage network system issue",
-    "url": "https://www.cbsnews.com/news/delta-air-lines-nationwide-delays-amid-baggage-network-system-issue/",
-    "ts": 1795381265000,
-    "summary": "The Delta Air Lines delays are most impacting flights in and out of Hartsfield-Jackson Atlanta International Airport in Georgia.",
-    "src": "CBS News",
-    "lean": "C"
-   },
-   {
-    "t": "Libya's eastern government suspects drone attack caused explosion on Russian ship - Reuters",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSHNFQ2hvQUxyR05zYXIyVjczNjE3eEVLWWhMdk1mS01BQV91dy03OU5SSzVzbzlvVk1ManQ2TFhqU2xkRkhZcGthVlZad0E1aVRKU1E5ZWxJTWRQVG5UYmFYYmcxZGJ1TFc1YzE0a2E4XzQ4SGJLNjNlc0otTGhGRnRWTHpmeW1mWnVBLTNhYmFLU3JOUTVfSTliN19fMG9rRWlmeFdKNHFSU1JVTTdnQUNhUlBUWmRSTDVXUUJuUW9fNEV2cjNWdTlPZw?oc=5",
-    "ts": 1795377251000,
-    "summary": "Libya's eastern government suspects drone attack caused explosion on Russian ship Reuters Explosion on Russian ship at Libya port caused by suspected drone attack, officials say BBC Russian ship hit in Benghazi by suspected Ukrainian drone ",
-    "src": "Google News",
-    "lean": null
-   },
-   {
-    "t": "'I Dream of Jeannie' star Barbara Eden, 95, still rides exercise bike for 35 minutes to stay fit",
-    "url": "https://www.foxnews.com/entertainment/dream-jeannie-star-barbara-eden-95-still-rides-exercise-bike-35-minutes-stay-fit",
-    "ts": 1795381221000,
-    "summary": "Barbara Eden reveals the stationary bike routine and personal trainer workouts keeping her fit as the \"I Dream of Jeannie\" star turns 95.",
-    "src": "Fox News",
-    "lean": "R"
-   },
-   {
-    "t": "COP31 fails to reach major climate deal as talks expose deep divisions",
-    "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss",
-    "ts": 1795371479000,
-    "summary": "The talks fail to make a breakthrough on tackling climate change after a row about mentioning fossil fuels.",
-    "src": "BBC",
-    "lean": "C"
-   },
-   {
-    "t": "Russian warship struck by suspected Ukrainian drones at Libya naval base",
-    "url": "https://www.cbsnews.com/news/russian-warship-struck-suspected-ukrainian-sea-drones-benghazi-naval-base-libya-officials/",
-    "ts": 1795378916000,
-    "summary": "Libyan officials say a suspected Ukrainian drone strike has hit a Russian warship at a naval base in Libya.",
-    "src": "CBS News",
-    "lean": "C"
-   },
-   {
-    "t": "Finance, fossil fuels and the ‘overshoot’: six key takeaways from Cop31 - The Guardian",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWm50ZjJub3NFR1hNeTBfNTVpUm9sWG03Zi1zZnpiWDJDQXNtOC1DckFxRlp6QW94MXV3YjNzRVBEYnNqTmN0NzVVWk9xcU9wem1DYXotSGQwNldTdXBuc0ZSWUNEdlAycUtUcV9pcXdrS3g4QTV5c3ZJcHNhM2JTdkhldVhWcXJaV2hvX2FEcTd6Ui1CeEZGWWlGWGI5ZFZtRnB2R3p3ZnZHQQ?oc=5",
-    "ts": 1795376400000,
-    "summary": "Finance, fossil fuels and the ‘overshoot’: six key takeaways from Cop31 The Guardian U.N. Climate Talks Collapse in a Bitter Clash Over Fossil Fuels The New York Times Why the World’s Climate Talks Broke Down—and What Happens Now Time Magaz",
-    "src": "Google News",
-    "lean": null
-   },
-   {
-    "t": "UCLA's quarterback made one of the worst plays of the season, and it might cost the Bruins a CFB playoff spot",
-    "url": "https://www.foxnews.com/outkick-sports/uclas-quarterback-made-one-worst-plays-season-might-cost-bruins-cfb-playoff-spot",
-    "ts": 1795380921000,
-    "summary": "Madden Iamaleava's baffling second-overtime blunder left tight end Josh Phifer wide open as the UCLA Bruins fell 18-16 in triple overtime to Michigan.",
-    "src": "Fox News",
-    "lean": "R"
-   },
-   {
-    "t": "'Danger seems greater all the time': Ukrainians search for missing after Russian strikes",
-    "url": "https://www.bbc.co.uk/news/videos/cre3dvd1k9y1o?at_medium=RSS&at_campaign=rss",
-    "ts": 1795370263000,
-    "summary": "The BBC's Sarah Rainsford reports from the scene of a collapsed residential building in Ukraine's Kyiv region.",
-    "src": "BBC",
-    "lean": "C"
-   },
-   {
-    "t": "Democrat Chuck Hubbard defeats Rep. Virginia Foxx in House race",
-    "url": "https://www.cbsnews.com/news/democrat-chuck-hubbard-defeats-gop-rep-virginia-foxx-north-carolina/",
-    "ts": 1795377819000,
-    "summary": "Chuck Hubbard defeated Rep. Virginia Foxx, CBS News projects, adding to Democrats' sizable majority in the House next year.",
-    "src": "CBS News",
-    "lean": "C"
-   },
-   {
-    "t": "‘Horrific’ and ‘chilling’: Officials condemn ICE arrests at Seattle airport - Al Jazeera",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSWR6SjhFdDFjUnhYNHNOUTc1X2xFNDJJQngxNHNQYkd0T1JObUtQRFBxNHA5QTNVY2w0OUY5V2xwSm5ZTmVaU0hsUHJTT1dsQS1hWGN1S1RIRUtnTXU5LXNINjJKX2gxN3ZQZmZ4dHYxTUtBbk5ob2wzWmNub0RsTG16YU5tYUZ1NlhyMFNkeEtMT1BhSEpiZ2lCZ05aWXVnak92RGxHUWtpVHNqcS1xZ3BR0gG3AUFVX3lxTFAwNUJ4d0hNWGZHX1hVZmZnUXQ0LTNGZjFId2FpZ2lnc0Zqa3B1RUVkQjhQTDM1WV9JTUUybDFISTZHZ1IweVRnbzAxQzNkRWhlYmFFMGpENVh0b21ESld4MHFyTmVpVXdNTms3Rnpzak1rcGNsZWEzZDhsUk9lMjVVUHk2MDhjM0Y5cjdBcmNzYXQwR2tickV3SW9RaFhQS3lZQTlSTnBuMHJvTG5ETmxDRUtJX2wxaw?oc=5",
-    "ts": 1795374820000,
-    "summary": "‘Horrific’ and ‘chilling’: Officials condemn ICE arrests at Seattle airport Al Jazeera ‘Outraged.’ Port officials react after ICE reportedly arrests family at Sea-Tac Airport KUOW ICE 'out of control' in dramatic SEA arrest caught on camera",
-    "src": "Google News",
-    "lean": null
-   },
-   {
-    "t": "Famous bald eagle Lincoln goes rogue before Eagles game, takes an unexpected joy flight",
-    "url": "https://www.foxnews.com/outkick-sports/famous-bald-eagle-lincoln-goes-rogue-eagles-game-unexpected-joy-flight",
-    "ts": 1795379802000,
-    "summary": "Lincoln, the Budweiser Super Bowl commercial bald eagle, went rogue before the Philadelphia Eagles hosted Pittsburgh Steelers at Lincoln Financial Field.",
-    "src": "Fox News",
-    "lean": "R"
-   },
-   {
-    "t": "Russell Brand's wife says she'll honour prison rules after message row",
-    "url": "https://www.bbc.co.uk/news/articles/cq8e0pzp43w4o?at_medium=RSS&at_campaign=rss",
-    "ts": 1795366317000,
-    "summary": "The wife of the disgraced comedian says she will stick to the \"parameters\", after reading out a message from her inmate husband.",
-    "src": "BBC",
-    "lean": "C"
-   },
-   {
-    "t": "Natural gas pipeline fire in Alabama lights up night sky",
-    "url": "https://www.cbsnews.com/news/natural-gas-pipeline-fire-ward-alabama/",
-    "ts": 1795377572000,
-    "summary": "Photos and videos posted on social media appeared to show flames rising dozens of yards above the trees near Ward, Alabama, with smoke billowing into the air.",
-    "src": "CBS News",
-    "lean": "C"
-   },
-   {
-    "t": "Rep. Virginia Foxx loses reelection bid after 11 terms - Politico",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYWVmNlQ3Q3RSV3dXbk9wRHpFemNaTTg5RExGSnh0UXdETVJJLVJOLWRGcE8tT19mcVdWbUFaWkExZnZlMHF5dW1ZcVBXOEdGWG9EeWZKbE40eXE2RXdoOVQzWE4yX2x5SWdZT19OekdCNm1jV3ppV3NrYTZiUzlwUVdtalRDcXJNdlF3SA?oc=5",
-    "ts": 1795374180000,
-    "summary": "Rep. Virginia Foxx loses reelection bid after 11 terms Politico Republican chair of the House Rules Committee loses reelection in Democrats’ largest majority this century CNN Democrat Unseats 11-Term G.O.P. House Member in North Carolina Th",
-    "src": "Google News",
-    "lean": null
-   },
-   {
-    "t": "Democrats clinch historic House majority as Chuck Hubbard defeats longtime GOP Rep. Virginia Foxx",
-    "url": "https://www.foxnews.com/politics/democrats-clinch-historic-house-majority-chuck-hubbard-defeats-longtime-gop-rep-virginia-foxx",
-    "ts": 1795379647000,
-    "summary": "Democrats secured their largest House majority since 1992, setting up clashes with Trump over investigations, health care and Republican policies.",
-    "src": "Fox News",
-    "lean": "R"
-   },
-   {
-    "t": "RAF's next fighter jet could be last crewed combat plane, air chief says",
-    "url": "https://www.bbc.co.uk/news/articles/c68x08nzpk9no?at_medium=RSS&at_campaign=rss",
-    "ts": 1795357146000,
-    "summary": "The head of the RAF said AI-enabled and uncrewed aircrafts are expected to start flying in UK airspace next year.",
-    "src": "BBC",
-    "lean": "C"
-   },
-   {
-    "t": "Full transcript of \"Face the Nation with Margaret Brennan,\" Nov. 22, 2026",
-    "url": "https://www.cbsnews.com/news/full-transcript-of-face-the-nation-with-margaret-brennan-nov-22-2026/",
-    "ts": 1795375942000,
-    "summary": "On this \"Face the Nation with Margaret Brennan\" broadcast, Treasury Secretary Scott Bessent and House Minority Leader Hakeem Jeffries join Margaret Brennan.",
-    "src": "CBS News",
-    "lean": "C"
-   },
-   {
-    "t": "U.S. intelligence chief says Trump's description of Putin as a 'friend' is 'entirely appropriate' - PBS",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNUdjYmJXazI4V25FVTFNTUVCNU1kQXlCRUdVMW90d2JrT1JWX2dkaWlBOVJqTzJ6anFZeW9rWkFOaDZqczZobXh6ZkxxUzc2c3QyVnViLXZVa1VuN3FpMHNDYWRIT1BkWGxHZ01TOEI1THUtbXdyeGd4RnRzel9zU0EwdU94UUdjajZpMnYzTUloMndpb0U0UHF3ZklvNXdQbjFNWDlqM3hGOHdZdk9mU09GR1RoMHV5VElVVlhiRTRxbUpZ0gHKAUFVX3lxTE1NRmhrWTVpbDNtWURtTTRKbHVfdF8taVk2ZWJFR0pxY0Q5R0pyMWtFbFc0YzBBR29LdWtBSUg4VzRJUFMtcUVYT0xfSlR3YWgxREZNMEtJMk1ZTjFWY0RNaHk4SXpZdTBHR1FzWGV6aE9fWjZFcHNTYjM3YXFVVUQzQjMzYm9XdF9zdWlxSWhQOWdrWElkVjhYZU92VFpydThLNjk4R0lFeFZEYVVBLWZNMmtDQUVURDUxT2l5U0V4Zm0xUWNMUXpmeEE?oc=5",
-    "ts": 1795372626000,
-    "summary": "U.S. intelligence chief says Trump's description of Putin as a 'friend' is 'entirely appropriate' PBS US intelligence chief says he trusts Trump’s description of Putin as ‘my friend’ The Guardian Trump vs. America The Atlantic US intelligen",
-    "src": "Google News",
-    "lean": null
-   },
-   {
-    "t": "Common sleep habit linked to 50% higher death risk in heart patients, recent study finds",
-    "url": "https://www.foxnews.com/health/common-sleep-habit-linked-50-higher-death-risk-heart-patients-recent-study-finds",
-    "ts": 1795379436000,
-    "summary": "A PLOS One study of 3,287 US adults with heart disease links sleeping nine or more hours to a 51% higher risk of all-cause mortality over 15 years.",
-    "src": "Fox News",
-    "lean": "R"
-   },
-   {
-    "t": "Boss of British Gas owner Centrica 'hugely concerned' over impact of soaring energy bills",
-    "url": "https://www.bbc.co.uk/news/articles/c6jre7gpdw13o?at_medium=RSS&at_campaign=rss",
-    "ts": 1795355421000,
-    "summary": "Chris O'Shea says the number of people unable or unwilling to pay their energy bills will increase when prices jump in the new year.",
-    "src": "BBC",
-    "lean": "C"
-   },
-   {
-    "t": "Transcript: Brad Smith, Microsoft president and vice chair, on \"Face the Nation with Margaret Brennan,\" Nov. 22, 2026",
-    "url": "https://www.cbsnews.com/news/transcript-brad-smith-microsoft-on-face-the-nation-with-margaret-brennan-nov-22-2026/",
-    "ts": 1795373415000,
-    "summary": "The following is the transcript of the interview with Microsoft president and vice chair Brad Smith that aired on \"Face the Nation with Margaret Brennan\" on Nov. 22, 2026.",
-    "src": "CBS News",
-    "lean": "C"
-   },
-   {
-    "t": "Lebanese villagers return to wrecked homes as the Israeli army pulls back - NPR",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORll3ZkNWTTRuZ19vOTViOVlJZXlXczJUa0ZOWmN6M3JSVVlQbmhhZ0FsTTFrQUE4VDhDbjV6cGNyTVNOSnZxTUF2Z1p2NmE0MmhweGlLelliRnY2RkhUalpwWTgybUdsYWljc200MmFoWEFlbF9JWUJGZXBlREdJdTg3Q1Etdw?oc=5",
-    "ts": 1795369492000,
-    "summary": "Lebanese villagers return to wrecked homes as the Israeli army pulls back NPR See more headlines & perspectives on Google News",
+    "t": "3 killed and 1 wounded in shooting at Ohio baby shower, police say; 1 man in custody - CNN",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB2SmVrN25Ld3U3LXVQM2xwR2ZyaV9SalpVTUZ6bDV0bGFheEVEelZXUzAweXEzSkdvYkliWjNkMEhkLVozU2Zfbzg3OUdUM01aRjFLSEhnMkd2OVdOT3I4TFZXTzZMWkRaMlhN?oc=5",
+    "ts": 1795373374000,
+    "summary": "3 killed and 1 wounded in shooting at Ohio baby shower, police say; 1 man in custody CNN 17-Year-Old Girl Among 3 People Fatally Shot in Mass Shooting at Baby Shower People.com Parma police identify 2 victims in deadly baby shower shooting ",
     "src": "Google News",
     "lean": null
    }
   ],
   "staffing": [
    {
-    "t": "Rockland County Leads Hudson Valley in Private-Sector Job Growth, New State Report Shows - Monsey Scoop",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMkZzWHBvcTRLOUdBb1FsUWExazBaM1RCd1lGWkp4dFU2aFVtMVBNNm9PTkRhanVXSk50NnZQWjJ1eGszZUh4WmI3X3ZJYVFNZlFEWHVRWmtQZ3kxa1l6X2E0eXo4ODV0Sll4MlpfUkt5NFAzcW9ldFByNlc5blowc2ZKRjZzTWJ1bXJoSEV2YWlaVWR3UllsOFd3ZjBBSDBYblJLTGFKV09oLW54WklCdFhn?oc=5",
-    "ts": 1795370735000,
-    "summary": "Rockland County Leads Hudson Valley in Private-Sector Job Growth, New State Report Shows Monsey Scoop",
+    "t": "UK Workers Stay Put as Safety Trumps Pay in Perilous Jobs Market - Bloomberg.com",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUU5Ea3BsbWtSSG1QLVZscDRnMFktU0x6a3FzRERza2hEUWU1eWxNcnFKUUFIdUhoc2htTkZ4TmJzSnlXU3NzZmNyWUJwZ2Y3ZjVLU2daU1hxM2Y2U1VGM0RaLVZVN2JlVTdJelg2TmlZd25CSTFFUkRpUFFaWVpHbUdFNDZPOXU3NFpkMVJvMEFVNnczclBBRjdEQ3J1LVc0aHBaaGpXNVpJNENxMTVtNEtWamdCUQ?oc=5",
+    "ts": 1795392060000,
+    "summary": "UK Workers Stay Put as Safety Trumps Pay in Perilous Jobs Market Bloomberg.com",
     "src": "Hiring & labor (Google News)",
     "lean": null
    },
    {
-    "t": "From Navy SEALs to a lost hat: Lessons guiding healthcare staffing leaders - Staffing Industry Analysts",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNekMwc0djNXJtUU9CUUlPZkQyOS1MNjdYTjRka0EtUHhqWnctNDBXU3Bacno2dDFkbHotYmQ5TUJoOGxRcHhhVjVQUGpsa2VJWkZDWThsNzhEQ0lKVTRYLWNGaDRSbzQtNjRkWVQ1ZUtjTFd4WWdJc2gyRjJnYlFwQnpKMGlkRlBlVDFtc3pGMFN0c1YxQVY4Vm82cXJiMEpNZHhrb1Q0N2VLTWp0aUpaU0Vpb2psclpMYmN1RUVUNDJ5c0xuWnJzZQ?oc=5",
-    "ts": 1795210776000,
-    "summary": "From Navy SEALs to a lost hat: Lessons guiding healthcare staffing leaders Staffing Industry Analysts",
+    "t": "Employer-friendly independent contractor classification rule finalized by DOL - Staffing Industry Analysts",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTFVXdzA3NW9nSHctV3NpTm96UUI5bTlIN1FZbElVbUdUd19ZNTdlRnB6MUpNeXhkNzNBUmdOMUxXOVlBU2psLVVPLVhuNzdMd0ZXZUJ3RVZfRHhjUDVxbEM3NVp2U3JJU2M5aGp2cklyWm95MjU4cmViZ1Bpbkc4enJLS3kxX0NsZnJCbFZXYWN5RFlqY3h5a0VwSGNBVGs1cDNCNFMwMmMyV0swOTktOG1td0hqTmN0SkI5d0lDbE1tOVQ2aWtScXlUUWFGUQ?oc=5",
+    "ts": 1795223489000,
+    "summary": "Employer-friendly independent contractor classification rule finalized by DOL Staffing Industry Analysts",
     "src": "Staffing Industry (Google News)",
     "lean": null
    },
@@ -1028,18 +1028,18 @@
     "lean": null
    },
    {
-    "t": "The Labor Crisis in Iran: Workers Flee Formal Employment for the Margins of the Economy - Iran Focus",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVHp5MDlPV0NfNE1zaDc1WmV5SVZmQUl3cmN1Yll0dFJjV0U2dE1mZWo5TVU1TUdlZGFxSWZjdWRBYko4OUZLa1lyc3NiLWo5czlMVGktY1BKcFZlZTBzVWdZNWZscG4yYlRTWXlFdWlfaFVFUWt2NFo4VkZhZ3VoSV81NFBWd01DYXJfelZBaW8tUEk1WjhCUEIxeHlTVXBoSUEzYlBWbjFUbkd3c2V4Y2JnclJKUHNpTGdmXzFDRmfSAcYBQVVfeXFMUEI3VVpZR0l1WUtlYTJGVEdGT2ZxVTVHODMwTGJ0OXlkLTFpUjRSR2FGUXZNQXVtbEJJYk1vWGVybU9CS0Y4R0E4WjZfSG5vQnhUSGxlVXlWbk1CNWFLV0o0Vl9XTnhOejFRVHVVb1JKZlBtMkRYQVNBYVBVbUw0bFBHMzN1VFBtR1RCQy1YWUo1Q0FMSElmZWxkS1UzODhSeHpyUDlobHlYWWxRaVRTM0RtdlFubll1blVJRkJHcnhScGtxZnVR?oc=5",
-    "ts": 1795368374000,
-    "summary": "The Labor Crisis in Iran: Workers Flee Formal Employment for the Margins of the Economy Iran Focus",
+    "t": "ASX 200 Jobs Platform SEEK (ASX:SEK) Logs Record Applications Per Ad - Kalkine Media",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeXB3SWNBNFFlMTFuM053VXcxZUE2T3RYNGJHdDdzY0VUQmFLMU9FU19RdEJLRWdsOE1BYnhZYlNzTmU1MVdxeWxLUVhma2l1Q1JnVHl6MzhBUFRRTTBIWDlCakdHOVgtcVNCUmFoUFplLWdWMmRBMG5WRWY0NTNGRHZTbU9lOF9xRzNkemxVZlhiMFNfNnM2QXh1Q2dmcGdOU0E4dm5UeFZZRWJWZVNxSHpaS3U?oc=5",
+    "ts": 1795391220000,
+    "summary": "ASX 200 Jobs Platform SEEK (ASX:SEK) Logs Record Applications Per Ad Kalkine Media",
     "src": "Hiring & labor (Google News)",
     "lean": null
    },
    {
-    "t": "Barrett, Riviera, Barton Partnership, iLabor and VeeBee: People on the move - Staffing Industry Analysts",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdmdvNUZjOENUaGNkWmcyS0FFQUVxRjhqTlBzYlpRYzJMV3FGWklDcGV1YlRpMlM5T0I5bUZ0SnR4SVdSbW5DX3lWQTFUU3JoY1Z1TVU3bUpYOHpGalFPMGw3OW4tSnBCS2lzQzJPNDF6UnpwendMYV9wRHYwWDZyTUVVdXZ1OXIyNFRpRWtzOUFiRmZENWhrVlRjeGg3WE8wMXZTMEI5Uk5BX1FnYTliY1dRVlp2OWJpMlMzM2JBS2dXUEsw?oc=5",
-    "ts": 1795198149000,
-    "summary": "Barrett, Riviera, Barton Partnership, iLabor and VeeBee: People on the move Staffing Industry Analysts",
+    "t": "From Navy SEALs to a lost hat: Lessons guiding healthcare staffing leaders - Staffing Industry Analysts",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNX3p5d2JIX21vWXo0S0kybnJuVEp4QlZnLUtsVF90ZEFfbmJFTVB2UWc1TXZqZ2ViX1VlZm1odEFmWTlNSFlUejJEREkzWkVrTnlVNUVNLW5UbDh3VHBNWWcxVlFlLUNXVk1XVUZlbmd5aG45RTQzalNtelNUSFpIRklVdk5LWmFfVk5RUHpjQ0lNR0VBOHhUM0VxMTljN0RRVTZJMGJTVDN1d1JWVFIwWS13R3pvWGpRc0tCaW11akRQVDd1Nl9R?oc=5",
+    "ts": 1795210797000,
+    "summary": "From Navy SEALs to a lost hat: Lessons guiding healthcare staffing leaders Staffing Industry Analysts",
     "src": "Staffing Industry (Google News)",
     "lean": null
    },
@@ -1052,18 +1052,18 @@
     "lean": null
    },
    {
-    "t": "The Government's Job Report—and Ours - Dollars & Sense",
-    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5INEJNQmQxSTQxTmd4eWhOT3hKNGFYbFl3U2d2VDJONkFNX3RNZEhadl9YZG5aS3V3S2RaejBLdlFOem5rT3ZjN1hRTjZjeEJhWWo2TTg1VWFGUHNjM1FKTDl4Q1JWLUNDa0wzamVwdEpnQlgzQTVr?oc=5",
-    "ts": 1795363910000,
-    "summary": "The Government's Job Report—and Ours Dollars & Sense",
+    "t": "Rockland County Leads Hudson Valley in Private-Sector Job Growth, New State Report Shows - Monsey Scoop",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMkZzWHBvcTRLOUdBb1FsUWExazBaM1RCd1lGWkp4dFU2aFVtMVBNNm9PTkRhanVXSk50NnZQWjJ1eGszZUh4WmI3X3ZJYVFNZlFEWHVRWmtQZ3kxa1l6X2E0eXo4ODV0Sll4MlpfUkt5NFAzcW9ldFByNlc5blowc2ZKRjZzTWJ1bXJoSEV2YWlaVWR3UllsOFd3ZjBBSDBYblJLTGFKV09oLW54WklCdFhn?oc=5",
+    "ts": 1795370735000,
+    "summary": "Rockland County Leads Hudson Valley in Private-Sector Job Growth, New State Report Shows Monsey Scoop",
     "src": "Hiring & labor (Google News)",
     "lean": null
    },
    {
-    "t": "TechServe Alliance elects new board officers, directors - Staffing Industry Analysts",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQckJmT3MwSkxrbzNveXFBNllaYmFVYm04dlY2NEZQZ3pWYWZWaDdGcnJSa0FIUEY0LTlUM2RlWV96a1FZbmY4c0E3cUV3ZWo0Y2dLVWpKLU1uMTY4UGFESHhJTXNJRFNpdTRSNjZLODFEQnhsYThocHZ5WThEVUZYR1I4cEwxU2FScE9aYlRDcG5LblNkc20zXzg3a1ItZFMzSTB4UlFHUUowQXR3eEE?oc=5",
-    "ts": 1795193626000,
-    "summary": "TechServe Alliance elects new board officers, directors Staffing Industry Analysts",
+    "t": "Barrett, Riviera, Barton Partnership, iLabor and VeeBee: People on the move - Staffing Industry Analysts",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdmdvNUZjOENUaGNkWmcyS0FFQUVxRjhqTlBzYlpRYzJMV3FGWklDcGV1YlRpMlM5T0I5bUZ0SnR4SVdSbW5DX3lWQTFUU3JoY1Z1TVU3bUpYOHpGalFPMGw3OW4tSnBCS2lzQzJPNDF6UnpwendMYV9wRHYwWDZyTUVVdXZ1OXIyNFRpRWtzOUFiRmZENWhrVlRjeGg3WE8wMXZTMEI5Uk5BX1FnYTliY1dRVlp2OWJpMlMzM2JBS2dXUEsw?oc=5",
+    "ts": 1795198149000,
+    "summary": "Barrett, Riviera, Barton Partnership, iLabor and VeeBee: People on the move Staffing Industry Analysts",
     "src": "Staffing Industry (Google News)",
     "lean": null
    },
@@ -1078,16 +1078,16 @@
    {
     "t": "Robust Employment Report Supports Further Fed Rate Hikes - The Conference Board",
     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNY0VmZnRneVh6Y2dLTlNKcG1tcXRhUTh6UEUxalZrdmdzVzRmR0tVLUhjcUoxLU5UTElHTFJNdnJFS2s1TmtYY2F4RVJHbHVRQWt3VllaU3lkYmpEZjM0MzJQcGQ5OU9QaG9aRkYxSGJiUEFqajNXQjVlNEZMWVhxdXh2RUVTaG9zN3ZPMWpzYXRrTXJoNDBF?oc=5",
-    "ts": 1795361079000,
+    "ts": 1795369989000,
     "summary": "Robust Employment Report Supports Further Fed Rate Hikes The Conference Board",
     "src": "Hiring & labor (Google News)",
     "lean": null
    },
    {
-    "t": "H-1B visa workers are fed up and abandoning American tech jobs - Staffing Industry Analysts",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObm9TektQVkdueGZGWGxFQXJWUzExbTlYZUdGRGRKQV9PTVFSTjl2ZmxucGtkOUxxZXZBZ1MtUzlTRHV6SVZISVUxVW5yTHZ4MmNTM1VnSmllYkNRN21wX2NxLS05VllkS1Bid1lGZW81d2I4SzJSVi1ZNVBDNmNwQWlCY09sbm9jZFRkLW40MWVrTHpaTVhPVjZELUdMLURqdGUtLUFvbW9QeE1uOGU1ajhKLXU3Yjg2LUE?oc=5",
-    "ts": 1795193601000,
-    "summary": "H-1B visa workers are fed up and abandoning American tech jobs Staffing Industry Analysts",
+    "t": "TechServe Alliance elects new board officers, directors - Staffing Industry Analysts",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcUQ4RmQ5Q1RrZnJEZWp5ZlZDT0kzT2dKYVBmUl9lZHViRUY5a2JaVmNOZ2hDcnltVi1HMHRpOE1VaXJQUmxuU0VVTEJzT1lienMxMWZUX2FQUXh6VXVPQ0VwRTB1U0hRZUZEYUtCazBLbkZaOHlUT1JkSEJEbTUtWE5mUnk5TGJ2MHRkSGdqZDByc1NNdlpySjMtVzN1dUF5Ymp6bE5RbGRlTE54b1c0?oc=5",
+    "ts": 1795193627000,
+    "summary": "TechServe Alliance elects new board officers, directors Staffing Industry Analysts",
     "src": "Staffing Industry (Google News)",
     "lean": null
    },
@@ -1100,11 +1100,19 @@
     "lean": null
    },
    {
-    "t": "New Federal Data on Job Openings and Employee Turnover Shows a Sluggish Oregon Economy - Willamette Week",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbW5FVW56dC1adkFZN0tCbF83Umhuenotd3J5Z1lZSjFnZk80TVFtUWt6VlF4emEtellObjFpTVkzMHE1amUxZ253U0xYMzlCY09WSlhBTVVFR25ySmYwLWplTEE1OVhiVmdpU0YxSi1wV0lwM3prc0pLeFZKaUpZN1BXMENnUjZYMGdDc05MWHJRNlZJajJSV3M1TUxFREF4amhfMjYyazZ3VjdFUjRxbF9qdk54YUM5amJfdXkwTTVyRGltck55ODBKUQ?oc=5",
-    "ts": 1795360500000,
-    "summary": "New Federal Data on Job Openings and Employee Turnover Shows a Sluggish Oregon Economy Willamette Week",
+    "t": "The Labor Crisis in Iran: Workers Flee Formal Employment for the Margins of the Economy - Iran Focus",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQjdVWllHSXVZS2VhMkZUR0ZPZnFVNUc4MzBMYnQ5eWQtMWlSNFJHYUZRdk1BdW1sQkliTW9YZXJtT0JLRjhHQThaNl9Ibm9CeFRIbGVVeVZuTUI1YUtXSjRWX1dOeE56MVFUdVVvUkpmUG0yRFhBU0FhUFVtTDRsUEczM3VUUG1HVEJDLVhZSjVDQUxISWZlbGRLVTM4OFJ4enJQOWhseVhZbFFpVFMzRG12UW5uWXVuVUlGQkdyeFJwa3FmdVHSAcYBQVVfeXFMUEI3VVpZR0l1WUtlYTJGVEdGT2ZxVTVHODMwTGJ0OXlkLTFpUjRSR2FGUXZNQXVtbEJJYk1vWGVybU9CS0Y4R0E4WjZfSG5vQnhUSGxlVXlWbk1CNWFLV0o0Vl9XTnhOejFRVHVVb1JKZlBtMkRYQVNBYVBVbUw0bFBHMzN1VFBtR1RCQy1YWUo1Q0FMSElmZWxkS1UzODhSeHpyUDlobHlYWWxRaVRTM0RtdlFubll1blVJRkJHcnhScGtxZnVR?oc=5",
+    "ts": 1795368374000,
+    "summary": "The Labor Crisis in Iran: Workers Flee Formal Employment for the Margins of the Economy Iran Focus",
     "src": "Hiring & labor (Google News)",
+    "lean": null
+   },
+   {
+    "t": "H-1B visa workers are fed up and abandoning American tech jobs - Staffing Industry Analysts",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObm9TektQVkdueGZGWGxFQXJWUzExbTlYZUdGRGRKQV9PTVFSTjl2ZmxucGtkOUxxZXZBZ1MtUzlTRHV6SVZISVUxVW5yTHZ4MmNTM1VnSmllYkNRN21wX2NxLS05VllkS1Bid1lGZW81d2I4SzJSVi1ZNVBDNmNwQWlCY09sbm9jZFRkLW40MWVrTHpaTVhPVjZELUdMLURqdGUtLUFvbW9QeE1uOGU1ajhKLXU3Yjg2LUE?oc=5",
+    "ts": 1795193601000,
+    "summary": "H-1B visa workers are fed up and abandoning American tech jobs Staffing Industry Analysts",
+    "src": "Staffing Industry (Google News)",
     "lean": null
    },
    {
@@ -1116,10 +1124,10 @@
     "lean": null
    },
    {
-    "t": "Labour ministry launches job-matching portal, occupational shortage index - Business Standard",
-    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUk5KdHVDYUg4Yy1zRzF3V1YwVFJBcHB1VEVsdFFzd3I5RlBHNjhITzNDUldMWDNpN3d6T3czdGVHTndxc19fTzczT0RZQWJFSUllUFM4TmxuVWJFU0dlZlkwaHVleE5Pb2E3RnhGUmdSREZlekxUb2xQTTliaVJKTDNrSnY2S3RhYXMydmtFZmVFY3N2dWw3akI3MWFlbC1xQjNpSGJHLVVzTTA2d0hraWtnYmllRHRaZWd4ZXg4dUVXRUZBc0JCSVFvT1dfRW1fX0dwcDV30gHbAUFVX3lxTE92NlJTXzNSVjhDTUNsY0Vaakx2akNfdXlkeFY4U0RGa0o4TWVzWm9sQ2d1S1BxSlp4emprN2JwN19GTlNncVY4cVBORWdjSUxTbHk3bk9XaC1FTWVBcThNaVVMdHBUOTRpYVdkOE01aUZwRi1pRHptSk0xZTRHS3RTQ1BDOXhnOEVkT20zakJhc01hblZBcVhmTi1pb3lLVmNaVkk1NWxwRGNPcVhrLVJaQXpaWTBuU2prMFZMa0xMQnR6dXNhTkFUbUd2cm1uZHR1RERUVVVmSGVhdw?oc=5",
-    "ts": 1795353833000,
-    "summary": "Labour ministry launches job-matching portal, occupational shortage index Business Standard",
+    "t": "New Federal Data on Job Openings and Employee Turnover Shows a Sluggish Oregon Economy - Willamette Week",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbW5FVW56dC1adkFZN0tCbF83Umhuenotd3J5Z1lZSjFnZk80TVFtUWt6VlF4emEtellObjFpTVkzMHE1amUxZ253U0xYMzlCY09WSlhBTVVFR25ySmYwLWplTEE1OVhiVmdpU0YxSi1wV0lwM3prc0pLeFZKaUpZN1BXMENnUjZYMGdDc05MWHJRNlZJajJSV3M1TUxFREF4amhfMjYyazZ3VjdFUjRxbF9qdk54YUM5amJfdXkwTTVyRGltck55ODBKUQ?oc=5",
+    "ts": 1795360500000,
+    "summary": "New Federal Data on Job Openings and Employee Turnover Shows a Sluggish Oregon Economy Willamette Week",
     "src": "Hiring & labor (Google News)",
     "lean": null
    },
@@ -1132,10 +1140,10 @@
     "lean": null
    },
    {
-    "t": "Pennsylvania Unemployment Rate Falls to Record Low 3.5% - Demokratis.co.id",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBwMjFmMkQwV2JwTHhjaEEwMTNZWDVncXRNUUVPVEpEZ3VibzZTY21xZ3JmZkQ1N25MMld0eWVoOEQyZzhfVGhsSWN6bXhKWTczS1hwcEpaQm1xSXlGcW84R2lDcnZScEVmbmRmNXBTeXdycm5p?oc=5",
-    "ts": 1795346191000,
-    "summary": "Pennsylvania Unemployment Rate Falls to Record Low 3.5% Demokratis.co.id",
+    "t": "Labour ministry launches job-matching portal, occupational shortage index - Business Standard",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUk5KdHVDYUg4Yy1zRzF3V1YwVFJBcHB1VEVsdFFzd3I5RlBHNjhITzNDUldMWDNpN3d6T3czdGVHTndxc19fTzczT0RZQWJFSUllUFM4TmxuVWJFU0dlZlkwaHVleE5Pb2E3RnhGUmdSREZlekxUb2xQTTliaVJKTDNrSnY2S3RhYXMydmtFZmVFY3N2dWw3akI3MWFlbC1xQjNpSGJHLVVzTTA2d0hraWtnYmllRHRaZWd4ZXg4dUVXRUZBc0JCSVFvT1dfRW1fX0dwcDV30gHbAUFVX3lxTE92NlJTXzNSVjhDTUNsY0Vaakx2akNfdXlkeFY4U0RGa0o4TWVzWm9sQ2d1S1BxSlp4emprN2JwN19GTlNncVY4cVBORWdjSUxTbHk3bk9XaC1FTWVBcThNaVVMdHBUOTRpYVdkOE01aUZwRi1pRHptSk0xZTRHS3RTQ1BDOXhnOEVkT20zakJhc01hblZBcVhmTi1pb3lLVmNaVkk1NWxwRGNPcVhrLVJaQXpaWTBuU2prMFZMa0xMQnR6dXNhTkFUbUd2cm1uZHR1RERUVVVmSGVhdw?oc=5",
+    "ts": 1795353791000,
+    "summary": "Labour ministry launches job-matching portal, occupational shortage index Business Standard",
     "src": "Hiring & labor (Google News)",
     "lean": null
    },
@@ -1148,10 +1156,10 @@
     "lean": null
    },
    {
-    "t": "Youth Struggle to Find Jobs as SMEs Face Early Resignations - 조선일보",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSFJHUmUxM3k5TGs3akNOUkRUem1YZldDeE9BNUJzd3pYcXR4cE9XYTVZcTU2VUtJOWVtd1J4RGdybk84b2hfc1pzd0Z3b0paaWMtSGt6TmNDd2tOLWNydUU5eUNFOHY3T08yd0ljck1JWUJacnBFRDBTSzFvWm92bnBFRi14Q0w3?oc=5",
-    "ts": 1795328974000,
-    "summary": "Youth Struggle to Find Jobs as SMEs Face Early Resignations 조선일보",
+    "t": "Pennsylvania Unemployment Rate Falls to Record Low 3.5% - Demokratis.co.id",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBwMjFmMkQwV2JwTHhjaEEwMTNZWDVncXRNUUVPVEpEZ3VibzZTY21xZ3JmZkQ1N25MMld0eWVoOEQyZzhfVGhsSWN6bXhKWTczS1hwcEpaQm1xSXlGcW84R2lDcnZScEVmbmRmNXBTeXdycm5p?oc=5",
+    "ts": 1795346191000,
+    "summary": "Pennsylvania Unemployment Rate Falls to Record Low 3.5% Demokratis.co.id",
     "src": "Hiring & labor (Google News)",
     "lean": null
    },
@@ -1164,10 +1172,10 @@
     "lean": null
    },
    {
-    "t": "Southern California hits record employment: 13 things to know - Orange County Register",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcmhOUFpEU1dhcnhfTHdJT0xQUWVGWXlYYUhQbGR0Mjd2cWlsUFFvWkhpc3ZXSEpoaEluS1lveTlJR3FSTnJNYWhvUkQ3ZUVrS25Ha2pBVTZiN001VVZrUXItY3NNVXcwcTRSTTZidXFxVUZTTy1OXzkzZC1ENmYxeWMxbDJfa0dyME1KbjdCRDZMeGNaZ3JWWVhXdjY0enpP?oc=5",
-    "ts": 1795277298000,
-    "summary": "Southern California hits record employment: 13 things to know Orange County Register",
+    "t": "Youth Struggle to Find Jobs as SMEs Face Early Resignations - 조선일보",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSFJHUmUxM3k5TGs3akNOUkRUem1YZldDeE9BNUJzd3pYcXR4cE9XYTVZcTU2VUtJOWVtd1J4RGdybk84b2hfc1pzd0Z3b0paaWMtSGt6TmNDd2tOLWNydUU5eUNFOHY3T08yd0ljck1JWUJacnBFRDBTSzFvWm92bnBFRi14Q0w3?oc=5",
+    "ts": 1795328974000,
+    "summary": "Youth Struggle to Find Jobs as SMEs Face Early Resignations 조선일보",
     "src": "Hiring & labor (Google News)",
     "lean": null
    },
@@ -1180,10 +1188,10 @@
     "lean": null
    },
    {
-    "t": "Number of people seeking unemployment aid ticks higher, still low historically - Scripps News",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSUp1bm04SHE4VXhSY0xpdkZ4SGdCMjd3bVRQVGd0eHdDako1ckZPLTNMU1pCa0w2R3hhQUJlbXAzNmdOWEk0ZG45OUNlakZQRWtxVVBheUs1RHBHQzFyQmQ4WHk2UTNvMVZWalZKcklwOWpLSnc4R01UN0NoLWg2X3AzeDFPSElxYWhuWlZOV0VMLWdqSm92MkYxUGhoZjRZWGlxTHRUM1gxVllPOVpNM0NOTUJCa3N6VjRkSmZXN29RQXRMLUl2d1J3?oc=5",
-    "ts": 1795261389000,
-    "summary": "Number of people seeking unemployment aid ticks higher, still low historically Scripps News",
+    "t": "Southern California hits record employment: 13 things to know - Orange County Register",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcmhOUFpEU1dhcnhfTHdJT0xQUWVGWXlYYUhQbGR0Mjd2cWlsUFFvWkhpc3ZXSEpoaEluS1lveTlJR3FSTnJNYWhvUkQ3ZUVrS25Ha2pBVTZiN001VVZrUXItY3NNVXcwcTRSTTZidXFxVUZTTy1OXzkzZC1ENmYxeWMxbDJfa0dyME1KbjdCRDZMeGNaZ3JWWVhXdjY0enpP?oc=5",
+    "ts": 1795277298000,
+    "summary": "Southern California hits record employment: 13 things to know Orange County Register",
     "src": "Hiring & labor (Google News)",
     "lean": null
    },
@@ -1212,10 +1220,10 @@
     "lean": null
    },
    {
-    "t": "Massachusetts unemployment drops to 4.2% but jobs still below pre-pandemic levels - Boston Herald",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbERCV2hLdktvRjRnek1GZFhIVDd0ZkFXN2JDWGNhbWZIUFFMeWI0dEMwdTY1by1KODFLV1FJZmRvRnphTEJLTFdBWHdESjRReFJhU3I5a0oydEpGX2dxYWoyNXRtcUZ5bE4xOFZiZUdtd0tGTkdiekl3TUUteG9mRWtoOGRBMHlrSU1PMmo1ZUZhU2VWOXZOeGtMbzYydFZzbm1yYlpQLWVwMGg4dXVJbGxfMFc1eVhQckRZU0Nn?oc=5",
-    "ts": 1795220306000,
-    "summary": "Massachusetts unemployment drops to 4.2% but jobs still below pre-pandemic levels Boston Herald",
+    "t": "It is predicted that the trend of starting one's first job in the youth job market with a large comp.. - 매일경제",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1hM0xXRmN4Zi1sNUZnNjVUYUhTdzhBbzF6MVZ0czNjNUpUNkJ6YnhUWmFvMVhwVGRpVVdHankwRXlQOHpoQUdITWNYYU83Y3RPcHc?oc=5",
+    "ts": 1795250635000,
+    "summary": "It is predicted that the trend of starting one's first job in the youth job market with a large comp.. 매일경제",
     "src": "Hiring & labor (Google News)",
     "lean": null
    },
@@ -1230,44 +1238,36 @@
   ],
   "boston": [
    {
-    "t": "3 Stars: Elias Lindholm has career-best night for Bruins - 98.5 The Sports Hub",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONURjSk1adndYMjVzNWRfVEtNUHRTMTNnTlYtTkpMeVVfMjY1RXlpSWRwUmdsWXRUWkVvNm1lSkFqS1VVSloya3pMcDc3X2xTWm5TYTViSWhsMlJVaEFBaXByUGM5T2lKSHRYYklrTjFNd1Axc1JpYTVZLUc4MU5vdTdZeHVwNVctcGFMeDZVRQ?oc=5",
-    "ts": 1795379007000,
-    "summary": "3 Stars: Elias Lindholm has career-best night for Bruins 98.5 The Sports Hub",
+    "t": "Massachusetts Faces a Shrinking Pipeline of Primary Care Doctors - Boston's ROCK 92.9",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOWZzbzdCckZKOTNQd1F1amVQNnpjU3dhNHlsR2RvTUlOZWs1cnNxeW8yR2xzUVdSME1nMGo1MXBUVUVmczdKc3AyWGEwOWI5QzVVaWRUcUtLNWM4Z3c4TmpYTUkwT2ZLWTQwTVVnRnZjWnlfZUJTTFRTbnZ5U0NPUDF1YzUxNmlQZFN3a2swUzlmem9TLUFvc3JHUW9tb2ZKZlQw?oc=5",
+    "ts": 1795396902000,
+    "summary": "Massachusetts Faces a Shrinking Pipeline of Primary Care Doctors Boston's ROCK 92.9",
     "src": "Boston (Google News)",
     "lean": null
    },
    {
-    "t": "These storm maps show rain timing, expected totals, and strongest winds Sunday into Monday - The Boston Globe",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSzlYUHpic0dOZW1ubjUwb0Z4TWdUaUNoWTlWVGpFdllFdFo0aGw5cjA2NGlqN2stWGlkb2w0R2otMVBoc2p6U0x1LUVHQzd3WmVKTHBCQ3JXQjBNYXpHeVlLbFNWUWRiQmw4Rzk0bnBrNFlzU2RTZVBjRzJsNEtqOWN5bzA3NHBQNWFQb3RJSU1udw?oc=5",
-    "ts": 1795378529000,
-    "summary": "These storm maps show rain timing, expected totals, and strongest winds Sunday into Monday The Boston Globe",
-    "src": "Boston Globe",
-    "lean": "L"
-   },
-   {
-    "t": "Howie Carr: How to become a hack judge, or clerk, in Massachusetts - Boston Herald",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdFpGbFBSR290R1NTLWFtb0FfN1F1d1dNX0JkdTc1QmZKSGZURldXV2NiQ0NfVElFRTNZRkRnd2ZtWHZOVlJOTkQ1VkktVXFMVDlBa1pPZVhRd0N6TU1MT2x4RWpKZGJhWENQMkVRMmxSY0Rqczg2b3pqMk52VGQ1S0JRb0I0dmVFOGVxdkNsSnRHdXI5bjZtYUVYQ2VUUGluTXU5aWhmZw?oc=5",
-    "ts": 1795344985000,
-    "summary": "Howie Carr: How to become a hack judge, or clerk, in Massachusetts Boston Herald",
+    "t": "‘We can’t afford that’: Marco Sturm sends message to Bruins veteran - Boston Herald",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOY3l3dzZxblhiRXIwb09qRXRpTDdEVmdWLVJZWmR3WGpuSW15WXlhcG1ORWFOcE1xRGFSVDhpRTVxcTg2dC1YWVU1Qy1oRXFzQ1RIcFlqVkI4QVVLa0VYdURZSTJ2b1hremNsN21lV0dpUjFDRnVubGgxblRLaUNSbEd6UGlRZm9fUkJ3?oc=5",
+    "ts": 1795382807000,
+    "summary": "‘We can’t afford that’: Marco Sturm sends message to Bruins veteran Boston Herald",
     "src": "Boston Herald",
     "lean": "R"
    },
    {
-    "t": "Healthcare AI: Getting your first Paying customers - Superpower Daily",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdl91LWJTQWlwZllCbExxNHpmV3BDbjNuTDJzM3RZN2dGanA2SENqbGN3WjBsX3JnbWd2YXZrS2xfX0kyaGY4cDhqSVFwQXE2M2tycFQzNlZOTERGYkk2QkVNUDRFVml2bXJqWVZvMklrT2J0M3JfR1BaNnNjclgzajBoVWwxemZsUk93NFdnZ0lEVkNaNVFkWWttVjdhNDk0VGc3Mk1wS3BjTVNldDZ4U0o3OWRSMDB3MGp0clNn?oc=5",
-    "ts": 1795369444000,
-    "summary": "Healthcare AI: Getting your first Paying customers Superpower Daily",
-    "src": "Boston (Google News)",
-    "lean": null
-   },
-   {
-    "t": "UN climate talks break down over bitter disagreements on fossil fuels - The Boston Globe",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQT055RW1ITTVkSTY1SDJPbzB3VEdqeXVWX1BBM2dCN0I1M3NWVEJvVkJCSmlWYlEyOFAyV2xEajJKS0dGRjkzTFcyZFZQaVZucHRPT1RpNmhtQWVOTHZ5RTdLMmtENkh1RFJ0SlVySXVQLUZwRjNuR1FtMGE5VGZFZ2VKS0dHVmZDbGJSYzBES3gzdlJ0bUE?oc=5",
-    "ts": 1795345920000,
-    "summary": "UN climate talks break down over bitter disagreements on fossil fuels The Boston Globe",
+    "t": "Celtics at Warriors: Boston looks to rebound after last-second loss - The Boston Globe",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaDVEY3NvOW9hWl9BclZhTEVTRlk0ZUZXbGlSQzVBak16M1hmZWp3RXpwU0ZFV0Ixb0Z4Ni02ZmhEei1RQW1LaHZnZFV5U2YxTHpSdEVVa2FOR3RjelFPUkVlRjZFMXVXNW5IMkRTcjVFWGlrVEdrOTNoSXdZNWlZbXJXZG9xT0JRR2gw?oc=5",
+    "ts": 1795351200000,
+    "summary": "Celtics at Warriors: Boston looks to rebound after last-second loss The Boston Globe",
     "src": "Boston Globe",
     "lean": "L"
+   },
+   {
+    "t": "Fire intentionally set during break-in at Massachusetts home, leaving 3 police officers hurt - CBS News",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNVQxNFc1YlZRZVEySl9VWXJhUzJWbDdGX2RMV3FMT2NCNC1GNXV4ZS1IZVNfMzh1NUtOZjVfSkFGZHktSzd6TWtMWHo3NmFPdnBWWFpwWm52ckxvLV9qTXI4Y3c2R3c3YjhYV3FISFVNX0dyblI0MEtySldlWGR0aW55bGIzd295c3c4UkJB?oc=5",
+    "ts": 1795393785000,
+    "summary": "Fire intentionally set during break-in at Massachusetts home, leaving 3 police officers hurt CBS News",
+    "src": "Boston (Google News)",
+    "lean": null
    },
    {
     "t": "After becoming a Seth Meyers punchline, Medford ditches biweekly trash plan for mandatory city bags - Boston Herald",
@@ -1278,20 +1278,20 @@
     "lean": "R"
    },
    {
-    "t": "Celtics Receive Good News After Nightmare 1-Point Loss to Kings - Yahoo Sports",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZ0FQanA5Nl9uWHdqaWlUZi1kRnpMOXdsUHk3UV9Fc1pibDNTZGJrd3k0LVVFM21CbHNENDBPOEt4UlhnaUZNTnlMN0FyWVo0WV9MdkFmMlJPdXU0NjVtZG5pV1hPbWxMWkpfd1pzMlNVS1lVUFhfbnQ2M0tkUDlSWEh0SXpZNDI5MkZ3dQ?oc=5",
-    "ts": 1795368633000,
-    "summary": "Celtics Receive Good News After Nightmare 1-Point Loss to Kings Yahoo Sports",
-    "src": "Boston (Google News)",
-    "lean": null
-   },
-   {
-    "t": "Single-use plastic: Used for minutes, around for centuries - The Boston Globe",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTlJSbkZXVVVwVktFdVF0YU9adGxaM2FEamx5ajIyMkt4a0xubTdPWnhPWkdSSHR4dG54Tk5wMzlVYlhYeWhGUkE5dzFXZC1TZHREYjQtOFBlekJIZGZYSUZweUVwdmJ4RFdDMlZpZWFnMXhJcXdLVU5Kdmc3UUZkbHhJNTRRTk15bEhLN2hsM1BsVFN0X25Yd3RLSGdVN3JrcExj?oc=5",
-    "ts": 1795345558000,
-    "summary": "Single-use plastic: Used for minutes, around for centuries The Boston Globe",
+    "t": "UN climate talks break down over bitter disagreements on fossil fuels - The Boston Globe",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQT055RW1ITTVkSTY1SDJPbzB3VEdqeXVWX1BBM2dCN0I1M3NWVEJvVkJCSmlWYlEyOFAyV2xEajJKS0dGRjkzTFcyZFZQaVZucHRPT1RpNmhtQWVOTHZ5RTdLMmtENkh1RFJ0SlVySXVQLUZwRjNuR1FtMGE5VGZFZ2VKS0dHVmZDbGJSYzBES3gzdlJ0bUE?oc=5",
+    "ts": 1795345920000,
+    "summary": "UN climate talks break down over bitter disagreements on fossil fuels The Boston Globe",
     "src": "Boston Globe",
     "lean": "L"
+   },
+   {
+    "t": "Six double-figure scorers help Boston College fend off NJIT - The Lufkin Daily News",
+    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPa0tBT0FCX3Fad1p5YUZId1Vnb2ZETmVVVDJZcnFLRENtZTZiVVFjZFJIbDJxT003NHRWM3pKR2NMbE1YenpQbDVXLVlpMGlQb3FvcnBjcGk4TFlRS3B1akpXR2VqczQySEV6Si1Nd3RTT00wcl9jc09fOVBLZnk4S2k0cExmc2ZTLTRYRV9BTjB5SzZYZ1Blbld1VnBPaVN0V0dRT2FPUkNkQ0JKUDd1X0ZHUW9zZGtKSUVsRG9YZ0Vmdm1aam9XQTNaZG9MRTZkQkdUR2YyMzRxbmNZNTNJVjBSWTlUcVhadmVSOVhB?oc=5",
+    "ts": 1795393689000,
+    "summary": "Six double-figure scorers help Boston College fend off NJIT The Lufkin Daily News",
+    "src": "Boston (Google News)",
+    "lean": null
    },
    {
     "t": "Cambridge raises resident parking permit fee to $75, contradicted by ‘hardship’ waiver - Boston Herald",
@@ -1302,20 +1302,20 @@
     "lean": "R"
    },
    {
-    "t": "1 person hospitalized after rollover crash on Mass. Pike in Charlton - Boston 25 News",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbWtpWDRZWTJJTXNuSU1ObUhyd3FpajBMQXVMRFRrZkVYVE9GWHFVX2o1LUpmS1NRWVZFYnA3TlFDcTFNbVVzc2NqU0tLQTloYndrS2VDRGFEUUYzQkY2OGFYaWx4QWFvN3hSTGU0RXNIOHpmelBoZXNyTXlkNWtjejRGcmpHb1JvMXl3ZGJDaXFJeWs5bDRTdnJzRm1fWW9vRWFZdzFwcXJrTDlhU1pRUS13WFZFQnZYMWJfb3JOZmRZcFNfSnFTONIB3AFBVV95cUxQYU9kbzJSMTU2NzYwVmRBY1Y1VllKMkI4WjhhUWpER1dUdkhWYWpfYTc0MXUwTDhxNUFnbXJ6OTcxd293ZGlOcGM4WlFGSDJZWVFTcFNUWFZIbFg0amJPVWpNZ3NUNnFBS0txaXhOVjFUODVvNFlXalNZWDhEN3ZheDB5clE4WmdMbDR2aUtnU3MtaF9OUW5NUm5FT3hCTURnRVg4dm5nc1BDNEhUbXZHaG9HQjJwZjhwRHM4TXJPVHY5Ym0yMlJrUGNqMDFDWXFhd1dOVGpVRFVXbERx?oc=5",
-    "ts": 1795367917000,
-    "summary": "1 person hospitalized after rollover crash on Mass. Pike in Charlton Boston 25 News",
-    "src": "Boston (Google News)",
-    "lean": null
-   },
-   {
-    "t": "Opinion | Early college programs should serve students who most need a boost - The Boston Globe",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA1Yno1UEFPajBWVmhUaTBaWFpkblkwR0dXbWJxWDh3bm9yZlZyczh6ZWlsREVNbGp3QW5OQkwwZGdCdVFaWVVOYXJacE1YVHZOWVJzWk8xdmZSN3dFT1B0cmNSb3N0V1p4TnZpY210d1k4d1NRNWFQYnhLSjVLUQ?oc=5",
-    "ts": 1795338202000,
-    "summary": "Opinion | Early college programs should serve students who most need a boost The Boston Globe",
+    "t": "Single-use plastic: Used for minutes, around for centuries - The Boston Globe",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTlJSbkZXVVVwVktFdVF0YU9adGxaM2FEamx5ajIyMkt4a0xubTdPWnhPWkdSSHR4dG54Tk5wMzlVYlhYeWhGUkE5dzFXZC1TZHREYjQtOFBlekJIZGZYSUZweUVwdmJ4RFdDMlZpZWFnMXhJcXdLVU5Kdmc3UUZkbHhJNTRRTk15bEhLN2hsM1BsVFN0X25Yd3RLSGdVN3JrcExj?oc=5",
+    "ts": 1795345558000,
+    "summary": "Single-use plastic: Used for minutes, around for centuries The Boston Globe",
     "src": "Boston Globe",
     "lean": "L"
+   },
+   {
+    "t": "A woman in Newton got some unexpected backup after finding herself being followed by a group of turkeys. - Facebook",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOSjN1QXdxOW56UEtXVG9EUzN2M2pWNU9ER2J3U2d1eXZWSHJ4ckZtXzhnaTRlcFBiZVlHWHE0dlBXS0RlVk9GSm4taTNjNHZKb0xMMjlrd1MzODFVQ3JLdEV3UlNJZVpXMUE3UTN3S1B4Nnk3WlE1YXNaWHRQZ3A2Ny1xQ2lFVGswWFhKa0hRRmFxOGkwemEtaExtd1A3cHh3OHg5Q1o0ZHM5dTNLREpmZzlrdWdtOVk1dS1QdGNENFBKM3BQenVyS3Z4M2hMOFpLRVQtM1dNcW9qTk0?oc=5",
+    "ts": 1795392953000,
+    "summary": "A woman in Newton got some unexpected backup after finding herself being followed by a group of turkeys. Facebook",
+    "src": "Boston (Google News)",
+    "lean": null
    },
    {
     "t": "Pols & Politics: Minogue backs Elizabeth Dionne for MassGOP Chair - Boston Herald",
@@ -1326,20 +1326,68 @@
     "lean": "R"
    },
    {
-    "t": "Dog from Texas up for adoption through Massachusetts shelter - CBS News",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNnBhMjhwQVZCY1ZWeERlZXlOREdmZTdxYUY4Wkc3NXZfZHpRaDlydnJHU0R0b0RuYnVVUV9qYTdjVnVmMlNOY2VMYzIwZjloR2h2eUNNdzk5R3VET19lOTZONUVIOHpBdllBbmpfeWVVaGdoRkxwd3UtZjktYU5rMkhQdFhBMHU2aWFobnZIY1FyblNpVGZuMk53aVYzaFE?oc=5",
-    "ts": 1795363260000,
-    "summary": "Dog from Texas up for adoption through Massachusetts shelter CBS News",
+    "t": "Lesley University lists ‘Quad at Doble’ in Cambridge for sale - The Boston Globe",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE84Y3ZkUzFYUGVyOXhDOExqeVhMQ0F5SjhEMGhiVmprRkRpcEZvSTh1bDFDa09UVG92OHUyLUlrRmxfVmFaNjVJUFBkeUd4b25sZWRHM1p3YUx1Z2g2UGlUXzhxbHh4dThGLWgxN2wzSTNsYnpJaTRoaS1VUEU1QlU?oc=5",
+    "ts": 1795345406000,
+    "summary": "Lesley University lists ‘Quad at Doble’ in Cambridge for sale The Boston Globe",
+    "src": "Boston Globe",
+    "lean": "L"
+   },
+   {
+    "t": "FIRST ALERT: How much rain will storm drop on Boston? Will it affect the commute? - NBC Boston",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZmN6QlA1U3IyWWpNR01IdDBfOTlYTm4xUEZqQm1ZSzJualM0YVZIdTVmYk9GNVlwblUwVjU2RVhCQkU1LUN0Rm9GQ1ctenU4WWt5bW9BZWVTWlg3YjFrY1Z6V3RjeWFaWV9zV0IyX203MWRqS2pQOTlWVWRkeldKVDFVaUg3WEFBX0J0VnZB0gGWAUFVX3lxTE9yendSRnF1N1l6RTJqa1hUNEpqVkd0N29kaHprdmROaGNSS0tjSXY5VHM3Y0txMWRwUHhRVHU4S0tSY0ZabHVYNEhjcVliS2I1MTRqTkh0TnlucmFWTlFXVzhhM0NKN01acVBGZzBqVTBESUtrOGtCS3luQXVTRWg0M0RPcnc5anZHUG5PdG05azFUTlhyZw?oc=5",
+    "ts": 1795391757000,
+    "summary": "FIRST ALERT: How much rain will storm drop on Boston? Will it affect the commute? NBC Boston",
     "src": "Boston (Google News)",
     "lean": null
    },
    {
-    "t": "Air alert sounds in Kaliningrad hours after an attack on a Russia-bound ship in the Gulf of Finland - The Boston Globe",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNlMtVGxqUW1UOVJkN05uSnN3OWNac1dtQzF6aGJoUzVWOGNjOEY2VXRJRWdyeVFtZUt1WTZwSEkyZE1Sd0djcERfWWcwQzRfQzRoRTl0czVUYklWNFJFazNHNm12a2lrRFdNc0xsOUxRcVU3UV9pSXVkNF9UYUh1bjNqUG4tRTYySWNZb0tlNl9NUnd4cDVwNWNmWlF5NXpzMjRydWpVZw?oc=5",
-    "ts": 1795333020000,
-    "summary": "Air alert sounds in Kaliningrad hours after an attack on a Russia-bound ship in the Gulf of Finland The Boston Globe",
+    "t": "Sinclair: Credit card legislation bad for small businesses - Boston Herald",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZEhlX19ONWZWenZoeTdKWEJXcDlncnhaSTRSaFRkcVdEeXlIOTFhQ3NFTWs2WVhyRnVNaVdvaDlQZ3E0aXkzZkRVaXpzSXZUejZjTXVxRzN0ZVN0dlBzQ290UmlyTlA0aTR4eXJyNHRRd1ozMDM1aXlZVVRFT0JiQXF0YmZSaEU3VmtVakxqVHFaMmhUUEo0cS00ZjBFYW8?oc=5",
+    "ts": 1795336022000,
+    "summary": "Sinclair: Credit card legislation bad for small businesses Boston Herald",
+    "src": "Boston Herald",
+    "lean": "R"
+   },
+   {
+    "t": "In front of an NHL legend, Elias Lindholm had a night to remember, and other observations from the Bruins’ victory - The Boston Globe",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdzR4MEtzc3VsekxXejNEZFFIeC1lTWNBa0psUjdfUFhsbUI2RFBLaWl1b09LNmlLbEIzc1dhaTV5MFh6cnRoS3ZTOC1maHhNakhIRmV4TEtWY2VYR2hJTlJrdU1mcktmeDFpWVpPTXI4QkFJRzhIVnNmMmFPNF9pb1JDRTJuZVNIWWJMZU1Qaw?oc=5",
+    "ts": 1795341732000,
+    "summary": "In front of an NHL legend, Elias Lindholm had a night to remember, and other observations from the Bruins’ victory The Boston Globe",
     "src": "Boston Globe",
     "lean": "L"
+   },
+   {
+    "t": "Heavy rain into the overnight hours, Thanksgiving Day looks wet after dinnertime - WCVB",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVFZJeUhIazJIMGdILVlZaXl3QnhSbVF0VTZHQWxrZjZ4TUwyNTMxTVhrUXlsNXRKRnFZSkZOdm5ZalBHRzJMSmxSekRvQkE5dVR5Yk9rV3VVbXFsenlyTDBKOFJLWk1KbXgxNHNzSHNKQXh0U3VEcHFmM052a21uRmdhVXBDRExnSXNrVWk0V09jb3pfeklvMHJBOVZJZnFQblF4Qg?oc=5",
+    "ts": 1795387020000,
+    "summary": "Heavy rain into the overnight hours, Thanksgiving Day looks wet after dinnertime WCVB",
+    "src": "Boston (Google News)",
+    "lean": null
+   },
+   {
+    "t": "AI can’t replace professional networking - Boston Herald",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONU5KZnZsNEtQSWc2bVZVSWdsUUZzTzhQaVh3enVBMlZSX0FMemFEcWhINGpOcmotSUFjeWhXV29MTHFrTU9kQllEVXVaeVdFSTZ3N2R6N0NNbjgtSHlJRU5jcGZRYkV4cFFZMXdPa3o4dWZQSmZPOGI3RzJOWkp1TTZ6eXhIc0VDWU5GQUl4UzdnaEdxM2xCZEctbDBVNDluLVVaTUx5UGJyTUFpdFd2UQ?oc=5",
+    "ts": 1795335382000,
+    "summary": "AI can’t replace professional networking Boston Herald",
+    "src": "Boston Herald",
+    "lean": "R"
+   },
+   {
+    "t": "Opinion | Early college programs should serve students who most need a boost - The Boston Globe",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA1Yno1UEFPajBWVmhUaTBaWFpkblkwR0dXbWJxWDh3bm9yZlZyczh6ZWlsREVNbGp3QW5OQkwwZGdCdVFaWVVOYXJacE1YVHZOWVJzWk8xdmZSN3dFT1B0cmNSb3N0V1p4TnZpY210d1k4d1NRNWFQYnhLSjVLUQ?oc=5",
+    "ts": 1795338202000,
+    "summary": "Opinion | Early college programs should serve students who most need a boost The Boston Globe",
+    "src": "Boston Globe",
+    "lean": "L"
+   },
+   {
+    "t": "Boston Celtics (11-5) at Golden State Warriors (8-8) Game #17 11/22/26 - Yahoo Sports",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZWZ3TWxGa0FXMEZhX3ZSLVkxMkVIeXd3UXBsSUxuakJwY1k4WnBpQnk5eGlnMWc0RllNa1VneHNMVGhfNEM3QUlBWGxOMjFPRzZhejZTLVpBQlRuYUQ3OFVxc2VZSVlDSXFWc1VtV3daTjExbHFVME53ZmQzYlQzRg?oc=5",
+    "ts": 1795386600000,
+    "summary": "Boston Celtics (11-5) at Golden State Warriors (8-8) Game #17 11/22/26 Yahoo Sports",
+    "src": "Boston (Google News)",
+    "lean": null
    },
    {
     "t": "Celtics waste guard’s unlikely performance in embarrassing loss to lowly Kings - Boston Herald",
@@ -1350,20 +1398,20 @@
     "lean": "R"
    },
    {
-    "t": "Red Sox Linked to Rangers Shortstop Corey Seager as Trade Buzz grows - Sports Illustrated",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUmxqOUFMYW1CaWFNMkdkM05qaXlIbnE5QmhmYnpMQURpWHk2emRsZ0FfQk5WRVdZcHVTXzF0TDFHT01HQW90Q0lqMUp2RHZsZGRxNzAxVkRwSlRPbXBxQjdMbWFTVVJLR3Z0S2lfeVZSdFhsR3NGTnFXT1RZUHRxQm53aDFTQkZoRGhTVHg3akRDUndYZWg0TzRLZlBZRzVaMXRWQ1RTa3ZIcml4NEE?oc=5",
-    "ts": 1795362342000,
-    "summary": "Red Sox Linked to Rangers Shortstop Corey Seager as Trade Buzz grows Sports Illustrated",
-    "src": "Boston (Google News)",
-    "lean": null
-   },
-   {
-    "t": "In front of an NHL legend, Elias Lindholm had a night to remember, and other observations from the Bruins’ victory - The Boston Globe",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdzR4MEtzc3VsekxXejNEZFFIeC1lTWNBa0psUjdfUFhsbUI2RFBLaWl1b09LNmlLbEIzc1dhaTV5MFh6cnRoS3ZTOC1maHhNakhIRmV4TEtWY2VYR2hJTlJrdU1mcktmeDFpWVpPTXI4QkFJRzhIVnNmMmFPNF9pb1JDRTJuZVNIWWJMZU1Qaw?oc=5",
-    "ts": 1795330920000,
-    "summary": "In front of an NHL legend, Elias Lindholm had a night to remember, and other observations from the Bruins’ victory The Boston Globe",
+    "t": "Air alert sounds in Kaliningrad hours after an attack on a Russia-bound ship in the Gulf of Finland - The Boston Globe",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNlMtVGxqUW1UOVJkN05uSnN3OWNac1dtQzF6aGJoUzVWOGNjOEY2VXRJRWdyeVFtZUt1WTZwSEkyZE1Sd0djcERfWWcwQzRfQzRoRTl0czVUYklWNFJFazNHNm12a2lrRFdNc0xsOUxRcVU3UV9pSXVkNF9UYUh1bjNqUG4tRTYySWNZb0tlNl9NUnd4cDVwNWNmWlF5NXpzMjRydWpVZw?oc=5",
+    "ts": 1795333020000,
+    "summary": "Air alert sounds in Kaliningrad hours after an attack on a Russia-bound ship in the Gulf of Finland The Boston Globe",
     "src": "Boston Globe",
     "lean": "L"
+   },
+   {
+    "t": "Boston Celtics at Golden State Warriors: Stream, lineups, injury reports, broadcast (11/22) - Celtics Wire",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOTndfeW5HR1l6ckx6Q3JfU2lxSEZ1RHRPLTVGajEyd21yT0U3bHFxSmxVc3k5YkltTldvbGZ3VmlHSERjMnoxN1FyenNZbjNhVUYweHdSZFVuc29Cb05Ebi1XWWRlNDUyR0dia0VuWXlhXzZxVXZUQ1RjMHA4Y21pM1FSQlNsbmxOODVKMnZlVDJwRG40N2pKSDJtRkN6bFE1Q3ltTHQ3bFBmVEhZamk3dV91M29NNVR6YXZGZ2JtVzlxUW5DNzB6bjJpQVBWVThuTzBWMndQaElabkM5UGNz?oc=5",
+    "ts": 1795380000000,
+    "summary": "Boston Celtics at Golden State Warriors: Stream, lineups, injury reports, broadcast (11/22) Celtics Wire",
+    "src": "Boston (Google News)",
+    "lean": null
    },
    {
     "t": "Elias Lindholm erupts to lead Bruins to wild, high-scoring win over Capitals - Boston Herald",
@@ -1374,20 +1422,20 @@
     "lean": "R"
    },
    {
-    "t": "Get ready for a change: First storm of Thanksgiving week arrives tonight - WCVB",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVFZJeUhIazJIMGdILVlZaXl3QnhSbVF0VTZHQWxrZjZ4TUwyNTMxTVhrUXlsNXRKRnFZSkZOdm5ZalBHRzJMSmxSekRvQkE5dVR5Yk9rV3VVbXFsenlyTDBKOFJLWk1KbXgxNHNzSHNKQXh0U3VEcHFmM052a21uRmdhVXBDRExnSXNrVWk0V09jb3pfeklvMHJBOVZJZnFQblF4Qg?oc=5",
-    "ts": 1795361820000,
-    "summary": "Get ready for a change: First storm of Thanksgiving week arrives tonight WCVB",
-    "src": "Boston (Google News)",
-    "lean": null
-   },
-   {
-    "t": "Lesley University lists ‘Quad at Doble’ in Cambridge for sale - The Boston Globe",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE84Y3ZkUzFYUGVyOXhDOExqeVhMQ0F5SjhEMGhiVmprRkRpcEZvSTh1bDFDa09UVG92OHUyLUlrRmxfVmFaNjVJUFBkeUd4b25sZWRHM1p3YUx1Z2g2UGlUXzhxbHh4dThGLWgxN2wzSTNsYnpJaTRoaS1VUEU1QlU?oc=5",
-    "ts": 1795327200000,
-    "summary": "Lesley University lists ‘Quad at Doble’ in Cambridge for sale The Boston Globe",
+    "t": "A.J. Brown’s first season with the Patriots keeps getting worse - The Boston Globe",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNTJpWUVOQXJ0V0dBS3FQN2hrOXVfR0dCZnd3ZjJZUmxXM1JVdDdsNWNudGdPTWhNWXZRRExXdzA1aEJ3eC1UY2R1eHNBaGdLZUVwd1hIeEQySG1jRTYtREp6bnBDQlJJaEMwTmN4Qjc5amFrdEExMUNaeE1HUWxMbDZQVzhnTFp5ZmtWekhn?oc=5",
+    "ts": 1795323600000,
+    "summary": "A.J. Brown’s first season with the Patriots keeps getting worse The Boston Globe",
     "src": "Boston Globe",
     "lean": "L"
+   },
+   {
+    "t": "Philadelphia Phillies Interested in Boston Red Sox All-Star Outfielder - Yahoo Sports",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPc0gyNmZMd0p4eWFlQ0VGWHllS1AtblRqZmVSYUVJOEtLM2lrUjRMdlFxNk9qbFVJSzctOVQ2NHk2ZktKclpfYjJoQW56SUhfc3lTTThsSUVtT2RNaVNObjZFMGRrZzB4X2V0Vk42djAtYko5c0VZZ0dkRk5TclRJZThPNFR1MXRmeG1NUkFqdk14YzlvT0lR?oc=5",
+    "ts": 1795374975000,
+    "summary": "Philadelphia Phillies Interested in Boston Red Sox All-Star Outfielder Yahoo Sports",
+    "src": "Boston (Google News)",
+    "lean": null
    },
    {
     "t": "Liv Appel overtime hero for Cohasset field hockey in Div. 4 championship - Boston Herald",
@@ -1398,36 +1446,28 @@
     "lean": "R"
    },
    {
-    "t": "Bruins’ Charlie McAvoy Reveals Marco Sturm’s Message to Veterans After Capitals Win - Yahoo Sports",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVEI0U0VSQzhCZElJUkp3dm5SME1fV0E2M3lFYUg2TFpNcGlLY2VpMlN0ODhoc2JGWTJBOVZaSmxMQ3dWbGxGSDVPdkVKeVR2enluMnYwejNuRDFGZ3dDMHkzYnZZdmpmZkgwckl2NTdwOXdMaVZLNEt0V05ad2EtcElCRl9VUmNoOW9JUg?oc=5",
-    "ts": 1795356107000,
-    "summary": "Bruins’ Charlie McAvoy Reveals Marco Sturm’s Message to Veterans After Capitals Win Yahoo Sports",
-    "src": "Boston (Google News)",
-    "lean": null
-   },
-   {
-    "t": "A.J. Brown’s first season with the Patriots keeps getting worse - The Boston Globe",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNTJpWUVOQXJ0V0dBS3FQN2hrOXVfR0dCZnd3ZjJZUmxXM1JVdDdsNWNudGdPTWhNWXZRRExXdzA1aEJ3eC1UY2R1eHNBaGdLZUVwd1hIeEQySG1jRTYtREp6bnBDQlJJaEMwTmN4Qjc5amFrdEExMUNaeE1HUWxMbDZQVzhnTFp5ZmtWekhn?oc=5",
-    "ts": 1795323600000,
-    "summary": "A.J. Brown’s first season with the Patriots keeps getting worse The Boston Globe",
+    "t": "These storm maps show rain timing, expected totals, and strongest winds Sunday into Monday - The Boston Globe",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSzlYUHpic0dOZW1ubjUwb0Z4TWdUaUNoWTlWVGpFdllFdFo0aGw5cjA2NGlqN2stWGlkb2w0R2otMVBoc2p6U0x1LUVHQzd3WmVKTHBCQ3JXQjBNYXpHeVlLbFNWUWRiQmw4Rzk0bnBrNFlzU2RTZVBjRzJsNEtqOWN5bzA3NHBQNWFQb3RJSU1udw?oc=5",
+    "ts": 1795320803000,
+    "summary": "These storm maps show rain timing, expected totals, and strongest winds Sunday into Monday The Boston Globe",
     "src": "Boston Globe",
     "lean": "L"
    },
    {
-    "t": "Police Blotter: South Station fatal stabbing suspect nabbed in Texas - Boston Herald",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPb0ltb3ZJNlFyNjNQTVdVbFd6enFZZ19HeXVBdnhYZkl4NHIyT2JxNndPUXhFY1hqWTBXVHdLNU1kaXk5Z2lFZlhnSGpuTVozRlJTNjNVVWlhcjUxeTlzUDlRVl9NZ3Bud2R5NXdYLUVqUnpCTkpKbWpVSm5TdXRBdjRpS3BmcE11anRmaC1mLTFxMVltaWJGZFEyUnYwYV9XaXFDcWxCeEs2ZHdh?oc=5",
-    "ts": 1795308044000,
-    "summary": "Police Blotter: South Station fatal stabbing suspect nabbed in Texas Boston Herald",
-    "src": "Boston Herald",
-    "lean": "R"
-   },
-   {
-    "t": "Thomas CAHILL Obituary (2026) - Andover, MA - Boston Globe - Legacy | Obituary",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcTJGT1RibHdtQ2NwZ0NXU1E0YW1KQUlIN0J5czlrOF84LTVEZjlyU0hpbzZtcklGdjVTcHJVR19VekxwSTBsTlBiWTNDZl9vNE5SOVAwcFp1cmtNdU85OVZMTHFXRXVhbm85dGlxTHZ6eURldWtfdVhyZ2RndUtCeTloUHNRb1Nsb0d0SHlxdmV2dw?oc=5",
-    "ts": 1795353490000,
-    "summary": "Thomas CAHILL Obituary (2026) - Andover, MA - Boston Globe Legacy | Obituary",
+    "t": "Boston 25 Weather: Sunday Afternoon Forecast - Boston 25 News",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWC03RkdOTnJVVE5nQjV3U3dBNlNPZzZnYW9ua1o3dHgzWHVsSEREY0pNbG5jWkVMdU5xcnhnLU9kUm1iMFFYajZleF9iUTgxR281YVdSQTdpSDNDVGh4dHNfUTZOQkUya0JDbGpQeFBTUEozRm96RzZUbmk0NHlBMUNwNWRnNDdPNmdDcFVQLWJDNHVYcnF5bk85YnA0bm9WYi1YTWQwTGdPX1F0TmNFVkdKZUdTY2QxWVNPR1FMR0NFTTY4OHdfZHpKV3k5dw?oc=5",
+    "ts": 1795373041000,
+    "summary": "Boston 25 Weather: Sunday Afternoon Forecast Boston 25 News",
     "src": "Boston (Google News)",
     "lean": null
+   },
+   {
+    "t": "Contests - Boston Herald",
+    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBpUDZ1VEFNc1dNeE4xTWxjTmlhNTI0ZGswc1c5dHVkMHRuU1hKQzZRS3prLXF0UFVFbHNWSHhTX25DdUM1NXpDMTZWWDdJdw?oc=5",
+    "ts": 1543922927000,
+    "summary": "Contests Boston Herald",
+    "src": "Boston Herald",
+    "lean": "R"
    },
    {
     "t": "Today in history: John F. Kennedy is assassinated in Dallas - The Boston Globe",
@@ -1436,38 +1476,6 @@
     "summary": "Today in history: John F. Kennedy is assassinated in Dallas The Boston Globe",
     "src": "Boston Globe",
     "lean": "L"
-   },
-   {
-    "t": "Dominance: Oliver Ames coasts to repeat as Div. 2 volleyball champs - Boston Herald",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbWNZOHl1ekRYOHN5cW5tV0V3RGlETGg1NGhCZXJWQS0zZ3ZwcXVrMWFuVVRZS1FDN2ZmSlBnODhxWjluT2ZUem9EVEpHYnZITkl2ekstMDd6eV9nMU1XbkFBVTN6aFVXandQOTJNenp6OHBhSXYxaWtUNkVQS3p4Wk1RN1RDN1ppclgxeElHQWxtbkpDQXBjcmlTVkRSa2V4MzhvSnUzTzNhQQ?oc=5",
-    "ts": 1795306831000,
-    "summary": "Dominance: Oliver Ames coasts to repeat as Div. 2 volleyball champs Boston Herald",
-    "src": "Boston Herald",
-    "lean": "R"
-   },
-   {
-    "t": "FIRST ALERT: Heavy rain approaches Boston area — track the storm with live radar - NBC Boston",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUS1BSWN1RVZ2OE5KU0JGLWtFWWFicExMYnJoT09LLXdsbThDWGU0OUFDOWtZUTV4N0lMNmRZOHlEcGx4M205UWQySlI5dmppQUI2YWhSMHBPQzlRX0dqVk9XN3lUYmVUaTkyOFVBTDk2Z1o5SWFNME4xa2lUU2tqNlZtZ0NzMENuTU5MYnA1dHlfUmNLYXRycUZQTFFMclZzcVpBZ2ZpamHSAbABQVVfeXFMT0lIUHh1OWlGSmlGamt4MkpXZ3dPaGd1MFdPY3lYeV9Qb3gzZFVNQ1lnVko1SHBEc05ld2s5QUc3b25IMnMzTjI1WVUzbFYzNWw0ZE51bmJ4NHRIbGhjdHBjMGZ5VXIzNEd4SXpIQ0FWUTR1QzZndDhGTjBQMnZuZE5YUFBudl9MNXBkSU91clJWejFCaGFPOGZFYlR6OGloQ1h5eFoybnJLNGg5emF1ajI?oc=5",
-    "ts": 1795350483000,
-    "summary": "FIRST ALERT: Heavy rain approaches Boston area — track the storm with live radar NBC Boston",
-    "src": "Boston (Google News)",
-    "lean": null
-   },
-   {
-    "t": "Looking set for an easy road win, Celtics crumble in third quarter in stunning loss to NBA-worst Kings - The Boston Globe",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQd3Rfbm15aVZONnNhMU9KSjNrZkV5TDJseFhXWFcyS2MyY2p5cXR1Q3N3elJPS1JQUG5WWk9QaHBGRkR6SnhVdEw0VkhDRFI5YWVFOHl6LXRxZXh1NnlWWGM4Um52QWlrRjFSc2xfaTNPVmozSGJNbGNwX2h3RDdvcVhCRW1xZE5mQ0d4RW1zY0o?oc=5",
-    "ts": 1795318800000,
-    "summary": "Looking set for an easy road win, Celtics crumble in third quarter in stunning loss to NBA-worst Kings The Boston Globe",
-    "src": "Boston Globe",
-    "lean": "L"
-   },
-   {
-    "t": "Newton South finally captures elusive Div. 1 boys soccer title - Boston Herald",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQjJET0xXTmhEZWtIVVhTVjZ2STB1aVl4RlJaNnJaNTAtR0J3eGJkU2VPQVRnWUpFTlRHcHYwU1ZDbWxCN2UwVC1nWFExemgwSEhoNmVfVmhYcTI1REUxMkRjLTBzVFFfNXhWSUV6MWFJMnFxQV9KVDJuV0FJZmxEMGhhU0lYWlgyMjYybExvSWNiVWI0bDljcmRMczVWTGIzZzFJaw?oc=5",
-    "ts": 1795305142000,
-    "summary": "Newton South finally captures elusive Div. 1 boys soccer title Boston Herald",
-    "src": "Boston Herald",
-    "lean": "R"
    }
   ]
  }

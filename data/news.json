@@ -1,65 +1,129 @@
 {
- "updated": "2026-11-23T22:03:49.368Z",
+ "updated": "2026-11-24T05:58:03.697Z",
  "errors": [
   "The Guardian US: 403 https://www.theguardian.com/us-news/us-politics/rss"
  ],
  "sections": {
   "politics": [
    {
-    "t": "Kim Jong Un says North Korea will expand its diplomacy with foreign nations after denying Trump meeting",
-    "url": "https://www.washingtonexaminer.com/news/world/4812749/kim-jong-un-north-korea-diplomacy-foreign-nations-trump/",
-    "ts": 1795471363000,
-    "summary": "Just days after turning down an opportunity to meet with President Donald Trump, the supreme leader of North Korea says he is expanding the nation’s diplomatic corps. Kim Jong Un announced Sunday that the regime is seeking to “expand and de",
-    "src": "Washington Examiner",
-    "lean": "R"
-   },
-   {
-    "t": "Huang profits from Nvidia’s stock surge after he returns as CEO",
-    "url": "https://thehill.com/business/6238473-nvidia-stock-surges-jensen-huang/",
-    "ts": 1795470959000,
-    "summary": "Nvidia’s stock surged on Monday after Jensen Huang returned to the company, with the tech CEO set to benefit financially from the boost. The company’s stock closed at $165.05 per share, marking an increase of nearly 31.5 percent from Friday",
-    "src": "The Hill",
-    "lean": "C"
-   },
-   {
-    "t": "U.S. adds Megaspeed to trade blacklist after Nvidia scandal",
-    "url": "https://www.cbsnews.com/news/megaspeed-trade-blacklist-nvidia-jensen-huang/",
-    "ts": 1795470940000,
-    "summary": "The Trump administration restricted Megaspeed from buying advanced semiconductor chips, after the firm's alleged links to China helped kick-start the scandal surrounding Nvidia CEO Jensen Huang.",
-    "src": "CBS News",
-    "lean": "C"
-   },
-   {
-    "t": "California Democrat to resign from Congress after evidence of sexual misconduct",
-    "url": "https://www.bbc.co.uk/news/articles/cm2l5kgpw5l5o?at_medium=RSS&at_campaign=rss",
-    "ts": 1795470683000,
-    "summary": "Jimmy Gomez, who lost his election this month and only serving in the House until the year's end, was accused of sexual misconduct with a staff member.",
+    "t": "US Army to detonate toxic explosives in Iowa after Trump paused plan",
+    "url": "https://www.bbc.co.uk/news/articles/cr2klqzqx1qvo?at_medium=RSS&at_campaign=rss",
+    "ts": 1795495326000,
+    "summary": "The US military plans to detonate five tonnes of expired explosives on Wednesday, after appeals court decision.",
     "src": "BBC US",
     "lean": "C"
    },
    {
-    "t": "Calif. Dem Rep. Jimmy Gomez resigns in disgrace after ‘credible’ allegation of sexual assault against staffer",
-    "url": "https://nypost.com/2026/11/23/us-news/dem-rep-jimmy-gomez-resigns-after-credible-allegation-of-sexual-assault-against-staffer/",
-    "ts": 1795470335000,
-    "summary": "Gomez said Monday that he takes “full responsibility for the personal mistakes” he made and saw “no other alternative” than to resign on Dec. 1 — a month before his term is to end.",
+    "t": "Army proceeding with lead detonation on Wednesday",
+    "url": "https://thehill.com/policy/energy-environment/6239030-army-detonates-lead-munitions-iowa/",
+    "ts": 1795493189000,
+    "summary": "The Army is going ahead with detonating lead-containing munitions in Iowa on Wednesday after President Trump threw additional uncertainty into the controversy on Monday. “We are proceeding with the controlled removal in full coordination wi",
+    "src": "The Hill",
+    "lean": "C"
+   },
+   {
+    "t": "Army plans Wednesday detonation of unstable lead azide in Iowa",
+    "url": "https://www.washingtonexaminer.com/policy/defense/4813397/army-wednesday-detonation-lead-azide-iowa/",
+    "ts": 1795492551000,
+    "summary": "Acting Army Secretary Adam Telle on Monday said the branch will move forward with detonating unstable lead explosive in Iowa on Wednesday after a federal appeals court, as well as Gov. Kim Reynolds (R-IA) and Gov.-elect Rob Sand (D-IA), gav",
+    "src": "Washington Examiner",
+    "lean": "R"
+   },
+   {
+    "t": "China’s second-richest man’s deal to drain California town’s water triggers outrage: ‘Don’t sell out your nation’",
+    "url": "https://nypost.com/2026/11/23/us-news/chinese-billionaires-california-water-deal-near-travis-air-force-base-faces-calls-for-federal-probe/",
+    "ts": 1795491000000,
+    "summary": "A fight over water rights and national security concerns is pitting a former Bay Area mayor against a company owned by China’s second-richest man — who has close ties to the country’s Communist Party.",
     "src": "NY Post",
     "lean": "R"
    },
    {
-    "t": "Bessent gave Iran weeks before it had ‘nothing left to trade.’ New sanctions expose what survived",
-    "url": "https://www.foxnews.com/politics/bessent-gave-iran-weeks-before-nothing-left-trade-new-sanctions-expose-what-survived",
-    "ts": 1795468377000,
-    "summary": "Scott Bessent warned Iran had two weeks. Two months later, Treasury hit over two dozen entities in Dubai, Hong Kong and Turkey moving billions for Tehran.",
+    "t": "Appeals court clears way for Army to detonate Iowa explosives",
+    "url": "https://www.cbsnews.com/news/army-iowa-explosives-trump-appeals-court/",
+    "ts": 1795490507000,
+    "summary": "A federal appeals court on Monday declined to block the Army from detonating explosives containing lead azide at a munitions plant in Iowa.",
+    "src": "CBS News",
+    "lean": "C"
+   },
+   {
+    "t": "Unsealed warrant documents for Ilhan Omar's DC home raid reveal decades-long scope of investigation",
+    "url": "https://www.foxnews.com/politics/unsealed-warrant-documents-for-ilhan-omars-dc-home-raid-reveal-decades-long-scope-of-investigation",
+    "ts": 1795481819000,
+    "summary": "The redacted search warrant for Homeland Security Investigations' raid on Ilhan Omar's Washington D.C. home was released, with phone and passport seized.",
     "src": "Fox News",
     "lean": "R"
    },
    {
-    "t": "Democrats win House by largest margin in 50 years. And, COP31 ends with no deal",
-    "url": "https://www.npr.org/2026/11/23/g-s1-155021/up-first-newsletter-midterms-house-ai-stocks-poland-nato-cop31",
-    "ts": 1795437723000,
-    "summary": "Democrats have currently flipped 47 House seats and could flip 49 total. And, climate change talks at COP31 ran two days longer than expected, becoming the longest conference in the summit's history.",
+    "t": "2028 Democrats say Nvidia news is another example of corruption in government",
+    "url": "https://www.politico.com/news/2026/11/23/democrats-2028-nvidia-trump-corruption-message-01181056",
+    "ts": 1795477551000,
+    "summary": "Potential Democratic presidential candidates are slamming the reinstatement of Nvidia’s CEO by leaning into a theme that carried them through the midterms.",
+    "src": "Politico",
+    "lean": "C"
+   },
+   {
+    "t": "California Democrat Rep. Gomez resigns following ethics report on sexual misconduct allegations",
+    "url": "https://www.npr.org/2026/11/23/g-s1-155142/california-democrat-rep-gomez-resigns-following-ethics-report-on-sexual-misconduct-allegations",
+    "ts": 1795472993000,
+    "summary": "California Congressman Rep. Jimmy Gomez says he will resign after a House Ethics report concluded Gomez's actions violated House rules by \"making unwelcome sexual advances.\"",
     "src": "NPR",
     "lean": "C"
+   },
+   {
+    "t": "Beto O'Rourke Spots The 'Beautiful, Poetic Political Justice' In Texas Flip",
+    "url": "https://www.huffpost.com/entry/beto-orourke-texas-democrats-2026-midterms_n_6b042712e4b0e97a94081f22",
+    "ts": 1795447908000,
+    "summary": "The former Texas congressman said he held on to his belief in the state’s voters throughout this year’s historic midterms.",
+    "src": "HuffPost",
+    "lean": "L"
+   },
+   {
+    "t": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
+    "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+    "ts": 1795494991000,
+    "summary": "Nvidia had come under pressure from President Trump to reappoint Huang, whose comeback helped add $1tn to the company's stock value.",
+    "src": "BBC US",
+    "lean": "C"
+   },
+   {
+    "t": "Army wants to resume helicopter flights near Reagan National airport",
+    "url": "https://thehill.com/policy/transportation/6239029-army-seeks-reagan-national-flight-approval/",
+    "ts": 1795492949000,
+    "summary": "The Army is seeking federal approval to resume helicopter training flights near Ronald Reagan Washington National Airport, drawing safety concerns nearly two years after a deadly midair collision over the Potomac River killed 67 people. Rep",
+    "src": "The Hill",
+    "lean": "C"
+   },
+   {
+    "t": "Newsom urges reforms to presidential pardon power: ‘Justice is not for sale’",
+    "url": "https://www.washingtonexaminer.com/news/justice/4813271/gavin-newsom-trump-pardon-power/",
+    "ts": 1795490816000,
+    "summary": "Gov. Gavin Newsom (D-CA) on Monday called for reforms of presidential pardon power, accusing President Donald Trump of putting his executive power up for sale and making the Justice Department his “law firm.” The California governor’s comme",
+    "src": "Washington Examiner",
+    "lean": "R"
+   },
+   {
+    "t": "Unsealed Ilhan Omar search warrant cites alleged immigration fraud dating back to 1980: ‘Crimes over decades’",
+    "url": "https://nypost.com/2026/11/23/us-news/ilhan-omar-search-warrant-cites-alleged-immigration-fraud-dating-back-to-1980-crimes-over-decades/",
+    "ts": 1795483088000,
+    "summary": "The feds revealed they had been looking into the congresswoman's alleged crimes \"between 1980 to the present.\"",
+    "src": "NY Post",
+    "lean": "R"
+   },
+   {
+    "t": "Federal court releases Rep. Ilhan Omar D.C. home raid documents",
+    "url": "https://www.cbsnews.com/news/congresswoman-ilhan-omar-house-raid-documents-release/",
+    "ts": 1795486860000,
+    "summary": "A federal court on Monday evening released documents regarding last month's raid at the Washington, D.C. home of Democratic Minnesota U.S. Rep. Ilhan Omar.",
+    "src": "CBS News",
+    "lean": "C"
+   },
+   {
+    "t": "Former Navy SEAL says New Jersey’s Islamophobia bill puts protected speech in the crosshairs",
+    "url": "https://www.foxnews.com/politics/former-navy-seal-says-new-jerseys-islamophobia-bill-puts-protected-speech-crosshairs",
+    "ts": 1795472096000,
+    "summary": "A former Navy SEAL and lawyer warns that New Jersey's Assembly Bill 1146 could function as a \"backdoor blasphemy law\" chilling public debate.",
+    "src": "Fox News",
+    "lean": "R"
    },
    {
     "t": "Gavin Newsom’s 2028 audition",
@@ -70,68 +134,68 @@
     "lean": "C"
    },
    {
-    "t": "Cornyn Responds To Reports Of Screaming Match With Ted Cruz: 'Ted Is A Fragile Thing'",
-    "url": "https://www.huffpost.com/entry/cornyn-responds-to-reports-of-screaming-match-with-ted-cruz_n_6b035826e4b0e97a9407e032",
-    "ts": 1795387999000,
-    "summary": "Sen. John Cornyn does not approve of Trump’s judicial nominee.",
+    "t": "Democrats win House by largest margin in 50 years. And, COP31 ends with no deal",
+    "url": "https://www.npr.org/2026/11/23/g-s1-155021/up-first-newsletter-midterms-house-ai-stocks-poland-nato-cop31",
+    "ts": 1795437723000,
+    "summary": "Democrats have currently flipped 47 House seats and could flip 49 total. And, climate change talks at COP31 ran two days longer than expected, becoming the longest conference in the summit's history.",
+    "src": "NPR",
+    "lean": "C"
+   },
+   {
+    "t": "Trump Lists His 'Wins,' But It Looks More Like A Victory For Self-Delusion",
+    "url": "https://www.huffpost.com/entry/donald-trump-truth-social-list-of-his-wins_n_6b041119e4b0da866ee131f0",
+    "ts": 1795447159000,
+    "summary": "The president appeared to take damage control to an alarming extreme.",
     "src": "HuffPost",
     "lean": "L"
    },
    {
-    "t": "Sherrill urges Democrats to adopt ‘New Jersey model’ in new majority",
-    "url": "https://www.washingtonexaminer.com/news/campaigns/state/4812990/mikie-sherrill-democrats-letter-new-jersey-model-new-congressional-majority-meet-the-moment/",
-    "ts": 1795471316000,
-    "summary": "Gov. Mikie Sherrill (D-NJ) sent a letter to the New Jersey congressional delegation on Monday, urging the lawmakers to adopt a “New Jersey model” in the new Democratic majority to combat President Donald Trump’s “corruption.” The letter add",
-    "src": "Washington Examiner",
-    "lean": "R"
-   },
-   {
-    "t": "Key GOP lawmaker calls for administration briefing on Huang",
-    "url": "https://thehill.com/homenews/house/6238496-mccaul-demands-nvidia-briefing/",
-    "ts": 1795470952000,
-    "summary": "Rep. Michael McCaul (R-Texas), a former chair of the House Homeland Security Committee, pressed for a briefing from the Trump administration on Jensen Huang’s return to his role as Nvidia CEO. “If administration officials now believe that M",
-    "src": "The Hill",
-    "lean": "C"
-   },
-   {
-    "t": "Iran vows to end U.S. naval blockade by \"all available means\"",
-    "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-blockade-strait-of-hormuz-ship-attacks/",
-    "ts": 1795468503000,
-    "summary": "Iran vows to force the U.S. to lift its blockade as Trump acknowledges the regime's increasing attacks, but says they've \"done no damage.\"",
-    "src": "CBS News",
-    "lean": "C"
-   },
-   {
-    "t": "Trump orders US military not to detonate toxic explosives in Iowa without court approval",
-    "url": "https://www.bbc.co.uk/news/articles/cr2klqzqx1qvo?at_medium=RSS&at_campaign=rss",
-    "ts": 1795463572000,
-    "summary": "The US Army had said it planned to detonate the explosives on Wednesday despite a court-ordered pausea as public outcry intensified.",
+    "t": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
+    "url": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss",
+    "ts": 1795475768000,
+    "summary": "Megaspeed has been accused of funneling AI chips to China after a former executive's affair with Jensen Huang became public.",
     "src": "BBC US",
     "lean": "C"
    },
    {
-    "t": "Eric Swalwell’s pal Jimmy Gomez violated House rules in alleged sex assault of staffer, Ethics panel finds — citing Post reporting",
-    "url": "https://nypost.com/2026/11/23/us-news/eric-swalwells-pal-jimmy-gomez-engaged-in-sexual-misconduct-with-house-staffer-ethics-report-finds-cites-posts-reporting/",
-    "ts": 1795464826000,
-    "summary": "House Ethics found Rep. Jimmy Gomez violated rules with an unwelcome sexual advance toward a staffer and admitted another affair.",
+    "t": "White House sends Congress ‘anomalies’ request to keep federal agencies funded",
+    "url": "https://thehill.com/homenews/administration/6238980-white-house-requests-stopgap-funding/",
+    "ts": 1795490322000,
+    "summary": "The White House is asking Congress to include billions of dollars in additional funding in a stopgap spending bill to fund federal agencies that lawmakers are expected to take up next month. The 12-page “anomalies” request sent Monday, repo",
+    "src": "The Hill",
+    "lean": "C"
+   },
+   {
+    "t": "Ilhan Omar investigation examining crimes dating back decades: Search warrant records",
+    "url": "https://www.washingtonexaminer.com/news/investigations/4813260/ilhan-omar-investigation-crimes-dating-back-decades-search-warrant/",
+    "ts": 1795486613000,
+    "summary": "Search and seizure records related to the federal raid of Rep. Ilhan Omar’s (D-MN) residence were unsealed Monday night under a court order, revealing that the criminal case the Justice Department has been building against the Somali-born c",
+    "src": "Washington Examiner",
+    "lean": "R"
+   },
+   {
+    "t": "Parents of loved ones murdered by death row criminals praise President Trump’s press conference takedown of Gavin Newsom",
+    "url": "https://nypost.com/2026/11/23/us-news/death-row-victims-families-praise-trump-for-slamming-newsom-commutations/",
+    "ts": 1795482000000,
+    "summary": "Marc Klaas, father of murdered 12-year-old Polly Klaas, and the mother of a slain Pittsburg cop say Trump gave them a voice that Newsom never did after he spared 548 killers.",
     "src": "NY Post",
     "lean": "R"
    },
    {
-    "t": "Dem lawmaker to resign after report says he made 'unwelcome' sexual advances toward staffer",
-    "url": "https://www.foxnews.com/politics/dem-lawmaker-made-unwelcome-sexual-advances-toward-congressional-staffer-house-panel-finds",
-    "ts": 1795467994000,
-    "summary": "The House Ethics Committee says Rep. Jimmy Gomez's advances toward a House staffer could implicate D.C. laws on criminal sexual assault, its report claims.",
-    "src": "Fox News",
-    "lean": "R"
+    "t": "Husband of woman arrested by ICE at airport calls it \"unjust\"",
+    "url": "https://www.cbsnews.com/news/ice-arrest-seattle-airport-husband/",
+    "ts": 1795484940000,
+    "summary": "Jose Castillo told CBS News he felt \"useless\" seeing his wife and father-in-law be taken into federal custody at Seattle-Tacoma International Airport.",
+    "src": "CBS News",
+    "lean": "C"
    },
    {
-    "t": "After midterm losses, Republicans debate what's next for the party",
-    "url": "https://www.npr.org/2026/11/23/nx-s1-6044259/after-midterm-losses-republicans-debate-whats-next-for-the-party",
-    "ts": 1795427106000,
-    "summary": "In the wake of their midterm election losses, Republicans are discussing what happened and what the future might be for their party.",
-    "src": "NPR",
-    "lean": "C"
+    "t": "Bessent gave Iran weeks before it had ‘nothing left to trade.’ New sanctions expose what survived",
+    "url": "https://www.foxnews.com/politics/bessent-gave-iran-weeks-before-nothing-left-trade-new-sanctions-expose-what-survived",
+    "ts": 1795468377000,
+    "summary": "Scott Bessent warned Iran had two weeks. Two months later, Treasury hit over two dozen entities in Dubai, Hong Kong and Turkey moving billions for Tehran.",
+    "src": "Fox News",
+    "lean": "R"
    },
    {
     "t": "‘Grandfather’ or ‘godfather’? Republicans know they’re stuck with Trump",
@@ -142,68 +206,68 @@
     "lean": "C"
    },
    {
-    "t": "GOP Senator Calls Huang Affair ‘Most Expensive Sex Since Helen Of Troy’ While Demanding Answers From White House",
-    "url": "https://www.huffpost.com/entry/kennedy-huang-affair-most-expensive-sex-since-helen-of-troy_n_6b03147ee4b0edd18edf5230",
-    "ts": 1795379871000,
-    "summary": "While Sen. John Kennedy told the tech CEO he hoped it was worth it, the lawmaker had more important questions for the two top Trump secretaries.",
+    "t": "After midterm losses, Republicans debate what's next for the party",
+    "url": "https://www.npr.org/2026/11/23/nx-s1-6044259/after-midterm-losses-republicans-debate-whats-next-for-the-party",
+    "ts": 1795427106000,
+    "summary": "In the wake of their midterm election losses, Republicans are discussing what happened and what the future might be for their party.",
+    "src": "NPR",
+    "lean": "C"
+   },
+   {
+    "t": "Nvidia Board Reinstates Jensen Huang As President, CEO, Board Director After Scandal",
+    "url": "https://www.huffpost.com/entry/jensen-huang-reinstated-nvidia_n_6b04498de4b0e97a9408415e",
+    "ts": 1795446254000,
+    "summary": "The decision follows consultation with “senior levels” of the U.S. government, the chipmaker’s board said.",
     "src": "HuffPost",
     "lean": "L"
    },
    {
-    "t": "House Ethics finds evidence Democratic Rep. Jimmy Gomez engaged in sexual misconduct",
-    "url": "https://www.washingtonexaminer.com/news/house/4812984/house-ethics-jimmy-gomez-sexual-misconduct/",
-    "ts": 1795469598000,
-    "summary": "The House Ethics Committee on Monday found “substantial evidence” that Rep. Jimmy Gomez (D-CA) made unwanted sexual advances toward a House staffer that could constitute sexual assault. The committee’s findings included interviews with one ",
-    "src": "Washington Examiner",
-    "lean": "R"
-   },
-   {
-    "t": "Clayton to serve as interim national cyber director",
-    "url": "https://thehill.com/policy/technology/6238398-jay-clayton-interim-cyber-director/",
-    "ts": 1795470903000,
-    "summary": "Director of National Intelligence Jay Clayton has been tapped to serve as interim national cyber director while Kirsten Davies awaits Senate confirmation, according to a White House official. Davies, who has served as the Pentagon’s chief i",
-    "src": "The Hill",
-    "lean": "C"
-   },
-   {
-    "t": "Trump says he convinced Nvidia board to reinstate Jensen Huang",
-    "url": "https://www.cbsnews.com/news/nvidia-jensen-huang-trump-comment-national-security-risk/",
-    "ts": 1795467728000,
-    "summary": "President Trump claimed the government \"has no reason to believe\" Jensen Huang's return is a national security risk.",
-    "src": "CBS News",
-    "lean": "C"
-   },
-   {
-    "t": "Trump says he 'convinced' Nvidia to reinstate Jensen Huang",
-    "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
-    "ts": 1795461284000,
-    "summary": "The US president personally intervened to speak to members of Nvidia's board of directors.",
+    "t": "California Democrat to resign from Congress after evidence of sexual misconduct",
+    "url": "https://www.bbc.co.uk/news/articles/cm2l5kgpw5l5o?at_medium=RSS&at_campaign=rss",
+    "ts": 1795474707000,
+    "summary": "Jimmy Gomez, who lost his election this month and only serving in the House until the year's end, was accused of sexual misconduct with a staff member.",
     "src": "BBC US",
     "lean": "C"
    },
    {
-    "t": "Trump orders Army to pause detonation of lead munitions – holds Dem governor responsible for ‘death or destruction’",
-    "url": "https://nypost.com/2026/11/23/us-news/trump-orders-the-army-not-to-detonate-bomb-making-chemicals-in-iowa-without-court-approval/",
-    "ts": 1795461560000,
-    "summary": "President Donald Trump said he will defer to a federal appeals court on whether the administration moves ahead to detonate several tons of bomb-making material at an Iowa ammunition plant.",
+    "t": "Heavily redacted documents detailing raid on Omar’s house unsealed",
+    "url": "https://thehill.com/regulation/court-battles/6238953-omar-search-records-unsealed/",
+    "ts": 1795486517000,
+    "summary": "A federal court on Monday released unsealed records related to the search of Rep. Ilhan Omar’s (D-Minn.) Washington, D.C., home last month after federal prosecutors made a last-minute attempt to block the release of the files. The heavily r",
+    "src": "The Hill",
+    "lean": "C"
+   },
+   {
+    "t": "Stock market roars back after Jensen Huang’s abrupt return to Nvidia",
+    "url": "https://www.washingtonexaminer.com/policy/finance-and-economy/4813208/stock-market-jensen-huang-reinstated-nvidia/",
+    "ts": 1795482214000,
+    "summary": "Wall Street had an overwhelmingly positive reaction to Jensen Huang’s reinstatement as head of Nvidia with the announcement not only affecting the company’s stock but the markets overall. Nvidia shares surged more than 31%, adding nearly $1",
+    "src": "Washington Examiner",
+    "lean": "R"
+   },
+   {
+    "t": "Commerce Department blacklists Megaspeed after Nvidia reinstates Jensen Huang as CEO",
+    "url": "https://nypost.com/2026/11/23/us-news/commerce-department-blacklists-megaspeed-after-nvidia-reinstates-jensen-huang-as-ceo/",
+    "ts": 1795480791000,
+    "summary": "The Commerce Department submitted a final rule stating that Megspeed and its entities were \"acting contrary to the national security or foreign policy interests of the United States.\"",
     "src": "NY Post",
     "lean": "R"
    },
    {
-    "t": "States rally behind Catholic church in first-of-its-kind Supreme Court fight over prayer shrine",
-    "url": "https://www.foxnews.com/politics/states-rally-behind-catholic-church-first-of-its-kind-supreme-court-fight-prayer-shrine",
-    "ts": 1795465407000,
-    "summary": "A Kentucky Catholic community's Virgin Mary prayer grotto sparked a neighbors' zoning fight now at the Supreme Court in a RLUIPA religious liberty case.",
-    "src": "Fox News",
-    "lean": "R"
+    "t": "Family of those arrested in chaotic ICE incident at Seattle airport speaks out",
+    "url": "https://www.cbsnews.com/video/family-arrested-chaotic-ice-incident-seattle-airport-speaks-out/",
+    "ts": 1795483229000,
+    "summary": "Immigration agents dragged a father and his adult daughter out of a jet bridge side door at a Washington state airport as they screamed for help. Camilo Montoya-Galvez spoke with the family.",
+    "src": "CBS News",
+    "lean": "C"
    },
    {
-    "t": "Politics chat: Lawmakers step up with only weeks to Democrats' control of Congress",
-    "url": "https://www.npr.org/2026/11/22/nx-s1-6045787/politics-chat-lawmakers-step-up-with-only-weeks-to-democrats-control-of-congress",
-    "ts": 1795353129000,
-    "summary": "A funding deadline for Congress weeks before Democrats take control. President Trump signs an executive order requiring contractors to get approval before sharing with Congressional investigations.",
-    "src": "NPR",
-    "lean": "C"
+    "t": "Dem lawmaker to resign after report says he made 'unwelcome' sexual advances toward staffer",
+    "url": "https://www.foxnews.com/politics/dem-lawmaker-made-unwelcome-sexual-advances-toward-congressional-staffer-house-panel-finds",
+    "ts": 1795467994000,
+    "summary": "The House Ethics Committee says Rep. Jimmy Gomez's advances toward a House staffer could implicate D.C. laws on criminal sexual assault, its report claims.",
+    "src": "Fox News",
+    "lean": "R"
    },
    {
     "t": "New Democratic governors race to deliver relief on costs",
@@ -214,87 +278,79 @@
     "lean": "C"
    },
    {
-    "t": "CNN Puts Intelligence Director In The Hot Seat After Trump’s Putin Comment",
-    "url": "https://www.huffpost.com/entry/cnn-dana-bash-grills-jay-clayton-trump-friends-putin_n_6b0318c8e4b0edd18edf5238",
-    "ts": 1795377950000,
-    "summary": "Trump posted eyebrow-raising photos on Truth Social from last week’s summit.",
-    "src": "HuffPost",
-    "lean": "L"
-   },
-   {
-    "t": "WATCH LIVE: Trump speaks at DOJ to condemn Newsom’s death row clemency",
-    "url": "https://www.washingtonexaminer.com/news/justice/4812879/watch-live-trump-doj-speech-newsom-death-row/",
-    "ts": 1795468500000,
-    "summary": "President Donald Trump will hold a press conference at the Department of Justice on Monday at 4:30 p.m. in which he is expected to criticize Gov. Gavin Newsom’s (D-CA) move to grant clemency to over 500 death row inmates in California. The ",
-    "src": "Washington Examiner",
-    "lean": "R"
-   },
-   {
-    "t": "Why Nvidia’s board changed its mind on Jensen Huang",
-    "url": "https://thehill.com/policy/technology/6238401-jensen-huang-returns-nvidia-board/",
-    "ts": 1795469309000,
-    "summary": "Jensen Huang returned to Nvidia as CEO on Monday, leaving Washington and Wall Street with myriad questions about how the company’s board of directors changed its mind in a matter of days. The board faced pressure on multiple fronts — from t",
-    "src": "The Hill",
-    "lean": "C"
-   },
-   {
-    "t": "Jimmy Gomez to resign after Ethics panel finds evidence of misconduct",
-    "url": "https://www.cbsnews.com/news/house-ethics-investigation-jimmy-gomez-sexual-misconduct/",
-    "ts": 1795467030000,
-    "summary": "The bipartisan committee said Rep. Jimmy Gomez made unwanted sexual advances and sexual contact with a House staffer.",
-    "src": "CBS News",
-    "lean": "C"
-   },
-   {
-    "t": "First Lady Melania Trump welcomes this year's White House Christmas tree",
-    "url": "https://www.bbc.co.uk/news/videos/c51k9vp48d2vo?at_medium=RSS&at_campaign=rss",
-    "ts": 1795459759000,
-    "summary": "The official 2026 White House Christmas tree is an 18-foot fir from Silent Night Evergreens, a farm in Endeavor, Wisconsin.",
-    "src": "BBC US",
-    "lean": "C"
-   },
-   {
-    "t": "Treasury uncovers nearly $15B in possible Iranian shadow banking networks",
-    "url": "https://nypost.com/2026/11/23/us-news/treasury-uncovers-nearly-15-billion-in-possible-iranian-shadow-banking-networks/",
-    "ts": 1795457551000,
-    "summary": "Treasury flags nearly $15B in possible Iranian shadow-banking flows through global banks; see what FinCEN found.",
-    "src": "NY Post",
-    "lean": "R"
-   },
-   {
-    "t": "Dems brush off Elon Musk's anti-MAGA pivot, warn DOGE probe still coming",
-    "url": "https://www.foxnews.com/politics/dems-brush-off-elon-musks-anti-maga-pivot-warn-doge-probe-still-coming",
-    "ts": 1795463219000,
-    "summary": "Democratic lawmakers call Elon Musk an \"opportunist\" and a \"chameleon\" after his MAGA remarks, warning of possible DOGE oversight probes in January.",
-    "src": "Fox News",
-    "lean": "R"
-   },
-   {
-    "t": "Christian nationalist conference hosts Nick Fuentes, vows to keep pushing MAGA agenda",
-    "url": "https://www.npr.org/2026/11/22/nx-s1-6040018/christian-nationalist-conference-hosts-nick-fuentes-vows-to-keep-pushing-maga-agenda",
-    "ts": 1795353128000,
-    "summary": "A particular group of Christian nationalists met in Texas last weekend and vowed to push what remains of MAGA as far to the right as possible. They hosted antisemitic streamer Nick Fuentes.",
+    "t": "Politics chat: Lawmakers step up with only weeks to Democrats' control of Congress",
+    "url": "https://www.npr.org/2026/11/22/nx-s1-6045787/politics-chat-lawmakers-step-up-with-only-weeks-to-democrats-control-of-congress",
+    "ts": 1795353129000,
+    "summary": "A funding deadline for Congress weeks before Democrats take control. President Trump signs an executive order requiring contractors to get approval before sharing with Congressional investigations.",
     "src": "NPR",
     "lean": "C"
    },
    {
-    "t": "Democratic Governors’ 2028 picks",
-    "url": "https://www.politico.com/video/2026/11/20/democratic-governors-2028-picks-2235294",
-    "ts": 1795171500000,
-    "summary": "Democratic Governors’ 2028 picks lead image",
-    "src": "Politico",
-    "lean": "C"
-   },
-   {
-    "t": "Trump Administration Tries To Use 'GTA VI' To Boost Its Agenda — And It's A Total Self-Own",
-    "url": "https://www.huffpost.com/entry/department-of-education-gta-6-boys-girls-sports_n_6b02d8c5e4b0da866ee0ee5c",
-    "ts": 1795365741000,
-    "summary": "“There’s a literacy crisis at DoE.”",
+    "t": "Trump Hosts Gala For Meme Coin Investors As His Token Plunges To Record Lows",
+    "url": "https://www.huffpost.com/entry/trump-gala-meme-coin-cryptocurrency_n_6b043d04e4b0da866ee1588d",
+    "ts": 1795440980000,
+    "summary": "It was the third time the president has held a gala for the top owners of his meme coin, which has made him hundreds of millions of dollars.",
     "src": "HuffPost",
     "lean": "L"
    }
   ],
   "business": [
+   {
+    "t": "What smart people are saying about Jensen's resurrection",
+    "url": "https://www.businessinsider.com/jensen-huang-return-reactions-2026-11",
+    "ts": 1795496924000,
+    "summary": "Investor Jason Calacanis posted an edited photo of Huang looking like Jesus Christ. \"Christós anésti!\" he wrote. \"GPU Jesus has risen!\"",
+    "src": "Business Insider",
+    "lean": "L"
+   },
+   {
+    "t": "Stellantis recalls 82,000 Ram trucks over anti-lock brake software bug",
+    "url": "https://www.foxbusiness.com/economy/stellantis-recalls-82000-ram-trucks-over-anti-lock-brake-software-bug",
+    "ts": 1795489046000,
+    "summary": "Stellantis is recalling 82,843 Ram 1500 pickups from 2022-2024 after the NHTSA said anti-lock brake software faults could raise the risk of a crash.",
+    "src": "Fox Business",
+    "lean": "R"
+   },
+   {
+    "t": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
+    "url": "https://www.marketwatch.com/story/ive-been-married-for-58-years-its-our-money-not-his-and-hers-why-dont-others-feel-the-same-c5745889?mod=mw_rss_topstories",
+    "ts": 1795482060000,
+    "summary": "“My wife stopped working outside the home in 1970.”",
+    "src": "MarketWatch",
+    "lean": "C"
+   },
+   {
+    "t": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
+    "url": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html",
+    "ts": 1795476499000,
+    "summary": "Foundation is pursuing an emergency bridge loan and has been in talks with VC firms as it waits for a $150 million investment from South Korea's Base Group.",
+    "src": "CNBC",
+    "lean": "C"
+   },
+   {
+    "t": "Tom Brady says being a ‘delusional, naive, optimistic person’ helped drive his success",
+    "url": "https://www.businessinsider.com/tom-brady-delusional-about-success-helped-nfl-career-2026-11",
+    "ts": 1795493802000,
+    "summary": "Tom Brady said he was convinced he would become a professional athlete, even as a kid.",
+    "src": "Business Insider",
+    "lean": "L"
+   },
+   {
+    "t": "Home builders pivot to remodeling and repairs as high rates slow new construction: report",
+    "url": "https://www.foxbusiness.com/real-estate/home-builders-pivot-remodeling-repairs-high-rates-slow-new-construction-report",
+    "ts": 1795476487000,
+    "summary": "Home builders take on remodeling and repair jobs as high rates and building costs slow new builds, while more homeowners choose to renovate rather than move.",
+    "src": "Fox Business",
+    "lean": "R"
+   },
+   {
+    "t": "HPE just posted its strongest growth ever — but its stock is sinking",
+    "url": "https://www.marketwatch.com/story/hpe-just-posted-its-strongest-growth-ever-and-its-stock-is-tacking-on-more-big-gains-4421cebb?mod=mw_rss_topstories",
+    "ts": 1795482060000,
+    "summary": "HPE boosted its financial forecast on Monday in the face of strong AI demand.",
+    "src": "MarketWatch",
+    "lean": "C"
+   },
    {
     "t": "ESPN, NFL to show Super Bowl 61 in Imax theaters",
     "url": "https://www.cnbc.com/2026/11/23/espn-nfl-super-bowl-imax.html",
@@ -304,60 +360,28 @@
     "lean": "C"
    },
    {
-    "t": "The wildest national costumes from the 2026 Miss Universe pageant",
-    "url": "https://www.businessinsider.com/miss-universe-wildest-national-costumes-2026-11",
-    "ts": 1795470736000,
-    "summary": "The 75th annual Miss Universe pageant is taking place in San Juan, Puerto Rico. More than 100 women from around the world are competing for the crown.",
+    "t": "Trump defended Jensen Huang's return as Nvidia CEO. Both sides of the aisle want answers.",
+    "url": "https://www.businessinsider.com/congress-demands-testimony-nvidia-ceo-jensen-huang-reinstatement-trump-2026-11",
+    "ts": 1795487972000,
+    "summary": "Despite assurances from the White House that he poses no national security risk, members of Congress still want to hear from Jensen Huang.",
     "src": "Business Insider",
     "lean": "L"
    },
    {
-    "t": "U.S. stocks see best day in more than a year, as return of Jensen Huang revives AI enthusiasm",
-    "url": "https://www.marketwatch.com/story/u-s-stocks-see-best-day-in-more-than-a-year-as-return-of-jensen-huang-revives-ai-enthusiasm-c3b9d274?mod=mw_rss_topstories",
-    "ts": 1795470660000,
-    "summary": "Jensen Huang’s return as CEO of Nvidia powered a massive bounce in the U.S. stock market on Monday by helping to restore faith in the artificial-intelligence trade.",
-    "src": "MarketWatch",
-    "lean": "C"
-   },
-   {
-    "t": "Bill Ackman says Federal Reserve is 'about to make another mistake'",
-    "url": "https://www.foxbusiness.com/economy/bill-ackman-says-federal-reserve-about-make-another-mistake",
-    "ts": 1795470472000,
-    "summary": "Bill Ackman says the Federal Reserve would risk a recession if it hikes rates at its December meeting, arguing the 2% inflation target is misguided.",
+    "t": "Lowe’s bets big on Lone Star growth with fifth Texas opening this year",
+    "url": "https://www.foxbusiness.com/retail/lowes-bets-big-lone-star-growth-fifth-texas-opening-year",
+    "ts": 1795473174000,
+    "summary": "The roughly 95,000-square-foot location in Willis marks Lowe’s fifth Texas opening of 2026, further expanding the retailer's statewide footprint.",
     "src": "Fox Business",
     "lean": "R"
    },
    {
-    "t": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
-    "url": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html",
-    "ts": 1795373705000,
-    "summary": "Foundation is pursuing an emergency bridge loan and has been in talks with VC firms as it waits for a $150 million investment from South Korea's Base Group.",
-    "src": "CNBC",
-    "lean": "C"
-   },
-   {
-    "t": "The Army’s plan to blow up explosive materials in Iowa has gotten messy. Trump has stepped in and put the whole thing on hold.",
-    "url": "https://www.businessinsider.com/trump-pauses-us-armys-plan-to-blow-up-iowa-explosives-2026-11",
-    "ts": 1795470433000,
-    "summary": "The Army's planned detonation of lead azide material was met with public backlash and concern. Now, it's delayed indefinitely.",
-    "src": "Business Insider",
-    "lean": "L"
-   },
-   {
-    "t": "Consumer stocks, seen as safe bet amid cracks in AI trade, were among the S&P 500’s biggest losers Monday",
-    "url": "https://www.marketwatch.com/story/consumer-stocks-seen-as-safe-bet-amid-cracks-in-ai-trade-are-among-the-s-p-500s-biggest-losers-monday-80cf8f81?mod=mw_rss_topstories",
-    "ts": 1795470300000,
-    "summary": "Shares of Kroger and Tyson Foods fall, as Nvidia storms higher",
+    "t": "The newest addition to the S&P 500 is a maker of viral ice-cream machines",
+    "url": "https://www.marketwatch.com/story/the-newest-addition-to-the-s-p-500-is-a-maker-of-viral-ice-cream-machines-5c6e209a?mod=mw_rss_topstories",
+    "ts": 1795475880000,
+    "summary": "SharkNinja will join the S&P 500, replacing AES.",
     "src": "MarketWatch",
     "lean": "C"
-   },
-   {
-    "t": "US moves to recover over $1B in crypto stolen by North Korean hackers in Binance heist",
-    "url": "https://www.foxbusiness.com/fox-news-tech/us-recover-1b-crypto-stolen-north-korean-hackers-binance-heist",
-    "ts": 1795466380000,
-    "summary": "Federal prosecutors are moving to recover more than $1 billion in USDC stablecoins stolen during the massive $6 billion North Korean cyberattack on Binance.",
-    "src": "Fox Business",
-    "lean": "R"
    },
    {
     "t": "Pizza chains are under pressure. GLP-1 use is only one part of the problem",
@@ -368,28 +392,28 @@
     "lean": "C"
    },
    {
-    "t": "What smart people are saying about Jensen's resurrection",
-    "url": "https://www.businessinsider.com/jensen-huang-return-reactions-2026-11",
-    "ts": 1795468269000,
-    "summary": "Investor Jason Calacanis posted an edited photo of Huang looking like Jesus Christ. \"Christós anésti!\" he wrote. \"GPU Jesus has risen!\"",
+    "t": "Jensen Huang joins the small club of ousted founders who got their jobs back",
+    "url": "https://www.businessinsider.com/jensen-huang-nvidia-ousted-founders-who-got-jobs-back-2026-11",
+    "ts": 1795481483000,
+    "summary": "From Sam Altman to Steve Jobs, Nvidia's Jensen Huang now joins a small group of founders who got their jobs back.",
     "src": "Business Insider",
     "lean": "L"
    },
    {
-    "t": "These stocks are the biggest gainers after Jensen Huang’s return to Nvidia",
-    "url": "https://www.marketwatch.com/story/these-stocks-are-the-biggest-gainers-after-jensen-huangs-return-to-nvidia-bb886140?mod=mw_rss_topstories",
-    "ts": 1795469760000,
-    "summary": "Huang’s comeback offers relief to the battered AI trade and drives major boosts across the tech sector.",
-    "src": "MarketWatch",
-    "lean": "C"
-   },
-   {
-    "t": "Elon Musk issues 5-word reaction to Jensen Huang’s reinstatement",
-    "url": "https://www.foxbusiness.com/fox-news-tech/elon-musk-issues-5-word-reaction-jensen-huangs-reinstatement",
-    "ts": 1795460110000,
-    "summary": "Following weeks of turmoil over an alleged Chinese intelligence scandal, Jensen Huang is back as Nvidia CEO — prompting praise from Elon Musk and Donald Trump.",
+    "t": "Trump admin adds Megaspeed to Commerce Department trade blacklist after Nvidia scandal",
+    "url": "https://www.foxbusiness.com/politics/trump-admin-adds-megaspeed-commerce-department-trade-blacklist-after-nvidia-scandal",
+    "ts": 1795472350000,
+    "summary": "The Commerce Department added Megaspeed to its entity list, barring U.S. semiconductors over export control concerns tied to the Nvidia scandal.",
     "src": "Fox Business",
     "lean": "R"
+   },
+   {
+    "t": "Nvidia’s stock is surging again. What to know before chasing the AI rally.",
+    "url": "https://www.marketwatch.com/story/nvidias-stock-is-surging-again-what-to-know-before-chasing-the-ai-rally-226688d7?mod=mw_rss_topstories",
+    "ts": 1795471440000,
+    "summary": "Jensen Huang’s return to Nvidia was the good news that the AI trade needed, but investors should prepare for more volatility",
+    "src": "MarketWatch",
+    "lean": "C"
    },
    {
     "t": "International first class is over for U.S. airlines. Enter the mega business-class cabin",
@@ -400,28 +424,28 @@
     "lean": "C"
    },
    {
-    "t": "Tesla's new FSD screen makes an AI video of the road as you drive",
-    "url": "https://www.businessinsider.com/tesla-fsd-screen-ai-videos-model-y-2026-11",
-    "ts": 1795467109000,
-    "summary": "Tesla's coming FSD screen uses AI video generation to create a drone-like view of the road. It's also showing drivers what the car plans to do.",
+    "t": "Saudi engineer used OpenAI’s vibe-coding app to more efficiently bug its office, feds say",
+    "url": "https://www.businessinsider.com/openai-engineer-alfozan-codex-manage-recordings-feds-2026-11",
+    "ts": 1795477380000,
+    "summary": "Prosecutors say ex-OpenAI engineer Abdulrahman Alfozan used Codex, Dropbox and a hidden recorder to capture confidential meetings.",
     "src": "Business Insider",
     "lean": "L"
    },
    {
-    "t": "Amazon may have just found a ‘cheap’ way to get a lot more out of its chips",
-    "url": "https://www.marketwatch.com/story/amazon-may-have-just-found-a-cheap-way-to-get-a-lot-more-out-of-its-chips-bd822bd5?mod=mw_rss_topstories",
-    "ts": 1795469580000,
-    "summary": "Amazon’s deal for Decart’s AI technology, with a reported price of $7.5 billion, may be a relatively inexpensive way to boost the speed and efficiency of its custom chips, says an analyst.",
-    "src": "MarketWatch",
-    "lean": "C"
-   },
-   {
-    "t": "What Jensen Huang’s return means for Nvidia – and Wall Street",
-    "url": "https://www.foxbusiness.com/markets/what-jensen-huangs-return-means-nvidia-wall-street",
-    "ts": 1795456173000,
-    "summary": "Nvidia stock surged after the company's board reinstated Jensen Huang as CEO, a move analysts say removes a major overhang on the AI trade.",
+    "t": "Bill Ackman says Federal Reserve is 'about to make another mistake'",
+    "url": "https://www.foxbusiness.com/economy/bill-ackman-says-federal-reserve-about-make-another-mistake",
+    "ts": 1795470472000,
+    "summary": "Bill Ackman says the Federal Reserve would risk a recession if it hikes rates at its December meeting, arguing the 2% inflation target is misguided.",
     "src": "Fox Business",
     "lean": "R"
+   },
+   {
+    "t": "U.S. stocks see best day in more than a year, as return of Jensen Huang revives AI enthusiasm",
+    "url": "https://www.marketwatch.com/story/u-s-stocks-see-best-day-in-more-than-a-year-as-return-of-jensen-huang-revives-ai-enthusiasm-c3b9d274?mod=mw_rss_topstories",
+    "ts": 1795470660000,
+    "summary": "Jensen Huang’s return as CEO of Nvidia powered a massive bounce in the U.S. stock market on Monday by helping to restore faith in the artificial-intelligence trade.",
+    "src": "MarketWatch",
+    "lean": "C"
    },
    {
     "t": "Gap names new Athleta CEO, says Old Navy turnaround is seeing signs of progress",
@@ -432,28 +456,28 @@
     "lean": "C"
    },
    {
-    "t": "How athletes continue to compete in their 70s, 80s, and 90s",
-    "url": "https://www.businessinsider.com/how-three-senior-athletes-are-redefining-aging-2026-11",
-    "ts": 1795462610000,
-    "summary": "Three seniors challenge expectations of aging through swimming, table tennis, and powerlifting at the National Senior Games.",
+    "t": "Figma engineer says in a lawsuit that CEO Dylan Field’s direct-feedback culture forced her to confront sexual harassers",
+    "url": "https://www.businessinsider.com/figma-sexual-harassment-lawsuit-dylan-field-2026-11",
+    "ts": 1795475528000,
+    "summary": "A Figma employee says in a lawsuit that when she reported sexual harassment incidents to human resources, she was told her to deal with it herself.",
     "src": "Business Insider",
     "lean": "L"
    },
    {
-    "t": "HPE just posted its strongest growth ever — but its stock is wavering",
-    "url": "https://www.marketwatch.com/story/hpe-just-posted-its-strongest-growth-ever-and-its-stock-is-tacking-on-more-big-gains-4421cebb?mod=mw_rss_topstories",
-    "ts": 1795469280000,
-    "summary": "HPE boosted its financial forecast on Monday in the face of strong AI demand.",
-    "src": "MarketWatch",
-    "lean": "C"
-   },
-   {
-    "t": "US intel chief warns of 'bumps in the road' amid tech upgrades of aging systems",
-    "url": "https://www.foxbusiness.com/fox-news-tech/us-intel-chief-warns-bumps-road-amid-tech-upgrades-aging-systems",
-    "ts": 1795453825000,
-    "summary": "U.S. intelligence chief Jay Clayton warns Americans to expect more service disruptions across banking and aviation as companies modernize legacy systems for AI.",
+    "t": "US moves to recover over $1B in crypto stolen by North Korean hackers in Binance heist",
+    "url": "https://www.foxbusiness.com/fox-news-tech/us-recover-1b-crypto-stolen-north-korean-hackers-binance-heist",
+    "ts": 1795466380000,
+    "summary": "Federal prosecutors are moving to recover more than $1 billion in USDC stablecoins stolen during the massive $6 billion North Korean cyberattack on Binance.",
     "src": "Fox Business",
     "lean": "R"
+   },
+   {
+    "t": "Consumer stocks, seen as safe bet amid cracks in AI trade, were among the S&P 500’s biggest losers Monday",
+    "url": "https://www.marketwatch.com/story/consumer-stocks-seen-as-safe-bet-amid-cracks-in-ai-trade-are-among-the-s-p-500s-biggest-losers-monday-80cf8f81?mod=mw_rss_topstories",
+    "ts": 1795470300000,
+    "summary": "Shares of Kroger and Tyson Foods fall, as Nvidia storms higher",
+    "src": "MarketWatch",
+    "lean": "C"
    },
    {
     "t": "Ex-GM CEO on Mary Barra succession planning: 'It's going to be tough'",
@@ -464,28 +488,28 @@
     "lean": "C"
    },
    {
-    "t": "PwC's talent leader shares how the firm will certify 85,000 workers in critical thinking for the AI age",
-    "url": "https://www.businessinsider.com/pwc-talent-leader-shares-critical-thinking-certificate-in-ai-era-2026-11",
-    "ts": 1795460967000,
-    "summary": "PwC announced a critical thinking certification to sharpen AI-era skills for 85,000 people. Its talent leader said feedback so far has been positive.",
+    "t": "How the Jensen Huang scandal unfolded, from an affair with an alleged spy to his return as Nvidia CEO",
+    "url": "https://www.businessinsider.com/timeline-nvidia-ceo-jensen-huang-affair-disclosure-china-investigation-2026-11",
+    "ts": 1795475221000,
+    "summary": "A timeline of the key moments that led to Jensen Huang's resignation as CEO and his return to Nvidia.",
     "src": "Business Insider",
     "lean": "L"
    },
    {
-    "t": "Oracle and CoreWeave stocks stage big gains as investors bet the AI cash will keep flowing",
-    "url": "https://www.marketwatch.com/story/oracle-and-coreweave-stocks-stage-big-gains-as-investors-bet-the-ai-cash-will-keep-flowing-eeb1aa85?mod=mw_rss_topstories",
-    "ts": 1795469040000,
-    "summary": "Nvidia’s financing of the AI ecosystem has been crucial for cloud companies like Oracle, CoreWeave, Nebius and Iren.",
-    "src": "MarketWatch",
-    "lean": "C"
-   },
-   {
-    "t": "Top Trump crypto meme coin holders awarded with exclusive dinner event",
-    "url": "https://www.foxbusiness.com/politics/top-trump-crypto-meme-coin-holders-awarded-exclusive-dinner-event",
-    "ts": 1795445314000,
-    "summary": "Top holders of President Donald Trump's cryptocurrency meme coin were eligible to go to a Nov. 22, 2026, dinner event that featured the president.",
+    "t": "Elon Musk issues 5-word reaction to Jensen Huang’s reinstatement",
+    "url": "https://www.foxbusiness.com/fox-news-tech/elon-musk-issues-5-word-reaction-jensen-huangs-reinstatement",
+    "ts": 1795460110000,
+    "summary": "Following weeks of turmoil over an alleged Chinese intelligence scandal, Jensen Huang is back as Nvidia CEO — prompting praise from Elon Musk and Donald Trump.",
     "src": "Fox Business",
     "lean": "R"
+   },
+   {
+    "t": "These stocks are the biggest gainers after Jensen Huang’s return to Nvidia",
+    "url": "https://www.marketwatch.com/story/these-stocks-are-the-biggest-gainers-after-jensen-huangs-return-to-nvidia-bb886140?mod=mw_rss_topstories",
+    "ts": 1795469760000,
+    "summary": "Huang’s comeback offers relief to the battered AI trade and drives major boosts across the tech sector.",
+    "src": "MarketWatch",
+    "lean": "C"
    },
    {
     "t": "Rejecting cheap fabrics, higher prices: Why shoppers are asking for better clothes",
@@ -496,28 +520,28 @@
     "lean": "C"
    },
    {
-    "t": "Jensen Huang returns to Nvidia HQ to cheers: 'I'm going to be a better CEO the second time around'",
-    "url": "https://www.businessinsider.com/jensen-huang-returns-to-nvidia-hq-im-terribly-sorry-2026-11",
-    "ts": 1795460266000,
-    "summary": "Jensen Huang returned to Nvidia's Santa Clara HQ to cheers and chants from employees, apologizing for two weeks of turmoil.",
+    "t": "Commerce to blacklist Megaspeed, Nvidia customer at center of spy scandal",
+    "url": "https://www.businessinsider.com/commerce-blacklist-megaspeed-nvidia-customer-at-center-of-spy-scandal-2026-11",
+    "ts": 1795472179000,
+    "summary": "The news comes the same day Nvidia's board reinstated Jensen Huang as chief executive at Trump's urging.",
     "src": "Business Insider",
     "lean": "L"
    },
    {
-    "t": "Short sellers get smoked as Nvidia tallies biggest one-day gain in stock-market history",
-    "url": "https://www.marketwatch.com/story/short-sellers-get-smoked-as-nvidia-tallies-biggest-one-day-gain-in-stock-market-history-e9dc6e9c?mod=mw_rss_topstories",
-    "ts": 1795468740000,
-    "summary": "Two products aiming to profit off daily declines in Nvidia shares were nearly wiped out as the stock rallied more than 30%.",
-    "src": "MarketWatch",
-    "lean": "C"
-   },
-   {
-    "t": "Nvidia reinstates Jensen Huang as CEO effective immediately following US government input",
-    "url": "https://www.foxbusiness.com/markets/nvidia-reinstates-jensen-huang-ceo",
-    "ts": 1795442808000,
-    "summary": "Nvidia on Monday reinstated co-founder Jensen Huang as CEO. An independent probe into a reported foreign intelligence effort continues.",
+    "t": "What Jensen Huang’s return means for Nvidia – and Wall Street",
+    "url": "https://www.foxbusiness.com/markets/what-jensen-huangs-return-means-nvidia-wall-street",
+    "ts": 1795456173000,
+    "summary": "Nvidia stock surged after the company's board reinstated Jensen Huang as CEO, a move analysts say removes a major overhang on the AI trade.",
     "src": "Fox Business",
     "lean": "R"
+   },
+   {
+    "t": "Amazon may have just found a ‘cheap’ way to get a lot more out of its chips",
+    "url": "https://www.marketwatch.com/story/amazon-may-have-just-found-a-cheap-way-to-get-a-lot-more-out-of-its-chips-bd822bd5?mod=mw_rss_topstories",
+    "ts": 1795469580000,
+    "summary": "Amazon’s deal for Decart’s AI technology, with a reported price of $7.5 billion, may be a relatively inexpensive way to boost the speed and efficiency of its custom chips, says an analyst.",
+    "src": "MarketWatch",
+    "lean": "C"
    },
    {
     "t": "A24 is having a great year at the box office. That could give HBO Max a streaming edge",
@@ -526,38 +550,22 @@
     "summary": "A24 films \"Backrooms,\" \"The Drama\" and the Elizabeth Holmes documentary, \"You Can See Everything,\" are fueling a banner year at the box office.",
     "src": "CNBC",
     "lean": "C"
-   },
-   {
-    "t": "8 celebrities who competed at the Miss Universe pageant before they became famous",
-    "url": "https://www.businessinsider.com/celebrities-who-competed-in-miss-universe-pageant-2026-11",
-    "ts": 1795459980000,
-    "summary": "The Miss Universe stage has propelled many women to fame, including influencer Olivia Culpo, actor Gal Gadot, and reality TV star Kenya Moore.",
-    "src": "Business Insider",
-    "lean": "L"
-   },
-   {
-    "t": "A 66-year-old nurse is facing down retirement with just $500 saved. Who’s to blame?",
-    "url": "https://www.marketwatch.com/story/a-66-year-old-nurse-faces-retirement-with-just-500-saved-whos-to-blame-4249a0fd?mod=mw_rss_topstories",
-    "ts": 1795468500000,
-    "summary": "“Retirement is a financial status, not an age.”",
-    "src": "MarketWatch",
-    "lean": "C"
-   },
-   {
-    "t": "Stocks soar on Jensen Huang’s return to Nvidia",
-    "url": "https://www.foxbusiness.com/markets/stocks-november-23-2026",
-    "ts": 1795441018000,
-    "summary": "Major U.S. equity indexes are higher Monday after last week's steep AI sell-off, with investors eyeing Nvidia's recovery and Wednesday's PCE inflation report.",
-    "src": "Fox Business",
-    "lean": "R"
    }
   ],
   "finance": [
    {
-    "t": "Jensen Huang is back as Nvidia CEO after 12 days — Steve Jobs needed 12 years, Sam Altman less than a week - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQUXo0NUxHc05haUxwRmtPNWNMX2I0NEdwcWZ0QzhOR1FGUE9WZ21nY3dkU1VxTkNjc2xnMmEzVjVjQ1hLTHpVcmxwN0Z5MVJsR3Q3MGdkcmc3dDE5ME42eHFydUxqa0NzdENJTTRMcEFraUJJWC1EUkVfQ255dDA1dXZXbVpHbzFxSjdfSlRjLTBDbkxCRjB2VWMxYm9IbU1uNzBRMmlGZXh1QTMxTTE4LUNOZ29GaExBSV90XzRTMWpIUHkzRkJodjlfcFlXVXJBWmRYVFdOLWV1cVNTN2JtdE55MGh3TjJ4ZDRBQTZXQ05HNjg?oc=5",
-    "ts": 1795469612000,
-    "summary": "Jensen Huang is back as Nvidia CEO after 12 days — Steve Jobs needed 12 years, Sam Altman less than a week Yahoo Finance",
+    "t": "HPE just posted its strongest growth ever — but its stock is sinking - MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQYnhyY3Jxcm1ZNEhfdFNUS2p5RTAta1NyTnNGS0tOLWx5UkEwWGpYZm9IeWtQUmVjMWFKeE1kbFRLZURzUTJkLTRhV0t2Q2tURGZzYjc5Mlh1eWFhaEpLWmctTkRFeFR1RGxINGh2aEdlZ2xSX0hKYXNkZThTaEpsT1VMSVAyUmJmX2dscXZSLWJkM3hYQ2ZYejN1akN0UlpqeG5Ibks4alRZTkpsR05Qa3czTnVVT3VvV1dTejFJUU9XNHJvMEE?oc=5",
+    "ts": 1795482060000,
+    "summary": "HPE just posted its strongest growth ever — but its stock is sinking MarketWatch",
+    "src": "MarketWatch (GN)",
+    "lean": "C"
+   },
+   {
+    "t": "NVIDIA Corporation (NVDA) stock price, news, quote and history - Yahoo Finance UK",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE81OEFKQTktenlhclpBTlVtWEJqNVpKOVNWNlRaNlRDRnR0dHRielpfZXdtR0pXcUcyNDN1WTlzOWVrWXZTNVhTbEVIOUxEaklxVWc?oc=5",
+    "ts": 1795473635000,
+    "summary": "NVIDIA Corporation (NVDA) stock price, news, quote and history Yahoo Finance UK",
     "src": "Yahoo Finance (GN)",
     "lean": "C"
    },
@@ -570,18 +578,18 @@
     "lean": "C"
    },
    {
-    "t": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate? - MarketWatch",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxObndlUDBIRUFuX3RfOWwtaXAxWGVmRG9ZVTBacDgtbG0yOFQ0bFNJaG0wVmpiNjFQcU1XWDNKQ0lfVmYzcnhmX0Q3UTV1M1k3N0o2aFNhemFHS0tNa044Z2ItYzJPcE1qRFYyUUtESzdHQUFIVWY3Nkw3Ukp2WW9zRTFHem9EeUt0a1JXdmNYTENIRmJFdjdFZTNfTmVEUDlBc01vcTlNNDdYdExkTG5SajI4UGFpRmFXS1FXeTlOcUtfU0Y2QUpndDhxZWhaUQ?oc=5",
-    "ts": 1795467600000,
-    "summary": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate? MarketWatch",
+    "t": "The newest addition to the S&P 500 is a maker of viral ice-cream machines - MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObVRtSERyQTA0TDFDQWhCWDFaRFZkUUxrOVFZUzJhcVdrNFRPWGxTWjdaemlmc2JYMk45OG10Y3BBWmxtVV9VY1FNbVg4QlpTaFVOUW9ZVFB6SzNaZVVBdUpQRGRwTENlWUVqUFpqOU9fZVZpUFYxM2Q0U0FJMG9kcy1DWTFKSGxmclVmcTBZNEVUZmpZY1E4eGE1MVVqRGliV1A0SGsxWWpKT1BuaWY4VGJFbk5USEk?oc=5",
+    "ts": 1795475880000,
+    "summary": "The newest addition to the S&P 500 is a maker of viral ice-cream machines MarketWatch",
     "src": "MarketWatch (GN)",
     "lean": "C"
    },
    {
-    "t": "Nvidia stock has best day since May 2003, gaining nearly $1T in market cap after Jensen Huang is reinstated as CEO - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPWE52dEljX0cyZVo2a1A1dWJaNXFBemdNUE9jcU94RjNXc1JwMEJyZkpjd3h5cHF0VFUxZWpCOTRpTlRRSzJBTlJGa0tubHEwa3VROU9xRFd4a1czS1Z3d05tMklnTFdESzMyTVRpdVFUQXBoMmkwdE0zd0V4TkcxRnhocTdBSm9fS3pvcksteFlqRGtIMUpjdldDbElVQlgzX3hMNWotbEJXelczemJac2h0TWhKeW9PTmJrZlIwNVBpY2VQVFVaRHFadlNOV0d2bWN2aDl4WlVQeU9IVkFRRUNDSU9tSV9xcjNJcFdJVGhkQWw0cmpJbld3WWE5OHhKcnc?oc=5",
-    "ts": 1795469255000,
-    "summary": "Nvidia stock has best day since May 2003, gaining nearly $1T in market cap after Jensen Huang is reinstated as CEO Yahoo Finance",
+    "t": "Nvidia gains nearly $1T as Trump says nobody could 'revive the stock like it's being revived' - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQR1l0YldHVjdWbVRmRXVkTWxOQTN0bWlZTU9rbkRMaS1MRlh6eW9zS2hESkNxVEdWODFIM3VLNkRsYmxCcUdEWGNLdlUtRU8zN3FUNGlPY3c4aWVPV0tiQ1lJN3E5VmlINjg3ZmhjdUNmZS1oZnFHenhNTXRZLWpNWWVHaDE2N0pIZURQVWlxWURBZnNSaE9YMTlyOTc3UzN0QmFWX296RzZJbEJqYnNjQjJfWVZ5MlBFNm9GbXVqMl9iTDVjSEQ1SDVfT0ZFTFhBYzE4dVNnS2JObHlmMFY4?oc=5",
+    "ts": 1795471131000,
+    "summary": "Nvidia gains nearly $1T as Trump says nobody could 'revive the stock like it's being revived' Yahoo Finance",
     "src": "Yahoo Finance (GN)",
     "lean": "C"
    },
@@ -594,18 +602,18 @@
     "lean": "C"
    },
    {
-    "t": "Jensen Huang’s return to Nvidia saved the stock market — for now. Will the rebound last? - MarketWatch",
-    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOLVJRdWlobDNsNFF2VmVjRlBva1phRWRBd2tPUWt1VnNyM3I2MHdWXzE0ejQ0TklZZ2VRSExBT3VhRml6S2ZaUVZaY0Jxa0ZrVGJIRHEtMVBqSkJqVkhiTEZyZzlLWUkwODE1WVpXRlRrbEowNHlXWHBNSnVsNVBJajdxOXZlci1fY3l2SFV1eVhQQnhUZUlPZ01BeDZBckpiQktJa1p0ZjhRVzhKRko2cUtZNE9yMUd0Snk4aXE0MkZXdnZFMVJ6eWt6cFpSRjgwWGRr?oc=5",
-    "ts": 1795467060000,
-    "summary": "Jensen Huang’s return to Nvidia saved the stock market — for now. Will the rebound last? MarketWatch",
+    "t": "Consumer stocks, seen as safe bet amid cracks in AI trade, were among the S&P 500’s biggest losers Monday - MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQb0hZcjZiRHRpbG8zSElQUml0TlZfQkxhdGRncEVhWVNYM3dRVVh5SWRicjRxSmsyMVNUQWRkMmNWN3Bnenp6V3RfUXNZVC1PVGtwekIyZ2dJZ1dHeDQwWEo2b3dEMXY2eE5rQzdlN1BIcUZXeGZlVTZWV1Q3d1pscGlKQkVyUW1Ed19ObnU3SklneFIzMURvajBXUkxidFZUdG9hR3RZeExMdXNzNjJaczRCWnVVTGVCQkRVYkZSWERQSUNOaGtqYk9FVElDRERuMXNzUnhaWnFKVXE1?oc=5",
+    "ts": 1795470300000,
+    "summary": "Consumer stocks, seen as safe bet amid cracks in AI trade, were among the S&P 500’s biggest losers Monday MarketWatch",
     "src": "MarketWatch (GN)",
     "lean": "C"
    },
    {
-    "t": "Nvidia soars 31% as board reinstates Jensen Huang as CEO, chip stocks jump - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQXQxeWtYZkw0VGdES0pzRTNhc1h5aW9VNWNkRU0zeVE0QzBBYk12VmM1cjFkWEJSUmwzQndzZHVJaGF3bGdvSGI1UEtwWXBzZ1NuZExiejR2bkFsVl9ZWl9hS1FEekV3TS1ZV1hnZnNSVU9ybGRJTkF5b193dXVPLUs1ZDRJMWY3X25UYV8wNEU0RTliTXk4NFNDUElmWjZhSFJXVy1MSmlsbXZEajY5MEJoVmpBWEt1a3g0SFRFalpZSmdXWjVZYw?oc=5",
-    "ts": 1795468466000,
-    "summary": "Nvidia soars 31% as board reinstates Jensen Huang as CEO, chip stocks jump Yahoo Finance",
+    "t": "Jensen Huang is back as Nvidia CEO after 12 days — Steve Jobs needed 12 years, Sam Altman less than a week - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQUXo0NUxHc05haUxwRmtPNWNMX2I0NEdwcWZ0QzhOR1FGUE9WZ21nY3dkU1VxTkNjc2xnMmEzVjVjQ1hLTHpVcmxwN0Z5MVJsR3Q3MGdkcmc3dDE5ME42eHFydUxqa0NzdENJTTRMcEFraUJJWC1EUkVfQ255dDA1dXZXbVpHbzFxSjdfSlRjLTBDbkxCRjB2VWMxYm9IbU1uNzBRMmlGZXh1QTMxTTE4LUNOZ29GaExBSV90XzRTMWpIUHkzRkJodjlfcFlXVXJBWmRYVFdOLWV1cVNTN2JtdE55MGh3TjJ4ZDRBQTZXQ05HNjg?oc=5",
+    "ts": 1795469612000,
+    "summary": "Jensen Huang is back as Nvidia CEO after 12 days — Steve Jobs needed 12 years, Sam Altman less than a week Yahoo Finance",
     "src": "Yahoo Finance (GN)",
     "lean": "C"
    },
@@ -620,16 +628,16 @@
    {
     "t": "These stocks are the biggest gainers after Jensen Huang’s return to Nvidia - MarketWatch",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPOVRUM0t5VUl0RlM1dzdSd0EtMmNweGRGSWdDenZDQXduS2xnbk1KbXlVYXloalJvNThRczlwOF9BcTg1Q1J3QUNzcmUtcUkxdlRSdVVIcU4yUEVGbWJqelNmN1I3WVVjN25vTDlhUFZMLUU2bGR0T2VOR1JSS2k1LU5YTjZyeEY4aEdyMkR1VE5ZQjU0VktEaFA0aWJRanlfYk1aYVVkTWJEU0dYSFh0S1hyLXEtQ3M?oc=5",
-    "ts": 1795463040000,
+    "ts": 1795469760000,
     "summary": "These stocks are the biggest gainers after Jensen Huang’s return to Nvidia MarketWatch",
     "src": "MarketWatch (GN)",
     "lean": "C"
    },
    {
-    "t": "Nvidia reinstates Jensen Huang as CEO amid pressure from Trump, investors - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOY3VVSndPZUtqSWJCQklZbldOMWcxbVJmZUhaczVOTllfTHg5ZmVGQkNpSFBTSS0zX0xnSk1DMVA0OTFxVFFZWmxHRXVNclZSNXdsbnA4cFVKSl9zTjRVZi00a2xsVWE4bG9nVUdCSUZSVkoxdkswVU9uWWw4TjNUU0p6d0RLTVU?oc=5",
-    "ts": 1795456783000,
-    "summary": "Nvidia reinstates Jensen Huang as CEO amid pressure from Trump, investors Yahoo Finance",
+    "t": "Nvidia stock has best day since May 2003, gaining nearly $1T in market cap after Jensen Huang is reinstated as CEO - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPWE52dEljX0cyZVo2a1A1dWJaNXFBemdNUE9jcU94RjNXc1JwMEJyZkpjd3h5cHF0VFUxZWpCOTRpTlRRSzJBTlJGa0tubHEwa3VROU9xRFd4a1czS1Z3d05tMklnTFdESzMyTVRpdVFUQXBoMmkwdE0zd0V4TkcxRnhocTdBSm9fS3pvcksteFlqRGtIMUpjdldDbElVQlgzX3hMNWotbEJXelczemJac2h0TWhKeW9PTmJrZlIwNVBpY2VQVFVaRHFadlNOV0d2bWN2aDl4WlVQeU9IVkFRRUNDSU9tSV9xcjNJcFdJVGhkQWw0cmpJbld3WWE5OHhKcnc?oc=5",
+    "ts": 1795469255000,
+    "summary": "Nvidia stock has best day since May 2003, gaining nearly $1T in market cap after Jensen Huang is reinstated as CEO Yahoo Finance",
     "src": "Yahoo Finance (GN)",
     "lean": "C"
    },
@@ -642,18 +650,18 @@
     "lean": "C"
    },
    {
-    "t": "Trump’s push to reinstate Jensen Huang signals Nvidia’s CEO is too big to fail - MarketWatch",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPX3VZcVFuTlZQVUIzQjlpcnlZazhpTXF1LWk4OXc3elJRWjFkdlRpeUVjeF94QWxFUlFzdUthazhPYXBNc1ZyT1FDdWk2QTFQYkE0dUtmRXFJT2podWJLM1RSVEZmS09jb0w5cnJTVXg5TFNjOVFDLVo4YmhoR2FtRTlpM1hXalVPZDNBckxCTEQybWhqd2VaZ2xrS0JlY0lLbVNVSFJGZU5MWGVTbThxUlp0NHZHOHZSRng4?oc=5",
-    "ts": 1795462080000,
-    "summary": "Trump’s push to reinstate Jensen Huang signals Nvidia’s CEO is too big to fail MarketWatch",
+    "t": "Short sellers get smoked as Nvidia tallies biggest one-day gain in stock-market history - MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPMDZvSUp1Y2NtbmRuR2lZZG1YTkxibDdWM01fc0F4SmR3ZnlnTVB3bHlBeElZU1NSRjFvXzlTb0VNQVFSX2VyTkdER212SHhEOUJIX1NJTmRHcFlJVWhaNVEtSHlyal9xc0U5Rm5MYkx5SkNNY0lIamh2Q3ZjdHJnOVBDbWl6MlRaMi0wTF8zRDdJb3FFUzJaX3VHUy1iV3ZieGpJZ1pGdlFSLWllSk1hZFNqZ2dNUS1sTFh3eVA2NGZLOWNvd0ZEVElR?oc=5",
+    "ts": 1795468740000,
+    "summary": "Short sellers get smoked as Nvidia tallies biggest one-day gain in stock-market history MarketWatch",
     "src": "MarketWatch (GN)",
     "lean": "C"
    },
    {
-    "t": "5 things to consider as Nvidia restores Jensen Huang as the company's leader - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPQW5hN25aQlFRM1RvY3RTdXpkTlhrNXVmVm90dDVWejNPd1ZrOV9XNXVUNkxSRk52ZEpLZ2RMdUczRUNvQXQyUWI0a25rcU5BUG94OHRCMWN1Vi14SGVCMGg2Sjlwc1lNV2hLNVliZkxwa0g5WVp6Sm9aRmVSY1BYVkV6S2g0c3VSQm1YY2wtUENDWDlwYlc3eUM1MUthWUdjLU9iVnFxaXdaTzhaWmlJNjl3RVo5S0p3MjNNSTlIZ2FfUmNuX01MNHBXRy1hY19BQzlrUUpn?oc=5",
-    "ts": 1795448023000,
-    "summary": "5 things to consider as Nvidia restores Jensen Huang as the company's leader Yahoo Finance",
+    "t": "Nvidia soars 31% as board reinstates Jensen Huang as CEO, chip stocks jump - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQXQxeWtYZkw0VGdES0pzRTNhc1h5aW9VNWNkRU0zeVE0QzBBYk12VmM1cjFkWEJSUmwzQndzZHVJaGF3bGdvSGI1UEtwWXBzZ1NuZExiejR2bkFsVl9ZWl9hS1FEekV3TS1ZV1hnZnNSVU9ybGRJTkF5b193dXVPLUs1ZDRJMWY3X25UYV8wNEU0RTliTXk4NFNDUElmWjZhSFJXVy1MSmlsbXZEajY5MEJoVmpBWEt1a3g0SFRFalpZSmdXWjVZYw?oc=5",
+    "ts": 1795468466000,
+    "summary": "Nvidia soars 31% as board reinstates Jensen Huang as CEO, chip stocks jump Yahoo Finance",
     "src": "Yahoo Finance (GN)",
     "lean": "C"
    },
@@ -666,18 +674,18 @@
     "lean": "C"
    },
    {
-    "t": "The surprising reason businesses can’t keep up with customer demand. Hint: It’s not just a strong U.S. economy. - MarketWatch",
-    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOUXYtMGhOMVdTd1BpVmVVcXIyUzFCdWFEUmE5ZE1VNnU5bHhWUjg4aDc4UlZCWE9xRFE0Mnp2S3Y5S3FoMGtlV0FYdVpEakkxd0RIUXpZWE9tS3pOdzJCSEM4MVY4eU5DN3VoN2h5aEVlNldORFVHNjdvZzRtV3l5QVhsM0dPMVUtYktOeGdUSk91SVZINld2WjdmWW83V2c3Zm1sTVM0WkNOeDAwemVlYWFjYjNRWFFPZ1dwVVVZcGllN3Ffb0lpbFllOHZIVUJRYTlvV25WNXBzRFRRMGdNU0J3?oc=5",
-    "ts": 1795449780000,
-    "summary": "The surprising reason businesses can’t keep up with customer demand. Hint: It’s not just a strong U.S. economy. MarketWatch",
+    "t": "Jensen Huang’s return to Nvidia saved the stock market — for now. Will the rebound last? - MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOLVJRdWlobDNsNFF2VmVjRlBva1phRWRBd2tPUWt1VnNyM3I2MHdWXzE0ejQ0TklZZ2VRSExBT3VhRml6S2ZaUVZaY0Jxa0ZrVGJIRHEtMVBqSkJqVkhiTEZyZzlLWUkwODE1WVpXRlRrbEowNHlXWHBNSnVsNVBJajdxOXZlci1fY3l2SFV1eVhQQnhUZUlPZ01BeDZBckpiQktJa1p0ZjhRVzhKRko2cUtZNE9yMUd0Snk4aXE0MkZXdnZFMVJ6eWt6cFpSRjgwWGRr?oc=5",
+    "ts": 1795467060000,
+    "summary": "Jensen Huang’s return to Nvidia saved the stock market — for now. Will the rebound last? MarketWatch",
     "src": "MarketWatch (GN)",
     "lean": "C"
    },
    {
-    "t": "Tesla Soars 13% as FSD V15 Rolls Out: Musk Calls It a “Banger Release” - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQ3Yzbkx1Rm1PYmxWZUdSTFdXdDFuNmpNUFVlbkE1TTB1aC1wTFYwUEhxNDBmYm1ra1RaNDNIdGpZbFp2V0Y4QVhrUXFCN3VoZXVsWHFsQ0pnc2R2dnJGOS1NMGdSa1lIRS1KS05ua0UzS1djU2thNkF4YkZqYzlWUXNjdVdMd25TWE9kNkV4MDM?oc=5",
-    "ts": 1795446770000,
-    "summary": "Tesla Soars 13% as FSD V15 Rolls Out: Musk Calls It a “Banger Release” Yahoo Finance",
+    "t": "Microsoft Corporation (MSFT) Stock Price, News, Quote & History - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE02aDBpUWN4ZVp0ajliNXhvdWpuVWc1Z1B4eEVyUUFmN2RoazgzbUlUaU9kR1JTU2Q0bVR6ck45M2szN28wUWVmcmRoZlRnQQ?oc=5",
+    "ts": 1795465919000,
+    "summary": "Microsoft Corporation (MSFT) Stock Price, News, Quote & History Yahoo Finance",
     "src": "Yahoo Finance (GN)",
     "lean": "C"
    },
@@ -690,18 +698,18 @@
     "lean": "C"
    },
    {
-    "t": "Nvidia’s stock soars 30%-plus as Jensen Huang returns as CEO - MarketWatch",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNTE3UTJiTDJBdGEteFJpU1RwQjQ3NW56dVJyc2ZXcTd0M0V5b3hfMDZEdnEzaW9GNmJjV25iYl9Gb01jallBT2VMaDgxWndBdnU4WERzcXo5TEpKTU1EUGJXTTRxWFoyZ0dmSUJFenZrdG81ZWNkN0pXNmo5SDhWOHFuRkYyMHZjWmlDck1nS2toS0dhMnlmRWhWRFIyU2gyZ0lIaktGVEVjMDRoMkFzcWVyRkt4blFjRVpCOHNsb2s?oc=5",
-    "ts": 1795446900000,
-    "summary": "Nvidia’s stock soars 30%-plus as Jensen Huang returns as CEO MarketWatch",
+    "t": "Trump’s push to reinstate Jensen Huang signals Nvidia’s CEO is too big to fail - MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPX3VZcVFuTlZQVUIzQjlpcnlZazhpTXF1LWk4OXc3elJRWjFkdlRpeUVjeF94QWxFUlFzdUthazhPYXBNc1ZyT1FDdWk2QTFQYkE0dUtmRXFJT2podWJLM1RSVEZmS09jb0w5cnJTVXg5TFNjOVFDLVo4YmhoR2FtRTlpM1hXalVPZDNBckxCTEQybWhqd2VaZ2xrS0JlY0lLbVNVSFJGZU5MWGVTbThxUlp0NHZHOHZSRng4?oc=5",
+    "ts": 1795462080000,
+    "summary": "Trump’s push to reinstate Jensen Huang signals Nvidia’s CEO is too big to fail MarketWatch",
     "src": "MarketWatch (GN)",
     "lean": "C"
    },
    {
-    "t": "Jensen Huang Returns As Nvidia CEO In Stunning Reversal. Shares Surge More Than 30%. - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMHRSZkQ2dzVhQVQ3VExJb3JZbEFVUTFKcWI4ZngxdDR1dnBSelVuRFBwejVESlVadDZlSU1VMWxqYUd6amJmNlRpTUhYU25yNE5yWVB4RmpFTFRYaWpRQ0Fnc0FKWlhMTGlPaVNSV0UyRzFmaTNOVmUyUk5VeXYtendMR0xwMzBNN2ZLVHFHdUNjd2RoeDRaSWdOMUc?oc=5",
-    "ts": 1795445027000,
-    "summary": "Jensen Huang Returns As Nvidia CEO In Stunning Reversal. Shares Surge More Than 30%. Yahoo Finance",
+    "t": "META_TITLE_QUOTE - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE44b29VZTl0MFpSY0hBZF8yWjNjRW1yV2JxV2poNFUxSkdQamdsUmFORHdraWViUld1NXJtS244Rm5yODVxZU5xYjAtSFg?oc=5",
+    "ts": 1795457700000,
+    "summary": "META_TITLE_QUOTE Yahoo Finance",
     "src": "Yahoo Finance (GN)",
     "lean": "C"
    },
@@ -714,18 +722,18 @@
     "lean": "C"
    },
    {
-    "t": "Jensen Huang is back at Nvidia, and the stock market is surging. Can it last? - MarketWatch",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOR2FodkFXZnpMZUVsNEpoUEdkS0V2RXNxN3Jkeng0NWtHZ2hmaUVOSjFodGpDdGV3dnJHSW9Gb05YMGxlcWNUUjBfZlJDanFlR3Z1Vm5ld3RnWHNsOXRUV2hDczBfUW9XeTh4RF9NM0V5NDJyejdHM1ZKZ19ZcUZqRTRzSEVxQ0N4Wk1wemt0cnNUZGZObWVMUDZWM3NjTU8yZk15d0JzaVZCSHhoZmQ0VS1rMVQwYjl1bDR0dGZYY0w3YTg?oc=5",
-    "ts": 1795444620000,
-    "summary": "Jensen Huang is back at Nvidia, and the stock market is surging. Can it last? MarketWatch",
+    "t": "The surprising reason businesses can’t keep up with customer demand. Hint: It’s not just a strong U.S. economy. - MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOUXYtMGhOMVdTd1BpVmVVcXIyUzFCdWFEUmE5ZE1VNnU5bHhWUjg4aDc4UlZCWE9xRFE0Mnp2S3Y5S3FoMGtlV0FYdVpEakkxd0RIUXpZWE9tS3pOdzJCSEM4MVY4eU5DN3VoN2h5aEVlNldORFVHNjdvZzRtV3l5QVhsM0dPMVUtYktOeGdUSk91SVZINld2WjdmWW83V2c3Zm1sTVM0WkNOeDAwemVlYWFjYjNRWFFPZ1dwVVVZcGllN3Ffb0lpbFllOHZIVUJRYTlvV25WNXBzRFRRMGdNU0J3?oc=5",
+    "ts": 1795449780000,
+    "summary": "The surprising reason businesses can’t keep up with customer demand. Hint: It’s not just a strong U.S. economy. MarketWatch",
     "src": "MarketWatch (GN)",
     "lean": "C"
    },
    {
-    "t": "NVIDIA Jumps 28% as Jensen Huang Reportedly Reinstated as CEO; Intel Rallies 13%, AMD Gains 7% - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZGtJcFpjWlhPdkg1NW5YRlQzZ3dBdXpKX2pGSXZQamRwdXhGYWN1WDctR1hDYlFRN05XVU1LcVZmQTFDY3dnbFpONnRGUzZEalFycHZKM2c0UEFBU210c2U4bVk2Qzg0eFRLVDhBZTE2S3R1QlJ6TWJQUXpGaGotNGExTG5SWlBrQWVFUGNHSnliS3oyX0tr?oc=5",
-    "ts": 1795443219000,
-    "summary": "NVIDIA Jumps 28% as Jensen Huang Reportedly Reinstated as CEO; Intel Rallies 13%, AMD Gains 7% Yahoo Finance",
+    "t": "NASDAQ Composite (^IXIC) Charts, Data & News - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9aSUhWeElNUGdhSS1RWWFWU2IzelpJYUdjTVh2TkV1RFhkbU5ydnNTaGV2eGxfRVJJVnM1OU9rcVVvTzVaSTNrWGhnRzdYNVowSHc?oc=5",
+    "ts": 1795455024000,
+    "summary": "NASDAQ Composite (^IXIC) Charts, Data & News Yahoo Finance",
     "src": "Yahoo Finance (GN)",
     "lean": "C"
    },
@@ -738,18 +746,18 @@
     "lean": "C"
    },
    {
-    "t": "MRK Stock Price | Merck & Co. Inc. Stock Quote (U.S.: NYSE) - MarketWatch",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9OQkVzSVNtdllKajl1UUVCd3FKcURnM3F3TkdLTkhTUi00N3o4dE55V2t3eFFnYm5zS0FRYXBqZkZEQk1uUjJsVXY2YXhkT29nOUtmVThRYXdMMXc?oc=5",
-    "ts": 1795439438000,
-    "summary": "MRK Stock Price | Merck & Co. Inc. Stock Quote (U.S.: NYSE) MarketWatch",
+    "t": "Nvidia’s stock soars 30%-plus as Jensen Huang returns as CEO - MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNTE3UTJiTDJBdGEteFJpU1RwQjQ3NW56dVJyc2ZXcTd0M0V5b3hfMDZEdnEzaW9GNmJjV25iYl9Gb01jallBT2VMaDgxWndBdnU4WERzcXo5TEpKTU1EUGJXTTRxWFoyZ0dmSUJFenZrdG81ZWNkN0pXNmo5SDhWOHFuRkYyMHZjWmlDck1nS2toS0dhMnlmRWhWRFIyU2gyZ0lIaktGVEVjMDRoMkFzcWVyRkt4blFjRVpCOHNsb2s?oc=5",
+    "ts": 1795446900000,
+    "summary": "Nvidia’s stock soars 30%-plus as Jensen Huang returns as CEO MarketWatch",
     "src": "MarketWatch (GN)",
     "lean": "C"
    },
    {
-    "t": "CrowdStrike is spending $43.9 billion to buy Zscaler in a huge cybersecurity deal as tech outages spread - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPa0MwNl9mNFFvX25LUERTZmpPSG5BY0tHRFpxRW1KTWRnTWpzNnUzemU3OG5kS2pYdlVIZ3F2UDczXzh3OWlkQWo5c1NSWnJDUFVrNWhYRXlXSkM2TW9VdUpiYkNqdkxqc1BqcU9ndTRDNHY5WE1JZzBDMEFkRnhDd0JLcFVUTXppeGFMTGkwUVRYMXp3bjlucm5VZUJNZTVhVDlHdW9Xd1dTSUQxbjBKbm80NnpXRVlabzYzcFpLd19YV3RvWTV1NnY5eExkaDhWT0s1OVJ6QVNrOHhjZTNGd1l3Rkx1QzFHU0hja2dobER4cXZa?oc=5",
-    "ts": 1795440865000,
-    "summary": "CrowdStrike is spending $43.9 billion to buy Zscaler in a huge cybersecurity deal as tech outages spread Yahoo Finance",
+    "t": "Apple Inc. (AAPL) Stock Price, News, Quote & History - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5oRWFDOUk5RnFwTHd2QWxnZnYwNXZRTEtYaDRVUXZZVEJrSW5aWGdPZ1BwSFJtQ2RXWGY2OGJiTzU5MGZrbjZhUlNQdGZmUQ?oc=5",
+    "ts": 1795451947000,
+    "summary": "Apple Inc. (AAPL) Stock Price, News, Quote & History Yahoo Finance",
     "src": "Yahoo Finance (GN)",
     "lean": "C"
    },
@@ -762,18 +770,18 @@
     "lean": "C"
    },
    {
-    "t": "The U.S. may enter a recession if the Fed raises rates, hedge-fund manager Bill Ackman says - MarketWatch",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPempjM3lsdUx2MWstNHkxOEtKelpwUGNGOGVpZUVQdVM0aXBWdjV6TVhrU2lfakxTZ2Z2SS1tS0RMVjRPUW9JSjI5VE85cW9CNk9NbTJOTmdsT0tob0FnVExtdmJpV21UczFvZWs5NGxXT3l1UUpoZGhmZUJ1MTV6aUZMOXZhZDlheHlmOEZ1dkRsWmdnYzZqaHh2OU1uMjZzdktCX0szd1lMWlktRVVpbXZNZXVpRVlQdjdmN2tTMnVuNGljcVFzUjJpNlg?oc=5",
-    "ts": 1795431420000,
-    "summary": "The U.S. may enter a recession if the Fed raises rates, hedge-fund manager Bill Ackman says MarketWatch",
+    "t": "UnitedHealth, Humana and CVS stocks slide as U.S targets Medicare Advantage ratings - MarketWatch",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeEM3bVYzdXdnV09oS3JZenlhZ0tFN2lqa1R1d0M3UHAtSmZ6OVh0R0tkczYyeWZ0TmVWTHIwOGRYRmZxRnVRS1NvRWdyWHVXdlpzOHA1cnJ0cG1CbWcxQThVWS1ORlgtQ3FuLUlyU0REZWoxaDk5M3FRZ1VUZGJ2ZjA5Zkp6QVhpQ3dPMktKel83dEUydWRwYWh5LVpTcl9hcVV3MnNLVllFdEczX1hhcWxnR2RpSkRtcHBIZmItU2FqWU0?oc=5",
+    "ts": 1795444740000,
+    "summary": "UnitedHealth, Humana and CVS stocks slide as U.S targets Medicare Advantage ratings MarketWatch",
     "src": "MarketWatch (GN)",
     "lean": "C"
    },
    {
-    "t": "A battered stock market looks for the bottom: What to watch this week - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOcU03UEttMkt2VHk0czNiZGxHNnB0MTR6Z2lvN01WUEF4VXZaejRWdV9IZ1d1b2YxUTc5bG9NUXVscVV4RjZ1TmdEdGtzWDdlb0JsQzhIWUozSHhGVFNSYW55aWpaalN4V1NlU21GWUpjYURFVU9YajkwZ3ltNXhvM2kwRW51T2RtYzVtajM4M3RvRmYwLUNQU1RHN0hjYmlsR3JGdTQ2WVNoMThMNTNwZmI0VlB5NXhaYzZoLWxralZSSGM?oc=5",
-    "ts": 1795435616000,
-    "summary": "A battered stock market looks for the bottom: What to watch this week Yahoo Finance",
+    "t": "Anthropic, PBC (ANT) Stock Price, News, Quote & History - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5QVkVnNXlCX0x5VnlSd3lkUzJQVEkwbWJpWjFLb2I0RXh0c3owa0pqUWxOME5QVGZjVmYtWnFFalJaVGI0Z0dGdHpsRk4?oc=5",
+    "ts": 1795444916000,
+    "summary": "Anthropic, PBC (ANT) Stock Price, News, Quote & History Yahoo Finance",
     "src": "Yahoo Finance (GN)",
     "lean": "C"
    },
@@ -783,14 +791,6 @@
     "ts": 1794604710000,
     "summary": "The report comes with Wall Street on edge over high-flying AI hyperscalers, while communities are on alert for the rapid spread of data centers.",
     "src": "CNBC Markets",
-    "lean": "C"
-   },
-   {
-    "t": "Stocks are serving up a ‘fat pitch’ for investors right now, says Morgan Stanley’s top strategist - MarketWatch",
-    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPQjBleEItUVVBTW4xSjFjTU52ZF9GWlZERXZkVDhZMG1raFpxTm1IRnhkMm8yYm9fOWJrMU0xVTJaV3hmdHRRN0UwRUlmcjJyTVBTbzhEbUsyY0QxbkZpVDZsTGxyOFZsMXNqUm9SM2xWY3NzYnJkZlVOUGdReVFvRkVFbUNkRmtYWUhrUVl3dFN0eFFPajh1em9VUTVpaFRHYTYxNnd0bVNQSDlqT0FRUDkxbnhQU2hUbTZXaDM3V0Myb01QNzVIZlpqTXpraTg?oc=5",
-    "ts": 1795426800000,
-    "summary": "Stocks are serving up a ‘fat pitch’ for investors right now, says Morgan Stanley’s top strategist MarketWatch",
-    "src": "MarketWatch (GN)",
     "lean": "C"
    }
   ],
@@ -804,268 +804,268 @@
     "lean": "R"
    },
    {
-    "t": "U.S. adds Megaspeed to trade blacklist after Nvidia scandal",
-    "url": "https://www.cbsnews.com/news/megaspeed-trade-blacklist-nvidia-jensen-huang/",
-    "ts": 1795470940000,
-    "summary": "The Trump administration restricted Megaspeed from buying advanced semiconductor chips, after the firm's alleged links to China helped kick-start the scandal surrounding Nvidia CEO Jensen Huang.",
-    "src": "CBS News",
+    "t": "India's 'cockroach' party leader says he was stopped from flying to UK",
+    "url": "https://www.bbc.co.uk/news/articles/cm5y1ezx2gqyo?at_medium=RSS&at_campaign=rss",
+    "ts": 1795498387000,
+    "summary": "Saurav Das said that immigration authorities at Delhi airport told him that his passport had been \"flagged\".",
+    "src": "BBC",
     "lean": "C"
    },
    {
-    "t": "Gisèle Pelicot 'humiliated' after nude photos sent to media to promote book",
-    "url": "https://www.bbc.co.uk/news/articles/cm3eg502nxw2o?at_medium=RSS&at_campaign=rss",
-    "ts": 1795469087000,
-    "summary": "The publisher of an essay on coercive control apologises for \"an unfortunate and inappropriate communication\".",
-    "src": "BBC",
+    "t": "Experts, reporters and lawmakers dig into Nvidia reinstalling Jensen Huang as CEO",
+    "url": "https://www.cbsnews.com/video/experts-reporters-lawmakers-dig-nvidia-reinstalling-jensen-huang-ceo/",
+    "ts": 1795493700000,
+    "summary": "Just days after Jensen Huang stepped down as Nvidia CEO following allegations he had an affair with an alleged Chinese, the chip maker reinstalled Huang to his position in a stunning reversal. President Trump took credit for intervening. Ex",
+    "src": "CBS News",
     "lean": "C"
    },
    {
     "t": "Ukraine confirms it used naval drones to strike two Russian ships off Libya - The Guardian",
     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONjlYcEJxcWh6djFUeEhBbnR4eHJKWHdqOVNOVHhwc2ZGM3QtWGtDNUN3bHA2eUN0WEV3SkxwRVVyNXgzZzVlVHU5YXBZVm5CQmRoNUQ5ck00Rk1lOGFGc3FLRUFFelRnckhkaF9oVmplSE9UR2lEdEFQbFBNRjMya2l0WmFsTVR3bDM4SjNGS0FwOGJhblBsRmNKTQ?oc=5",
-    "ts": 1795465560000,
-    "summary": "Ukraine confirms it used naval drones to strike two Russian ships off Libya The Guardian Ukraine’s Attack Off Coast of Libya Shows Reach of Its Naval Drones The New York Times What strike on Russian ship in Libya says about spread of Ukrain",
+    "ts": 1795487400000,
+    "summary": "Ukraine confirms it used naval drones to strike two Russian ships off Libya The Guardian Ukraine’s Attack Off Coast of Libya Shows Reach of Its Naval Drones The New York Times Russia warns Ukraine of ‘dangerous trend’ after Libya and Baltic",
     "src": "Google News",
     "lean": null
    },
    {
-    "t": "With Skubal signing, the New York Mets should have bought themselves the 2027 World Series title | Ian Miller",
-    "url": "https://www.foxnews.com/outkick-sports/skubal-signing-new-york-mets-should-have-bought-themselves-2027-world-series-title-ian-miller",
-    "ts": 1795469865000,
-    "summary": "Major League Baseball fans feared the Dodgers would ruin the sport, but the Mets' 9-year, $450 million Tarik Skubal deal flips the script entirely.",
+    "t": "Trump's Nixon-to-China moment: There's an immigration move only he can make",
+    "url": "https://www.foxnews.com/opinion/trumps-nixon-to-china-moment-immigration-move-only-he-can-make",
+    "ts": 1795496779000,
+    "summary": "President Trump floated immigration on \"Saturday in America,\" and this column argues his pardon power could shield illegal immigrants from deportation.",
     "src": "Fox News",
     "lean": "R"
    },
    {
-    "t": "Nvidia CEO Jensen Huang resigns in wake of affair, spy scandal",
-    "url": "https://www.cbsnews.com/news/nvidia-ceo-jensen-huang-resigns/",
-    "ts": 1795468758000,
-    "summary": "Nvidia CEO Jensen Huang has resigned effective immediately, the company's board of directors announced Thursday.",
-    "src": "CBS News",
-    "lean": "C"
-   },
-   {
-    "t": "UK sanctions top Myanmar military leaders after Rohingya genocide ruling",
-    "url": "https://www.bbc.co.uk/news/articles/c6wy4ng1rznxo?at_medium=RSS&at_campaign=rss",
-    "ts": 1795467814000,
-    "summary": "The UK is joined by several other nations in recognising an ICJ ruling that Myanmar carried out genocide.",
+    "t": "How Nvidia is reacting to Jensen Huang's return as CEO",
+    "url": "https://www.bbc.co.uk/news/videos/ckedq2edqegzo?at_medium=RSS&at_campaign=rss",
+    "ts": 1795483301000,
+    "summary": "BBC's Lily Jamali reports from Nvidia's headquarters, where she gauges the reaction to Huang's return after Trump says he brokered a deal.",
     "src": "BBC",
     "lean": "C"
    },
    {
-    "t": "Trump orders US military not to detonate toxic explosives in Iowa without court approval - BBC",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE40VnF2eEk4MmUwaXUzaGh4QW5PYk5UM1loSWozMGlhVkFvaGs2aDdQSmlSZlBEQk5BVGZmMEhhU3BhSnY3cVVVTFZOc3FhbDgtR0dmdWtQRDIzQ2c?oc=5",
-    "ts": 1795463572000,
-    "summary": "Trump orders US military not to detonate toxic explosives in Iowa without court approval BBC In Iowa, Confusion Over Ammunition Explosion as Trump Calls for Delay The New York Times Trump postpones planned detonation of toxic drums at Iowa ",
+    "t": "Appeals court clears way for Army to detonate Iowa explosives",
+    "url": "https://www.cbsnews.com/news/army-iowa-explosives-trump-appeals-court/",
+    "ts": 1795490507000,
+    "summary": "A federal appeals court on Monday declined to block the Army from detonating explosives containing lead azide at a munitions plant in Iowa.",
+    "src": "CBS News",
+    "lean": "C"
+   },
+   {
+    "t": "Nato chief vows defence against space threat after Russian nuclear satellite reports - BBC",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9xampkdUlKOThsOWVKdzRnQWVORURqT1VYb2ZkMlBkUkFBNldUWGNWcXd0bU1rZE82MktIMUhITWVCcU9kakplb2NQcUlDaEg0X0pTQ054a0JkeGc?oc=5",
+    "ts": 1795486559000,
+    "summary": "Nato chief vows defence against space threat after Russian nuclear satellite reports BBC Germany taking seriously reports Russia may be planning to launch nuclear weapons into space The Guardian NATO chief says 'space' part of defense pledg",
     "src": "Google News",
     "lean": null
    },
    {
-    "t": "UCLA lost but viral Miss California crown wearing cheerleader Sharlize True Trujillo continues to win",
-    "url": "https://www.foxnews.com/outkick-sports/ucla-lost-viral-miss-california-crown-wearing-cheerleader-sharlize-true-trujillo-continues-win",
-    "ts": 1795469740000,
-    "summary": "UCLA Bruins cheerleader Sharlize True Trujillo stays in the spotlight after the Ann Arbor loss to Michigan, with her Miss California crown and viral video.",
+    "t": "Commanders' Jayden Daniels spoils Joe Burrow's night, leads team to game-winning drive vs Bengals",
+    "url": "https://www.foxnews.com/outkick-sports/commanders-jayden-daniels-spoils-joe-burrow-night-leads-team-game-winning-drive-vs-bengals",
+    "ts": 1795495936000,
+    "summary": "Jayden Daniels' game-winning drive stunned Joe Burrow and the Cincinnati Bengals, 20-19, on \"Monday Night Football\" as Drew Stevens drilled the winner.",
     "src": "Fox News",
     "lean": "R"
    },
    {
-    "t": "How Huang's resignation and return unfolded at Nvidia",
-    "url": "https://www.cbsnews.com/news/jensen-huang-nvidia-resignation-scandal-timeline/",
-    "ts": 1795468721000,
-    "summary": "Jensen Huang's shocking exit as CEO of Nvidia unspooled suddenly, yet signs of trouble had emerged much earlier.",
-    "src": "CBS News",
-    "lean": "C"
-   },
-   {
-    "t": "US rapper Don Toliver postpones two arena shows after Manchester evacuation",
-    "url": "https://www.bbc.co.uk/news/articles/ck3rgp4gv9pxo?at_medium=RSS&at_campaign=rss",
-    "ts": 1795466948000,
-    "summary": "Don Toliver's show on Sunday was evacuated after an \"unknown substance\" was released into the crowd.",
+    "t": "Benefits review to suggest quicker payment for some disabled people",
+    "url": "https://www.bbc.co.uk/news/articles/cvx2xjed2r3ro?at_medium=RSS&at_campaign=rss",
+    "ts": 1795481611000,
+    "summary": "The Timms review will recommend those with severe conditions will not need to be reassessed to receive Pip.",
     "src": "BBC",
     "lean": "C"
    },
    {
-    "t": "Poland to get NATO early-warning aircraft after Russian missiles hit country - NBC News",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMEV3R09aQWhXWERGUjZxM3kzdURrdktKUU92VFhpcWVPUmRzQXdRVUgxdWdnbjBIVEpOYUgwTEs3Vzd1UjNOVXN1bXJoSHoxNTBhNFVGcEJXUzRHUTFYR1g3VEtCclNDZEZQZEYzX2NLUEJtMUd2YTYtSURTTEVLN1RsVlozSDRkZ3dISzVwTmZqS09jYVIyV2tyQW9PODdyVVRjcFBnaWRtSHk0SDg5Uw?oc=5",
-    "ts": 1795461751000,
-    "summary": "Poland to get NATO early-warning aircraft after Russian missiles hit country NBC News NATO calls urgent meeting as string of incidents escalates Russia tensions The Washington Post Russian missile hits Poland as Ukraine's allies hold milita",
+    "t": "A timeline of the Karen Read case",
+    "url": "https://www.cbsnews.com/news/karen-read-trial-timeline-john-okeefe/",
+    "ts": 1795490434000,
+    "summary": "Here's a look at how events have unfolded in the Karen Read case.",
+    "src": "CBS News",
+    "lean": "C"
+   },
+   {
+    "t": "Husband of woman detained in viral ICE arrest at Seattle airport calls episode \"unjust\" - CBS News",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE94VFB2QTlTX0NENXBHTjZrZk1BaGJCT01tVndHaFhkV1I5NG5RRlRnS1hxVzNXX2FZSXlZeWItQlA3UzJ4MC14cUxvekswdEcxYTl5WmhjZ19ublN5RXhZQmJjN0hrdUNPUXlKZjd1a0pkQQ?oc=5",
+    "ts": 1795484940000,
+    "summary": "Husband of woman detained in viral ICE arrest at Seattle airport calls episode \"unjust\" CBS News Friends describe lives of father and daughter detained by ICE at SEA KING5.com Seattle airport operator 'outraged' over ICE arrest of two passe",
     "src": "Google News",
     "lean": null
    },
    {
-    "t": "DK Metcalf avoids NFL and club suspension from the Pittsburgh Steelers following his ejection from Sunday game",
-    "url": "https://www.foxnews.com/outkick-sports/dk-metcalf-avoids-nfl-club-suspension-pittsburgh-steelers-ejection-sunday-game",
-    "ts": 1795469536000,
-    "summary": "DK Metcalf avoids an NFL suspension after his ejection vs. the Eagles, but a $6.5 million roster bonus and unguaranteed money cloud his Steelers future.",
+    "t": "Stadium lights go out during Bengals-Commanders game because vendor forgot about Monday Night Football",
+    "url": "https://www.foxnews.com/outkick-sports/stadium-lights-go-out-during-bengals-commanders-game-because-vendor-forgot-about-monday-night-football",
+    "ts": 1795491298000,
+    "summary": "A power outage darkened Northwest Stadium with 11:59 left in the third quarter as Jayden Daniels and the Commanders faced Joe Burrow's Bengals.",
     "src": "Fox News",
     "lean": "R"
    },
    {
-    "t": "Iran vows to end U.S. naval blockade by \"all available means\"",
-    "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-blockade-strait-of-hormuz-ship-attacks/",
-    "ts": 1795468503000,
-    "summary": "Iran vows to force the U.S. to lift its blockade as Trump acknowledges the regime's increasing attacks, but says they've \"done no damage.\"",
-    "src": "CBS News",
-    "lean": "C"
-   },
-   {
-    "t": "What strike on Russian ship in Libya says about spread of Ukraine war",
-    "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss",
-    "ts": 1795466915000,
-    "summary": "Ukraine's sinking of a Russian battleship at a port in Libya raises the stakes of the war a notch, writes Frank Gardner.",
+    "t": "Chris Mason: Can Burnham turn volume down on EU debate?",
+    "url": "https://www.bbc.co.uk/news/articles/c6pw47jyyz5no?at_medium=RSS&at_campaign=rss",
+    "ts": 1795481153000,
+    "summary": "The BBC's Chris Mason analyses what the EU conversation means for Labour and the PM.",
     "src": "BBC",
     "lean": "C"
    },
    {
-    "t": "‘Unthinkable’ for Britain to rejoin EU without referendum, says Burnham - Financial Times",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWEZlRk9DTzcwQUwyQnBpTC1wbmFxTnlLZWNGdHlQSUFmWTVKNEtSemczZzNFanNXX01yV2pwaW5QeXNQTEFJbDgzeDNVVm1JYmtjUUt0NlF1cmZJa2ZrdkhHS25Qd1Y0Z3ZNd05VcHJoSUF3U2N3Ym5TY1ByS0p3U01KQS0?oc=5",
-    "ts": 1795460438000,
-    "summary": "‘Unthinkable’ for Britain to rejoin EU without referendum, says Burnham Financial Times My approach to EU is pragmatic, says Burnham BBC Facing economic pain and Russia threats, U.K.’s Burnham looks to rewrite Brexit with new deal NBC News ",
+    "t": "Federal court releases Rep. Ilhan Omar D.C. home raid documents",
+    "url": "https://www.cbsnews.com/news/congresswoman-ilhan-omar-house-raid-documents-release/",
+    "ts": 1795486860000,
+    "summary": "A federal court on Monday evening released documents regarding last month's raid at the Washington, D.C. home of Democratic Minnesota U.S. Rep. Ilhan Omar.",
+    "src": "CBS News",
+    "lean": "C"
+   },
+   {
+    "t": "Rep. Jimmy Gomez to resign following sexual misconduct findings - The Washington Post",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdERLTDAxdzBmSzFzb3F6WTNmMkJQQmsxUjdSQjNFYUdoUmYzLS1HQVY5Q1F2TlRqS0tjVDdPZWs4REFPNWJSVUtHS3E5VzZxbFpMc2VNZnV5ZU44d0pwLUhURWlRREtlRkdtZDlSWDFZNkVIZkdsNXFJVGhnWGFDNXRpRENoeGoyRldrUTNEMHdSNnF1RzJwSjlUNFlmMHRCdGlJckJfZzNpZm1RSHRYRFNFa1NEcTBDcFoyQkdseTliWENZ?oc=5",
+    "ts": 1795484746000,
+    "summary": "Rep. Jimmy Gomez to resign following sexual misconduct findings The Washington Post Rep. Jimmy Gomez Resigns After Panel Alleges Unwanted Sexual Contact With Aide The New York Times California Democrat Jimmy Gomez to resign from Congress af",
     "src": "Google News",
     "lean": null
    },
    {
-    "t": "$25 minimum wage backers frame midterms as 'blue-collar wave,' 'mandate' to raise pay",
-    "url": "https://www.foxnews.com/media/25-minimum-wage-backers-frame-midterms-blue-collar-wave-mandate-raise-pay",
-    "ts": 1795468600000,
-    "summary": "One Fair Wage's Saru Jayaraman says the midterms delivered a \"blue-collar wave\" and mandate for a $25 federal minimum wage to meet the cost of living.",
+    "t": "Coast Guard boards 2 foreign ships bound for US amid reports of Iranian hacking probe",
+    "url": "https://www.foxnews.com/us/coast-guard-boards-2-foreign-ships-bound-us-ports-amid-reports-iran-hacking-probe",
+    "ts": 1795489641000,
+    "summary": "U.S. Coast Guard cyber teams boarded two foreign vessels in the Gulf of America after their networks were compromised by foreign cyber actors at sea.",
     "src": "Fox News",
     "lean": "R"
    },
    {
-    "t": "Nvidia reinstates Jensen Huang as CEO",
-    "url": "https://www.cbsnews.com/news/nvidia-reinstates-jensen-huang-ceo/",
-    "ts": 1795468391000,
-    "summary": "Nvidia said Monday that it has restored Jensen Huang as the chipmaker's chief executive, calling him the \"right person\" to lead the company.",
-    "src": "CBS News",
-    "lean": "C"
-   },
-   {
-    "t": "Andrew Mountbatten-Windsor received £750,000 from Turkish millionaire, court told",
-    "url": "https://www.bbc.co.uk/news/articles/c9gkldn06l87o?at_medium=RSS&at_campaign=rss",
-    "ts": 1795462616000,
-    "summary": "The former Duke of York is expected to give evidence in the complex court case next month.",
+    "t": "Britain's landlords are getting bigger. A two-tier rental market may follow",
+    "url": "https://www.bbc.co.uk/news/articles/c6n90g2l82d1o?at_medium=RSS&at_campaign=rss",
+    "ts": 1795480128000,
+    "summary": "Increasing numbers of corporate landlords could usher in big changes for renters",
     "src": "BBC",
     "lean": "C"
    },
    {
-    "t": "Video of ICE detaining father and daughter while boarding flight sparks protests in Seattle - The Guardian",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQalNpZG5KQVNvYTRDWm45eWpQZGJnQU9GdWZZOTQxajBtSXpId3FuY2RHbU0xMFhTN0VpUFZHdGY1TDEwajlJa3RYTUxpQm82SXJIN2RIMDhsY2lxd1BORlFtV0lBRHpnN3FaZzUwZ0JaOHpQeDE5YzU3d1gtYVNMWGpaRU1acFpQYWJqTEdjbk5WcGZOVURlVE15bC1VYkhEUTFwMUhVRWZleWRsZXFocGR2UQ?oc=5",
-    "ts": 1795458180000,
-    "summary": "Video of ICE detaining father and daughter while boarding flight sparks protests in Seattle The Guardian Friends describe lives of father and daughter detained by ICE at SEA KING5.com What happened at the Seattle airport? Outrage as ICE arr",
+    "t": "Can Anthropic win hearts and minds by curing hearts and minds?",
+    "url": "https://www.cbsnews.com/news/anthropic-drug-discovery-claude-science-ipo/",
+    "ts": 1795485895000,
+    "summary": "Anthropic says Claude Science can drive breakthroughs in drug discovery. It could also open lucrative commercial opportunities, experts say.",
+    "src": "CBS News",
+    "lean": "C"
+   },
+   {
+    "t": "Federal appeals court gives President Donald Trump a path to erasing hush money conviction - AP News",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcVdZZl9tRjc0WjhZbUY0NVZvdTRDQ01ZOTl4RmZUQndRR0ZHRmpkRVJ6ZjFCQzJYVml0cnoycjNWaW1rWWVENmJHbS1xaHZLc1U5azdFRmU4UmdDa0thQmlkeW9GZlhmeElDTS1NWXFHUmJPOFFBZU1rbml2dWxQQnRMVTMwSmxDTDFPQU92WTJBaUNEclZB?oc=5",
+    "ts": 1795482000000,
+    "summary": "Federal appeals court gives President Donald Trump a path to erasing hush money conviction AP News Judges Open Door for Trump to Win Appeal in Stormy Daniels Case The New York Times Federal appeals court hands Trump way out of conviction in",
     "src": "Google News",
     "lean": null
    },
    {
-    "t": "Bessent gave Iran weeks before it had ‘nothing left to trade.’ New sanctions expose what survived",
-    "url": "https://www.foxnews.com/politics/bessent-gave-iran-weeks-before-nothing-left-trade-new-sanctions-expose-what-survived",
-    "ts": 1795468377000,
-    "summary": "Scott Bessent warned Iran had two weeks. Two months later, Treasury hit over two dozen entities in Dubai, Hong Kong and Turkey moving billions for Tehran.",
+    "t": "Newly elected Florida commissioner's son shot dead inside tent during camping trip",
+    "url": "https://www.foxnews.com/us/newly-elected-florida-commissioners-son-shot-dead-inside-tent-during-camping-trip",
+    "ts": 1795488991000,
+    "summary": "Local law enforcement is appealing for tips after a weekend camping trip along the Blackwater River ended in tragedy for a Florida official's family.",
     "src": "Fox News",
     "lean": "R"
    },
    {
-    "t": "Why the Army says it needs to detonate unstable explosives in Iowa",
-    "url": "https://www.cbsnews.com/news/lead-azide-detonation-iowa-army-explosives/",
-    "ts": 1795467959000,
-    "summary": "The U.S. Army plans to detonate 68 drums of lead azide in Iowa despite local leaders and residents raising concerns.",
-    "src": "CBS News",
-    "lean": "C"
-   },
-   {
-    "t": "My approach to EU is pragmatic, says Burnham",
-    "url": "https://www.bbc.co.uk/news/articles/c6vg2v9xkr40o?at_medium=RSS&at_campaign=rss",
-    "ts": 1795461044000,
-    "summary": "The prime minister also said his predecessors who have urged him not to reopen the Brexit debate are \"stuck in the past\".",
+    "t": "BBC secret filming shows dog breeder selling sick puppies for £2k each",
+    "url": "https://www.bbc.co.uk/news/articles/c8d36d43y8po?at_medium=RSS&at_campaign=rss",
+    "ts": 1795479068000,
+    "summary": "The breeder's rating was downgraded but he continued to advertise as five-star, investigation finds.",
     "src": "BBC",
     "lean": "C"
    },
    {
-    "t": "Bay Area officials rush to protect SFO, other key infrastructure ahead of expected flooding - CBS News",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTF9IeG1ILTZrTmUtbl9yZ3JjUWZXakhhNGJXTnpmTHdEUC1jZjdkckFXeG42Qi16OVh2TjJIcU5BQ1ZFcWM4S29MNy1NZDlxenp5cWRPSjNWTnBtWXA3c0FSYUg5WVpCZk9kd084SEZzb2ZLSTRkUG50RnFYajg1UWxHcVlPUXhsZTBlbTZJeHhCVG9ZY0lwM0JuWHJVcmx5MGc?oc=5",
-    "ts": 1795457391000,
-    "summary": "Bay Area officials rush to protect SFO, other key infrastructure ahead of expected flooding CBS News San Francisco braces for near-record tides as a storm collides with Thanksgiving travel‌ CNN Why flooding isn't the only threat in LA Count",
+    "t": "Trump downplays Iran's latest attacks as it vows to use all means to end U.S. blockade",
+    "url": "https://www.cbsnews.com/video/trump-downplays-irans-latest-attacks-threatens-all-means-end-us-blockade/",
+    "ts": 1795484940000,
+    "summary": "The Iranian government said it would use \"all available means\" to end the U.S. naval blockade of the country's ports, dubbing it an \"act of military aggression.\" CBS News Pentagon reporter Eleanor Watson has more.",
+    "src": "CBS News",
+    "lean": "C"
+   },
+   {
+    "t": "Unsealed warrant documents for Ilhan Omar's DC home raid reveal decades-long scope of investigation - Fox News",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQeFhUU2RBNXRKbGFudnljMVNMd21kYnZOX3I5SFNneWNNRHZMMmdxRFVQa1VKNjJQeWdVT3hXS0lEemkxQTZWT2pzdndZV3UyNkxoX3d1ZWpBbXo3Mzl5WldCR0I5bWRVYVo5bDRpaDRLRlZoLW1BZzdrV2tRZVdrNElzN3VQTUVnVXljakZCSE9MY3ptaFlaT1RkQ0c1WnNJbmljVkFYSlpKblQzZExqUW1UTjZ0c1h3dElnWVFjSUF1UWNfajRkMzVQSdIB0AFBVV95cUxObjZ4RTdndzlzU0NUUER6amVyNTZ2U3RNSFVrTzdVd0tZdVZDdWlXYWtaaVdJdFNfVUhZbnlWX1VmTHEtZDVBM3lfbTQtQy1LQkpzeUI5NG1CRnZPOXNJSnFFaUpXc05mdU1sa0VXeGduX3hrdjBVSWhvcUpWdzh2eUhLMUtWU0l3UWk1WjA0cElIWVplNzNab0Zqams2NFF3V1BXd2ZRbjgyZlFXRVlCbmtseW5uVzRLYV9xUFotNkZwdWpUcVhqeGs1QW9VSXFt?oc=5",
+    "ts": 1795481819000,
+    "summary": "Unsealed warrant documents for Ilhan Omar's DC home raid reveal decades-long scope of investigation Fox News Judge unseals documents related to search of Rep. Ilhan Omar’s home NBC News DOJ says House’s top lawyer ‘refused to be involved’ a",
     "src": "Google News",
     "lean": null
    },
    {
-    "t": "Russia warns of 'preventive nuclear attack' as Medvedev claims Ukraine, NATO crossed line",
-    "url": "https://www.foxnews.com/world/russia-warns-preventive-nuclear-attack-medvedev-claims-ukraine-nato-crossed-line",
-    "ts": 1795468266000,
-    "summary": "Dmitry Medvedev claims Ukraine and NATO have crossed thresholds that could make a preventive nuclear attack by Russia possible, warning Kyiv's allies.",
+    "t": "Army sergeant pleads guilty to cashing in on US military secrets in China-linked plot, DOJ says",
+    "url": "https://www.foxnews.com/us/army-sergeant-pleads-guilty-cashing-us-military-secrets-china-linked-plot-doj-says",
+    "ts": 1795488531000,
+    "summary": "Sgt. Jian Zhao faces up to 10 years in prison after pleading guilty to selling national defense information from Joint Base Lewis-McChord, prosecutors say.",
     "src": "Fox News",
     "lean": "R"
    },
    {
-    "t": "Trump says he convinced Nvidia board to reinstate Jensen Huang",
-    "url": "https://www.cbsnews.com/news/nvidia-jensen-huang-trump-comment-national-security-risk/",
-    "ts": 1795467728000,
-    "summary": "President Trump claimed the government \"has no reason to believe\" Jensen Huang's return is a national security risk.",
-    "src": "CBS News",
-    "lean": "C"
-   },
-   {
-    "t": "Iranian authorities flog singer who performed without hijab, lawyers say",
-    "url": "https://www.bbc.co.uk/news/articles/cq1j6585l5g6o?at_medium=RSS&at_campaign=rss",
-    "ts": 1795457060000,
-    "summary": "Parastoo Ahmadi, three musicians and a producer were reportedly given 74 lashes in Qom.",
+    "t": "Coldest spell of autumn continues with risk of hill snow, ice and heavy rain",
+    "url": "https://www.bbc.co.uk/weather/articles/cmz9dyk4y8xdo?at_medium=RSS&at_campaign=rss",
+    "ts": 1795478616000,
+    "summary": "Colder weather continues for much of the UK with some ice and hill snow but milder and wetter in the south and west, as Simon King explains",
     "src": "BBC",
     "lean": "C"
    },
    {
-    "t": "What failure of COP31 reveals about a divided world - BBC",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE54czhPcXBYZzcyaGFMQUZsY0ttVVVMTERQY1kxcU4wUmNsVGE1T05mTElUcS10QzY5RnIyVVB3eG96QmlTaDVWRTBUVEN3YVp6czkydGpWcEkweVk?oc=5",
-    "ts": 1795454665000,
-    "summary": "What failure of COP31 reveals about a divided world BBC Climate change talks fall apart in final hours over fossil fuels NPR COP flop triggers backlash in Australia; Pacific nations express despair Reuters COP31 Talks Collapse in Turkey in ",
+    "t": "Husband of woman arrested by ICE at airport calls it \"unjust\"",
+    "url": "https://www.cbsnews.com/news/ice-arrest-seattle-airport-husband/",
+    "ts": 1795484940000,
+    "summary": "Jose Castillo told CBS News he felt \"useless\" seeing his wife and father-in-law be taken into federal custody at Seattle-Tacoma International Airport.",
+    "src": "CBS News",
+    "lean": "C"
+   },
+   {
+    "t": "Trump: DOJ working to overturn Newsom’s death row commutations - The Hill",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSFo1VHBPNTNKLWJsTk0xeUdQN2NJQTJBbkF3OHFOWTBOalRnMTJrMGpvX2pBY0loWDV6R0FBc21SUmIyR0VHRXpqb0pjaHNyQWk5by1PTW5GTUJjZDhsWWhZQkgxSkJXZy04WGRTaERZdVM0UHFzcWh6V2QycUlMVmlrd013bTc5YkVVVNIBkgFBVV95cUxQX1RiR1BOSGkxUi1rTV9yRF90dmRJUHhQUnUxSGFCT3RQRVdvUjZTSGVobl9HNUNFbFh4ZG1sM1lUOHVXZ2tldjhCZDdveWtra0dvLVQxTEZMUl83dV9WaXVXdDMyZ29SZmRKclhIT0tUUjRFdEwzTDlnTjBSeVZYZGhVTXlSYV9XcjFvTUlFS0tUQQ?oc=5",
+    "ts": 1795476240000,
+    "summary": "Trump: DOJ working to overturn Newsom’s death row commutations The Hill Trump goes after Newsom, a longtime foil and potential 2028 candidate, over death penalty commutations CNN Trump urges justice department to speed up federal executions",
     "src": "Google News",
     "lean": null
    },
    {
-    "t": "Dem lawmaker to resign after report says he made 'unwelcome' sexual advances toward staffer",
-    "url": "https://www.foxnews.com/politics/dem-lawmaker-made-unwelcome-sexual-advances-toward-congressional-staffer-house-panel-finds",
-    "ts": 1795467994000,
-    "summary": "The House Ethics Committee says Rep. Jimmy Gomez's advances toward a House staffer could implicate D.C. laws on criminal sexual assault, its report claims.",
+    "t": "Once again, the College Football Playoff selection committee has an opportunity to fix their mistakes",
+    "url": "https://www.foxnews.com/outkick-sports/college-football-playoff-selection-committee-opportunity-fix-mistakes",
+    "ts": 1795485578000,
+    "summary": "The College Football Playoff committee faces scrutiny as Alabama's best wins once again lost this weekend while Indiana dropped five spots for the same reason.",
     "src": "Fox News",
     "lean": "R"
    },
    {
-    "t": "Trump, tech CEOs cheer Huang's return, but lawmakers question board",
-    "url": "https://www.cbsnews.com/news/trump-elon-musk-business-leaders-cheer-jensen-huang-ceo-nvidia/",
-    "ts": 1795467356000,
-    "summary": "President Trump and prominent tech figures applauded Huang's reinstatement as CEO, though some lawmakers criticized the move as \"reckless.\"",
-    "src": "CBS News",
-    "lean": "C"
-   },
-   {
-    "t": "What collapse of COP31 talks reveals about an increasingly divided world",
-    "url": "https://www.bbc.co.uk/news/articles/cky970n83rvjo?at_medium=RSS&at_campaign=rss",
-    "ts": 1795454665000,
-    "summary": "Interests of oil-producing countries, a US boycott and a dispute over finance may have torpedoed climate talks.",
+    "t": "Why I don't always tell potential employers I'm dyslexic",
+    "url": "https://www.bbc.co.uk/news/articles/c6rmgjynynero?at_medium=RSS&at_campaign=rss",
+    "ts": 1795478447000,
+    "summary": "Many dyslexic people say it harms their confidence, a report about experiences in the workplace suggests.",
     "src": "BBC",
     "lean": "C"
    },
    {
-    "t": "Virginia School District Shaken by Sex Abuse Claims Closes for a Week - The New York Times",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdndzQTF2WUh5cGs3VFRkeC1MbkRwVmZtZXBoSmNQRmNmMTNIZzF6ZDBlLW9IbExDcTV1anppUHA3RDdfcDdBSGVqRVFxVEFmTFZPMVNiRm80OFp0b1RhQ3BvZjIzZWZEZ2pPMWtTcnJBUnFkY05INWR2WWJHa2MxdDhWM01iQ2RadmtQbGlDNERDTUFlVi1GcGt2dw?oc=5",
-    "ts": 1795451439000,
-    "summary": "Virginia School District Shaken by Sex Abuse Claims Closes for a Week The New York Times Most Albemarle school employees cleared in state screenings cbs19news.com Education Department puts Virginia DOE on high-risk status over Albemarle sch",
+    "t": "Anthropic touts potential for AI-led medical advancements",
+    "url": "https://www.cbsnews.com/video/anthropic-touts-potential-for-ai-led-medical-advancements/",
+    "ts": 1795484330000,
+    "summary": "Anthropic CEO Dario Amodei talked about his hopes to cure disease using artificial intelligence last Thursday, as his company started trading publicly. CBS News MoneyWatch reporter Megan Cerullo has more on how AI is speeding up drug discov",
+    "src": "CBS News",
+    "lean": "C"
+   },
+   {
+    "t": "Trump told the Army to pause the detonation of 9,500 pounds of lead azide in Iowa. Here's what to know - PBS",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNV01BanduWXlNQWlDV2Y3R3lJSnB6Y2RfZnlDbEVHV291YVNlbzBWdXI3Y0JDbDZZVkFhMFRpeHFNSDRZYkJoQU5XUTF6cWtCcldOc3VSS3MxNVBBWlRpZkZnbk9MNXhEMVFNSUIwSFQwbFRMSmRHYVZTRWJlTHlZMGJjZkVybzd5cEh1QXByZDVEZEs5YjZJX1FDc19TeFc0UFlaOFNJY1RvYVFvTk16Um0wa3dRU0JVbUU2bjNvM1QzMy1tN2dsdUE3bTl6dzZv?oc=5",
+    "ts": 1795471500000,
+    "summary": "Trump told the Army to pause the detonation of 9,500 pounds of lead azide in Iowa. Here's what to know PBS Court Clears the Way for Iowa Ammunition Detonation; Trump Addresses the Crisis The New York Times US Army to detonate degraded bomb-",
     "src": "Google News",
     "lean": null
    }
   ],
   "staffing": [
    {
-    "t": "Greenwich's October Employment Data Released, Here's What The Numbers Reveal - Patch",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWTZfWjBnWnpCOURLcktmSTQ5ekVoS2ZCUzdzUl85Qzk5M1NUQko4TS1uNWw3NGItTm9YRzBXdjU1OFUzeVBTd2t0eFVYck51NHBYVmtIcDlNRjBjM1d1ZGhpM2UzWWFJeWc3eHRZODNpUC1kNzlyUUZCTHZ3YmpweFlQN0x5QzRFRVhxQ2c5YW9ZVFBLaXlobi1MN085b2hlZDhxM2ZJTVlOdHpJaHfSAcQBQVVfeXFMTUJraVRfX19aUmhjVlJYeGozTElOMEJPWVJILWQ4cUE5S2RkalJlRUtmMDlqNU1JWXlVN0FrR2FMNjYtRS03V0xxQkdqOGRJQnBFQ3p1YktQVFhLdTBMR0ZMeUdPaFFYaFIxWHNsTUxYeno4YWs3bEw2dUVXLXZZWEZnOEVkWEtYR1VtUElSMmloTEpPcHpDVXJCcm8ydE5ocGNXSy1jd2NXQU9SMndyRkJZNHg1em5IQ2xIb1cxTl8wbkItYg?oc=5",
-    "ts": 1795462478000,
-    "summary": "Greenwich's October Employment Data Released, Here's What The Numbers Reveal Patch",
+    "t": "UK job postings fall 6.2% in October; expected holiday hiring boost falls short - Staffing Industry Analysts",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZ3hTV2ZtU0dYYUpCQWp4WVMybUEyU00wekxUUk1YRXkxWXFqMjFuXzFGVldCcWZoOEN4ZEtMNHQwUHNFQXlCR1hvY3hEUTRTSUxRTHk3ODBFNWg2SmRZNHMtU3Zzbzlta0FEbGZFVHhwNU5BenZZRE8tUExnV3Q1ak5CelVJcDA5VjNla1BLNVlNek9YRHhhMnhyNkRvVG1UNS1WSmRVaTBLWWhyMXpKLWt2UVMzcWtuNlhmYkhlLUFLaDdnMEJiYkV0SC0?oc=5",
+    "ts": 1795483172000,
+    "summary": "UK job postings fall 6.2% in October; expected holiday hiring boost falls short Staffing Industry Analysts",
     "src": "Hiring & labor (Google News)",
     "lean": null
    },
    {
-    "t": "Influential Women Recognizes Rachelle Bauer for Leadership in Staffing, Entrepreneurship, and Community Impact - Lohud",
-    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPcVh0RUg2bDIxS1BNNUFad25oRUwxanFjM1UxWGZMQjdaVGZwY01RdU02RFdRY2dYUm1TMjc5d0JxblRXQ29XSEJLWGlZYUgyLW9wMWJqQ0x3ZFdONnVBM0o2TmRFNkhMLVF0c3V5aHlSVGh5TlRxckFTWnN3SUdlWEJhR1NHcjg5TDJvbFZkVTllOEc4UlRhcTlyV0dlZEhMU3lheDNZYVY1R2tFOFpLM19PMzZUckVna1k1MlVDRl9SeVl4UHNDdDQ1cjc3NW1kcWNtWDN0VTEzYzV6XzBBYUNmVjhXQlVzckNhSFdEdw?oc=5",
-    "ts": 1795454206000,
-    "summary": "Influential Women Recognizes Rachelle Bauer for Leadership in Staffing, Entrepreneurship, and Community Impact Lohud",
+    "t": "AI data centers drive up demand at Britain’s factories - Staffing Industry Analysts",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPelQ5ZWRMT3lJdVlFUmZyTVl2Z2poSExZSnVtalVUUHV3S2QxNHdnQnd5OHFNaXdEcXN3LV83bnZ4V1hOVTBMTUJHVGNDQmhUdHlaUjlOV1VTdnlrVllXZ0dQTkRjT3NYMVh1anFsRW50alJ6S3Z5SUZRc3doN1NZdzU3MFMzS19PM2RINnBGT3FCZzZDYWNxcTZNSWZlUVU1MHA1UWVtYTVNYTgxdUE?oc=5",
+    "ts": 1795482592000,
+    "summary": "AI data centers drive up demand at Britain’s factories Staffing Industry Analysts",
     "src": "Staffing Industry (Google News)",
     "lean": null
    },
@@ -1078,18 +1078,42 @@
     "lean": null
    },
    {
-    "t": "1 in 5 Workers May Bolt When Hiring Rebounds. This Is What Could Make Them Stay - Inc.com",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbDlHU240ZDBIWFhMd3luT01rMUVmVVJMRmV6QzBnTWdNNVh4ZTBSX3M1cVpyajB3WXhvMmhPblFXc0hxVEdBVmRSOGFsSHFfc01VenhFRkt4UDZUWmdza1hJWWRTNERJUjM1S29XcW03Z3VfOWFhMVUtc0ducVh4dEdUOWRzMkQ2STB3RlZQSVljWUswU0lEbkctZlJwdkF6dGlyZGU3eG4yTDdVTkRzdEZvb0Y2ekZXZDRKX29n?oc=5",
-    "ts": 1795454877000,
-    "summary": "1 in 5 Workers May Bolt When Hiring Rebounds. This Is What Could Make Them Stay Inc.com",
+    "t": "UK workers stay put as safety trumps pay in weak job market - Staffing Industry Analysts",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeTc0WmF1QUlHMVNrVXdadkZtUVhMRTVSQXRuLU5IMnVpY2hTd1VnUWRKeEcyUlB5QjRNZUh1UDZMZ1dvSTdZMGM3OWoyNzZOTGxFUnRxY0w0MEtYejlMbWJTSWtnMkhoUjljbkNwVmRNSkVMODdEaTdmR3NkdGE5ZDJDOXdId0dBQ3BpUGFrRUpJUl9ON0VrSmx5bkR2dzc4YThLSmd1N25zLS00YktKYko4U2VQUQ?oc=5",
+    "ts": 1795478840000,
+    "summary": "UK workers stay put as safety trumps pay in weak job market Staffing Industry Analysts",
     "src": "Hiring & labor (Google News)",
     "lean": null
    },
    {
-    "t": "Planning for 2027? Think Beyond the Permanent Hire - Arkansas Money & Politics",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1XY19fdFdiQ3Y3aDQ4amMtc1BubVBtV1o1WEJUZ0I0MmZuc2V1SDkzQ3BLclRPdlBxNVlOLWVDUHVXTkpqMTlyd204YnJXa1NFUzYzbDBORURwcXVLbXlLSF81Q2xTZU5TaUk4?oc=5",
-    "ts": 1795453261000,
-    "summary": "Planning for 2027? Think Beyond the Permanent Hire Arkansas Money & Politics",
+    "t": "Recruit Holdings to sell education business to private equity fund - Staffing Industry Analysts",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOaF81ZnltVHZKa203bWlTaVVBMTNDbEQtaXdBOE1GQ2dUdkJNbW1hREZDSWlOVUJ5c0dfaGdNR2JYbjJ0b1M1eElLSmNfV3ZpQnBLQVFJTV9LZFNKX1hyZ2twZHF2QlcwNmxFMEtzdHpOMmpNSEJMc0R2bUZTUWNmZnFSNFJPdG5qc1VuLWZkeGF4LWtpNzNOLWVhcXRQMllnX3hnQjFOeEJnTlZZV241dDNUYnF1Zi14V1JSZUxmQQ?oc=5",
+    "ts": 1795477035000,
+    "summary": "Recruit Holdings to sell education business to private equity fund Staffing Industry Analysts",
+    "src": "Staffing Industry (Google News)",
+    "lean": null
+   },
+   {
+    "t": "Staffing firms brace for more candidate fraud, costlier compliance - Staffing Industry Analysts",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZUx2cXhwb1prZ0Y0U3dSUW9uZ3haLVNzWHFFMXU5MEwyYm45bWNRWHJVMFU3WXZTOF9qOXVzbHRBV1hzMHpLQ2htSVA3RXc2VXN6d0F1b2tpTmNCZlZMR0RTMFo1dkpYS3JwQXJvb3hjS2pfX2xfLTB1a3NKYWg1NzE4ZldmMVlSem9hQlNlTlIwOW5aRXFVZzR6VlIyZUpQR0tSQ09iVTQzQ3NscDl6Tk1sekx0LXhtWVE3bmpn?oc=5",
+    "ts": 1795020802000,
+    "summary": "Staffing firms brace for more candidate fraud, costlier compliance Staffing Industry Analysts",
+    "src": "SIA (GN)",
+    "lean": null
+   },
+   {
+    "t": "New Zealand job ads rise 4.6% in October - Staffing Industry Analysts",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWGRVcUY0eHA3a1dWSmVtYURpSHptbHFhZHR5aU9EemlDYVBDWjZwSmpveEZDejF3bnJ4cVNYOHhQMVB2a01fM1FITzJEUnkxajJSblA1V0hKOFFKc3R1NGtKZXR4WEI5OGhpMGtsSUl0eGY5MHBaZkpXMzZuZ2pTQ1NjUWNaTzgxSUVGa1NZQ2tUbk9EeXM2ZnFn?oc=5",
+    "ts": 1795472925000,
+    "summary": "New Zealand job ads rise 4.6% in October Staffing Industry Analysts",
+    "src": "Hiring & labor (Google News)",
+    "lean": null
+   },
+   {
+    "t": "Influential Women Recognizes Rachelle Bauer for Leadership in Staffing, Entrepreneurship, and Community Impact - Lohud",
+    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPcVh0RUg2bDIxS1BNNUFad25oRUwxanFjM1UxWGZMQjdaVGZwY01RdU02RFdRY2dYUm1TMjc5d0JxblRXQ29XSEJLWGlZYUgyLW9wMWJqQ0x3ZFdONnVBM0o2TmRFNkhMLVF0c3V5aHlSVGh5TlRxckFTWnN3SUdlWEJhR1NHcjg5TDJvbFZkVTllOEc4UlRhcTlyV0dlZEhMU3lheDNZYVY1R2tFOFpLM19PMzZUckVna1k1MlVDRl9SeVl4UHNDdDQ1cjc3NW1kcWNtWDN0VTEzYzV6XzBBYUNmVjhXQlVzckNhSFdEdw?oc=5",
+    "ts": 1795454206000,
+    "summary": "Influential Women Recognizes Rachelle Bauer for Leadership in Staffing, Entrepreneurship, and Community Impact Lohud",
     "src": "Staffing Industry (Google News)",
     "lean": null
    },
@@ -1102,18 +1126,18 @@
     "lean": null
    },
    {
-    "t": "AI and China hiring, offshoring, Gen Z tenure - Revelio Labs",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSnJId0w2M0J2VzliZjI5WFFlQXA1ZFhBeDJBOHRJNWVUOTBueExtME9IVnAtVi1nRDc2eHF4Nl9UWFdwOFU3cHA0UzlwRTZveEVCTFFHVTI4eDZkWTZuTkpURm1wWkhsaUh4X0h1MnF5XzBFY2dnV0Y5cHhOb0VYYU1B?oc=5",
-    "ts": 1795447007000,
-    "summary": "AI and China hiring, offshoring, Gen Z tenure Revelio Labs",
+    "t": "State Employment department releases new data on Kern County unemployment levels - AOL.com",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPU0k5WjRoQVRvTlRuTFptRnlXY2hTS1RZMXQwSTlYTmI2SHJ3QkhTdzRETTNMVE1sVUl1QlNmR3k3VkE3YmpMVVZwVHFmTEpFM254LTZLMmI3QnhGVEFhZ2pNaHk5YUxldXJnSjlzSWhmMTlDQlFVUGh4NVpqNmhKcU9DTUt5MUs3aHRCcTRn?oc=5",
+    "ts": 1795467316000,
+    "summary": "State Employment department releases new data on Kern County unemployment levels AOL.com",
     "src": "Hiring & labor (Google News)",
     "lean": null
    },
    {
-    "t": "Data center work may be tightening labor supply outside of construction, IT - Staffing Industry Analysts",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQYWF6VkVIb0tFQ3dFRDNHcDVVTkFRNDJFTl9YOHVLcU9yLUtja3djTlpKZEE3aDM5VElSZl9RVEFlOW14OW5INExGRDlZRDdIQ2d5MTVsRlRpb1BKV29jcHotdWRBRE5UTUUybm43aFBLUmpSRU5qeFlKcFFZWVNyVHh1U09raFlid0xXTXNJT19RRnBGYmNDQnd4MFJ0WmpwOGN6VEN2VTdIdEJ3amNGX2VtWmVZYVdYMjJ6eTktSDZWVEJ1dGhfVXFR?oc=5",
-    "ts": 1795450086000,
-    "summary": "Data center work may be tightening labor supply outside of construction, IT Staffing Industry Analysts",
+    "t": "Planning for 2027? More Clients Than Ever Are Using Flexible Staffing Arrangements - Arkansas Money & Politics",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1XY19fdFdiQ3Y3aDQ4amMtc1BubVBtV1o1WEJUZ0I0MmZuc2V1SDkzQ3BLclRPdlBxNVlOLWVDUHVXTkpqMTlyd204YnJXa1NFUzYzbDBORURwcXVLbXlLSF81Q2xTZU5TaUk4?oc=5",
+    "ts": 1795453261000,
+    "summary": "Planning for 2027? More Clients Than Ever Are Using Flexible Staffing Arrangements Arkansas Money & Politics",
     "src": "Staffing Industry (Google News)",
     "lean": null
    },
@@ -1126,18 +1150,18 @@
     "lean": null
    },
    {
-    "t": "Hartford's October Employment Data Released, Here's What The Numbers Reveal - Patch",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUzZsQkg4elpMSDVCZzBnclRFV0NsdkpYU2xrcVFGT3BNaE4wZHBXUWQ4UjFONlNXd29IaTNLZUJRSjRxc1NjcnZJc2xYaDB5dEFndGp3WUlWY1VkYUJEVlA5eEN1WkR6MFR2S2tKSjZ6WUJZejBpcVFNS0JveHZRWlJ5ZnM4MkFXZ2ZDdUNYSUQxN2I2eHZSQ1ZSRzBaRGVZcWI1dzUxVlc5VzTSAcIBQVVfeXFMTUdPdDR6Q2ppZHhYUF8yVkZsSXBRSTBMZ2xqQzh1RnhpVDJrcTJUS2RrMk94N29LandrbjBRWEdMRC16RUNTWW1CU1VsbC1RT1QzLWFFaEhJa0JmY05PelRwVzhlOFpUMGZ2djFqOWNMX3JqcjFmWEdWSl8yOU5EZGhyUkp4VWU1VG8waERkb3RsWnhFdjdjMDM0Y05qdGpkN1F3SVVhNHNxYVh3YnlibVhWZXBCM2xJdThxZFdQNFp6N0E?oc=5",
-    "ts": 1795443273000,
-    "summary": "Hartford's October Employment Data Released, Here's What The Numbers Reveal Patch",
+    "t": "Groton's October Employment Data Released, Here's What The Numbers Reveal - Patch",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNazJtRTZTajBobWJnS0VxSlJIeEFrWHJ3alNrOUlWcGwtbDZfVVlneVF1WVNucVVVa3d3MjZJbXhfVENuZDVBQkZ2eHNsWGlMcFZ5RnhXVWtvNlhoWlRSQ1prRG42UG9ackpuTlVyVDVDVTlxMW9pbEc5Z0lqbkpINmxpRWEwUUlmcVhyUEVHMXZCc2Q3SnVvS2x2bGItQ0VxYm85RkNB0gG8AUFVX3lxTFBJTWExZWswVTlGVmZwWG9YaHNLUjEwdE1Ucl9kRUdTU3VjR2VzYXlsMTM0OHJ3WDVHNFpSVVdyQnVoeDh2dGNHWmlIUXhNajRpYkp2cldJSWZucHhmRy1QQzZIaTVNYjFBV203VzYyYjBmQUVRaWlzZlZ1Tk5QUFY4TWxsaTZrZjlvY1FLNWpBSXUtN0RZeTU5LWhHT0dUTXI4SURhV2YyOXU5blNtdzBxYnpsbHFQekNzMFpt?oc=5",
+    "ts": 1795466078000,
+    "summary": "Groton's October Employment Data Released, Here's What The Numbers Reveal Patch",
     "src": "Hiring & labor (Google News)",
     "lean": null
    },
    {
-    "t": "Unemployment edges down in 3 states, rises in 1 - Staffing Industry Analysts",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRHRxc00tek5Nd0VfenBnemVBaXo4R0NHa3ZVV0NNVGRhZDVlbWVQMFJUNjNCU0RfRzNoWlo0VEx0SjNJZnEzVm1YQ3JTVFJHd2FnN1E4aWRIenVyRGNBMk9jVjNQa3I3X3VwUk1lakJUeFdpQmZmQWpJWWRXbm91eTYyODUxSTFGZDNwZTJ5MmRlVHg0MExGWEZTVkxpaUs4T1VSaQ?oc=5",
-    "ts": 1795449865000,
-    "summary": "Unemployment edges down in 3 states, rises in 1 Staffing Industry Analysts",
+    "t": "Data center work may be tightening labor supply outside of construction, IT - Staffing Industry Analysts",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQYWF6VkVIb0tFQ3dFRDNHcDVVTkFRNDJFTl9YOHVLcU9yLUtja3djTlpKZEE3aDM5VElSZl9RVEFlOW14OW5INExGRDlZRDdIQ2d5MTVsRlRpb1BKV29jcHotdWRBRE5UTUUybm43aFBLUmpSRU5qeFlKcFFZWVNyVHh1U09raFlid0xXTXNJT19RRnBGYmNDQnd4MFJ0WmpwOGN6VEN2VTdIdEJ3amNGX2VtWmVZYVdYMjJ6eTktSDZWVEJ1dGhfVXFR?oc=5",
+    "ts": 1795450201000,
+    "summary": "Data center work may be tightening labor supply outside of construction, IT Staffing Industry Analysts",
     "src": "Staffing Industry (Google News)",
     "lean": null
    },
@@ -1150,42 +1174,18 @@
     "lean": null
    },
    {
-    "t": "West Hartford's October Employment Data Released, Here's What The Numbers Reveal - Patch",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOUF0azAyYnlhYW42em5SclhmZmtJREFRallBWE16U1daLVUzZEMyV1BHNy16YTRKVE4wYXhqWWhmcGt3V0RHekFnTE5xbllMTFUwOF9WaDJPcDZHdVMxMTVibjhMNnRGSkdtSE9Bb0lTTV8wRUlSVG1VSHBGMEFKbDhhN0pJMzVCV1VzSkVuakZoM1hLN1c5UGMxUEN5Wm9OQ0t2UWcyQ25QdGVVNzJmNmI4dXlKQm_SAc4BQVVfeXFMTi1vM0ctVTlPd3cxRUVjdEluZldSLWhva2lUYXVPN0xvV1lBQXVQVkd1a01YSFNqWEV5U241el9QbGlpaFhoeEZsc01GZjNObGVjcjJxdTBIUGo5WHBPc281ZUtXd1Z4THRPYXBoYlN5U2UtbWpobFNYSUNIVTFTQnlqQzhRNGJaa0VSNXZGVW1MUU56QjBqclhvb2hLekFqdVVDX0dBdWtwU1lseVlDVGJIMFBSZGJtS2RNLVlyYm5YN0I0QmVncUw3Uk9IcUE?oc=5",
-    "ts": 1795442864000,
-    "summary": "West Hartford's October Employment Data Released, Here's What The Numbers Reveal Patch",
+    "t": "Greenwich's October Employment Data Released, Here's What The Numbers Reveal - Patch",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWTZfWjBnWnpCOURLcktmSTQ5ekVoS2ZCUzdzUl85Qzk5M1NUQko4TS1uNWw3NGItTm9YRzBXdjU1OFUzeVBTd2t0eFVYck51NHBYVmtIcDlNRjBjM1d1ZGhpM2UzWWFJeWc3eHRZODNpUC1kNzlyUUZCTHZ3YmpweFlQN0x5QzRFRVhxQ2c5YW9ZVFBLaXlobi1MN085b2hlZDhxM2ZJTVlOdHpJaHfSAcQBQVVfeXFMTUJraVRfX19aUmhjVlJYeGozTElOMEJPWVJILWQ4cUE5S2RkalJlRUtmMDlqNU1JWXlVN0FrR2FMNjYtRS03V0xxQkdqOGRJQnBFQ3p1YktQVFhLdTBMR0ZMeUdPaFFYaFIxWHNsTUxYeno4YWs3bEw2dUVXLXZZWEZnOEVkWEtYR1VtUElSMmloTEpPcHpDVXJCcm8ydE5ocGNXSy1jd2NXQU9SMndyRkJZNHg1em5IQ2xIb1cxTl8wbkItYg?oc=5",
+    "ts": 1795462478000,
+    "summary": "Greenwich's October Employment Data Released, Here's What The Numbers Reveal Patch",
     "src": "Hiring & labor (Google News)",
     "lean": null
    },
    {
-    "t": "What’s the missing link in education staffing? Continuity. - Staffing Industry Analysts",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZEotN215anU3MXJla3lPbVU3OW5peGNROTNXcW55XzZjOTJoak9scTdUQTVWMTExYng3Rk1WenlhUlNycGM4cWwyV2w0VmZYWXZWLWpHZmhOazFkN1RQdnpUY1dnZE02enpVeTZsb1E5SVEtYXdGbzQzaDdxMlY1aFRCVEpYang5S1AzMWs5cEVrczBhdWh5RFhIcW01OHdIbzZ6SGtSM3l0MUZxS0pHT1hZNFR5NFU?oc=5",
-    "ts": 1795449832000,
-    "summary": "What’s the missing link in education staffing? Continuity. Staffing Industry Analysts",
-    "src": "Staffing Industry (Google News)",
-    "lean": null
-   },
-   {
-    "t": "Firms bolster cybersecurity, create tech jobs as AI booms - Staffing Industry Analysts",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxON0EweGw0QnB3QmtMeFE4cHdhb1J1Mm9DcHpzMTI0RlpqZ3dLMFpiYlJwamEwUlFndmhhNlYyMm9IQlpuZV9OSEQzSnFsMTBiaHllblhadkNueVRaVy1zSC15QXJZRzU1ZmdnZjBjUm9uYTZfZ1NmMFBDQXFHRXlHNEhlUER3WEh6dXViVFJ1cmRSam1BbXVQTV85RDBfbFhSU2pkRm9LZU9qRHNTRTFsT01n?oc=5",
-    "ts": 1794873333000,
-    "summary": "Firms bolster cybersecurity, create tech jobs as AI booms Staffing Industry Analysts",
-    "src": "SIA (GN)",
-    "lean": null
-   },
-   {
-    "t": "Guilford's October Employment Data Released, Here's What The Numbers Reveal - Patch",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPM2Y3dFp1OEpSa0p0eWJxTkxJcUVTY01ib081ODBSOE82SGE5NzVkMjhJMDNUWHlwekVONzRNS3BUOFBwcmV3c2QzUjVvNnFLemQ3M0dORk9qZmNhX1BVNWlvMDZ6a1ZxbWtyTG15ckNwaG1OdndVbjhKcldaSVdjc3dxTmZ3MXlDVC1OR3dCVEVNLXVGUzdBMWZ3ajl3VVNXdG9hN2hYTnFXcWfSAcIBQVVfeXFMTW5yT1BUeUhtQUNyNndIV280WFMzcFZhMFE2aDdqcGRNRXFmSlkyUkE3aG01cHNTOVAzTEFDekNSZHJ6Rm1mN3FBbW5wYUplY2JjUGFpNnhtRm1PTUJCTnVSRGVCUndBOUFBMnlhUXdPZzFVUDFoX1VCcm16LU9GNHdnX3oxS2FUU0VvcndmdXVDZEZtOHVONjcycEFzT3k1Ty1aWVUtVUFLVXdublhDMUJPQlZGM3VKRU1uRFBCM01tQVE?oc=5",
-    "ts": 1795442678000,
-    "summary": "Guilford's October Employment Data Released, Here's What The Numbers Reveal Patch",
-    "src": "Hiring & labor (Google News)",
-    "lean": null
-   },
-   {
-    "t": "Former CEOs slow to change titles on LinkedIn - Staffing Industry Analysts",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOS3JqY0V2UTlLRVhhX3JCMHJ0ZHZ5VG9qbmRvMkdiZWVRU191NFJWeXBicHJVNXMzM1JKaXRuZ3MtdjVlMGlxNmRmZm41U1BfNUJXcEJjV2xoMExITlBzQnNxUnZ3ZXpfUmdkOG0tcW4yQjJQQThNc3ZwdFg3TlFvWnZZUXlmajhqN3JNdms3QTVReVF6cVYzdjJ0cllYN0ZKeE1mSzR1VzlVOGlTN0lQQmM2b3BLeE1FZ3c?oc=5",
-    "ts": 1795449832000,
-    "summary": "Former CEOs slow to change titles on LinkedIn Staffing Industry Analysts",
+    "t": "Economists cautiously optimistic about business conditions - Staffing Industry Analysts",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNY1hHTThOQWxCRzRFYjdJS3pyX1Vlb3FDTllHbFpBYVM3X1l0T3pBaVlDd01MMUVnbkJ4YlFLMU1yNl9HUWQxZ3UyWjlNaHlpVWRBRVY0SldzOUJGUFZ0RkNzR0N2X1BlQ2lhQ2NQZ2xUa3BSUm96SXZmQVhJWTZaMkwwcC1xTXVTUmo3dFFBOUlBc1lXbUt2RWp0VTRtQld2cGh2T240bTRoWEdjMmoyTjhRTTE?oc=5",
+    "ts": 1795450048000,
+    "summary": "Economists cautiously optimistic about business conditions Staffing Industry Analysts",
     "src": "Staffing Industry (Google News)",
     "lean": null
    },
@@ -1198,18 +1198,18 @@
     "lean": null
    },
    {
-    "t": "Wethersfield's October Employment Data Released, Here's What The Numbers Reveal - Patch",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRmpkVHdpeWt6YndnMURkN3NYOWlCSlF2Vk1NbzFHRE1nV1RwZHI2S3JvdGthcGxBT1J5dnhKRFoxcEtOdmtxbURTdWVEVjhydHdoeHJzMDBwX2FCRVlFNDFWLTllb0QtYjhXeXd6Sm9VM3lTZldmS3AtNjZpTmxQQ0laQWlwSU1LLUVOTU14TFZEdkJ0M3RlWHNQM0xGNHdKMW1mYlVueEtScFV0YTdGYTZiQ3BXZw?oc=5",
-    "ts": 1795437278000,
-    "summary": "Wethersfield's October Employment Data Released, Here's What The Numbers Reveal Patch",
+    "t": "New Haven's October Employment Data Released, Here's What The Numbers Reveal - Patch",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNX0RKb19TTjBvWHI4ZW9SSWZWbzZDR1pjeFhRem5UdElSdF9wbWZUREZ3Ulo4SDhMR0ZjX2oxdkNGM2tFMXZoYnljTzZNclBFeXM0YThkZ1luWHZTS2diOXlzRWh6YkNjUE1YWDZZMEdTeDctM2Z6STJHMnZBSy1OVjhyWGdWaGlwSk5iZXNMZmR1RjJzWjBTcWlDRVhMclR1cFN0MFE1WW1DcVIt0gHDAUFVX3lxTE9ETlBYVS1MYUkwSzFWX0x0Y1NzNHdjODFMSkdVZklZQlRramUxZDVwSEdBdUdzVXp2aDlnRS1RcWhubllSUW95UXpyWjhWaDdwXy16dE9XZmp4V2NSTnB5bFVlalZ5X1F3aDVhYmRpZnhVSUlKRy10MUxVaDNnSENaSnpLamNJd3Bfc1oxNUgwUUpYSGZhYkNHMzVCTF8zN1FQeUZPUkh1cmdKVnloQkx4c05MZnNPWDdJZ0J2X3FGNy14dw?oc=5",
+    "ts": 1795457408000,
+    "summary": "New Haven's October Employment Data Released, Here's What The Numbers Reveal Patch",
     "src": "Hiring & labor (Google News)",
     "lean": null
    },
    {
-    "t": "US green card rules: 5 major changes proposed, from hiring rules to layoffs - The Financial Express",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTVJxV1FjVkhOQ2VhbUlYVWMtNGw1dmtVell2TGYzX2ViS0swZkFJdjJBWHI4Zl8tbC1LeHFoYktVcG5yd2N1UnZ1X1pldGVDdkVLOWRMb1YwSlM2YzVMc1NCSkVhYXREQm5sYUpzQ0J5bE5KdVFPTjhnOXl2Q1VZb2pVRzZHQmpkd3FJTmR4NFE0Mjhjdl8yd244UzFUV2kyRXZmM003elo5ZXA5VmpQdHczcVpRNHNEWlFDWW5GUnpFclZmWXfSAcwBQVVfeXFMTVNZQ3VUQWF2bl9UVW5ZT1dhMFFvUmN1N2NOQzZWdlFueEtoS1cwN2ROUmxJRnpzU3RYYUZNNTAzeU5DZmhYTXZpY3JIdmllLTFoR1RFWDhrNU5hVnA4R1A4TjR2ako4N21XLXVVT0FYcXdmUXFMeUFrRVJBUjBDZllGYmpEVzBJdGxJajdjSThnNWVHcXVnam5HSDc1SHJSTGl1ejI5R0dYX0NTejVHWnExZGdOWG1zd1RtODRFek1USmVPcmpFeVgzNHlU?oc=5",
-    "ts": 1795248719000,
-    "summary": "US green card rules: 5 major changes proposed, from hiring rules to layoffs The Financial Express",
+    "t": "What’s the missing link in education staffing? Continuity. - Staffing Industry Analysts",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZEotN215anU3MXJla3lPbVU3OW5peGNROTNXcW55XzZjOTJoak9scTdUQTVWMTExYng3Rk1WenlhUlNycGM4cWwyV2w0VmZYWXZWLWpHZmhOazFkN1RQdnpUY1dnZE02enpVeTZsb1E5SVEtYXdGbzQzaDdxMlY1aFRCVEpYang5S1AzMWs5cEVrczBhdWh5RFhIcW01OHdIbzZ6SGtSM3l0MUZxS0pHT1hZNFR5NFU?oc=5",
+    "ts": 1795449832000,
+    "summary": "What’s the missing link in education staffing? Continuity. Staffing Industry Analysts",
     "src": "Staffing Industry (Google News)",
     "lean": null
    },
@@ -1222,18 +1222,18 @@
     "lean": null
    },
    {
-    "t": "Bethany & Woodbridge's October Employment Data Released, Here's What The Numbers Reveal - Patch",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQWVkZUdyRXJON0MyWHRJbHF3aTFxMENMRDdLcVZoUDM3QjlMaEJCM1Z1ZnhNeWwyZGNpQTcyM3VGeXF1dW5LdGRna1pFYng1cTFNd2JoakVYYlNRN2pwWkhrR29fMmJScXVpYWt5YVZKZktxZkUtMDZ0dzFlUkVNQkdtdGNJQTBiVEgwSWZZUFdtRmdIenpKRk9mQWE5N2ZrbkdyRElPWjNKLXZWMEJCekV0M3UyWW510gHPAUFVX3lxTE9BMnNvNjdZYktnQmZ4RTRHb1RQZk84X255VHVyTjdsT0RMWG5zZnBWMDF6ODRjTERUY0w0V0RJdVlKWWNVR0ZfU2FIZklBNEhmOURpSFh6Q0lQZU1vVzNTVDA5ZkY4VkxGTXQ4V3IxU0MycEZ6c3BNcXZuTE1LZThVWllaeGJWY3dvb19LVF9iYUdfSTZCZjZCU3FuOERDZFZVNWRYQlN6cnQyVjlmckVDRUY0TEF4RjNKU0M0SDVjTTVQa2RJUGh6UDBUZFNudw?oc=5",
-    "ts": 1795437278000,
-    "summary": "Bethany & Woodbridge's October Employment Data Released, Here's What The Numbers Reveal Patch",
+    "t": "Hartford's October Employment Data Released, Here's What The Numbers Reveal - Patch",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUzZsQkg4elpMSDVCZzBnclRFV0NsdkpYU2xrcVFGT3BNaE4wZHBXUWQ4UjFONlNXd29IaTNLZUJRSjRxc1NjcnZJc2xYaDB5dEFndGp3WUlWY1VkYUJEVlA5eEN1WkR6MFR2S2tKSjZ6WUJZejBpcVFNS0JveHZRWlJ5ZnM4MkFXZ2ZDdUNYSUQxN2I2eHZSQ1ZSRzBaRGVZcWI1dzUxVlc5VzTSAcIBQVVfeXFMTUdPdDR6Q2ppZHhYUF8yVkZsSXBRSTBMZ2xqQzh1RnhpVDJrcTJUS2RrMk94N29LandrbjBRWEdMRC16RUNTWW1CU1VsbC1RT1QzLWFFaEhJa0JmY05PelRwVzhlOFpUMGZ2djFqOWNMX3JqcjFmWEdWSl8yOU5EZGhyUkp4VWU1VG8waERkb3RsWnhFdjdjMDM0Y05qdGpkN1F3SVVhNHNxYVh3YnlibVhWZXBCM2xJdThxZFdQNFp6N0E?oc=5",
+    "ts": 1795443273000,
+    "summary": "Hartford's October Employment Data Released, Here's What The Numbers Reveal Patch",
     "src": "Hiring & labor (Google News)",
     "lean": null
    },
    {
-    "t": "Employer-friendly independent contractor classification rule finalized by DOL - Staffing Industry Analysts",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTFVXdzA3NW9nSHctV3NpTm96UUI5bTlIN1FZbElVbUdUd19ZNTdlRnB6MUpNeXhkNzNBUmdOMUxXOVlBU2psLVVPLVhuNzdMd0ZXZUJ3RVZfRHhjUDVxbEM3NVp2U3JJU2M5aGp2cklyWm95MjU4cmViZ1Bpbkc4enJLS3kxX0NsZnJCbFZXYWN5RFlqY3h5a0VwSGNBVGs1cDNCNFMwMmMyV0swOTktOG1td0hqTmN0SkI5d0lDbE1tOVQ2aWtScXlUUWFGUQ?oc=5",
-    "ts": 1795223489000,
-    "summary": "Employer-friendly independent contractor classification rule finalized by DOL Staffing Industry Analysts",
+    "t": "Former CEOs slow to change titles on LinkedIn - Staffing Industry Analysts",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOS3JqY0V2UTlLRVhhX3JCMHJ0ZHZ5VG9qbmRvMkdiZWVRU191NFJWeXBicHJVNXMzM1JKaXRuZ3MtdjVlMGlxNmRmZm41U1BfNUJXcEJjV2xoMExITlBzQnNxUnZ3ZXpfUmdkOG0tcW4yQjJQQThNc3ZwdFg3TlFvWnZZUXlmajhqN3JNdms3QTVReVF6cVYzdjJ0cllYN0ZKeE1mSzR1VzlVOGlTN0lQQmM2b3BLeE1FZ3c?oc=5",
+    "ts": 1795449832000,
+    "summary": "Former CEOs slow to change titles on LinkedIn Staffing Industry Analysts",
     "src": "Staffing Industry (Google News)",
     "lean": null
    },
@@ -1246,27 +1246,19 @@
     "lean": null
    },
    {
-    "t": "Woodbury & Middlebury's October Employment Data Released, Here's What The Numbers Reveal - Patch",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYkRMdGJ1MVFFSkRyeGZJVHpPLVBsVmh5TE9VaHpqUFdqaHNIUThCNFpVa0RldVhYekpkamFyM3ZrbzZmeTR3ZER2X2xvVFk0WXhwTW5qcUdsblNkV3NuaW12MmRNQjZhSkYxM3pfUjVMRmM2eTVxeHNDLXNvd3NRQzNxekJmOUV0ZnBDakx0dk1XZ3lkNDNzMi1LODh5VEVxang1S2l4cWR4MEdudk11UExncHXSAd8BQVVfeXFMTzNrYWRvcVdOZ2RDYVo5RGt3NEZlcWZHNERpcThqQk9pa2RoVHlwdU41cTlwRC16S0FBRHBkVWV5RUN4VlhxV0tsM29oZmM1dmRWTmtFdWRKZ2ZWRjFZQ1ZaNE85dUVaWjhPRFRfS0ZFX0tuQnJjODFZR1hmUGlQd1JObVhuS2tkUDRuTlo1Vjh5MERYVVFtOGNiRHBrMFVkdFhYNW1CRXprSVJnLWwzeGJMc0VBMGlxaVFVZ1hKYXFlUlFiWmMxU2M4MEk2a2J5STl0akZNNjM4T1gtYXFGYw?oc=5",
+    "t": "Newington's October Employment Data Released, Here's What The Numbers Reveal - Patch",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPR1RIYUJjTl9Ldy11ME5UYUx0YkZMamp4SmlPRkMxTUQweDJpR2xQQkNGU195TjZVa1BPaF9venFvS0MtMkhXSWppWU01LURmYXZZekpzUnNKcWc2R2JYTllOZFpzY2h6VTAyNGNGWHRzdDUzSHh2T1RReFVNc293WGlIblZSb1Yxanl1YTRyYUMwLTVfRTVEd3pQanJ1N3BzMFRyWmNnYXF6cXRmcmfSAcQBQVVfeXFMT1N3cGpRTUU4dDBYN1pLenpvQkhtQUpuNnpHUVgyZXBuWXFqb3NZV19wTVZUaHZ6azJ3OUlhWG8weXpPYXhtNkhNZHJQakVLZGJia2pVVnlsaEFueUV5WU92NkE1SVVqWWVmVjQ1VWJIQW9yczA2cFZrRkhiMWE4U0d4ZndCU3VRN2E3ZjhwM25PTUpaU3RwT25maTNpM21vZDZKSTB5NW5USXM3R0h3QzZGR0djWHdJdHYybFRhQnBfNDlJNQ?oc=5",
     "ts": 1795437278000,
-    "summary": "Woodbury & Middlebury's October Employment Data Released, Here's What The Numbers Reveal Patch",
+    "summary": "Newington's October Employment Data Released, Here's What The Numbers Reveal Patch",
     "src": "Hiring & labor (Google News)",
     "lean": null
    },
    {
-    "t": "Jury finds bias in Cognizant’s treatment of non-Indian workers - Staffing Industry Analysts",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTS1pbUpsRU5vS19uSklFaXAzWjNtd1NJYTFGekVNV2dBRnloSjE0MlZkaHNBQjhiV25VaXRRZE5ZNnJKcHB6M3ZGNmlfTHoxeXAtdkc5MnJkcDVuUVdTLTVyV2s1djQ1V3h1OTY3VkJMejk4Q05ybE14OTdxUXpqVGlkRHQ3N0pzcDNYRmNZWng3THFqTGpvRno0b200S1I5WEhmV2dkWmF0MnFKT2MxSDUzd2ZIWlR6?oc=5",
-    "ts": 1728404514000,
-    "summary": "Jury finds bias in Cognizant’s treatment of non-Indian workers Staffing Industry Analysts",
-    "src": "SIA (GN)",
-    "lean": null
-   },
-   {
-    "t": "Clinton's October Employment Data Released, Here's What The Numbers Reveal - Patch",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQVBWNzZ3QUtkV2VvZDk4eGVTUHRUVkRHa2xwVm0tWXRQam51R2hjTkI0Yk1Sd21uV05XbkNqenh1WkU5Z1U5WFZIOF95ZUdyck5iOHl4M2c1QTNURm9ib01QQzR3VVJIT2M1RTZCbXRaa1lfUm9UTUhNQzVsY1F3Zk92SFBwWXp6bk9CSEdQVjYwczB6Q2JMWXpJam9DcGQ3bkY3M25jbG3SAb8BQVVfeXFMTmRnQWQ2WF82UGthM3FKUzY4Zzk4ZXU5TS14d0FfM1FRZFBZNzJ0dVlUNjdNSTgzLVhMUnlkT0pXSTJNb1p5NHh2Sk1wOU50RUlYSGxacnk0QnRvQ25lN3AzUmxDRVN1NzNLbm1GWVFxdmljaEtmWm9wYUdUcDYzVGFvaW5xNzhuM2pVVFNNS1RVdjFtSVJocm1ENXZrMzhidlZfM1lZRDdLaU9NRWhTeEhWVm44UmNYU2swVUE5a0E?oc=5",
-    "ts": 1795437278000,
-    "summary": "Clinton's October Employment Data Released, Here's What The Numbers Reveal Patch",
-    "src": "Hiring & labor (Google News)",
+    "t": "US green card rules: 5 major changes proposed, from hiring rules to layoffs - The Financial Express",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTVJxV1FjVkhOQ2VhbUlYVWMtNGw1dmtVell2TGYzX2ViS0swZkFJdjJBWHI4Zl8tbC1LeHFoYktVcG5yd2N1UnZ1X1pldGVDdkVLOWRMb1YwSlM2YzVMc1NCSkVhYXREQm5sYUpzQ0J5bE5KdVFPTjhnOXl2Q1VZb2pVRzZHQmpkd3FJTmR4NFE0Mjhjdl8yd244UzFUV2kyRXZmM003elo5ZXA5VmpQdHczcVpRNHNEWlFDWW5GUnpFclZmWXfSAcwBQVVfeXFMTVNZQ3VUQWF2bl9UVW5ZT1dhMFFvUmN1N2NOQzZWdlFueEtoS1cwN2ROUmxJRnpzU3RYYUZNNTAzeU5DZmhYTXZpY3JIdmllLTFoR1RFWDhrNU5hVnA4R1A4TjR2ako4N21XLXVVT0FYcXdmUXFMeUFrRVJBUjBDZllGYmpEVzBJdGxJajdjSThnNWVHcXVnam5HSDc1SHJSTGl1ejI5R0dYX0NTejVHWnExZGdOWG1zd1RtODRFek1USmVPcmpFeVgzNHlU?oc=5",
+    "ts": 1795248719000,
+    "summary": "US green card rules: 5 major changes proposed, from hiring rules to layoffs The Financial Express",
+    "src": "Staffing Industry (Google News)",
     "lean": null
    },
    {
@@ -1278,10 +1270,10 @@
     "lean": null
    },
    {
-    "t": "Simsbury's October Employment Data Released, Here's What The Numbers Reveal - Patch",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQOHVsQmFwYUVSTFhBZktrSW5qYWw5R3hVQkY0WjNaTkoyWEZfenBEWk9NU3pkWVA5NFF0MTdDNGoxcmNHLXR1VWFyUjh6R0VvcUpxODl6elZuZGRCd2ZQemZ0MWZHTTJLRGFoWl9YNmtRbENGbGNKSUtlTDNQQXBEV1kyWVBqSXpYT2Rmc3NhYmVmSWpYZUp3YjVjaW9OYTZVN3NWblpGOTRtVWvSAcIBQVVfeXFMT2p3dTZ1dWw5dk9kekxTcGJKTmExWUZiNFY3TXpERTRNajN4d3lBcndMNTZGZzVVLTlqTVZobEx5b3l3cjRpMHRKcExkQXhuTXlvTF9aM3g5WVBGVkQ1aTZTMVRuYWhLZDZHaVdTZ0s1MWJCdm1GM1UxY1JxQ016TVMtanRMbTQzbTVGVmhZSzZIZTk1Y2JZR09Nd1A3R0F5WTBVVEpSaEJZekRCeU0xYzBVYnVTdXEybXlRdkpyTl9GS1E?oc=5",
-    "ts": 1795435177000,
-    "summary": "Simsbury's October Employment Data Released, Here's What The Numbers Reveal Patch",
+    "t": "AI is making it hard for young people to find work, report says - NPR",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZzFVRGRsSzVuTGtLOUh2UFZNRkFlMWx2VzFCQmgta21KTUI4Vm92a3FHblV6cEN0a25uRjZjT2pCTy1GN2k2VXEyTWg2ckVkQkdXeEpqZlBMaWdiSjhBRVg4Ny02eW51UDYtLVBHUEpVWDhtRC14YmNWN1RaQWQxUHQ4dFJyX0NKOVBnQWlOc0tjTEJJWUFQMkJ1Ykc3MVlwd3U2RWNNUHFobTA?oc=5",
+    "ts": 1795426960000,
+    "summary": "AI is making it hard for young people to find work, report says NPR",
     "src": "Hiring & labor (Google News)",
     "lean": null
    },
@@ -1292,112 +1284,184 @@
     "summary": "Global Power 150 Women in Staffing Staffing Industry Analysts",
     "src": "SIA (GN)",
     "lean": null
+   },
+   {
+    "t": "Robust Employment Report Supports Further Fed Rate Hikes - The Conference Board",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNY0VmZnRneVh6Y2dLTlNKcG1tcXRhUTh6UEUxalZrdmdzVzRmR0tVLUhjcUoxLU5UTElHTFJNdnJFS2s1TmtYY2F4RVJHbHVRQWt3VllaU3lkYmpEZjM0MzJQcGQ5OU9QaG9aRkYxSGJiUEFqajNXQjVlNEZMWVhxdXh2RUVTaG9zN3ZPMWpzYXRrTXJoNDBF?oc=5",
+    "ts": 1795369989000,
+    "summary": "Robust Employment Report Supports Further Fed Rate Hikes The Conference Board",
+    "src": "Hiring & labor (Google News)",
+    "lean": null
+   },
+   {
+    "t": "SIA | Home - Staffing Industry Analysts",
+    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1mUWFlTUU3eEp0T3RrdGxpZ25pWGgyclNVLWsxbUJ6dERhMVRLQl9BNE44UDNVVXpaQ1VYUlJiTkwxeEMzcVlqczFxU0E4Zw?oc=5",
+    "ts": 1187453050000,
+    "summary": "SIA | Home Staffing Industry Analysts",
+    "src": "SIA (GN)",
+    "lean": null
    }
   ],
   "boston": [
    {
-    "t": "Massachusetts Trooper accused of driving pickled after pickleball - Boston Herald",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSGlQZ1ZENm5HZFJIbFFQajNZbFpNRUFaV3BVajdxSEZuZ256ZWVWcXRiMVdBdlNibDJVYVVFRFNUUU9YRnN5LUh0VXBHMm5UZ2w4UWJVMldPTUxENmlSaFdSdjdrQ3J6VVZwTTZHc0s0bTltb1NaNmo0VEV5TW4tUWdtZUFhVnA2dlJmc1NjLTRYbWNkdFNtMUlhNmpnam1lTWt2RzVvSi1mdw?oc=5",
-    "ts": 1795471137000,
-    "summary": "Massachusetts Trooper accused of driving pickled after pickleball Boston Herald",
+    "t": "Fingerprint Boston Launches Group Fingerprinting Service for Massachusetts and New Hampshire Employers - EIN Presswire",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQaG43dU9iMTNKT2c1WThIejIzR012TlZ4MDV2MWdmeExQVTIzVGhKMkIwMnJQTkNESGdsOEFXRk04ZGNES1VwZ0FDM2NZNm4zQmFBTFR3TGM3RXNNRVB0YXQzTlNCVDRRb2RDVHlCNEVIYkZfdGRLRVR4SVlzOVpoczJOR0o4YXBib2Ywa2RqQlVoNU8tcHF2UVlaTVpfVmwtRUlheVBFeDctcmVBdmk5cFZ5X3NqY04zLURWMU95Uk9QV0doRk5tR25LdlZjOGhpVFFURlRFUVgzcTB4WURZVzAwUQ?oc=5",
+    "ts": 1795497300000,
+    "summary": "Fingerprint Boston Launches Group Fingerprinting Service for Massachusetts and New Hampshire Employers EIN Presswire",
     "src": "Boston (Google News)",
     "lean": null
    },
    {
-    "t": "Patriots get good news at first practice after bye week - Boston Herald",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMUdXNnNhaXZDblM5WG1teXBMRUt4dmw5ZnpaWWlpWVBOeTZySlMwblpzRlZJYnZTT0NibUtHdmlmUVBkT2h3Nk1aSV9fVXFwbFl3MWF0RjFfckdKeWxVUjBscjlRQ0p6eVRibXVJRFNCNHdzYlo2eWtYNUowb1RnMHd0bV9hQWx6WGdtZ2xMVTR1LUZwLWowZjNmeEw?oc=5",
-    "ts": 1795468360000,
-    "summary": "Patriots get good news at first practice after bye week Boston Herald",
-    "src": "Boston Herald",
-    "lean": "R"
-   },
-   {
-    "t": "Can modular homes be a solution for affordable housing? R.I.’s incoming governor wants to give it a try. - The Boston Globe",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMnZlaHFoT1JkYlJVZV9uaDR1dTZ5bk9OcWpiYnpPb21sN0tHamQ3YjZlTFctZFFjeENWY3ZfcG9MZERTODNDdmotUVFISmtPOFVOVkROUlpGLXlUUUNBbGg5ODF1UVA5U0tGTnh4bEtXbU1JRW9UNFpuN0V2UTJ1dnNXaVJFcENlY2VrNUtLMlJpMG8wZHlCZlhsTUk?oc=5",
-    "ts": 1795466144000,
-    "summary": "Can modular homes be a solution for affordable housing? R.I.’s incoming governor wants to give it a try. The Boston Globe",
+    "t": "Man is convicted of murder in rampage almost 10 years ago, despite defense attorney’s focus on Michael Proctor - The Boston Globe",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNi15dFB5N3JFSUQ4eGd4d0g4cmFjam9hQ3JmaG9XbDZoVDEzb0hKWUtBbVNvZjMzZjloR19rTTN4RkdLWXlHaHYtRWNiQmxIVXFwQXJmNWRWZ0plTkNRVmI5SHh5SGY4RVF3YUtuV1NzZVNWSHc4TFl6NlFBcmRPMDVtZkNtM2c0bDVJd2ZybkZYSHdOMHVlZGljaXZpVlk?oc=5",
+    "ts": 1795479756000,
+    "summary": "Man is convicted of murder in rampage almost 10 years ago, despite defense attorney’s focus on Michael Proctor The Boston Globe",
     "src": "Boston Globe",
     "lean": "L"
    },
    {
-    "t": "John C. \"Shorty\" and Marie G. Doran Obituary (2026) - Boston, MA - O'Brien Funeral Home - South Boston - Legacy obituary",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeEFlMkxXanJOcGoyNTVQRTdCcFUxeGJUcEp2ZjNjblQtampmTE0tZnY3WE9lTFlweG05ZDRyWHlaOFpzQ0JjR2pYQzFqUHRUcXVUVGdKb1psYkV4R0U5VDF5bkNUV05aLVNqNTBQTU9RemZScERUdDFib2d2N1pWUE85aWV1RWFJNVA1dHpUUElRUTNqMTdKelRR?oc=5",
-    "ts": 1795469803000,
-    "summary": "John C. \"Shorty\" and Marie G. Doran Obituary (2026) - Boston, MA - O'Brien Funeral Home - South Boston Legacy obituary",
-    "src": "Boston (Google News)",
-    "lean": null
-   },
-   {
     "t": "Nvidia board reinstates Jensen Huang as CEO just days after rejecting his offer to return - Boston Herald",
     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5YX0lIcjhEY2JYcUJVYkpQVFpEWTRrVkJ2SmZjOS1iQWR0RWdDUmtieVFadjlyRnNRNXpsOFVxWFZiRllRakdaTVB6QlJZT1JsdkgwU0paVDJtUFl3cWpxWXdrQ296N1NST1EzZWJndTJSRFo2R2NpVl9paw?oc=5",
-    "ts": 1795464336000,
+    "ts": 1795474699000,
     "summary": "Nvidia board reinstates Jensen Huang as CEO just days after rejecting his offer to return Boston Herald",
     "src": "Boston Herald",
     "lean": "R"
    },
    {
-    "t": "US rapper Don Toliver postpones London show after Manchester gig evacuation - The Boston Globe",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQa2p6UzBnOTJGTW1kWVdnbTA2WldDSUNYOVRzRWhpcDRyaG1Dem5IbFYyVklsNXNNMzEtNzBWUjVVMm9jQXVVbVVRUFNrVE45NzBqV2FUYzA3azd4bGJmYmdxTG1QMnRLYnQ3Z3FTVHN0YnVVbmNVSDJWYV9meERwTXEzY3N5NWVueS1SdGtB?oc=5",
-    "ts": 1795454377000,
-    "summary": "US rapper Don Toliver postpones London show after Manchester gig evacuation The Boston Globe",
-    "src": "Boston Globe",
-    "lean": "L"
-   },
-   {
-    "t": "Over 100 firefighters recognized at the Massachusetts Firefighter of the Year Awards - WHDH",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZnRlZEZlaF90bFp6NHNSVURQeUhfWkI3VlJOaUp2MjJaRV9aMzhYdTlUU3dHNHcwUTV0TGRRZjg2dzdfUGZNaWdHTWp1bVRMS3ZYSjdhbUUxdV9YOFpZNEhiZnlOaXZHQTNnTDd6UGExZWlSeWR2Zk4tMkhrMmZzdXBIOTVVQ0ZxcEs4LWpFc21Ub09NTTg4bDFrSjZPcVQxR1h4d3pEakRpa3c?oc=5",
-    "ts": 1795469229000,
-    "summary": "Over 100 firefighters recognized at the Massachusetts Firefighter of the Year Awards WHDH",
+    "t": "Tufts Democrats, students across Massachusetts lobby for AI regulation - The Tufts Daily",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNzJWVWl2N04zQ0czU0lScWlTNWpSZFFlWC02cXVOdlEweFZlcjRSSGFuY0RGWHpGTFRSby1vWlRmckdiWDg1NHZhQzNmeW9ZeUE3OGVPeURvZXl6enZpSUxWT3NYeGFEZzNxS1RINUNNNUxVZGRNNnM3cERvb01fRjZsNmlpSVVaOGdpNnFNZmF1QWxxeGFCanMwODE3RU9BNXpad0tpVVNIenVjbGhQTGV3?oc=5",
+    "ts": 1795496728000,
+    "summary": "Tufts Democrats, students across Massachusetts lobby for AI regulation The Tufts Daily",
     "src": "Boston (Google News)",
     "lean": null
    },
    {
-    "t": "United States picked by FIFA to co-host 2031 Women’s World Cup - Boston Herald",
-    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE14aWo3WGd3ZllSV0N0eGtjcll6ZktUYjNoWnFSMG9Wdk9PYUVnYThmZS12a21ZUkRfVlIwQjJQTHR3QVBDREZJb0dtRTRVY2tyRXQ1aHk0SGZwcjVSMmZLSmtuWDZHLU9hVTVPdkgyLWJUb2xZS0luM2pVZHI?oc=5",
-    "ts": 1795464336000,
-    "summary": "United States picked by FIFA to co-host 2031 Women’s World Cup Boston Herald",
+    "t": "TV & Radio - The Boston Globe",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA0Wl9pZnFCclBfZmhHYzAwdlhzNUJSTmVOTFkzeGRQUzl6eWdTQmpzcWR3a2J1c3RBcTdiSmtBQzNwanpIbmpIem9PdjRMdUhXU2dTQlg2WkFsdEhzdk1DV01ublJKbnl4RnNQLWVoUFd4ZEFw?oc=5",
+    "ts": 1795479628000,
+    "summary": "TV & Radio The Boston Globe",
+    "src": "Boston Globe",
+    "lean": "L"
+   },
+   {
+    "t": "Clutch goals and OT winners: Standout performances from state championships - Boston Herald",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWUpJOUhrREJ5T2QyVUVmNUQ3N0hWZ3huOEJsTzQ4RWdtRXV4aFl4b2tEQWF5Rmh0WVVTZllUTGdURV9tVU1GbGlWRmNMdW9HS09KNENSNFFha2ptbURRRlAzRjRoRTQ2NzQ4dndUUk1aVXBNWTdJdGdWSUEzNVItbWdrWDczQkQxOG9QdUVWcm5jd050b19ld01ncGtQUDRySVptR1JtS0ZJcVJZZWRNaDhjNzBVUQ?oc=5",
+    "ts": 1795473725000,
+    "summary": "Clutch goals and OT winners: Standout performances from state championships Boston Herald",
     "src": "Boston Herald",
     "lean": "R"
    },
    {
-    "t": "Five of 9 nursing home chains scrutinized in Spotlight report are selling facilities, dropping Mass. expansions, or fighting revocation - The Boston Globe",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPN3h1UHJPd2g3TXpELWU3R1JBa0t2OVY5ZHB3aEtjQlE2MU1jTmFfaUthNGhQaWQzaUg2Y3p2WDZteGpHQ1dzd29GdzRnVXZ0Q2ZVYU9JUGRxdFZrdlNxY05rWllxMDE0cW1Zem0zenRyb3hVRHJuVDFLc2FvTUQxbjlkai02LUJOZkVYbDNmXzk?oc=5",
-    "ts": 1795429970000,
-    "summary": "Five of 9 nursing home chains scrutinized in Spotlight report are selling facilities, dropping Mass. expansions, or fighting revocation The Boston Globe",
-    "src": "Boston Globe",
-    "lean": "L"
-   },
-   {
-    "t": "Massachusetts sues to block ICE from conducting courthouse arrests - Reuters",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTDhic2p4QnMwcnI1SkhOemQ0SXBLbXBnTjl2ZDFpWFhOcVBqeXlYNnlTTG1ERFJkeTlxRVY1Z3JndWlYanN4NlBWNDRsM29Hcjd0WS12NkttUlBrMFk4eTNETjZNdFNRSGEzUGhpVThNbUtDOHZDLS1OOWw5b1RDX0pnLXdwTk1aY1dWSm9YRkV1R2psbkJCQXdYcTdYN1hLcERUMXE3eEZQQzdweTVMVQ?oc=5",
-    "ts": 1795462975000,
-    "summary": "Massachusetts sues to block ICE from conducting courthouse arrests Reuters",
+    "t": "Lawmakers face looming deadline on Mass. energy affordability bill - NBC Boston",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTzBlWFlmU3h5bVlUUHBDTDQtX1BLQXpOTk5OMXd4dllIb0RqNHRLOXctYk5pZXROLUJtenV3RkF2N050dURHbTRKNkpxUkpyZ0U0QTNRR3B0NkJJeTRDZzZGVzFzdlhFRGpReXV5OUJaelNRWDA2d0JrTVRIbFE3Sk85WWhPYjNzaW1GT09KZG8yd0VTdEJLTkVVYmJUdHV4QXFVaVVmQVFyOXJKYUhoUVZlUGbSAbwBQVVfeXFMT3Z2RnJRQXBfVElqTXlhSUFvbDhRRUZ3SWctdjdzNmhKMWR3Y0lyeHctLTZ6VWVvX2RJV18xZ1VtT0xqSm9RMWt4dEg0ZG9QZWo3b09jYjY5a3RMMlc0WDJDdERZVVowdXB6eXE1aWFBZEdWZUh0c2RsWjUwN3FRajBYVmw1R0oyTkxFQUh6bG5TWnNkcHdqTTUzWkZmaVg5LXlBRG5PYkRCTjVkWm5QOEpBT1hKN09IUW9Qd2w?oc=5",
+    "ts": 1795495291000,
+    "summary": "Lawmakers face looming deadline on Mass. energy affordability bill NBC Boston",
     "src": "Boston (Google News)",
     "lean": null
    },
    {
-    "t": "Patriots still keeping hope alive for Drake Maye’s return from injury this season - Boston Herald",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNU1lS3MtOXg4bGVlckVKUDV5Qmh3R2liS1JhMGpid2QwOWpZeFRHZ1REQ05TNGtmdjZUNXJaZzZ0RGNRdW1ZRGNCT3NQTkxsazQ5YWVZR2poN3hheThUbXA4SGFuaXZrdUtZMlNuemhCTWNwMVYzOFF2bTdUaVNkUkpZZmd5RnFTem82emIzREJQbXBnRndxOHVpVUd3MEtkN0VSVkhUWkdFbF8tQUdxVnh4ckJ1TjVoX1U4a2N3?oc=5",
-    "ts": 1795454269000,
-    "summary": "Patriots still keeping hope alive for Drake Maye’s return from injury this season Boston Herald",
+    "t": "‘Too big to be fired’: Nvidia brings back Jensen Huang — and the AI bubble - The Boston Globe",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTzBRbU9UajhPQ2hLQ2c1U1NxNXl3bG5kc1Ezb2tGdDZneGQzWlJVemRQSWJ5NTkzTzRYWTAzSmJiN0hlRDFMS0luTzEzblplaVc5enNvOHFNTWRCa0FGRjFvWGhSUml2QS1zbTVULTg4OWlVeGJCaE9hOFhPUUdhSGhkYlEtRjF2eExR?oc=5",
+    "ts": 1795447980000,
+    "summary": "‘Too big to be fired’: Nvidia brings back Jensen Huang — and the AI bubble The Boston Globe",
+    "src": "Boston Globe",
+    "lean": "L"
+   },
+   {
+    "t": "Massachusetts Trooper accused of driving pickled after pickleball - Boston Herald",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSGlQZ1ZENm5HZFJIbFFQajNZbFpNRUFaV3BVajdxSEZuZ256ZWVWcXRiMVdBdlNibDJVYVVFRFNUUU9YRnN5LUh0VXBHMm5UZ2w4UWJVMldPTUxENmlSaFdSdjdrQ3J6VVZwTTZHc0s0bTltb1NaNmo0VEV5TW4tUWdtZUFhVnA2dlJmc1NjLTRYbWNkdFNtMUlhNmpnam1lTWt2RzVvSi1mdw?oc=5",
+    "ts": 1795471185000,
+    "summary": "Massachusetts Trooper accused of driving pickled after pickleball Boston Herald",
     "src": "Boston Herald",
     "lean": "R"
    },
    {
-    "t": "‘Parks and Recreation’ co-creator Mike Schur talks reuniting with Amy Poehler for new sitcom ‘Dig’ - The Boston Globe",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5ydXFFTHg0c25xSWpCeFBDX3dHZzlpNFllaDVwRkZiQzNvMjB5RU5HRTk0OTYtYnRta1BWQk9MSG5lcGdKeVphLW5pRHdYVEw0UnczbGluY2RqTnVxcE5XODBCMnNYN1o2WHZDUnBHTQ?oc=5",
-    "ts": 1795429860000,
-    "summary": "‘Parks and Recreation’ co-creator Mike Schur talks reuniting with Amy Poehler for new sitcom ‘Dig’ The Boston Globe",
+    "t": "Massachusetts couple thrilled baby was blessed by Pope Leo - CBS News",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObGtjMEtXWFd6bW5PQ1NjZEJEeERfeV9YcjFHdXBLNktCa0VqNU56NTBLU25zWTBRNGp5TlJGbVZ1eTV1bnpMUTRNTno4SnNmZF8wX3BSTVlHeWdpSmUwTXFEa1hicGZVN0x1M1RxTUJ0aFNFcUdSN2RHWjVIY3F4TTJZVTBRckVsVVNrdGVkeWYwM2pCcE5TdS1PVGc?oc=5",
+    "ts": 1795493880000,
+    "summary": "Massachusetts couple thrilled baby was blessed by Pope Leo CBS News",
+    "src": "Boston (Google News)",
+    "lean": null
+   },
+   {
+    "t": "After getting attacked by an owl, a BU student wanted to know if she was its only victim. Not by a long shot. - The Boston Globe",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNLUVNQWVqZV9RQmRrU201MEs4ZmtKVHZKaWRZUk5iSWNGRV9oTVZCYVoxanBFRUlJZXNUTEdMcWd6X3hEOEd2d1NiVkczdW50ODQ2VDQ4N3I2UVpBR0duNy1tRlBWY01mVnJNRlhYaWQyeEVfWEx3N00yTlJrQWZWR0JiNDlCdWE2dEQ5WmFhaENnQQ?oc=5",
+    "ts": 1795446600000,
+    "summary": "After getting attacked by an owl, a BU student wanted to know if she was its only victim. Not by a long shot. The Boston Globe",
     "src": "Boston Globe",
     "lean": "L"
    },
    {
-    "t": "SUTTON, Mass. — Lawmakers representing Sutton and surrounding communities are calling for impact studies on a massive data center proposed by a company owned by New England Patriots owner Robert Kraft. - Facebook",
-    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNbnk1YW9za2pkNE1yVl9aV2VrMEVDQVFNRWRsOVZXTFRjWTFFV21JT2lfaWp0VHlFa1JWV1lNNWhBcjRFeFBzLS1Mdk9FcUM1cXpzVkZfak5aelVIUk1aZHB5V1V1WC1LdnFnLWdLMkFtUnFHajQxQ2RQN1A2eGFnX21xYU1BamJ4NkdGUUNQTVp4OXVyNjlScXNYZVU2ZnVIRmpBVF9Oak8zMGJ2eU9HVGhYZ3JHR2lGcHROLWdFaEc0a3JidHhzaXB1YXFTaHVzM3R6NGVxY2xNU3M?oc=5",
-    "ts": 1795462311000,
-    "summary": "SUTTON, Mass. — Lawmakers representing Sutton and surrounding communities are calling for impact studies on a massive data center proposed by a company owned by New England Patriots owner Robert Kraft. Facebook",
+    "t": "AG Andrea Campbell sues ICE over civil courthouse arrests - Boston Herald",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOHdtSVEyUkhjNXdTakFIS1I1UGR0bjc5YUowdFFvNXlBeFpFRDAydGlXM0JFcEtiQTBZZVlWeHNWRnlHVzdPTkJfSDNUQmt1UG4yR1BwZmt1S0JldWVZNjBtS1ctaUl6enlHQVB3NnlvUm9tenJEbFBUZ1E1cGFfaUk4RVNDVTBkZzJzcXNwNDR5TjdQN0pjWjdmRjEzU3c?oc=5",
+    "ts": 1795463314000,
+    "summary": "AG Andrea Campbell sues ICE over civil courthouse arrests Boston Herald",
+    "src": "Boston Herald",
+    "lean": "R"
+   },
+   {
+    "t": "Gas prices drop in Massachusetts ahead of holiday travel - CBS News",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVnZTRVVZUjE0aHhBQXRscGdFT0hpMFY1Q0xpV1ZBdVZyUm9VLW9XUE4yXzBiNDVkSHlGbVpGSGhjOXk0UkxFZm9ibm5RMWxmb2cyUXpQSTdiY2hnUnhsQzByOU5yMTIxYi0xdlBQdjlJRUVpMkxqQ0NOdFhzUkx2RDV3aHFNdEg5TjZTMl9SN2NaUkViaDV0NUdn?oc=5",
+    "ts": 1795493160000,
+    "summary": "Gas prices drop in Massachusetts ahead of holiday travel CBS News",
     "src": "Boston (Google News)",
     "lean": null
+   },
+   {
+    "t": "Can modular homes be a solution for affordable housing? R.I.’s incoming governor wants to give it a try. - The Boston Globe",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMnZlaHFoT1JkYlJVZV9uaDR1dTZ5bk9OcWpiYnpPb21sN0tHamQ3YjZlTFctZFFjeENWY3ZfcG9MZERTODNDdmotUVFISmtPOFVOVkROUlpGLXlUUUNBbGg5ODF1UVA5U0tGTnh4bEtXbU1JRW9UNFpuN0V2UTJ1dnNXaVJFcENlY2VrNUtLMlJpMG8wZHlCZlhsTUk?oc=5",
+    "ts": 1795444920000,
+    "summary": "Can modular homes be a solution for affordable housing? R.I.’s incoming governor wants to give it a try. The Boston Globe",
+    "src": "Boston Globe",
+    "lean": "L"
+   },
+   {
+    "t": "Stoughton Police Chief Donna McNamara takes parting shot at Norfolk DA Morrissey upon return - Boston Herald",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNLXZmZnVhSXYtMGt3MWpDWE1fc3R3S1pXU0QwSXV1Z0RCRUljQUlBaG9xajhHcGh2ZV9TNDd1V3RxdjJTeUFDZ1hBRWhCQ1NFN085aks5ajZFZWxIR3NCSHpGQnlEQlJaT1lCZ2lLcE1EbHpJZWJDUndFQjFTYm5raWVab0N1Zk9KbUxydXBPdkd5WTVsZWkzM0lrSkNjbEF5OWU2QjJsRnhEdEhjcUo1NEc1cVFJNDMxa2RGWFZudDBqQ2FjUmJKMl84QzU4Zw?oc=5",
+    "ts": 1795462948000,
+    "summary": "Stoughton Police Chief Donna McNamara takes parting shot at Norfolk DA Morrissey upon return Boston Herald",
+    "src": "Boston Herald",
+    "lean": "R"
+   },
+   {
+    "t": "Massachusetts’ first cannabis drive-thru opens in Quincy - Boston 25 News",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNd2VscnZUSkRiZzlrX0RkdnRSZTdvTnBDTGtYdFBrQVM5b3NKamJ6RkJZV3J0N2k1Vko5VzF2aUpJdm5vQ3Z2dk5YRnplVk52OEE0ZG1YbnhBeEpuekJYV0h6bG5qclpIYW9zVkF1NzZSNFFzZDdneHhkcUQxOTlya1VKUWRzS01LM1BGaWp5d3dERnhxaVdQZmRPQWM5Q0o0b1VfeFZROTFEV3d1c1MwMERGR3dSSjJSakJnc9IB0AFBVV95cUxOQmgxdDJfTm5jMzhKcmtVd3NkRVBWZWhfbW9NdHV6aHlMRnEzWnpuUUVjazFCdmlVcktDYzRoaXF3QTQxV1hIdm1Yc3ZFdU9xY1ZkRHlfd3U3Rlh6b2p3X0x5V1pvd0Uya0w3NzFFUWJVb21Sb3VEZzMtN2p6QzRPcHhabGpKRlptTTVTd1VYRlpfN0piQ0VIX1pCdDctRDFCVlFyd1I5U0ZJX1BMb3QxOG5fWWtOMWdreWkxcFVrM256Rl9jSjdQYkFPajFkOGxl?oc=5",
+    "ts": 1795491960000,
+    "summary": "Massachusetts’ first cannabis drive-thru opens in Quincy Boston 25 News",
+    "src": "Boston (Google News)",
+    "lean": null
+   },
+   {
+    "t": "Phil Eng has two big jobs. Is it time to give at least one up? - The Boston Globe",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPM2pTNEpUb1h3UUhjdnVYZmtkN3hmbHJ1VmdET296RFdSX2R2YUpMMzNzSHVNQ19BdVZzaE1UTEZyOVpnc0xYNTA3bEU5ZEFXUFFhY3V3Y0NqQ3RwbHVnZFc0cTk4dXRPWEZQMmdCVzUyQThhMXZTU2pZTHZWcEZzWl93RnAxSlZGUzVZVmJ5bw?oc=5",
+    "ts": 1795442100000,
+    "summary": "Phil Eng has two big jobs. Is it time to give at least one up? The Boston Globe",
+    "src": "Boston Globe",
+    "lean": "L"
+   },
+   {
+    "t": "Democrats plan 12 debates for their 2028 presidential primary, with the first in June - Boston Herald",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNd2oyVXhoYlNkcndHOHZubnBwODlLWEQ1Mm5SbDhhdC1ET1NiTWpPVmFaVFZ0VDVxV210cTVyNWd4SGZPTGtpSm9yRVpPb3FYNVhQXzhxb0lJR2tqN0hoWWNGVHNhV0luVVR0TkRPaHJBblNmZExYT25HZHAtTXhkOFBnb0FaVlZoU2FBTg?oc=5",
+    "ts": 1795453540000,
+    "summary": "Democrats plan 12 debates for their 2028 presidential primary, with the first in June Boston Herald",
+    "src": "Boston Herald",
+    "lean": "R"
+   },
+   {
+    "t": "Boston 25 News. . The Cannabis Control Commission just voted about a week ago to allow drive-thrus at dispensaries in MA 🌿 Elysian Dispensary in Quincy was the first to open one Monday. #cannabis #marijuana #drivethru 1h - Facebook",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPeURGS3NfeHRmOVR5cnpnMGp0ZG1hZjJ5NkZJc201dXFNZk04ZWJUMUpKMThCal9wQ2E0TE03RTFCWThfNkRRWkgzNXZFYWpEbkZCQWtmT1NlRlNCZ0ZJZFhsNlpCcEp5LVV1SmloTXpWTmx4aFZvZ1Y3bldadWJBc0dieDZxdjQzSGduY2F6RVRQcTlaQXBhU3dLMWZhbGFwN195S2taSEpGdDVlaWgtZ21Fc2puLU9sZEV4SHJ0MFJjNnBaUTA3em5va2ZLNFRRYXJOMkI0V1F2cE0?oc=5",
+    "ts": 1795488121000,
+    "summary": "Boston 25 News. . The Cannabis Control Commission just voted about a week ago to allow drive-thrus at dispensaries in MA 🌿 Elysian Dispensary in Quincy was the first to open one Monday. #cannabis #marijuana #drivethru 1h Facebook",
+    "src": "Boston (Google News)",
+    "lean": null
+   },
+   {
+    "t": "'Hidden Life of Dogs' author Elizabeth Marshall Thomas dies - The Boston Globe",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbHFzNDVHYUNfNkZPMy1WSUwxRHJ4U1A4SmFwQzFsWlZTQndrNW1GNFhfOEpmQkxLVVRiUy1hSkdpNXlTaE5FY0R2T2hOa3RYOGMwenR6endBd0VwY1B6REpiQWhweXZaZjRTem5QaXFONmpHY1lVU00xOFBEUndNT3N4RXRVT0lta3d2Um01dVBwVEU3YWRFTlFZYWgwQWJPSERXVWtpbTBoTWs?oc=5",
+    "ts": 1795435920000,
+    "summary": "'Hidden Life of Dogs' author Elizabeth Marshall Thomas dies The Boston Globe",
+    "src": "Boston Globe",
+    "lean": "L"
    },
    {
     "t": "Mike Vrabel shuts down Daniel Jones talk, names Tommy DeVito Patriots’ QB - Boston Herald",
@@ -1408,20 +1472,20 @@
     "lean": "R"
    },
    {
-    "t": "Colleges are navigating an economic earthquake. Other businesses could learn a thing or two. - The Boston Globe",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQU1VTmZzMjVqWm9IaXlnY25zeUdmNGY0ckNxYnZma1RILUhkS1JaOWZGenBYMmNkbE5TMHdzZzEzODNCREtnd3BvNnF3QVpBcFZLMFRMRC1sRWkyd0ROemE0MXZ6ekRTNFJ2d1A2U3F2RW8wX2ZFeDVfNmhCVmtvZDR2NA?oc=5",
-    "ts": 1795429500000,
-    "summary": "Colleges are navigating an economic earthquake. Other businesses could learn a thing or two. The Boston Globe",
-    "src": "Boston Globe",
-    "lean": "L"
-   },
-   {
-    "t": "Boston Teenager Charged With Murder In July Shooting - Patch",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRk9WTjRDbTRWeTAwU2hVR1VHRG1QcmhHRFNrM1I2YjVfYVN0OEtJekhkZkw1WG8xSzdhU25USl8wLVNGbnJ6alB2b2JST1UydENKWlo4RlliWlpKTUhRSTVOdGxKcWhUdVF1a3M3bElLX01uNVh2SjUxSUZya0p4Q2tPcDZxRGRLYmxv0gGnAUFVX3lxTFBCMGNVcDJiX3REWVFKRVYzSWhySGh3akdpNFZsRW5LdU9QTjdDZ0RmdjhxWU90V2xseTE0ajJEN01wNi0xV1Q4QkRybjkyU3Q3M1V3UlEwTy1MUUNKRjB4Q2t3alh5X2diSXpZakxQVkloRlRhN2dPb3RteklFQkZsRHczSjVTQVFiUDNXUFV1UTctelpjeC1qMDdwZldncy0zcFlhQmpr?oc=5",
-    "ts": 1795459228000,
-    "summary": "Boston Teenager Charged With Murder In July Shooting Patch",
+    "t": "Thanksgiving travel: MBTA to alter schedule, officials warn of 'heavy traffic' and storm impacts - Boston Herald",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQc3E2VGdkZDRrX19tdWNBLXFtYnVBcV9USGtOelhoQTJWRFowOXkyU09odWpULS1KZlg5aER2WWdsb1NzYXRFMU8xTzhheGtTU2NyRFJuVHNySGhGbm9sT3VGUlZxQ25rRVFCMllUblZyUWFEMjc0ZXlVQ3AwQWFUakR5enRCazRxaDdvRTBGWXphdEFLN2wyaUJVWndWTnNmc2V5REs2YmpPZzlxeVZkZWFIdlVFZ2x0NXRsR3U3NG9mRGh6UU43WWU4aFZLdw?oc=5",
+    "ts": 1795483406000,
+    "summary": "Thanksgiving travel: MBTA to alter schedule, officials warn of 'heavy traffic' and storm impacts Boston Herald",
     "src": "Boston (Google News)",
     "lean": null
+   },
+   {
+    "t": "‘Parks and Recreation’ co-creator Mike Schur talks reuniting with Amy Poehler for new sitcom ‘Dig’ - The Boston Globe",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5ydXFFTHg0c25xSWpCeFBDX3dHZzlpNFllaDVwRkZiQzNvMjB5RU5HRTk0OTYtYnRta1BWQk9MSG5lcGdKeVphLW5pRHdYVEw0UnczbGluY2RqTnVxcE5XODBCMnNYN1o2WHZDUnBHTQ?oc=5",
+    "ts": 1795429860000,
+    "summary": "‘Parks and Recreation’ co-creator Mike Schur talks reuniting with Amy Poehler for new sitcom ‘Dig’ The Boston Globe",
+    "src": "Boston Globe",
+    "lean": "L"
    },
    {
     "t": "South Station stabbing victim killed over $25 dispute, DA says - Boston Herald",
@@ -1432,20 +1496,44 @@
     "lean": "R"
    },
    {
-    "t": "Former president Biden arrives on Nantucket for family’s annual Thanksgiving gathering - The Boston Globe",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNGpYRUhWbE5zQVRSTlZfdFl4bUxnOTdkWFU2cDVuM19qRFhqb1dwRWt3TmpMS1J2d19WcUlJTHp1XzlPV2FVMm1obDl5OG85U0hZcFNISXJ5dFZObXpQZTJ4RHlGT01DTDc0eHVmTmZsNkczMmhtZFEySFg4ekduTVplTjJLamlQeUpVUWVvN2dXLVJ0ejdBT2Y3ZWlUU012ZjdDTWptNUhyV19vc0E?oc=5",
-    "ts": 1795428419000,
-    "summary": "Former president Biden arrives on Nantucket for family’s annual Thanksgiving gathering The Boston Globe",
+    "t": "5 Best Court Reporting Firms in Boston, Massachusetts - The Ritz Herald",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxONHVManBQdTU1T2JQWTFLLWR5ME15SlpoeFUzU19HNl9nTjdtUllSWTNEZWxoWDdaMENzQjkxNVZRdkQwR2s5amFhak1NVU80VnJqbmtvbm44bDByU29hNXZ1YlV6Z2RmMU5xeEd5SV8tYVo2eS1DeDBRT3U1THhQNEZR?oc=5",
+    "ts": 1795483026000,
+    "summary": "5 Best Court Reporting Firms in Boston, Massachusetts The Ritz Herald",
+    "src": "Boston (Google News)",
+    "lean": null
+   },
+   {
+    "t": "Colleges are navigating an economic earthquake. Other businesses could learn a thing or two. - The Boston Globe",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQU1VTmZzMjVqWm9IaXlnY25zeUdmNGY0ckNxYnZma1RILUhkS1JaOWZGenBYMmNkbE5TMHdzZzEzODNCREtnd3BvNnF3QVpBcFZLMFRMRC1sRWkyd0ROemE0MXZ6ekRTNFJ2d1A2U3F2RW8wX2ZFeDVfNmhCVmtvZDR2NA?oc=5",
+    "ts": 1795429500000,
+    "summary": "Colleges are navigating an economic earthquake. Other businesses could learn a thing or two. The Boston Globe",
     "src": "Boston Globe",
     "lean": "L"
    },
    {
-    "t": "Massachusetts has a primary care problem. It starts in medical school. - The Boston Globe",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSXozMGVDa2ZDak5Nbk5VTTFEWVpOYlhCbjdqR1ZLeGk3b1pGdEs0cmE4dFZiNFN0eDQ3WDZKV19jTzduMFVHSXFiVkxKbnBieEJrak5uMFdNNUg1VDBPNnVQNlhqcERGZWxfaUQtMUlzUnpOYk5CdnQyM1F2NF9jNmN1d0ZUSFVWZE1IMjF2b3NPU2E4UGpoNzVtVkExYVliR2ZYcnk1dlEteWJ3TGJyVHlaN0dNY0JTejR0RFJCZHk?oc=5",
-    "ts": 1795456818000,
-    "summary": "Massachusetts has a primary care problem. It starts in medical school. The Boston Globe",
+    "t": "Herald Sweet 16: Stunning wins leapfrog Super Bowl finalists into rankings - Boston Herald",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdmVmUVZfNkVHaUNtc2lnYm51VkFuQ1hGeXhabk1mQzFyQVJwV3dDV2ExRHUwei1YTXB2dFhMSGdScEJQa29iUUZMR1RWbE9XZjVRUGZPUXNYNVdJOU5iT1lQMkhmNGVwYnNlVWlxVGNkVjhhc3ExMHhRdnlHTDh5Szk1eGl6WGFGVU53clladGc3Y2VOTUNza3ZCOXk1UVdmRFpybW1nXzlvbUdDdjRUNVRYVDU?oc=5",
+    "ts": 1795433445000,
+    "summary": "Herald Sweet 16: Stunning wins leapfrog Super Bowl finalists into rankings Boston Herald",
+    "src": "Boston Herald",
+    "lean": "R"
+   },
+   {
+    "t": "CAUGHT ON CAMERA: Wild turkeys chased a woman. Strangers stepped in to help her escape - KCRA",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOa0xtQjc3bm13ZlNQZkNKLVhDVWZxSEV4QmhuUG1uR2Y4dUFXbVNLaENFNmM4bS1NTEJIa19lZW1IRnFJZk5LNC1VaGtuZ0tienJ1X3MzdkdlTWFTWnQybm9FWThZekpuc2VvZUdFMW1LZmxyd0tENURPU0RKcGNYOWNkbk82bmNKM21VY2NFZEJrbWs?oc=5",
+    "ts": 1795481700000,
+    "summary": "CAUGHT ON CAMERA: Wild turkeys chased a woman. Strangers stepped in to help her escape KCRA",
     "src": "Boston (Google News)",
     "lean": null
+   },
+   {
+    "t": "High school football players of the week: 33 stars from MIAA semifinals, NEPSAC and vocational bowls - The Boston Globe",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOaGFUYjh1b2ozMFRtamZJendqOXVDcm0yMmQwOHlyeExvLW4ydjRnT3lZRmI1eW1hdUNleWQxM2NDaW1IOWRuRk4yQU16em5NWW5Bak5Lc3g5X043WTU2aEZJeUE3a1k1S0ZNaXZkOS11cW9qaHQ3Q29YbWRUN2NNdW9sQjlUWWhSYm1JWl9LN2w?oc=5",
+    "ts": 1795420984000,
+    "summary": "High school football players of the week: 33 stars from MIAA semifinals, NEPSAC and vocational bowls The Boston Globe",
+    "src": "Boston Globe",
+    "lean": "L"
    },
    {
     "t": "Stars of the week from high school football state semifinal action - Boston Herald",
@@ -1454,86 +1542,6 @@
     "summary": "Stars of the week from high school football state semifinal action Boston Herald",
     "src": "Boston Herald",
     "lean": "R"
-   },
-   {
-    "t": "CTE study at BU: How a Cambridge bar meeting led to participation - The Boston Globe",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMlAyak1iR1FubEJJWWpHVmlWQ1otTDdVUzc2SVMxcEdleUctb2tKMEtxYy13bnkzS0lzczdUZnZZZWtlZDRvTkFxZHRKMnJVMXIxUUk0ZXVydklVMVphSWVRdkd0dUVjRlZkTHZtdHMtNnpNbDBzd3N5Vm8tUmtsU2VFeTZyU1U2bEhOSFBrVzU?oc=5",
-    "ts": 1795428080000,
-    "summary": "CTE study at BU: How a Cambridge bar meeting led to participation The Boston Globe",
-    "src": "Boston Globe",
-    "lean": "L"
-   },
-   {
-    "t": "Mass AG files lawsuit over ICE enforcement at state courthouses - NBC Boston",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVjJpbTRxM0hxcVlvU0VyUEhuWlhCcXlLcGJydEs4all6d3p0UlBadWhaNWI5MWJGT1JfVEliejZQOVBoclpST25Cd0xzYTZReE8tNzh5Z19DLVY5SXliQVlRZ2N5T2VZdkI4c0EyLWd2OEFyR21sNE91OXdkbnZZWWRfZlZRdERybC1vQjVlZ3fSAZgBQVVfeXFMTXJqeWRQWUJhQVpVQVhfQnBHM2RRdjRUNzdhVVZSSW5RU1hteUpQYmQtdU02emJrY3FCb3hIZHM5eldrUkdfcF9wSG9TWDR3eFBwYU5qM25VSG80cEV3ZmlzUnlJQVpyMTZLZk44RTNxQUY3aGhqa0JaSFIwSE94LVJSM2x0UVFZYVdjdi1zQlhzRmZYR0lReTI?oc=5",
-    "ts": 1795456460000,
-    "summary": "Mass AG files lawsuit over ICE enforcement at state courthouses NBC Boston",
-    "src": "Boston (Google News)",
-    "lean": null
-   },
-   {
-    "t": "MLB notes: What fans can expect in last days before lockout begins - Boston Herald",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPckdXZWtFb0NmbjRzcXRBZTdia0lTNjBwZEM5Y0U3YkZGR3F1S3REbnR1S0w2Tk1TZ3NVRFQ3MnBIQzZQcEplbHQzQWdqdnhiaEtWN3lpdnZCcTdXMGQ0dENtSTVhMGJ6ZmFyWkhfNlVVZXBkOUF0THQ2LTZGNmRZTkZOZmczQXVBZk5sRlpocGxKcjJmOVF3TmJLeE03dW9kS3N5YlFKb3JOdw?oc=5",
-    "ts": 1795429857000,
-    "summary": "MLB notes: What fans can expect in last days before lockout begins Boston Herald",
-    "src": "Boston Herald",
-    "lean": "R"
-   },
-   {
-    "t": "The funeral hit parade: Many are cueing up tracks for their final send-off - The Boston Globe",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSXRHUjh6REkyMk54aG5INmx3elV2Y3I0Q1RpUk9BYWNIVnBNdjlQVERBQlpNN3hOLWVnSi10MEJnUlp3N3EwZ2F3SXVDSUpfS2lLNnlNNWY5OUltQllrQVhOU3EzdWNJX2VIRlhvd3NmZkppQldLeFcxUU9FRS16VkRsVVdWdmRqOVFoYl9oTWY?oc=5",
-    "ts": 1795419244000,
-    "summary": "The funeral hit parade: Many are cueing up tracks for their final send-off The Boston Globe",
-    "src": "Boston Globe",
-    "lean": "L"
-   },
-   {
-    "t": "Avoid these times: When Thanksgiving traffic will be worst in Massachusetts - Boston 25 News",
-    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQ0ZwcEZpc0hTSXJEUFpZemJXb0tGVm5oamJlTXhjRm5QSVRYdG1tVlFyYUdkM3diRVdELUV2enM1dXJ2TVpnNlBNbk5LQ2ZKN29rdDRqNlBvMktwMl9EWWZJU05YVWw4WlFHUXVIaXRvdW1sakdjYXZXNzZRSUM4TU9fZkk5WXJYRUdPRkhTOUM5SWEzOTY4NFhXQ2QzakxNZndHNWxVMC02eGU4N05OLXYxWmFxRzBMQ0lyVmdaRzcxSUxUU3Nhdl9VWE9mOTRudUZuZklR0gHqAUFVX3lxTE1WUHN2UFlXOVlXMTUwTXVBOXJoV0NjTktqRWVhSzlfbDZmNnZ0ZmpSRjd0RmppRnVvT1hqZVdCbkFDSDh5S2ptYlVBY21iQzNCNEFsNEZDZDZvdkNXT2t2bWtMblhHRjUtbFVSVW4zdjZKbFo1NHZHQVZmTF85Mk00ZGNEdjJxaXVSNGlZYjBQNTA4TVRCWGVRMk1QWW04dGpPQy15TFcxQzAyRzl6bnlWMFFIZWV4eTVDcVlra1Zva2tZZ1dKSGdKa0NtNHNIeGdtb1JWXzQ1MUd4cG5TYnViNjZLYTYzRkVjZw?oc=5",
-    "ts": 1795453822000,
-    "summary": "Avoid these times: When Thanksgiving traffic will be worst in Massachusetts Boston 25 News",
-    "src": "Boston (Google News)",
-    "lean": null
-   },
-   {
-    "t": "Celtics’ struggles persist against Warriors, resulting in longest losing streak in five years - Boston Herald",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQXzVCUFA0MXMzSHRPY3UxZWJVYnhEQlNTbzZfU0huYkpYc1dnNWluUXJXaXZzTl9mSWJRNlFkSk1QVHgyT3pZSUFDb0ZrbW45S0VNVDRkTUVzNktFZ1BpOVZUNmx1TUhjMUMzUzdZT0ZHUXZEcmpoNHhsZnkzZGhRNTF2NW5MMUFvVzRhNmlRNFRoZkpyaXZpa3pwMkdGdmlzNWZDUERYOWtjeHR5TTdkN2Zoc3BWcVVDRDRoam1HaVNWRV9sWWtSa2JSU00?oc=5",
-    "ts": 1795407629000,
-    "summary": "Celtics’ struggles persist against Warriors, resulting in longest losing streak in five years Boston Herald",
-    "src": "Boston Herald",
-    "lean": "R"
-   },
-   {
-    "t": "Angelina CiFuentes, Austin Prep hold off Worcester Academy for NEPSAC Class A girls’ soccer title - The Boston Globe",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQczR4Y1hSVGJ6amNCUVJUVy1lYnRwcWxnQWU2UGo5MXdFQTFLNnRyTTJ4Zm5Fak1JNDBSU19PS2lqOFhDRHQ0RURsQmNMX1dXbG0wVHdtem9iNVlPVnVFXzZlZ1M5eUozdjVFUzFhNThYRllZaXgwZEdGVGp6aGgyVEZCamNoTWtWRzRTZw?oc=5",
-    "ts": 1795415642000,
-    "summary": "Angelina CiFuentes, Austin Prep hold off Worcester Academy for NEPSAC Class A girls’ soccer title The Boston Globe",
-    "src": "Boston Globe",
-    "lean": "L"
-   },
-   {
-    "t": "Best and worst times for Thanksgiving travel in Boston, around New England - WCVB",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdkx5Skl6SFZfY3Fic1ViN29XcFVEZmlOa2M4emtHbnY1aERTbzJXMXV3bHNfSGpaa0FQZ2NyX3luQmtfVHVFRE9CaE95MDA0VnIyLWxVay1QUnRhMkNrdWhBRFdxLWI0TzB6SDdkZXVTYjE4Z3lQUkI0VGVvTEZmYmVyR05iS2Z3bFJYY2p1SFdxTl9MYlJITnlLT01LM0hrVVc5bw?oc=5",
-    "ts": 1795450007000,
-    "summary": "Best and worst times for Thanksgiving travel in Boston, around New England WCVB",
-    "src": "Boston (Google News)",
-    "lean": null
-   },
-   {
-    "t": "Boston Weather: Thanksgiving ‘significant storm system’ expected to hit travelers - Boston Herald",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOTY5U0JpUnVQVnhWWHAzLS1YLVFBVFVVMXRrVHVPMGpXRHNnYmZ0V3JUXzN5TkNsbWMwVUE3b21kWVhsZDd5QzIzVkJNTVU5bnpZYjFuQ2pNOWVldVN6UkVjeVZtZVNDOVpPTEF3cldVOWcxSzA3T1VmeW9YcDRmS1N1SFk4WnI5S1NPVm0wSHRpS0hFU201dzF3MVhRVGZGdHNtakZqWE1kQUZlVjFiSW1CNmpvc184RHdv?oc=5",
-    "ts": 1795399103000,
-    "summary": "Boston Weather: Thanksgiving ‘significant storm system’ expected to hit travelers Boston Herald",
-    "src": "Boston Herald",
-    "lean": "R"
-   },
-   {
-    "t": "The Steamship Authority has a goal to cut emissions in half by 2030. It’s nowhere close. - The Boston Globe",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQazJKWnUyb0loRXJCSW00QS1oXzlkM0tRaWJ3ZGtlbVdHLWFBVG0yU096U0FqdzNuQ2tyc0xUOFZSRGtMa0E2R1pVY3FjZnJHRUFMVTFVN0VnSnlSSjQ0dXJQTFVyVUJvdHJoQXpOY09SLW85SzlQSGxVQ3FfYkU2SjFINy1NUk5DUV9oTXgzNFRKU0cwVzVRUl9YRWwteURReWc?oc=5",
-    "ts": 1795410372000,
-    "summary": "The Steamship Authority has a goal to cut emissions in half by 2030. It’s nowhere close. The Boston Globe",
-    "src": "Boston Globe",
-    "lean": "L"
    }
   ]
  }

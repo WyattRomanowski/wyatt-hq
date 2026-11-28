@@ -3,6 +3,7 @@ import { JOKES, FACTS } from "./assets.js?v=BUILD";
 import { hero3d, confetti, chime } from "./fx.js?v=BUILD";
 import { ico } from "./icons.js?v=BUILD";
 import { liveWatch, watch, liveStandings, standings } from "./live.js?v=BUILD";
+import { lift, liftToday } from "./lift.js?v=BUILD";
 
 const WX = (c) => (c === 0 ? "☀️" : c <= 2 ? "🌤️" : c === 3 ? "☁️" : c <= 48 ? "🌫️" : c <= 57 ? "🌦️" : c <= 67 ? "🌧️" : c <= 77 ? "🌨️" : c <= 82 ? "🌦️" : c <= 86 ? "🌨️" : "⛈️");
 const today = () => ymd();
@@ -60,6 +61,7 @@ function briefing(ctx) {
   const w = D.weather;
   if (w) { const d0 = w.daily?.[0], wet = (w.hourly || []).slice(0, 14).find((x) => x.rain >= 40); rows.push([WX(w.current.code), `${w.current.temp}° now, ${d0 ? `high ${d0.hi}° / low ${d0.lo}°` : ""} — ${wet ? `rain around ${hr12(wet.t)} (${wet.rain}%)` : "no rain expected"}`, "happy"]); }
   for (const { l, e } of gamesToday(D)) { const a = (e.teams || []).find((x) => !x.home), hm = (e.teams || []).find((x) => x.home); rows.push([l.emoji, e.state === "in" ? `${l.teamName} LIVE ${a?.abbr} ${a?.score}–${hm?.score} ${hm?.abbr} · ${e.detail}` : `${l.teamName} today — ${a?.abbr} @ ${hm?.abbr}, ${new Date(e.date).toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit" })}`, "sports", e.state === "in" ? "loss" : ""]); }
+  const lw = liftToday(); if (lw) rows.push(["🏋️", `Gym this morning: ${lw.name} (${lw.tag}), ~45 min`, "lift"]);
   const open = store.get("tasks", []).filter((x) => x.status !== "done"), due = open.filter((x) => x.due && x.due <= t0);
   rows.push(["✅", due.length ? `${due.length} task${due.length > 1 ? "s" : ""} due or overdue — start with “${due[0].title.slice(0, 40)}”` : open.length ? `${open.length} open task${open.length > 1 ? "s" : ""}, none due today` : "Task list is clear", "tasks", due.length ? "warn" : ""]);
   const ev = allEvents().filter((e) => e.date >= t0 && e.kind !== "task").sort((a, b) => a.date.localeCompare(b.date)).find((e) => e.kind === "pay") , nx = allEvents().filter((e) => e.date >= t0 && e.kind !== "task" && e.kind !== "pay").sort((a, b) => a.date.localeCompare(b.date))[0];
@@ -398,6 +400,6 @@ function books({ render }) {
 export const wyTabs = [
   { id: "happy", label: () => "Happy " + DAYS[new Date().getDay()], render: happy },
   { id: "tasks", label: "Tasks", render: tasks }, { id: "money", label: "Money", render: moneyTab }, { id: "news", label: "News", render: news }, { id: "sports", label: "Sports", render: sports },
-  { id: "shifts", label: "Shifts", render: shifts }, { id: "books", label: "Books", render: books }, { id: "study", label: "Study", render: study }, { id: "calendar", label: "Calendar", render: calendar }, { id: "goals", label: "Goals", render: goals }, { id: "notes", label: "Notes", render: notes },
+  { id: "lift", label: "Lift", render: lift }, { id: "shifts", label: "Shifts", render: shifts }, { id: "books", label: "Books", render: books }, { id: "study", label: "Study", render: study }, { id: "calendar", label: "Calendar", render: calendar }, { id: "goals", label: "Goals", render: goals }, { id: "notes", label: "Notes", render: notes },
 ];
 export { weatherCard, newsLi };

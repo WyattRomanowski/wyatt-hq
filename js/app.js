@@ -41,9 +41,9 @@ const cycleTheme = () => { const m = store.get("themeMode", "dark"); store.set("
 /* ---------- shell ---------- */
 const META = {
   happy: ["home", "Overview", "Your day at a glance"], tasks: ["tasks", "Tasks", "Capture, plan and finish"], calendar: ["calendar", "Calendar", "Paydays, bills and events"], goals: ["goals", "Goals", "Targets and progress"],
-  money: ["money", "Money", "Net worth, budget, markets"], shifts: ["clock", "Shifts", "Concessions hours and pay"], books: ["book", "Books", "Reading list and notes"], news: ["news", "News", "Balanced headlines across the spectrum"], sports: ["sports", "Sports", "Boston teams, live"], study: ["study", "Study", "Spaced-repetition flashcards"], notes: ["notes", "Notes", "Quick capture"],
+  money: ["money", "Money", "Net worth, budget, markets"], lift: ["dumbbell", "Lift", "Workouts, sets and progress"], shifts: ["clock", "Shifts", "Concessions hours and pay"], books: ["book", "Books", "Reading list and notes"], news: ["news", "News", "Balanced headlines across the spectrum"], sports: ["sports", "Sports", "Boston teams, live"], study: ["study", "Study", "Spaced-repetition flashcards"], notes: ["notes", "Notes", "Quick capture"],
 };
-const GROUPS = [["Overview", ["happy"]], ["Plan", ["tasks", "calendar", "goals"]], ["Money", ["money", "shifts"]], ["Discover", ["news", "sports"]], ["Mind", ["study", "books", "notes"]]];
+const GROUPS = [["Overview", ["happy"]], ["Plan", ["tasks", "calendar", "goals"]], ["Money", ["money", "shifts"]], ["Body", ["lift"]], ["Discover", ["news", "sports"]], ["Mind", ["study", "books", "notes"]]];
 function shell() {
   const app = $("#app"); app.innerHTML = ""; const alku = ctx.mode === "alku";
   const pill = h("button", { class: "pill", id: "pill", title: "Data status", onclick: () => freshSheet() }, h("i", { class: "dot" }), h("span", {}, "loading…"));

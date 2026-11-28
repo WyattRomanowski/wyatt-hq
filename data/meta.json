@@ -1,32 +1,30 @@
 {
  "modules": {
   "weather": {
-   "ok": false,
-   "at": "2026-11-27T11:33:47.469Z",
-   "errors": 0,
-   "failedAt": "2026-11-27T20:18:36.873Z",
-   "error": "429 https://api.open-meteo.com/v1/forecast?latitude=42.4801&longitude=-71.1062&current=temperature_2m,apparent_temperature,relative_humidity_2m,weather_code,wind_speed_10m,is_day&hourly=temperature_2m,precipitation_probability,weather_code&daily=weather_code,temperature_2m_max,temperature_2m_min,pre"
+   "ok": true,
+   "at": "2026-11-28T02:50:31.909Z",
+   "errors": 0
   },
   "quotes": {
    "ok": true,
-   "at": "2026-11-27T20:18:37.028Z",
+   "at": "2026-11-28T02:50:32.044Z",
    "errors": 0
   },
   "sports": {
    "ok": true,
-   "at": "2026-11-27T20:18:37.654Z",
+   "at": "2026-11-28T02:50:32.609Z",
    "errors": 0
   },
   "news": {
    "ok": true,
-   "at": "2026-11-27T20:18:37.900Z",
+   "at": "2026-11-28T02:50:32.989Z",
    "errors": 1
   },
   "fun": {
    "ok": true,
-   "at": "2026-11-27T20:18:39.628Z",
+   "at": "2026-11-28T02:50:35.564Z",
    "errors": 0
   }
  },
- "updated": "2026-11-27T20:18:39.969Z"
+ "updated": "2026-11-28T02:50:37.429Z"
 }
